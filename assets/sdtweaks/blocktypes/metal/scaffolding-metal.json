@@ -1,0 +1,37 @@
+{
+	code: "scaffoldingmetal",
+	behaviors: [{ name: "Ladder" } ],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" }
+	],
+	shape: { base: "game:block/wood/crate/normal-closed", scale: 1.08 },
+	sidesolid: {
+		up: true,
+		all: false
+	},	
+	sideopaque: {
+		up: true,
+		all: false
+	},
+	blockmaterial: "Metal",
+	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	replaceable: 300,
+	materialDensity: 4000,
+	resistance: 3,
+	lightAbsorption: 1,
+	textures: {
+		"sides": { "base": "game:block/transparent" },
+		"frame-generic": { "base": "game:block/metal/sheet/{material}1" }
+	},
+	vertexFlags: {
+		windData: 1		
+	},
+	collisionbox: { x1: 0, y1: 0.78, z1: 0, x2: 1, y2: 1, z2: 1 },
+	selectionbox: { x1: 0, y1: 0.78, z1: 0, x2: 1, y2: 1, z2: 1 },
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	}
+}

@@ -1,0 +1,616 @@
+{
+	"code": "torchnapalm",
+	"class": "BlockTorch",
+	"behaviors": [ { "name": "CanIgnite" } ],
+	"entityClass": "Torch",
+	"attackRange": 2,
+	"storageFlags": 257,
+	"variantgroups": [
+		{
+			"code": "orientation",
+			"states": [ "up" ],
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"heldRightTpIdleAnimationbyType": {
+		"*": "holdinglanternrighthand"
+	},
+	"heldLeftTpIdleAnimationbyType": {
+		"*": "holdinglanternlefthand"
+	},
+	"heldTpUseAnimationbyType": {
+		"*": "interactstatic"
+	},
+	"heldRightTpIdleAnimation": "holdinglanternrighthand",
+	"heldLeftTpIdleAnimation": "holdinglanternlefthand",
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "torchnapalm-*" ]
+		},
+		"attachmentAreas": {
+			"down": {
+				"x1": 7,
+				"y1": 15,
+				"z1": 7,
+				"x2": 8,
+				"y2": 16,
+				"z2": 8
+			},
+			"north": {
+				"x1": 6,
+				"y1": 0,
+				"z1": 15,
+				"x2": 10,
+				"y2": 5,
+				"z2": 15,
+				"rotateY": 180
+			},
+			"east": {
+				"x1": 6,
+				"y1": 0,
+				"z1": 15,
+				"x2": 10,
+				"y2": 5,
+				"z2": 15,
+				"rotateY": 270
+			},
+			"south": {
+				"x1": 6,
+				"y1": 0,
+				"z1": 15,
+				"x2": 10,
+				"y2": 5,
+				"z2": 15,
+				"rotateY": 0
+			},
+			"west": {
+				"x1": 6,
+				"y1": 0,
+				"z1": 15,
+				"x2": 10,
+				"y2": 5,
+				"z2": 15,
+				"rotateY": 90
+			}
+		}
+	},
+	"shapebytype": {
+		"*-up": { "base": "game:block/wood/torch/cloth-lit-ground" },
+		"*-north": {
+			"base": "game:block/wood/torch/cloth-lit-wall",
+			"rotateY": 0
+		},
+		"*-east": {
+			"base": "game:block/wood/torch/cloth-lit-wall",
+			"rotateY": -90
+		},
+		"*-south": {
+			"base": "game:block/wood/torch/cloth-lit-wall",
+			"rotateY": 180
+		},
+		"*-west": {
+			"base": "game:block/wood/torch/cloth-lit-wall",
+			"rotateY": 90
+		}
+	},
+	"textures": {
+		"torch-lit": { "base": "game:block/wood/debarked/aged" }
+	},
+	"doNotRenderAtLod2": true,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"creativeinventory": {
+		"general": [ "*-up" ],
+		"decorative": [ "*-up" ]
+	},
+	"replaceable": 5001,
+	"resistance": 0,
+	"lightAbsorption": 0,
+	"lightHsv": [ 6, 6, 14 ],
+	"particleProperties": [
+		{
+			"__comment": "Ember cubicles",
+			"hsvaColor": [
+				{
+					"avg": 20,
+					"var": 20
+				},
+				{
+					"avg": 255,
+					"var": 50
+				},
+				{
+					"avg": 255,
+					"var": 50
+				},
+				{
+					"avg": 255,
+					"var": 0
+				}
+			],
+			"gravityEffect": {
+				"dist": "invexp",
+				"avg": -0.07,
+				"var": 0.4
+			},
+			"posOffsetByType": {
+				"*-up": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.2,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				],
+				"*-north": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": -0.09,
+						"var": 0.1
+					}
+				],
+				"*-east": [
+					{
+						"avg": 0.09,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				],
+				"*-south": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0.09,
+						"var": 0.1
+					}
+				],
+				"*-west": [
+					{
+						"avg": -0.09,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				]
+			},
+			"velocity": [
+				{
+					"avg": 0,
+					"var": 0.15
+				},
+				{
+					"avg": 0.5,
+					"var": 0.1
+				},
+				{
+					"avg": 0,
+					"var": 0.15
+				}
+			],
+			"quantity": { "avg": 0.015 },
+			"size": {
+				"avg": 0.4,
+				"var": 0
+			},
+			"sizeEvolve": {
+				"transform": "quadratic",
+				"factor": -0.7
+			},
+			"lifeLength": { "avg": 1.5 },
+			"vertexFlags": 128,
+			"windAffectednes": 0.2
+		},
+		{
+			"__comment": "Smoke quads",
+			"hsvaColor": [
+				{
+					"avg": 0,
+					"var": 0
+				},
+				{
+					"avg": 0,
+					"var": 0
+				},
+				{
+					"avg": 40,
+					"var": 30
+				},
+				{
+					"avg": 220,
+					"var": 50
+				}
+			],
+			"opacityEvolve": {
+				"transform": "quadratic",
+				"factor": -16
+			},
+			"gravityEffect": {
+				"avg": 0,
+				"var": 0
+			},
+			"posOffsetByType": {
+				"*-up": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.2,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				],
+				"*-north": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": -0.09,
+						"var": 0.1
+					}
+				],
+				"*-east": [
+					{
+						"avg": 0.09,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				],
+				"*-south": [
+					{
+						"avg": 0,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0.09,
+						"var": 0.1
+					}
+				],
+				"*-west": [
+					{
+						"avg": -0.09,
+						"var": 0.1
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.1
+					}
+				]
+			},
+			"velocity": [
+				{
+					"avg": 0,
+					"var": 0.025
+				},
+				{
+					"avg": 0.15,
+					"var": 0.1
+				},
+				{
+					"avg": 0,
+					"var": 0.025
+				}
+			],
+			"quantity": { "avg": 0.05 },
+			"size": {
+				"avg": 0.25,
+				"var": 0.05
+			},
+			"sizeEvolve": {
+				"transform": "linear",
+				"factor": 0.5
+			},
+			"particleModel": "Quad",
+			"windAffectednes": 0.7
+		},
+		{
+			"__comment": "Fire quads",
+			"hsvaColor": [
+				{
+					"avg": 20,
+					"var": 20
+				},
+				{
+					"avg": 255,
+					"var": 50
+				},
+				{
+					"avg": 255,
+					"var": 50
+				},
+				{
+					"avg": 255,
+					"var": 0
+				}
+			],
+			"opacityEvolve": {
+				"transform": "quadratic",
+				"factor": -16
+			},
+			"gravityEffect": {
+				"avg": 0,
+				"var": 0
+			},
+			"posOffsetByType": {
+				"*-up": [
+					{
+						"avg": 0,
+						"var": 0.12
+					},
+					{
+						"avg": -0.2,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.12
+					}
+				],
+				"*-north": [
+					{
+						"avg": 0,
+						"var": 0.12
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": -0.09,
+						"var": 0.12
+					}
+				],
+				"*-east": [
+					{
+						"avg": 0.09,
+						"var": 0.12
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.12
+					}
+				],
+				"*-south": [
+					{
+						"avg": 0,
+						"var": 0.12
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0.09,
+						"var": 0.12
+					}
+				],
+				"*-west": [
+					{
+						"avg": -0.09,
+						"var": 0.12
+					},
+					{
+						"avg": -0.23,
+						"var": 0
+					},
+					{
+						"avg": 0,
+						"var": 0.12
+					}
+				]
+			},
+			"velocity": [
+				{
+					"avg": 0,
+					"var": 0.025
+				},
+				{
+					"avg": 0.18,
+					"var": 0.07
+				},
+				{
+					"avg": 0,
+					"var": 0.025
+				}
+			],
+			"quantity": { "avg": 0.4 },
+			"size": {
+				"avg": 0.25,
+				"var": 0.05
+			},
+			"lifeLength": { "avg": 0.5 },
+			"sizeEvolve": {
+				"transform": "linear",
+				"factor": 0.5
+			},
+			"particleModel": "Quad",
+			"vertexFlags": 128,
+			"windAffectednes": 0.7
+		}
+	],
+	"collisionbox": null,
+	"selectionboxbytype": {
+		"*-up": {
+			"x1": 0.375,
+			"y1": 0,
+			"z1": 0.375,
+			"x2": 0.625,
+			"y2": 0.8875,
+			"z2": 0.625
+		},
+		"*-east": {
+			"x1": 0.4,
+			"y1": 0.1875,
+			"z1": 0.5625,
+			"x2": 0.6125,
+			"y2": 0.9,
+			"z2": 1,
+			"rotateY": 270
+		},
+		"*-south": {
+			"x1": 0.4,
+			"y1": 0.1875,
+			"z1": 0.5625,
+			"x2": 0.6125,
+			"y2": 0.9,
+			"z2": 1,
+			"rotateY": 180
+		},
+		"*-west": {
+			"x1": 0.4,
+			"y1": 0.1875,
+			"z1": 0.5625,
+			"x2": 0.6125,
+			"y2": 0.9,
+			"z2": 1,
+			"rotateY": 90
+		},
+		"*-north": {
+			"x1": 0.4,
+			"y1": 0.1875,
+			"z1": 0.5625,
+			"x2": 0.6125,
+			"y2": 0.9,
+			"z2": 1,
+			"rotateY": 0
+		}
+	},
+	"blockmaterial": "Other",
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 17,
+			"y": 38,
+			"z": -33
+		},
+		"scale": 1.6
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": -47,
+			"y": 30,
+			"z": 15
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.46,
+			"z": 0.5
+		},
+		"scale": 2.02
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.73,
+			"y": 0.05,
+			"z": -0.85
+		},
+		"rotation": {
+			"x": 0,
+			"y": 179,
+			"z": 86
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 0.6
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": -1,
+			"z": 90
+		},
+		"origin": {
+			"x": 0.44,
+			"y": 0.25,
+			"z": 0.5
+		},
+		"scale": 1
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks"
+	},
+	"heldSounds": {
+		"idle": "game:held/torch-idle",
+		"equip": "game:held/torch-equip",
+		"unequip": "game:held/torch-unequip",
+		"attack": "game:held/torch-attack"
+	},
+	"materialDensity": 600
+}

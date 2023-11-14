@@ -1,0 +1,38 @@
+[
+    {
+        ingredientPattern: "DED,_J_,_N_",
+        ingredients: {
+            "D": { type: "item", code: "game:clearquartz" },
+            "E": { type: "item", code: "game:nugget-uranium", quantity: 10 },
+            "J": { type: "item", code: "game:ingot-*", "name": "metal"},
+            "N": { type: "item", code: "game:ore-graphite" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "torchuranium-{metal}-green-up", quantity: 1 }
+    },
+    {
+        ingredientPattern: "DED,_J_,_N_",
+        ingredients: {
+            "D": { type: "item", code: "game:amethyst" },
+            "E": { type: "item", code: "game:nugget-uranium", quantity: 10 },
+            "J": { type: "item", code: "game:ingot-*", "name": "metal"},
+            "N": { type: "item", code: "game:ore-graphite" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "torchuranium-{metal}-white-up", quantity: 1 }
+    },
+    {
+        ingredientPattern: "DED,_J_,_N_",
+        ingredients: {
+            "D": { type: "item", code: "game:rosequartz" },
+            "E": { type: "item", code: "game:nugget-uranium", quantity: 10 },
+            "J": { type: "item", code: "game:ingot-*", "name": "metal"},
+            "N": { type: "item", code: "game:ore-graphite" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "torchuranium-{metal}-yellow-up", quantity: 1 }
+    }
+]

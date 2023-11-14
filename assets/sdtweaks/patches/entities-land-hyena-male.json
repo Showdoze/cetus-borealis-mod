@@ -1,0 +1,47 @@
+[
+
+///////flee on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "value": ["drifter-*", "bear-*", "player", "locust-*", "sheep-bighorn-ram"],
+    "file": "game:entities/land/hyena-male.json"
+  },
+
+/////able to deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/hyena-male.json"
+  },
+
+//////wake up to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/stopOnNearbyEntityCodes",
+    "value": ["drifter-*", "bear-*", "player", "locust-*", "sheep-bighorn-ram", "bell", "wolf-*"],
+    "file": "game:entities/land/hyena-male.json"
+  },
+
+/////hunt for
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/3/entityCodes",
+    "value": [ "pig-wild-piglet", "hare-*", "chicken-*", "sheep-bighorn-lamb" ],
+    "file": "game:entities/land/hyena-male.json"
+  },
+
+//////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/7/stopOnNearbyEntityCodes",
+    "value": ["drifter-*", "bear-*", "player", "locust-*", "sheep-bighorn-ram", "trader-*", "bell", "wolf-*"],
+    "file": "game:entities/land/hyena-male.json"
+  }
+]

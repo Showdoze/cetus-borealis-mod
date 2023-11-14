@@ -1,0 +1,57 @@
+[
+    {
+        ingredientPattern: "SOY",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "Y": { type: "item", code: "game:clearquartz" },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "glasspanemetal-plain-{metal}-ew", quantity: 1 }
+    },
+    {
+        ingredientPattern: "SOY",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "Y": { type: "item", code: "game:smokyquartz" },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "glasspanemetal-smoky-{metal}-ew", quantity: 1 }
+    },
+    {
+        ingredientPattern: "SOY",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "Y": { type: "item", code: "game:amethyst" },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "glasspanemetal-violet-{metal}-ew", quantity: 1 }
+    },
+    {
+        ingredientPattern: "SOY",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "Y": { type: "item", code: "game:rosequartz" },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "glasspanemetal-pink-{metal}-ew", quantity: 1 }
+    },
+    {
+        ingredientPattern: "SOY",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "Y": { type: "item", code: "game:ore-olivine" },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "glasspanemetal-green-{metal}-ew", quantity: 1 }
+    },
+]

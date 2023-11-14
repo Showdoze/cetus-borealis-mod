@@ -1,0 +1,28 @@
+{
+	code: "plasterblock",
+	class: "Block",
+	variantgroups: [
+		{ "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] }
+	],
+	attributes: {
+		canChisel: true
+	},
+	shape: { base: "game:block/stone/plaster" },
+	blockmaterial: "Stone",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	replaceable: 500,
+	resistance: 8,
+	lightAbsorption: 99,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	textures: { 
+		"all": { "base": "plaster/{material}*" } 
+	},
+	sounds: {
+		walk: "game:walk/stone"
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

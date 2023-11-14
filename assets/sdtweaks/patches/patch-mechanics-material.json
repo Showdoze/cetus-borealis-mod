@@ -1,0 +1,546 @@
+[
+
+/////////////ANGLED GEARS
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+*/
+    {
+        "op": "replace",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+/*
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {},
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@angledgears-(oak|pine|birch||maple|larch|baldcypress|ebony|walnut|acacia|kapok|purpleheart|aged|redwood)-*",
+        "value": { "wood": { "base": "game:block/wood/debarked/{wood}" } },
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/@angledgears-(copper|brass|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel|titanium|gold|silver)-*",
+        "value": { "wood": { "base": "game:block/metal/ingot/{wood}" } },
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:angledgears-*-s" },
+        "file": "game:blocktypes/mechanics/angledgears"
+    },
+    {
+        "op": "replace",
+        "path": "/2/output",
+        "value": { "type": "block", "code": "game:angledgears-{wood}-s", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+*/
+//////////////////AXLE
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/axle"
+    },
+*/
+    {
+        "op": "replace",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:blocktypes/mechanics/axle"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:woodenaxle-*-ud" },
+        "file": "game:blocktypes/mechanics/axle"
+    },
+    {
+        "op": "replace",
+        "path": "/1/output",
+        "value": { "type": "block", "code": "game:woodenaxle-{wood}-ud", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+*/
+/////////////////////BRAKE
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/brake"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/brake"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/brake"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak3",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/brake"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:brake-*-north" },
+        "file": "game:blocktypes/mechanics/brake"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/4/ingredients/F",
+        "value": { "type": "block", "code": "game:woodenaxle-*-ud" },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+*/
+    {
+        "op": "replace",
+        "path": "/4/output",
+        "value": { "type": "block", "code": "game:brake-{wood}-north", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+////////////////CLUTCH
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/clutch"
+    },
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:blocktypes/mechanics/clutch"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/clutch"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:clutch-*-north" },
+        "file": "game:blocktypes/mechanics/clutch"
+    },
+    {
+        "op": "replace",
+        "path": "/9/ingredients/A",
+        "value": { "type": "block", "code": "log-placed-*-ud", "name": "wood" },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+    {
+        "op": "replace",
+        "path": "/9/output",
+        "value": { "type": "block", "code": "game:clutch-{wood}-north", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+/////////////////////BELLOWS
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: [ "aged" ], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1",
+        "value": { "code": "leather", states: [ "plain", "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ] },
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": { 
+            "wood": { "base": "game:block/wood/debarked/{wood}" },
+            "1": { "base": "game:block/leather/{leather}" }
+        },
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+    {
+        "op": "add",
+        "path": "/drops",
+        "value": [],
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/exclude",
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": "true",
+        "file": "game:blocktypes/mechanics/bellows"
+    },
+
+///////////////////HELVE HAMMER BASE
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/helvehammerbase"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/helvehammerbase"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/helvehammerbase"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:helvehammerbase-*-north" },
+        "file": "game:blocktypes/mechanics/helvehammerbase"
+    },
+    {
+        "op": "replace",
+        "path": "/5/output",
+        "value": { "type": "block", "code": "game:helvehammerbase-{wood}-north", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+/////////////////TOGGLE
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/toggle"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/toggle"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:woodentoggle-*-ns" },
+        "file": "game:blocktypes/mechanics/toggle"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/6/ingredients/A",
+        "value": { "type": "block", "code": "game:woodenaxle-*-ud" },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+*/
+    {
+        "op": "replace",
+        "path": "/6/output",
+        "value": { "type": "block", "code": "game:woodentoggle-{wood}-ns", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+//////////////////TRANSMISSION
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/transmission"
+    },
+*/
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:blocktypes/mechanics/transmission"
+    },
+    {
+        "op": "add",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:blocktypes/mechanics/transmission"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:blocktypes/mechanics/transmission"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:transmission-*-ns" },
+        "file": "game:blocktypes/mechanics/transmission"
+    },
+    {
+        "op": "replace",
+        "path": "/10/ingredients/G",
+        "value": { "type": "block", "code": "game:angledgears-*-s" },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+    {
+        "op": "replace",
+        "path": "/10/output",
+        "value": { "type": "block", "code": "game:transmission-{wood}-ns", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+*/
+///////////////////WINDMILL ROTOR
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/windmillrotor"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/windmillrotor"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:windmillrotor-*-ns" },
+        "file": "game:blocktypes/mechanics/windmillrotor"
+    },
+    {
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "block", "code": "game:windmillrotor-{wood}-north", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+//////////////////LARGE GEAR 3M
+
+    {
+        "op": "add",
+        "path": "/variantgroups",
+        "value": [],
+        "file": "game:blocktypes/mechanics/largegear3m"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: [], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/largegear3m"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/0",
+        "value": "aged",
+        "file": "game:blocktypes/mechanics/largegear3m"
+    },
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:blocktypes/mechanics/largegear3m"
+    },
+    {
+        "op": "add",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/largegear3m"
+    },
+    {
+        "op": "replace",
+        "path": "/7/ingredients/A",
+        "value": { "type": "block", "code": "game:woodenaxle-*-ud" },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+    {
+        "op": "replace",
+        "path": "/7/output",
+        "value": { "type": "block", "code": "game:largegear3-{wood}", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks"
+    },
+
+/////////////////PULVERIZER FRAME
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/mechanics/pulverizerframe"
+    },
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": { "type": "block", "code": "game:pulverizerframe-*-north" },
+        "file": "game:blocktypes/mechanics/pulverizerframe"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/pulverizerframe"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/mechanics/pulverizerframe"
+    },
+    {
+        "op": "replace",
+        "path": "/0/ingredients/P",
+        "value": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 6 },
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+    {
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "block", "code": "game:pulverizerframe-{wood}-north", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+
+/////////////////PULVERIZER TOGGLE
+/*
+    {
+        "op": "replace",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:itemtypes/part/pulverizertoggle"
+    },
+*/
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:itemtypes/part/pulverizertoggle"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak1",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:itemtypes/part/pulverizertoggle"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/1/ingredients/A",
+        "value": { "type": "block", "code": "game:woodenaxle-*-ud", "name": "wood" },
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/P/allowedVariants",
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+    {
+        "op": "replace",
+        "path": "/1/output",
+        "value": { "type": "item", "code": "game:pulverizertoggle-{wood}", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+*/
+/////////////////PULVERIZER POUNDER
+/*
+    {
+        "op": "replace",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:itemtypes/part/pounder"
+    },
+*/
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:itemtypes/part/pounder"
+    },
+    {
+        "op": "add",
+        "path": "/textures/oak",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:itemtypes/part/pounder"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/2/output",
+        "value": { "type": "item", "code": "game:pounder-{wood}", "quantity": 1 },
+        "file": "game:recipes/grid/mechpowerblocks-pulverizer"
+    },
+
+/////////////////FRUIT PRESS
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/wood/fruitpress"
+    },
+    {
+        "op": "remove",
+        "path": "/handbook/exclude",
+        "file": "game:blocktypes/wood/fruitpress"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/textureCodeForBlockColor",
+        "file": "game:blocktypes/wood/fruitpress"
+    },
+*/
+    {
+        "op": "add",
+        "path": "/textures/oak",
+        "value": { "base": "game:block/wood/debarked/aged" },
+        "file": "game:blocktypes/wood/fruitpress"
+    },
+/*
+    {
+        "op": "replace",
+        "path": "/creativeinventory",
+        "value": { "general": ["game:fruitpress-*"] },
+        "file": "game:blocktypes/wood/fruitpress"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:fruitpress-{wood}-ns", "quantity": 1  },
+        "file": "game:recipes/grid/fruitpress"
+    },
+*/
+    {
+        "op": "remove",
+        "path": "/ingredients/I/allowedVariants",
+        "file": "game:recipes/grid/fruitpress"
+    }
+]

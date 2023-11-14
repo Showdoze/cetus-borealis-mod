@@ -1,0 +1,38 @@
+[
+
+//////////deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "value": ["*"],
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  },
+
+/////////agressive on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes",
+    "value": ["*"],
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  },
+
+///////flee from
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": [ "drifter-*", "bell", "bear-*", "locust-*"],
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  },
+
+////////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/11/stopOnNearbyEntityCodes",
+    "value": [ "drifter-*", "bell", "bear-*", "locust-*"],
+    "file": "game:entities/land/sheep-bighorn-male.json"
+  }
+]

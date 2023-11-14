@@ -1,0 +1,20 @@
+[
+
+/////////flee from
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "racoon-*", "hyena-*"],
+    "file": "game:entities/land/hare-male.json"
+  },
+
+////////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/stopOnNearbyEntityCodes",
+    "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "racoon-*", "hyena-*"],
+    "file": "game:entities/land/hare-male.json"
+  }
+]

@@ -1,0 +1,10 @@
+{
+	ingredients: [
+		{ type: "item", code: "game:ingot-iron", minratio: 0.7, maxratio: 0.9  },
+		{ type: "item", code: "game:ingot-nickel", minratio: 0.1, maxratio: 0.3  }   ///////////yeah, bc using ingots will crash the game DON'T ASK ME HOW IDK
+	],
+	output: {
+		type: "item",
+		code: "game:ingot-meteoriciron"
+	}
+}

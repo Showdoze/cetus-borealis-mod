@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "OOY,OO_",
+        ingredients: {
+            "O": { type: "item", code: "game:ingot-*", "name": "metal"},
+            "Y": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 }
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "fencemetal-{metal}-ew-free", quantity: 4 }
+    }
+]

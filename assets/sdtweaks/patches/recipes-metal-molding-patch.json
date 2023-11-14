@@ -1,0 +1,326 @@
+[
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/0",
+        "value": "cokeovendoor",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/1",
+        "value": "boss",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/2",
+        "value": "hoop",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/3",
+        "value": "plate",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/4",
+        "value": "sheet",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/5",
+        "value": "saw",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/6",
+        "value": "scythe",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/7",
+        "value": "chisel",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/8",
+        "value": "chutesection",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/9",
+        "value": "metalblock",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/10",
+        "value": "spear",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/11",
+        "value": "knife",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/12",
+        "value": "metalfence",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/13",
+        "value": "wrench",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/14",
+        "value": "poundercap",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/15",
+        "value": "chainring",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+
+/////////////////////////TOOL MOLD BELOW//////////////////////
+
+    {
+        "op": "remove",
+        "path": "/attributesByType/toolmold-burned-*",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "replace",
+        "path": "/texturesByType/toolmold-burned-*",
+        "value": { "all": { "base": "block/clay/ceramic" } },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "replace",
+        "path": "/collisionboxByType",
+        "value": {
+            "*-anvil": { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.6875, z2: 0.9375 },
+            "*-metalblock": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
+            "*": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1875, z2: 1 },
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "replace",
+        "path": "/selectionboxByType",
+        "value": {
+            "*-anvil": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.6875, z2: 1 },
+            "*-metalblock": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
+            "*": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1875, z2: 1 },
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/heldTpIdleAnimationByType/*-metalblock",
+        "value": "holdbothhands",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/heldTpUseAnimationByType/*-metalblock",
+        "value": "twohandplaceblock",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+
+/////////////////////add molds below
+
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-cokeovendoor",
+        "value": {
+            "requiredUnits": 200,
+            "fillHeight": 5,
+            "scale": 2,
+            "drop": { "type": "block", "code": "game:cokeovendoor-{metal}-closed-north" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-boss",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 2,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:boss-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-hoop",
+        "value": {
+            "requiredUnits": 50,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:hoop-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-plate",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:metalplate-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-sheet",
+        "value": {
+            "requiredUnits": 200,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "block", "code": "game:metalsheet-{metal}-down" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-saw",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:sawblade-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-knife",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:knifeblade-{metal}", "quantity": 2 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-chisel",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:chisel-{metal}", "quantity": 2 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-chutesection",
+        "value": {
+            "requiredUnits": 200,
+            "fillHeight": 4,
+            "drop": { "type": "item", "code": "game:chutesection-{metal}", "quantity": 4 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-metalblock",
+        "value": {
+            "requiredUnits": 600,
+            "fillHeight": 14,
+			"fillQuadsByLevel": [
+				{ x1: 0, z1: 0, x2: 15, z2: 15 }
+			],
+            "drop": { "type": "block", "code": "game:metalblock-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-metalfence",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "block", "code": "game:ironfence-{metal}-base-ew" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-wrench",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:wrench-{metal}" }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-poundercap",
+        "value": {
+            "requiredUnits": 200,
+            "fillHeight": 4,
+            "drop": { "type": "item", "code": "game:poundercap-{metal}", "quantity": 4 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-chainring",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 2,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "sdtweaks:chainringmetal-{metal}", "quantity": 18 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+
+////////////////add everything else above this, otherwise it will try to assign it as a tool head and change the name of the output and you won't be able to cast the item
+
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-*",   //////////////tyron, why do you make me suffer so much
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:{tooltype}head-{metal}"}
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    }
+]

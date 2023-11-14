@@ -1,0 +1,9 @@
+{
+    ingredientPattern: "OOO,OOO,OOO",
+    ingredients: {
+        "O": { type: "item", code: "chainringmetal-*", "name": "metal" }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "item", code: "game:metalchain-{metal}", quantity: 1 }
+}

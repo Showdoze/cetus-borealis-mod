@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "T,S,M",
+	ingredients: {
+		"T": { type: "item", code: "game:spearhead-*", name: "metal" },
+		"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+        "M": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "game:spear-{metal}", quantity: 1  }
+}

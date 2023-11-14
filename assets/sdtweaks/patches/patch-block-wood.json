@@ -1,0 +1,297 @@
+[
+
+///////////////BARREL
+
+    {
+        "op": "replace",
+        "path": "/tpHandTransform/scale",
+        "value": 0.44,
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform",
+        "value": { "scale": 1.2 },
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups",
+        "value": [],
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "wood", "states": [], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/0",
+        "value": "aged",
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/textures/lidbottom",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/textures/lidtop",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/barrel"
+    },
+    {
+        "op": "add",
+        "path": "/textures/wood",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/barrel"
+    },
+
+///////////////BARREL CRAFTING
+
+    {
+        "op": "replace",
+        "path": "/ingredients/P",
+        "value": { "type": "item", "code": "game:plank-*", "name": "wood" },
+        "file": "game:recipes/grid/barrel"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:barrel-{wood}" },
+        "file": "game:recipes/grid/barrel"
+    },
+
+////////////////////WOODEN BUCKET
+
+    {
+        "op": "remove",
+        "path": "/creativeinventoryStacks",
+        "file": "game:blocktypes/wood/bucket"
+    },
+    {
+        "op": "add",
+        "path": "/creativeinventory",
+        "value": {},
+        "file": "game:blocktypes/wood/bucket"
+    },
+    {
+        "op": "add",
+        "path": "/creativeinventory/general",
+        "value": [ "*" ],
+        "file": "game:blocktypes/wood/bucket"
+    },
+    {
+        "op": "add",
+        "path": "/creativeinventory/decorative",
+        "value": [ "*" ],
+        "file": "game:blocktypes/wood/bucket"
+    },
+
+////////////////////CHEST
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/1",
+        "value": { "code": "wood", states: ["aged"], loadFromProperties: "block/wood" },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-sides2",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-lid",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/0",
+        "value": { "type": "block", "code": "game:chest-*-east", "attributes": { "type": "normal-generic" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+*/
+/*
+    {
+        "op": "add",
+        "path": "/attributes/textures",
+        "value": {},
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/textures/wood-oak",
+        "value": { "normal-generic-sides2": { "base": "game:block/wood/debarked/oak" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/textures/wood-oak",
+        "value": { "normal-generic-lid": { "base": "game:block/wood/debarked/oak" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/shape/wood-oak",
+        "value": "game:block/wood/chest/normal",
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/quantitySlots/wood-oak",
+        "value": "16",
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/textures/wood-maple",
+        "value": { "normal-generic-sides2": { "base": "game:block/wood/debarked/maple" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/textures/wood-maple",
+        "value": { "normal-generic-lid": { "base": "game:block/wood/debarked/maple" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/shape/wood-maple",
+        "value": "game:block/wood/chest/normal",
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/quantitySlots/wood-maple",
+        "value": "16",
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/0",
+        "value": { "type": "block", "code": "game:chest-east", "attributes": { "type": "wood-maple" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+    {
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/1",
+        "value": { "type": "block", "code": "game:chest-east", "attributes": { "type": "wood-oak" } },
+        "file": "game:blocktypes/wood/chest"
+    }
+*/
+/////////////////////CHEST LABELED
+
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/1",
+        "value": { "code": "wood", "states": [ "oak", "pine", "birch", "maple", "larch", "baldcypress", "ebony", "walnut", "acacia", "kapok", "purpleheart", "aged" ] },
+        "file": "game:blocktypes/wood/chest-labeled"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-labeled-sides2",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-labeled"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-labeled-lid",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-labeled"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/0",
+        "value": { "type": "block", "code": "game:labeledchest-*-east", "attributes": { "type": "normal-labeled" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+*/
+////////////////////CHEST TRUNK
+/*
+    {
+        "op": "add",
+        "path": "/variantgroups/1",
+        "value": { "code": "wood", "states": [ "oak", "pine", "birch", "maple", "larch", "baldcypress", "ebony", "walnut", "acacia", "kapok", "purpleheart", "aged" ] },
+        "file": "game:blocktypes/wood/chest-trunk"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-sides2",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-trunk"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-lid",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-trunk"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-left-side",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-trunk"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/normal-generic-right-side",
+        "value": { "base": "game:block/wood/debarked/{wood}" },
+        "file": "game:blocktypes/wood/chest-trunk"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/0",
+        "value": { "type": "block", "code": "game:trunk-*-east", "attributes": { "type": "normal-generic" } },
+        "file": "game:blocktypes/wood/chest"
+    },
+*/
+///////////////CHEST CRAFTING
+/*
+    {
+        "op": "replace",
+        "path": "/ingredients/W",
+        "value": { "type": "item", "code": "game:plank-*", "name": "wood" },
+        "file": "game:recipes/grid/chest"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:chest-{wood}-east", "attributes": { "type": "normal-generic" }  },
+        "file": "game:recipes/grid/chest"
+    },
+
+    {
+        "op": "replace",
+        "path": "/ingredients/C",
+        "value": { "type": "block", "code": "game:chest-*-east", "name": "wood", "attributes": { "type": "normal-generic" } },
+        "file": "game:recipes/grid/chest-labeled"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:labeledchest-{wood}-east", "attributes": { "type": "normal-labeled" } },
+        "file": "game:recipes/grid/chest-labeled"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/W",
+        "value": { "type": "block", "code": "game:chest-*-east", "name": "wood", "attributes": { "type": "normal-generic" } },
+        "file": "game:recipes/grid/doublechest"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:trunk-{wood}-east", "attributes": { "type": "normal-generic" } },
+        "file": "game:recipes/grid/doublechest"
+    }
+*/
+]

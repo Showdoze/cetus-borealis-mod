@@ -1,0 +1,139 @@
+[
+
+/////deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/aitasks/0/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/locust.json"
+  },
+
+/////hunt for
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/aitasks/2/entityCodes",
+    "value": [ "player", "trader-*", "drifter-*", "bell", "sheep-*", "gazelle", "chicken-*", "hare-*", "bear-*", "wolf-*", "fox-*", "racoon-*", "hyena-*" ],
+    "file": "game:entities/land/locust.json"
+  },
+
+/////health
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType",
+    "value": {
+      "*-bronze": 6, 
+      "*-corrupt": 10,
+      "*-corrupt-sawblade": 12
+    },
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType",
+    "value": {
+      "*-bronze": 6, 
+      "*-corrupt": 10,
+      "*-corrupt-sawblade": 12
+    },
+    "file": "game:entities/land/locust.json"
+  },
+
+///////drops
+
+  {
+    "op": "add",
+    "path": "/dropsByType/*-bronze",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:metal-scraps",
+        "quantity": {
+          "avg": 1.2,
+          "var": 0
+        }
+      },
+      {
+        "type": "block",
+        "code": "game:metal-parts",
+        "quantity": {
+          "avg": 1.2,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "quantity": {
+          "avg": 0.1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-corrupt",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:metal-scraps",
+        "quantity": {
+          "avg": 2.4,
+          "var": 0
+        }
+      },
+      {
+        "type": "block",
+        "code": "game:metal-parts",
+        "quantity": {
+          "avg": 1.8,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "quantity": {
+          "avg": 2.3,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/locust-corrupt-sawblade",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "quantity": {
+          "avg": 2.9,
+          "var": 0
+        }
+      },
+      {
+        "type": "block",
+        "code": "game:metal-parts",
+        "quantity": {
+          "avg": 3.5,
+          "var": 0
+        }
+      },
+      {
+        "type": "block",
+        "code": "game:metal-scraps",
+        "quantity": {
+          "avg": 4.75,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/locust.json"
+  }
+]

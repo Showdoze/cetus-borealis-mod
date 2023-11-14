@@ -1,0 +1,90 @@
+[
+/*
+////////////////PLASTER PLAIN
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] },
+        "file": "game:blocktypes/stone/plaster-plain"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": { "all": { "base": "game:block/stone/plaster/{type}", "overlays": ["game:block/stone/sand/{material}"]} },
+        "file": "game:blocktypes/stone/plaster-plain"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": { "type": "block", "code": "game:sand-", "name": "material" },
+        "file": "game:recipes/grid/plaster/plain"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:plaster-{material}-plain" },
+        "file": "game:recipes/grid/plaster/plain"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/P",
+        "value": { "type": "block", "code": "game:plaster-*-plain", "name": "material" },
+        "file": "game:recipes/grid/plaster/square"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:plaster-{material}-square" },
+        "file": "game:recipes/grid/plaster/square"
+    },
+
+////////////PLASTER FANCY
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] },
+        "file": "game:blocktypes/stone/plaster-fancy"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": { "all": { "base": "game:block/stone/plaster/{type}", "overlays": ["game:block/stone/sand/{material}"] } },
+        "file": "game:blocktypes/stone/plaster-fancy"
+    },
+    {
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": { 
+            "plaster-*-diagonal-*": [ { type: "block", code: "game:plaster-*-diagonal-ud" } ],
+		    "plaster-*-stripes-*": [ { type: "block", code: "game:plaster-*-stripes-ud" } ]
+        },
+        "file": "game:blocktypes/stone/plaster-fancy"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/P",
+        "value": { "type": "block", "code": "game:plaster-*-plain", "name": "material" },
+        "file": "game:recipes/grid/plaster/stripes"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:plaster-{material}-stripes-ud" },
+        "file": "game:recipes/grid/plaster/stripes"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/P",
+        "value": { "type": "block", "code": "game:plaster-*-plain", "name": "material" },
+        "file": "game:recipes/grid/plaster/diagonal"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:plaster-{material}-diagonal-ud" },
+        "file": "game:recipes/grid/plaster/diagonal"
+    }
+    */
+]

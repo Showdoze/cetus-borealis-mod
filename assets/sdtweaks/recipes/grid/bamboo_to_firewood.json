@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:axe-*", isTool: true  },
+			"T": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 3  }
+	}
+]

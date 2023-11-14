@@ -1,0 +1,142 @@
+[
+
+////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "flint" ],
+        "file": "game:itemtypes/tool/chisel"
+    },
+
+////////textures by type
+
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {},
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-flint",
+        "value": { "metal": { "base": "game:block/stone/flint"} },
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*",
+        "value": { "metal": { "base": "game:block/metal/ingot/{material}"} },
+        "file": "game:itemtypes/tool/chisel"
+    },
+
+///////durability by type
+
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-brass",
+        "value": "800",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-bismuth",
+        "value": "500",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-nickel",
+        "value": "600",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-molybdochalkos",
+        "value": "600",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-lead",
+        "value": "200",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-tin",
+        "value": "100",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-zinc",
+        "value": "400",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-gold",
+        "value": "300",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-silver",
+        "value": "700",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-titanium",
+        "value": "2000",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-chromium",
+        "value": "3000",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-platinum",
+        "value": "3500",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-rhodium",
+        "value": "3400",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-uranium",
+        "value": "2800",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-stainlesssteel",
+        "value": "1500",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-flint",
+        "value": "150",
+        "file": "game:itemtypes/tool/chisel"
+    }
+]

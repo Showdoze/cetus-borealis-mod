@@ -1,0 +1,444 @@
+[
+/*    {
+        "op": "replace",
+        "path": "/textures/tinbronze",
+        "value": {},
+        "file": "game:shapes/item/tool/blade/tinbronze"
+    },      */
+
+/////////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/1/states",
+        "value": [],
+        "file": "game:itemtypes/tool/blade"
+    },
+
+/////////////tool tier by type
+
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-brass",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-bismuth",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-nickel",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-molybdochalkos",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-lead",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-tin",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-zinc",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-titanium",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-chromium",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-platinum",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-rhodium",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-uranium",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-stainlesssteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/blade"
+    },
+
+///////////shape by type
+
+    {
+        "op": "replace",
+        "path": "/shapeByType",
+        "value": {
+            "blade-falx-*": { base: "game:item/tool/blade/falx" },
+            "*": { base: "game:item/tool/blade/{metal}" }
+        },
+        "file": "game:itemtypes/tool/blade"
+    },
+
+///////////textures by type
+
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": { 
+            "blade-falx-*": { 
+                "metal":  { "base": "game:block/metal/ingot/{metal}" },
+                "handguard":  { "base": "game:block/metal/ingot/{metal}" } 
+            }
+        },
+        "file": "game:itemtypes/tool/blade"
+    },
+
+/////////////mining speed by type
+
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-brass",
+        "value": {
+			"wood": 2.3,
+			"leaves": 1.8
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-bismuth",
+        "value": {
+			"wood": 2,
+			"leaves": 1.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-nickel",
+        "value": {
+			"wood": 2.1,
+			"leaves": 1.6
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-molybdochalkos",
+        "value": {
+			"wood": 2.2,
+			"leaves": 1.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-lead",
+        "value": {
+			"wood": 2.1,
+			"leaves": 1.3
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-tin",
+        "value": {
+			"wood": 1.5,
+			"leaves": 1.3
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-zinc",
+        "value": {
+			"wood": 2,
+			"leaves": 1.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-titanium",
+        "value": {
+			"wood": 4,
+			"leaves": 5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-chromium",
+        "value": {
+			"wood": 4.5,
+			"leaves": 5.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-platinum",
+        "value": {
+			"wood": 4.5,
+			"leaves": 5.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-rhodium",
+        "value": {
+			"wood": 4.6,
+			"leaves": 5.6
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-uranium",
+        "value": {
+			"wood": 4.4,
+			"leaves": 5.4
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-stainlesssteel",
+        "value": {
+			"wood": 3,
+			"leaves": 4
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+
+////////////////attack power by type
+
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-brass",
+        "value": "4",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-bismuth",
+        "value": "3",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-nickel",
+        "value": "3.4",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-molybdochalkos",
+        "value": "5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-lead",
+        "value": "4.5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-tin",
+        "value": "2.5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-zinc",
+        "value": "3.5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-titanium",
+        "value": "6.2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-chromium",
+        "value": "6.4",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-platinum",
+        "value": "6.5",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-uranium",
+        "value": "6.2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-rhodium",
+        "value": "6.4",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-stainlesssteel",
+        "value": "5.5",
+        "file": "game:itemtypes/tool/blade"
+    },
+
+/////////////////durability by type
+
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-brass",
+        "value": "300",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-bismuth",
+        "value": "200",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-nickel",
+        "value": "350",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-molybdochalkos",
+        "value": "400",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-lead",
+        "value": "200",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-tin",
+        "value": "100",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-zinc",
+        "value": "250",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-titanium",
+        "value": "3000",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-chromium",
+        "value": "3200",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-platinum",
+        "value": "3500",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-rhodium",
+        "value": "3200",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-uranium",
+        "value": "3000",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-stainlesssteel",
+        "value": "2000",
+        "file": "game:itemtypes/tool/blade"
+    },
+
+/////////////////HEAD GOES BELOW
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/toolhead/bladehead"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/1/states",
+        "value": [],
+        "file": "game:itemtypes/toolhead/bladehead"
+    },
+    {
+        "op": "replace",
+        "path": "/shapeByType/bladehead-falx-*",
+        "value": { "base": "game:item/tool/blade/falx" },
+        "file": "game:itemtypes/toolhead/bladehead"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/bladehead-falx-*",
+        "value": {
+            "metal": { "base": "game:block/metal/ingot/{metal}" },
+            "rivet": { "base": "game:block/transparent" },
+            "handle": { "base": "game:block/transparent" },
+            "handguard": { "base": "game:block/transparent" }
+        },
+        "file": "game:itemtypes/toolhead/bladehead"
+    }
+]

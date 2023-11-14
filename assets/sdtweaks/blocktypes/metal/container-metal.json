@@ -1,0 +1,94 @@
+{
+	code: "containermetal",
+	class: "BlockGenericTypedContainer",
+	entityclass: "GenericTypedContainer",
+	attributes: {
+		partialAttachable: true,
+		inventoryClassName: "chest",
+		defaultType: "normal",
+		types: ["normal"],
+		rotatatableInterval: {
+			"normal": "22.5degnot45deg"
+		},		
+		drop: {
+			"normal": true
+		},
+		quantitySlots: {
+			"normal": 64
+		},
+		quantityColumns: {
+			"normal": 8
+		},
+		dialogTitleLangCode: {
+			"normal": "chestcontents"
+		},
+		storageType: {
+			"normal": 189
+		},
+		retrieveOnly: {
+			"normal": false
+		},
+		shape: {
+			"normal": "game:block/wood/crate/normal-closed"
+		},
+		typedOpenSound: {
+			"normal": "game:sounds/block/metaldoor"
+		},
+		typedCloseSound: {
+			"normal": "game:sounds/block/metaldoor"
+		},
+		variantByGroup: "material",
+		variantByGroupInventory: "material"
+	},
+	behaviors: [{name: "Lockable" }, {name: "Container"}],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ]  },
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "game:block/wood/crate/normal-closed", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "game:block/wood/crate/normal-closed", rotateY: 0 },
+		"*-east": { base: "game:block/wood/crate/normal-closed", rotateY: 270 },
+		"*-west": { base: "game:block/wood/crate/normal-closed", rotateY: 90 },
+		"*-south": { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+	},
+	textures: {
+		"normal-sides": { base: "game:block/metal/sheet/{material}1" },
+		"normal-frame-generic": { base: "game:block/coal/charcoal" }
+	},
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 4,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	collisionbox: {
+		x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.8125, z2: 0.9375
+	},
+	selectionbox: {
+		x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.8125, z2: 0.9375
+	},
+	sounds: {
+		"place": "game:block/metaldoor",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	materialDensity: 6000,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.4, z: 0.5 },
+		scale: 1.16
+	}
+}

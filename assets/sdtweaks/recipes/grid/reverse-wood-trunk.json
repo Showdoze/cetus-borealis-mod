@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"T": { type: "block", code: "game:trunk-east" }   ////////don't tell me that you can't use blocks in crafting recipes
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:chest-east", quantity: 2  }
+	}
+]

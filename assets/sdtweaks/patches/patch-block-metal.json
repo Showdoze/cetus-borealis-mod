@@ -1,0 +1,249 @@
+[
+
+///////////COKE OVEN DOOR
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "metal", "loadFromProperties": "game:block/metal" },   //////seriously? iron but no steel?
+        "file": "game:blocktypes/metal/cokeovendoor"
+    },
+    {
+        "op": "replace",
+        "path": "/behaviors",
+        "value":  [ { "name": "HorizontalOrientable" }, { "name": "Lockable" } ],  /////////// If you delete this, your game will crash every time you look at this block, you've been warned
+        "file": "game:blocktypes/metal/cokeovendoor"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants",
+        "file": "game:recipes/smithing/cokeovendoor"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants",
+        "file": "game:recipes/smithing/anvilbase"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants",
+        "file": "game:recipes/smithing/anviltop"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:cokeovendoor-{metal}-closed-north"  },
+        "file": "game:recipes/smithing/cokeovendoor"
+    },
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:blocktypes/metal/cokeovendoor"
+    },
+    {
+        "op": "add",
+        "path": "/textures/all",
+        "value": { "base": "game:block/metal/ingot/{metal}" },         //////maybe brass doors huh?)))
+        "file": "game:blocktypes/metal/cokeovendoor"
+    },
+
+///////////////TORCH HOLDER
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "aged" ],
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {},
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-aged-*",
+        "value": { "material": { "base": "game:block/metal/torchholder/aged" } },
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*",
+        "value": { "material": { "base": "game:block/metal/ingot/{material}" } },
+        "file": "game:blocktypes/metal/torchholder"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/I",
+        "value": { "type": "item", "code": "game:metalplate-*", "name": "metal" },
+        "file": "game:recipes/grid/torchholder"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:torchholder-{metal}-empty-north", "quantity": 2  },
+        "file": "game:recipes/grid/torchholder"
+    },
+
+///////////////POUNDER CAP
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/part/poundercap"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/part/poundercap"
+    },
+
+//////////////"IRON" DOOR
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { "code": "metal", "loadFromProperties": "game:block/metal" },   //////still don't get why only iron and no other metals....
+        "file": "game:blocktypes/metal/irondoor"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventory",
+        "value": { "general": ["irondoor-*-north-down-closed-left"], "decorative": ["irondoor-*-north-down-closed-left"] },    //////////// you had to hardcore this again?
+        "file": "game:blocktypes/metal/irondoor"
+    },
+    {
+        "op": "add",
+        "path": "/textures",
+        "value": {},
+        "file": "game:blocktypes/metal/irondoor"
+    },
+    {
+        "op": "add",
+        "path": "/textures/all",
+        "value": { "base": "game:block/metal/sheet/{metal}1" },
+        "file": "game:blocktypes/metal/irondoor"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredients/W",
+        "value": { "type": "item", "code": "game:metalplate-*", "name": "metal" },
+        "file": "game:recipes/grid/irondoor"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:irondoor-{metal}-north-down-closed-left" },
+        "file": "game:recipes/grid/irondoor"
+    },
+
+/////////////////"IRON" FENCE
+
+{
+    "op": "add",
+    "path": "/variantgroups/0",
+    "value": { "code": "metal", "loadFromProperties": "game:block/metal" },   //////still don't get why only iron and no other metals....
+    "file": "game:blocktypes/metal/ironfence"
+},
+{
+    "op": "replace",
+    "path": "/creativeinventory",
+    "value": { "general": ["ironfence-*-base-ew", "ironfence-*-top-ew"], "decorative": ["ironfence-*-base-ew", "ironfence-*-top-ew"] },    //////////// not even surprised
+    "file": "game:blocktypes/metal/ironfence"
+},
+{
+    "op": "remove",
+    "path": "/attributes/handbook/exclude",
+    "file": "game:blocktypes/metal/ironfence"
+},
+{
+    "op": "add",
+    "path": "/textures",
+    "value": {},
+    "file": "game:blocktypes/metal/ironfence"
+},
+{
+    "op": "add",
+    "path": "/textures/iron-fence-top",
+    "value": { "base": "game:block/metal/ingot/{metal}" },
+    "file": "game:blocktypes/metal/ironfence"
+},
+{
+    "op": "add",
+    "path": "/textures/iron-fence-base",
+    "value": { "base": "game:block/metal/ingot/{metal}" },
+    "file": "game:blocktypes/metal/ironfence"
+},
+
+//////////////CHUTE SECTION
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0",
+        "value": { code: "metal", "loadFromProperties": "game:block/metal" }, ///////////imagine having all these metals and only allowed to use copper, duh...
+        "file": "game:blocktypes/metal/chute-*"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/all",
+        "value": { "base": "game:block/metal/sheet/{metal}1" },    //////////i mean ingot texture looks nice, but here i think panel should be more appropriate
+        "file": "game:blocktypes/metal/chute-*"
+    },
+
+////////////////ANVIL PART
+
+    {
+        "op": "add",
+        "path": "/variantgroups/1/loadFromProperties",
+        "value": "game:block/metal",                            /////////////////YESSSS MORE BRASSS
+        "file": "game:blocktypes/metal/anvilpart"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/1/states",
+        "value": [],
+        "file": "game:blocktypes/metal/anvilpart"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/metal",
+        "value": { "base": "game:block/metal/ingot/{metal}" },
+        "file": "game:blocktypes/metal/anvilpart"
+    },
+
+/////////////////ANVIL
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",                             /////////////////YESSSS MORE BRASSS
+        "file": "game:blocktypes/metal/anvil"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],                            /////////////////how there was no gold anvils? what if i have a micropenis? how am i supposed to compensate?
+        "file": "game:blocktypes/metal/anvil"
+    },
+    {
+        "op": "replace",
+        "path": "/textures/all",
+        "value": { "base": "game:block/metal/ingot/{metal}" },      ////////////looks almost identical to it's vanilla textures so i guess you can just ditch textures/block/anvil/
+        "file": "game:blocktypes/metal/anvil"
+    }
+]

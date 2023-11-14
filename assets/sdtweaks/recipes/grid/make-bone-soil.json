@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "MMM,MOM,MMM",
+		ingredients: {
+			"O": { type: "block", code: "game:soil-*",  },
+			"M": { type: "item", code: "game:bone" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bonysoil", quantity: 1  }
+	}
+]

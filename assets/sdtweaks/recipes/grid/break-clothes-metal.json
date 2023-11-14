@@ -1,0 +1,72 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "neck-copper-torc", "arm-copper-bracelet" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-copper", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "neck-noble-necklace", "head-gold-coronet", "neck-golden-necklace", "waist-gold-waist-chain", "waist-fancy-royal-belt", "emblem-royal-pin" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-gold", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "head-silver-diadem", "emblem-silver-pin", "emblem-silver-star", "arm-silver-bracelet", "arm-silver-chain" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-silver", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "neck-bronze-gem-necklace", "arm-bronze-armlet", "arm-bronze-bracelet", "arm-squire-bracers" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "emblem-brass-ruby-brooch" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "arm-prisoner-binds", "arm-merchant-bracelet", "waist-merchant-belt", "neck-merchant-amulet" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:clothes-*", allowedVariants: [ "emblem-blackguard-pin" ] },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-blackbronze", quantity: 20  }
+	}
+]

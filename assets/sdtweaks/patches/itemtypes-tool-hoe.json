@@ -1,0 +1,314 @@
+[
+
+/////////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "granite", "andesite", "chert", "flint", "basalt", "obsidian", "peridotite" ],
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+//////////////shape by type
+
+    {
+        "op": "replace",
+        "path": "/shapeByType",
+        "value": { 
+            "@hoe-(chert|andesite|peridotite|granite|basalt|obsidian|flint)": { "base": "game:item/tool/hoe-stone" },
+            "hoe-*": { "base": "game:item/tool/hoe-copper" }
+        },
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+/////////////textures by type (i mean what are the odds of adding new stone vs adding a new metal/alloy type? probably better to leave dynamic assignment to metal rather than stone)
+
+    {
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {		
+		    "@hoe-(chert|granite|andesite|basalt|obsidian|peridotite)": { "material": { "base": "game:block/stone/rock/{material}1" } },
+            "hoe-flint": { "material": { "base": "game:block/stone/{material}" } },
+		    "hoe-*": { "material": { "base": "game:block/metal/ingot/{material}" } }
+        },
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+///////////mining speed by type
+
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-brass",
+        "value": { "soil": 3.3 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-bismuth",
+        "value": { "soil": 3 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-nickel",
+        "value": { "soil": 3.1 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-molybdochalkos",
+        "value": { "soil": 3.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-lead",
+        "value": { "soil": 3.3 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-tin",
+        "value": { "soil": 2.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-zinc",
+        "value": { "soil": 3 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-titanium",
+        "value": { "soil": 5.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-chromium",
+        "value": { "soil": 5.6 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-platinum",
+        "value": { "soil": 5.7 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-rhodium",
+        "value": { "soil": 5.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-uranium",
+        "value": { "soil": 5.1 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-stainlesssteel",
+        "value": { "soil": 4.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+//////////////durabillity by type
+
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-brass",
+        "value": "250",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-bismuth",
+        "value": "200",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-nickel",
+        "value": "220",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-molybdochalkos",
+        "value": "150",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-lead",
+        "value": "150",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-tin",
+        "value": "100",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-zinc",
+        "value": "200",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-titanium",
+        "value": "2000",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-chromium",
+        "value": "2500",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-platinum",
+        "value": "2600",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-rhodium",
+        "value": "2200",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-uranium",
+        "value": "2100",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-stainlesssteel",
+        "value": "1200",
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+//////////////attack power by type
+
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-brass",
+        "value": "1.35",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-bismuth",
+        "value": "1.2",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-nickel",
+        "value": "1.3",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-molybdochalkos",
+        "value": "1.6",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-lead",
+        "value": "1.5",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-tin",
+        "value": "1",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-zinc",
+        "value": "1.3",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-titanium",
+        "value": "3.2",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-chromium",
+        "value": "3.5",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-platinum",
+        "value": "3.6",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-rhodium",
+        "value": "3.4",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-uranium",
+        "value": "3",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-stainlesssteel",
+        "value": "2.8",
+        "file": "game:itemtypes/tool/hoe"
+    },
+
+//////////////////HEAD GOES BELOw//////////////
+
+///////////////variant groups (#whereismybrass)
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/toolhead/hoehead"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "granite", "andesite", "chert", "flint", "basalt", "obsidian", "peridotite" ],
+        "file": "game:itemtypes/toolhead/hoehead"
+    },
+
+////////////////shape by type
+
+    {
+        "op": "replace",
+        "path": "/shapeByType",
+        "value": {
+            "@hoehead-(chert|basalt|andesite|peridotite|obsidian|flint|granite)": { "base": "game:item/tool/hoe-stone" },
+            "hoehead-*": { "base": "game:item/tool/hoe-copper" }
+        },
+        "file": "game:itemtypes/toolhead/hoehead"
+    }
+]

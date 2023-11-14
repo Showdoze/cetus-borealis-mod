@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:knife-*", isTool: true  },
+			"T": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:arrowhead-bone", quantity: 2  }
+	}
+]

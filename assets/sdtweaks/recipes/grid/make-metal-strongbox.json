@@ -1,0 +1,10 @@
+{
+    ingredientPattern: "OOS",
+    ingredients: {
+        "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+        "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+    },
+    width: 3,
+    height: 1,
+    output: { type: "block", code: "strongboxmetal-{metal}-east", quantity: 1 }
+}

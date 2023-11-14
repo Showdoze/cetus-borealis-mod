@@ -1,0 +1,82 @@
+{
+	code: "coolerstoragevessel",
+	class: "BlockGenericTypedContainer",
+	entityclass: "GenericTypedContainer",
+	behaviors: [{ name: "Lockable" }, { name: "Container" }, {name: "UnstableFalling"}],
+	entityBehaviors: [{ name: "Animatable" }],
+	attributes: {
+		partialAttachable: true,
+		inventoryClassName: "chest",
+		defaultType: "normal",
+		types: ["normal"],
+		drop: {
+			"normal": true
+		},
+		quantitySlots: {
+			"normal": 12
+		},
+		dialogTitleLangCode: {
+			"normal": "vesselcontents"
+		},
+		storageType: {
+			"normal": 32
+		},
+		retrieveOnly: {
+			"normal": false
+		},
+		spoilSpeedMulByFoodCat: {
+			"normal": { 
+				"vegetable": 0.001,
+				"grain": 0.001,
+				"fruit": 0.001,
+				"protein": 0.001,
+				"dairy": 0.001
+			}
+		},
+		shape: {
+			"normal": "game:block/clay/storagevessel"
+		},
+		variantByGroup: "variant",
+		variantByGroupInventory: "variant",
+		openSound: "game:sounds/block/vesselopen",
+		closeSound: "game:sounds/block/vesselclose"
+	},
+	variantgroups: [
+		{ code: "variant", states: ["ashforest", "chthonic", "copper", "earthen", "rain", "burned", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic"] }
+	],
+	shape: { base: "game:block/clay/lootvessel" },
+	texturesByType: {
+		"*": {
+			"normal-ceramic": { "base": "game:block/clay/ceramic" },
+			"normal-top": { "base": "game:block/clay/vessel/top/{variant}" },
+			"normal-sides": { "base": "game:block/clay/vessel/sides/{variant}" },
+			"normal-inside": { "base": "game:block/liquid/ice/glacier*" }
+		}
+	},
+	blockmaterial: "Ceramic",
+	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	replaceable: 1000,
+	resistance: 0.8,
+	maxStackSize: 4,
+	sideAo: { all: false },
+	lightAbsorption: 0,
+	sounds: {
+		walk: "game:walk/stone",
+		break: "game:block/ceramicplace",
+		hit: "game:block/ceramichit",
+		place: "game:block/ceramicplace"
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	collisionSelectionBox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 1, z2: 0.875 },
+	heldTpIdleAnimation: "holdunderarm",
+	tpHandTransform: {
+		translation: { x: -1, y: -0.5, z: -0.5 },
+		rotation: { x: 25, y: -20, z: -99 },
+		scale: 0.56
+	}
+}

@@ -1,0 +1,137 @@
+[
+
+////////////////prepare for top quality meme material
+
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/0",
+        "value": { code: "quakeranger1", sound: "sdtweaks:sounds/voice/quake_ranger_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/1",
+        "value": { code: "quakeranger2", sound: "sdtweaks:sounds/voice/quake_ranger_2" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/3",
+        "value": { code: "quakeranger3", sound: "sdtweaks:sounds/voice/quake_ranger_3" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/4",
+        "value": { code: "deathknight", sound: "sdtweaks:sounds/voice/death_knight_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/5",
+        "value": { code: "quakezombie", sound: "sdtweaks:sounds/voice/quake_zombie_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/6",
+        "value": { code: "heretic2raven", sound: "sdtweaks:sounds/voice/the_raven" },           ///////////THE RAVEN! IT'S THE SYMBOL OF MY PEOPLE!
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/7",
+        "value": { code: "minecraftvillager", sound: "sdtweaks:sounds/voice/minecraft_villager" },     ////////////huooooooh
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/8",
+        "value": { code: "drifter", sound: "game:sounds/creature/drifter-hurt" },           //////////think like an enemy, sound like an enemy
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/9",
+        "value": { code: "grasshopper", sound: "game:sounds/creature/grasshopper" },        ////////bc you wanna be like the Predator no??
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/10",
+        "value": { code: "mute", sound: "sdtweaks:sounds/voice/mute" },                ////////  System.ArgumentNullException: Value cannot be null. JUST FUCK YOU OKAY?, can't be empty, can't be a wav file, no wonder there's so little mods for this, chees fuck me it's jank AF
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/11",
+        "value": { code: "cyborg1", sound: "sdtweaks:sounds/voice/cyborg_1" },        ////////i am a machine, you puny humans
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/12",
+        "value": { code: "cyborg2", sound: "sdtweaks:sounds/voice/cyborg_2" },        ////////beep boop
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/13",
+        "value": { code: "cyborg3", sound: "sdtweaks:sounds/voice/cyborg_3" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/14",
+        "value": { code: "scream1", sound: "sdtweaks:sounds/voice/scream_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/15",
+        "value": { code: "quake2pain1", sound: "sdtweaks:sounds/voice/quake2_pain_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/16",
+        "value": { code: "quake2pain2", sound: "sdtweaks:sounds/voice/quake2_pain_2" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/17",
+        "value": { code: "quake2soldier", sound: "sdtweaks:sounds/voice/quake2_soldier" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/18",
+        "value": { code: "alien", sound: "sdtweaks:sounds/voice/alien_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/19",
+        "value": { code: "thiefgarret1", sound: "sdtweaks:sounds/voice/thief_garret_1" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/20",
+        "value": { code: "doomguypain", sound: "sdtweaks:sounds/voice/doomguy_pain" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/21",
+        "value": { code: "8stringguitar", sound: "sdtweaks:sounds/voice/8string_low_e" },
+        "file": "game:entities/humanoid/player"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/skinnableParts/3/variants/22",
+        "value": { code: "8stringpinch", sound: "sdtweaks:sounds/voice/8string_pinch_e" },
+        "file": "game:entities/humanoid/player"
+    }
+]

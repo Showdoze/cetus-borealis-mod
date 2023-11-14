@@ -1,0 +1,11 @@
+[
+    {
+        ingredientPattern: "O,O",
+        ingredients: {
+            "O": { type: "item", code: "game:ingot-*", "name": "metal"}
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "toolrackmetal-{metal}-north", quantity: 1 }
+    }
+]

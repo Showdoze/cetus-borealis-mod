@@ -1,0 +1,179 @@
+[
+
+////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/tool/shears"
+    },
+
+////////////attack power by type
+
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-brass",
+        "value": "1.1",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-bismuth",
+        "value": "1",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-nickel",
+        "value": "1.2",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-molybdochalkos",
+        "value": "1.4",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-lead",
+        "value": "1.5",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-tin",
+        "value": "1",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-zinc",
+        "value": "1.1",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-titanium",
+        "value": "3.6",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-platinum",
+        "value": "4.5",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-chromium",
+        "value": "4",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-rhodium",
+        "value": "3.9",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-uranium",
+        "value": "3.5",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-stainlesssteel",
+        "value": "3",
+        "file": "game:itemtypes/tool/shears"
+    },
+
+//////////////durability by type
+
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-brass",
+        "value": "1500",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-bismuth",
+        "value": "400",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-nickel",
+        "value": "1200",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-molybdochalkos",
+        "value": "1500",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-lead",
+        "value": "800",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-tin",
+        "value": "500",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-zinc",
+        "value": "1000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-titanium",
+        "value": "10000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-chromium",
+        "value": "12000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-platinum",
+        "value": "15000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-rhodium",
+        "value": "11000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-uranium",
+        "value": "11000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-stainlesssteel",
+        "value": "8000",
+        "file": "game:itemtypes/tool/shears"
+    }
+]

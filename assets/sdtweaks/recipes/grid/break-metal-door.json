@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:pickaxe-*", isTool: true  },
+			"T": { type: "block", code: "game:irondoor-*-north-down-closed-left", name: "metal" }    ////////don't tell me that you can't use blocks in crafting recipes
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-{metal}", quantity: 6  }
+	}
+]

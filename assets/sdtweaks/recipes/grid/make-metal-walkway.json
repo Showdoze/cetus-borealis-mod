@@ -1,0 +1,10 @@
+{
+    ingredientPattern: "S,O",
+    ingredients: {
+        "S": { type: "item", code: "game:hammer-*", isTool: true },
+        "O": { type: "item", code: "game:metalplate-*", "name": "metal", quantity: 2 }
+    },
+    width: 1,
+    height: 2,
+    output: { type: "block", code: "walkwaymetal-solid-{metal}", quantity: 1 }
+}

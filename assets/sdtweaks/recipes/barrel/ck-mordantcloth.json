@@ -1,0 +1,11 @@
+[
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:brineportion", litres: 2, consumelitres: 2 },
+			{ type: "item", code: "game:cloth-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "game:cloth-mordant", stackSize: 1 }
+	}
+]

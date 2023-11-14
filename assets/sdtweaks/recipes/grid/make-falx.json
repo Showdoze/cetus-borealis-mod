@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "O,Y",
+        ingredients: {
+            "O": { type: "item", code: "game:bladehead-falx-*", "name": "metal" },
+            "Y": { type: "item", code: "game:stick" }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "item", code: "game:blade-falx-{metal}", quantity: 1 }
+    }
+]

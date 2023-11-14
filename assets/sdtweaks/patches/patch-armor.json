@@ -1,0 +1,739 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributes/statModifiersByType",
+        "value": {},
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "remove",
+        "path": "/skipVariants",
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+//////////recipe patch
+
+///////////plate
+
+    {
+        "op": "remove",
+        "path": "/0/ingredients/P/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+    {
+        "op": "remove",
+        "path": "/0/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/P/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/P/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/plate"
+    },
+
+///////////chain
+
+    {
+        "op": "remove",
+        "path": "/0/ingredients/T/allowedVariants",
+        "file": "game:recipes/grid/armor/chain"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/T/allowedVariants",
+        "file": "game:recipes/grid/armor/chain"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/chain"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/T/allowedVariants",
+        "file": "game:recipes/grid/armor/chain"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/chain"
+    },
+
+//////////scale
+
+    {
+        "op": "remove",
+        "path": "/0/ingredients/S/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+    {
+        "op": "remove",
+        "path": "/0/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/S/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+    {
+        "op": "remove",
+        "path": "/1/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/S/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+    {
+        "op": "remove",
+        "path": "/2/ingredients/C/allowedVariants",
+        "file": "game:recipes/grid/armor/scale"
+    },
+
+////////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/0",
+        "value": "brass",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/1",
+        "value": "lead",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/2",
+        "value": "tin",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/3",
+        "value": "zinc",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/4",
+        "value": "molybdochalkos",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/5",
+        "value": "stainlesssteel",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/6",
+        "value": "platinum",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/7",
+        "value": "chromium",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/8",
+        "value": "titanium",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/9",
+        "value": "nickel",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/2/states/10",
+        "value": "bismuth",
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+///////////////durability
+
+////////////plate
+
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-lead",
+        "value": "600",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-brass",
+        "value": "1200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-tin",
+        "value": "200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-zinc",
+        "value": "300",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-bismuth",
+        "value": "500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-molybdochalkos",
+        "value": "800",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-nickel",
+        "value": "800",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-platinum",
+        "value": "10000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-chromium",
+        "value": "8000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-titanium",
+        "value": "7500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-plate-stainlesssteel",
+        "value": "5000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+////////////chain
+
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-lead",
+        "value": "200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-brass",
+        "value": "700",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-tin",
+        "value": "80",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-zinc",
+        "value": "150",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-bismuth",
+        "value": "200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-molybdochalkos",
+        "value": "400",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-titanium",
+        "value": "3000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-platinum",
+        "value": "5000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-chromium",
+        "value": "3500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-nickel",
+        "value": "500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-chain-stainlesssteel",
+        "value": "2000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+/////////////scale
+
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-lead",
+        "value": "200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-brass",
+        "value": "700",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-tin",
+        "value": "80",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-zinc",
+        "value": "150",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-bismuth",
+        "value": "200",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-molybdochalkos",
+        "value": "400",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-titanium",
+        "value": "3000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-platinum",
+        "value": "5000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-chromium",
+        "value": "3500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-nickel",
+        "value": "500",
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/durabilityByType/armor-*-scale-stainlesssteel",
+        "value": "2000",
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+///////////////protection tier
+
+/////////////plate
+
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-lead",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.1,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-brass",
+        "value": {
+            relativeProtection: 0.88,
+            flatDamageReduction: 1.8,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-tin",
+        "value": {
+            relativeProtection: 0.7,
+            flatDamageReduction: 1.0,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-zinc",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.0,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-bismuth",
+        "value": {
+            relativeProtection: 0.7,
+            flatDamageReduction: 1.0,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-molybdochalkos",
+        "value": {
+            relativeProtection: 0.85,
+            flatDamageReduction: 1.3,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-nickel",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.3,
+            highDamageTierResistant: true,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-platinum",
+        "value": {
+            relativeProtection: 0.99,
+            flatDamageReduction: 2.6,
+            highDamageTierResistant: true,
+            protectionTier: 6
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-chromium",
+        "value": {
+            relativeProtection: 0.985,
+            flatDamageReduction: 2.2,
+            highDamageTierResistant: true,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-titanium",
+        "value": {
+            relativeProtection: 0.98,
+            flatDamageReduction: 2,
+            highDamageTierResistant: true,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-stainlesssteel",
+        "value": {
+            relativeProtection: 0.92,
+            flatDamageReduction: 1.9,
+            highDamageTierResistant: true,
+            protectionTier: 4
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+///////////////chain
+
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-lead",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.1,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-brass",
+        "value": {
+            relativeProtection: 0.88,
+            flatDamageReduction: 1.5,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-tin",
+        "value": {
+            relativeProtection: 0.5,
+            flatDamageReduction: 1.0,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-zinc",
+        "value": {
+            relativeProtection: 0.7,
+            flatDamageReduction: 1.0,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-bismuth",
+        "value": {
+            relativeProtection: 0.6,
+            flatDamageReduction: 1.0,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-molybdochalkos",
+        "value": {
+            relativeProtection: 0.85,
+            flatDamageReduction: 1.2,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-nickel",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.2,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-platinum",
+        "value": {
+            relativeProtection: 0.99,
+            flatDamageReduction: 2.4,
+            protectionTier: 6
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-chromium",
+        "value": {
+            relativeProtection: 0.95,
+            flatDamageReduction: 2,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-titanium",
+        "value": {
+            relativeProtection: 0.98,
+            flatDamageReduction: 1.8,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-stainlesssteel",
+        "value": {
+            relativeProtection: 0.9,
+            flatDamageReduction: 1.5,
+            protectionTier: 4
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+
+///////////scale
+
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-lead",
+        "value": {
+            relativeProtection: 0.8,
+            flatDamageReduction: 1.1,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-brass",
+        "value": {
+            relativeProtection: 0.89,
+            flatDamageReduction: 1.6,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-tin",
+        "value": {
+            relativeProtection: 0.6,
+            flatDamageReduction: 1.0,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-zinc",
+        "value": {
+            relativeProtection: 0.75,
+            flatDamageReduction: 1.0,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-bismuth",
+        "value": {
+            relativeProtection: 0.65,
+            flatDamageReduction: 1.1,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-molybdochalkos",
+        "value": {
+            relativeProtection: 0.87,
+            flatDamageReduction: 1.25,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-nickel",
+        "value": {
+            relativeProtection: 0.85,
+            flatDamageReduction: 1.25,
+            protectionTier: 1
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-platinum",
+        "value": {
+            relativeProtection: 0.99,
+            flatDamageReduction: 2.45,
+            protectionTier: 6
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-chromium",
+        "value": {
+            relativeProtection: 0.955,
+            flatDamageReduction: 2.1,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-titanium",
+        "value": {
+            relativeProtection: 0.982,
+            flatDamageReduction: 1.85,
+            protectionTier: 5
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-stainlesssteel",
+        "value": {
+            relativeProtection: 0.91,
+            flatDamageReduction: 1.5,
+            protectionTier: 4
+        },
+        "file": "game:itemtypes/wearable/armor"
+    },
+]

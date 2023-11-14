@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "block", code: "game:glacierice" , quantity: 4 },
+			"T": { type: "block", code: "game:storagevessel-*", "name": "variant" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "coolerstoragevessel-{variant}" }
+	}
+]

@@ -1,0 +1,42 @@
+{
+	code: "plasterframedwood",
+	behaviors: [{name: "Pillar"}],
+	class: "Block",
+	behaviors: [
+		{ name: "WrenchOrientable", properties: { baseCode: "plasterframedwood-{material}-{wood}-*" } }
+	],
+	variantgroups: [
+		{ "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] },
+		{ "code": "wood", "states": [ "oak", "pine", "birch", "maple", "larch", "baldcypress", "ebony", "walnut", "acacia", "kapok", "purpleheart", "aged" ] },
+		{ "code": "rotation", "states": ["ud", "ns", "we"] }
+	],
+	shapeByType: {
+		"*-ud": { base: "game:block/wood/crate/normal-closed", scale: 1.08 },
+		"*-ns": { base: "game:block/wood/crate/normal-closed", rotateX: 90, scale: 1.08 },
+		"*-we": { base: "game:block/wood/crate/normal-closed", rotateZ: 90, scale: 1.08 }
+	},
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Stone",
+	creativeinventory: { "general": ["*-ud"], "construction": ["*-ud"] },
+	replaceable: 550,
+	resistance: 8.5,
+	lightAbsorption: 99,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	textures: {
+		"sides": { "base": "plaster/{material}*" },
+		"frame-generic": { "base": "game:block/wood/debarked/{wood}" }
+	},
+	sounds: {
+		walk: "game:walk/stone"
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

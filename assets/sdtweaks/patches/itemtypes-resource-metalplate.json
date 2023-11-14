@@ -1,0 +1,7 @@
+[
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:itemtypes/resource/metalplate"
+    }
+]

@@ -1,0 +1,18 @@
+[
+{
+    ingredientPattern: "H,T",
+    ingredients: {
+        "H": { type: "block", code: "game:woodbucket" },
+        "T": { type: "block", code: "game:sand-*", quantity: 16, allowedVariants: [ "basalt", "shale", "slate" ] },
+    },
+    width: 1,
+    height: 2,
+    attributes: {
+        liquidContainerProps: {
+            requiresContent: { type: "item", code: "game:waterportion" },
+            requiresLitres: 1
+        }
+    },
+    output: { type: "item", code: "game:nugget-magnetite", quantity: 1 }
+}
+]

@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "OYO,_O_",
+        ingredients: {
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "Y": { type: "item", code: "game:saw-*", "isTool": "true"}
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "moldrackmetal-{metal}-east", quantity: 1 }
+    }
+]

@@ -1,0 +1,9 @@
+{
+    ingredientPattern: "O_O,O_O,OOO",
+    ingredients: {
+        "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+    },
+    width: 3,
+    height: 3,
+    output: { type: "block", code: "barrelmetal-{metal}", quantity: 2 }
+}

@@ -1,0 +1,9 @@
+{
+    "code": "resin",
+    "sealHours": 24,
+    "ingredients": [
+        { "type": "item", "code": "game:bonemeal",  "quantity": 1 },
+        { "type": "item", "code": "game:waterportion",  "litres": 1 }
+    ],
+    "output": { "type": "item", "code": "game:resin", "quantity": 1 }
+}

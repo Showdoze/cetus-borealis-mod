@@ -1,0 +1,47 @@
+[
+
+////////deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+
+/////////chase o damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes",
+    "value": ["*"],
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+
+///////////flee on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*"],
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+
+/////////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/4/stopOnNearbyEntityCodes",
+    "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*"],
+    "file": "game:entities/land/pig-wild-male.json"
+  },
+
+////////wake up to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/8/stopOnNearbyEntityCodes",
+    "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*"],
+    "file": "game:entities/land/pig-wild-male.json"
+  }
+]

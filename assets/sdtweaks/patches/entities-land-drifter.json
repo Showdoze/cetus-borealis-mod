@@ -1,0 +1,320 @@
+[
+
+///////flee on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/1/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/drifter"
+  },
+
+///////health
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType",
+    "value": {
+      "*-normal": 8,
+      "*-deep": 10,
+      "*-tainted": 12,
+      "*-corrupt": 15,
+      "*-nightmare": 18,
+      "*-double-headed": 22
+    },
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType",
+    "value": {
+      "*-normal": 12,
+      "*-deep": 16,
+      "*-tainted": 20,
+      "*-corrupt": 25,
+      "*-nightmare": 30,
+      "*-double-headed": 35
+    },
+    "file": "game:entities/land/drifter"
+  },
+
+/////////deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/2",
+    "value": {
+      "code": "meleeattack",
+      "entityCodes": [ "*" ],
+      "priority": 2,
+      "damageByType": {
+        "*-normal": 1,
+        "*-deep": 1.5,
+        "*-tainted": 2,
+        "*-corrupt": 2.6,
+        "*-nightmare": 3,
+        "*-double-headed": 4
+      },
+      "damageTierByType": {
+        "*-normal": 0,
+        "*-deep": 1,
+        "*-tainted": 2,
+        "*-corrupt": 3,
+        "*-nightmare": 4,
+        "*-double-headed": 4
+      },
+      "damageTypeByType": {
+        "*-corrupt": "SlashingAttack",
+        "*-nightmare": "SlashingAttack",
+        "*-double-headed": "SlashingAttack"
+      },
+      "mincooldown": 1000,
+      "maxcooldown": 2200,
+      "damagePlayerAtMs": 40,
+      "attackDurationMs": 100,
+      "animation": "standattack",
+      "animationSpeed": 1.5,
+      "sound": "creature/drifter-hit",
+      "soundStartMs": 400
+    },
+    "file": "game:entities/land/drifter"
+  },
+
+/////throw rocks
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/3/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/3/priority",
+    "value": "0.1",
+    "file": "game:entities/land/drifter"
+  },
+
+//////////hunt for
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/4/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/drifter"
+  },
+
+////////////DROPS
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-normal",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 0.27, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": { "avg": 0.5, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 0.4, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-none",
+        "quantity": { "avg": 0.4, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-deep",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 1.2, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": { "avg": 0.6, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 0.8, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-tiny",
+        "quantity": { "avg": 0.5, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-tainted",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 0.6, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": { "avg": 0.8, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 1.2, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-small",
+        "quantity": { "avg": 0.6, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-corrupt",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 0.8, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": { "avg": 2, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 1.4, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-medium",
+        "quantity": { "avg": 0.7, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-nightmare",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 1.5, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": { "avg": 1, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 1.9, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-large",
+        "quantity": { "avg": 1, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-double-headed",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": { "avg": 2, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": { "avg": 2, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": { "avg": 2, "var": 0 }
+      },
+      {
+        "type": "block",
+        "code": "game:locustnest-metalspike-large",
+        "quantity": { "avg": 2, "var": 0 }
+      }
+    ],
+    "file": "game:entities/land/drifter"
+  },
+
+//////////////spawn conditions
+
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime",
+    "value": {
+      group: "hostile",
+      maxQuantityByType: {
+        "*-normal": 8,
+        "*-deep": 5,
+        "*-tainted": 4,
+        "*-corrupt": 3,
+        "*-nightmare": 2,
+        "*-double-headed": 1
+      },
+      chance: 0.1,
+      lightLevelType: "MaxTimeOfDayLight",
+      maxLightLevel: 3,
+      groupSizeByType: {
+        "*-normal": { dist: "invexp", avg: 1, var: 3 },
+        "*": { dist: "uniform", avg: 1.5, var: 0.5 }
+      },
+      insideBlockCodes: [ "air", "statictranslocator-broken-*" ],
+      minYByType: {
+        "*-normal": 0.85,
+        "*-deep": 0.22,
+        "*-tainted": 0.1,
+        "*-corrupt": 0,
+        "*-nightmare": 0,
+        "*-double-headed": 0
+      },
+      maxYByType: {
+        "*-normal": 2,
+        "*-deep": 0.89,
+        "*-tainted": 0.55,
+        "*-corrupt": 0.35,
+        "*-nightmare": 0.23,
+        "*-double-headed": 0.12
+      }
+    },
+    "file": "game:entities/land/drifter"
+  }
+]

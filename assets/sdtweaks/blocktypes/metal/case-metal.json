@@ -1,0 +1,95 @@
+{
+	code: "casemetal",
+	class: "BlockShelf",
+	entityClass: "Shelf",
+	behaviors: [{name: "HorizontalOrientable"}],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "glass", states: [ "none", "plain", "smoky", "violet", "pink", "green"] },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: {
+		"*-none-north": { base: "game:block/clutter/bookshelves/bookshelf-empty", rotateY: 0 },
+		"*-none-east": { base: "game:block/clutter/bookshelves/bookshelf-empty", rotateY: 270 },
+		"*-none-west": { base: "game:block/clutter/bookshelves/bookshelf-empty", rotateY: 90 },
+		"*-none-south": { base: "game:block/clutter/bookshelves/bookshelf-empty", rotateY: 180 },
+
+		"*-north": { base: "game:block/clutter/bookshelves/bookshelf-case2", rotateY: 0 },
+		"*-east": { base: "game:block/clutter/bookshelves/bookshelf-case2", rotateY: 270 },
+		"*-west": { base: "game:block/clutter/bookshelves/bookshelf-case2", rotateY: 90 },
+		"*-south": { base: "game:block/clutter/bookshelves/bookshelf-case2", rotateY: 180 }
+	},
+	"textures": {
+		"bookshelf": { "base": "game:block/metal/sheet/{material}1"},
+		"vintage": { "base": "game:block/glass/{glass}" },
+		"sides": { "base": "game:block/metal/sheet/{material}2" },
+		"back": { "base": "game:block/metal/sheet/{material}3" }
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"] },
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	emitSideAo: { all: false },	
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	materialDensity: 6000,
+	tpHandTransform: {
+		translation: { x: -0.8, y: -0.68, z: -0.41 },
+		rotation: { x: 99, y: -10, z: -6 },
+		scale: 0.5
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	},
+	collisionselectionboxes: [
+		{
+			x1: 0, y1: 0, z1: 0, x2: 0.5, y2: 0.5, z2: 0.8125, 
+			rotateYByType: {
+				"*-north": 0,
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180
+			}
+		}, 
+		{
+			x1: 0.5, y1: 0, z1: 0, x2: 1, y2: 0.5, z2: 0.8125, 
+			rotateYByType: {
+				"*-north": 0,
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180
+			}
+		}, 
+		{
+			x1: 0, y1: 0.5, z1: 0, x2: 0.5, y2: 1, z2: 0.8125,
+			rotateYByType: {
+				"*-north": 0,
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180
+			}
+		},
+		{
+			x1: 0.5, y1: 0.5, z1: 0, x2: 1, y2: 1, z2: 0.8125,
+			rotateYByType: {
+				"*-north": 0,
+				"*-east": 270,
+				"*-west": 90,
+				"*-south": 180
+			}
+		}
+	]
+}

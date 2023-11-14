@@ -1,0 +1,38 @@
+[
+{
+    ingredientPattern: "MX_,YC_",
+    ingredients: {
+        "M": { type: "item", code: "game:hammer-*", isTool: true  },
+        "X": { type: "block", code: "bucketmetal-*" },
+        "Y": { type: "item", code: "game:stone-*", quantity: 2, allowedVariants: [ "basalt", "obsidian" ] },
+        "C": { type: "block", code: "game:sand-*", name: "material" }
+    },
+    width: 3,
+    height: 2,
+    attributes: {
+        liquidContainerProps: {
+            requiresContent: { type: "item", code: "game:slakedlimeportion" },
+            requiresLitres: 0.2
+        }
+    },
+    output: { type: "block", code: "plasterblock-{material}", quantity: 1 }
+},
+{
+    ingredientPattern: "MX_,YC_",
+    ingredients: {
+        "M": { type: "item", code: "game:hammer-*", isTool: true  },
+        "X": { type: "block", code: "game:woodbucket" },
+        "Y": { type: "item", code: "game:stone-*", quantity: 2, allowedVariants: [ "basalt", "obsidian" ] },
+        "C": { type: "block", code: "game:sand-*", name: "material" }
+    },
+    width: 3,
+    height: 2,
+    attributes: {
+        liquidContainerProps: {
+            requiresContent: { type: "item", code: "game:slakedlimeportion" },
+            requiresLitres: 0.2
+        }
+    },
+    output: { type: "block", code: "plasterblock-{material}", quantity: 1 }
+}
+]

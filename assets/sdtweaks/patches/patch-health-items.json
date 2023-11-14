@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-linen-honey-sulfur/health",
+    "value": 12,
+    "file": "game:itemtypes/poultice"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-linen-horsetail/health",
+    "value": 8,
+    "file": "game:itemtypes/poultice"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-reed-honey-sulfur/health",
+    "value": 6,
+    "file": "game:itemtypes/poultice"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-reed-horsetail/health",
+    "value": 4,
+    "file": "game:itemtypes/poultice"
+  }
+]

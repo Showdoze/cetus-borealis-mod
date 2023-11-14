@@ -1,0 +1,106 @@
+{
+	code: "trunkmetal",
+	class: "BlockGenericTypedContainerTrunk",
+	entityclass: "GenericTypedContainer",
+	attributes: {
+		partialAttachable: true,
+		inventoryClassName: "chest",
+		defaultType: "normal",
+		types: ["normal"],
+		rotatatableInterval: {
+			"normal": "22.5degnot45deg"
+		},		
+		drop: {
+			"normal": true
+		},
+		quantitySlots: {
+			"normal": 36
+		},
+		quantityColumns: {
+			"normal": 9
+		},
+		dialogTitleLangCode: {
+			"normal": "trunkcontents"
+		},
+		storageType: {
+			"normal": 189
+		},
+		retrieveOnly: {
+			"normal": false
+		},
+		shape: {
+			"normal": "game:block/wood/trunk/normal"
+		},
+		typedOpenSound: {
+			"normal": "game:sounds/block/cokeovendoor-open"
+		},
+		typedCloseSound: {
+			"normal": "game:sounds/block/cokeovendoor-close"
+		},
+		variantByGroup: "material",
+		variantByGroupInventory: "material"
+	},
+	behaviors: [
+		{ name: "Lockable" },
+		{ name: "Container"}
+	],
+	entityBehaviors: [{ name: "Animatable" }],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ]  },
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "game:block/wood/trunk/normal", rotateY: 270 },
+	shapeByType: {
+		"*-north": { base: "game:block/wood/trunk/normal", rotateY: 0 },
+		"*-east": { base: "game:block/wood/trunk/normal", rotateY: 270 },
+		"*-west": { base: "game:block/wood/trunk/normal", rotateY: 90 },
+		"*-south": { base: "game:block/wood/trunk/normal", rotateY: 180 }
+	},
+	textures: {
+		"normal-right-side": { base: "game:block/metal/sheet/{material}1" },
+		"normal-sides2": { base: "game:block/metal/sheet/{material}2" },
+		"normal-lid": { base: "game:block/metal/sheet/{material}3" },
+		"normal-accessories": { base: "game:block/coal/charcoal" },
+		"normal-left-side": { base: "game:block/metal/sheet/{material}1" }
+	},
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	collisionSelectionBox: {
+		x1: 0.0625, y1: 0, z1: 0.0625, x2: 1, y2: 0.8125, z2: 0.9375,
+		rotateYByType: {
+			"*-east": 270,
+			"*-west": 90,
+			"*-south": 180
+		}
+	},
+	sounds: {
+		"place": "game:block/metaldoor",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	materialDensity: 6000,
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.5, z: 0.97 },
+		scale: 0.95
+	},
+	groundTransform: {
+		origin: { x: 0, y: 0.5, z: 0 }
+	}
+}

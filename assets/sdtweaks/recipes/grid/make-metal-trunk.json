@@ -1,0 +1,9 @@
+{
+    ingredientPattern: "OO",
+    ingredients: {
+        "O": { type: "block", code: "chestmetal-*-east", name: "metal" }
+    },
+    width: 2,
+    height: 1,
+    output: { type: "block", code: "trunkmetal-{metal}-east", quantity: 1 }
+}

@@ -1,0 +1,29 @@
+[
+
+////////////////////who in their righteous minds would hardcode a texture?????????
+
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": {},
+        "file": "tonwexp:shapes/item/bagesblack"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": {},
+        "file": "tonwexp:shapes/item/bagescop"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": {},
+        "file": "tonwexp:shapes/item/bagesbro"
+    },
+    {
+        "op": "replace",
+        "path": "/textures",
+        "value": {},
+        "file": "tonwexp:shapes/item/bagesbismu"
+    }
+]

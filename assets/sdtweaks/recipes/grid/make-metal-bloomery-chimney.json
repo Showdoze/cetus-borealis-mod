@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "_F_,OFO",
+        ingredients: {
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "F": { type: "item", code: "game:burnedbrick-fire" }
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "bloomerychimneymetal-{metal}", quantity: 1 }
+    }
+]

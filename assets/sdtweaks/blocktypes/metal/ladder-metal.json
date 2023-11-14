@@ -1,0 +1,81 @@
+{
+	code: "laddermetal",
+	behaviors: [{ name: "Ladder" } ],
+	attributes: {
+		ignoreServerReplaceableTest: true,
+		handbook: {
+			groupBy: ["laddermetal-*"]
+		}
+	},
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["laddermetal-*-north"], "decorative": ["laddermetal-*-north"] },	
+	shapeinventory: { base: "game:block/clutter/ladder-aged1" },
+	shapebytype: {
+		"*-north": { base: "game:block/clutter/ladder-aged1", rotateY: 0 },
+		"*-east": { base: "game:block/clutter/ladder-aged1", rotateY: 270 },
+		"*-south": { base: "game:block/clutter/ladder-aged1", rotateY: 180 },
+		"*-west": { base: "game:block/clutter/ladder-aged1", rotateY: 90 }
+	},
+	"textures": {
+		"aged-var23": { "base": "game:block/metal/plate/{material}"},
+		"rusty-iron": { "base": "game:block/coal/coke" }
+	},
+	blockmaterial: "Metal",
+	replaceable: 500,
+	lightAbsorption: 0,
+	climbable: true,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	sideAO: {
+		all: false
+	},
+	resistance: 1.25,	
+	sounds: {
+		"place": "game:block/metaldoor-place",
+		"hit": "game:block/metaldoor-place",
+		"break": "game:block/metaldoor-place",
+		"walk": "game:block/rock-hit-pickaxe"
+	},
+	collisionbox: {
+		x1: 0, y1: 0, z1: 0, 
+		x2: 1, y2: 1, z2: 0.1875,
+		rotateYByType: {
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90,
+			"*-north": 0
+		}
+	},
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0, 
+		x2: 1, y2: 1, z2: 0.1875,
+		rotateYByType: {
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90,
+			"*-north": 0
+		}
+	},
+	materialDensity: 5600,
+	guiTransform: {
+		scale: 1.27
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.2 },
+		rotation: { x: 5, y: -3, z: -96 },
+		scale: 0.37
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 90, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.07
+	}
+}

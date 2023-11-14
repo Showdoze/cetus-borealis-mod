@@ -1,0 +1,436 @@
+[
+
+///////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+
+////////////////tool tier by type
+
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-brass",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-bismuth",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-nickel",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-molybdochalkos",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-lead",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-tin",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-zinc",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-titanium",
+        "value": "5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-platinum",
+        "value": "5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-chromium",
+        "value": "5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-rhodium",
+        "value": "5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-uranium",
+        "value": "5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-stainlesssteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+
+//////////////mining speed by type
+
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-brass",
+        "value": {
+            "ceramic": 1.6,
+            "stone": 4.1,
+            "ore": 4.2,
+            "metal": 4.2,
+            "ice": 1.9
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-bismuth",
+        "value": {
+            "ceramic": 1.3,
+            "stone": 3.5,
+            "ore": 3.6,
+            "metal": 3.8,
+            "ice": 1.5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-nickel",
+        "value": {
+            "ceramic": 1.5,
+            "stone": 4,
+            "ore": 4,
+            "metal": 4,
+            "ice": 1.8
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-molybdochalkos",
+        "value": {
+            "ceramic": 2,
+            "stone": 4.6,
+            "ore": 4.6,
+            "metal": 4.6,
+            "ice": 2
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-lead",
+        "value": {
+            "ceramic": 1.8,
+            "stone": 4.5,
+            "ore": 4.8,
+            "metal": 4,
+            "ice": 2
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-tin",
+        "value": {
+            "ceramic": 1,
+            "stone": 2.1,
+            "ore": 2,
+            "metal": 2.2,
+            "ice": 1
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-zinc",
+        "value": {
+            "ceramic": 1.5,
+            "stone": 4,
+            "ore": 4,
+            "metal": 4,
+            "ice": 1.5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-titanium",
+        "value": {
+            "ceramic": 3.7,
+            "stone": 12,
+            "ore": 12,
+            "metal": 11,
+            "ice": 5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-platinum",
+        "value": {
+            "ceramic": 4,
+            "stone": 13,
+            "ore": 13,
+            "metal": 12,
+            "ice": 5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-chromium",
+        "value": {
+            "ceramic": 3.8,
+            "stone": 12.5,
+            "ore": 12.5,
+            "metal": 11.5,
+            "ice": 5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-rhodium",
+        "value": {
+            "ceramic": 3.7,
+            "stone": 12,
+            "ore": 12,
+            "metal": 11,
+            "ice": 5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-uranium",
+        "value": {
+            "ceramic": 3.8,
+            "stone": 12.5,
+            "ore": 12.5,
+            "metal": 11.5,
+            "ice": 5
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-stainlesssteel",
+        "value": {
+            "ceramic": 3.5,
+            "stone": 10,
+            "ore": 10,
+            "metal": 9,
+            "ice": 4
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+
+//////////////attack power by type
+
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-brass",
+        "value": "1.4",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-bismuth",
+        "value": "1.1",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-nickel",
+        "value": "1.2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-molybdochalkos",
+        "value": "1.4",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-lead",
+        "value": "1.7",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-tin",
+        "value": "1.1",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-zinc",
+        "value": "1.3",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-titanium",
+        "value": "3",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-chromium",
+        "value": "3.2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-platinum",
+        "value": "3.5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-uranium",
+        "value": "3",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-rhodium",
+        "value": "3.2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-stainlesssteel",
+        "value": "2.6",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+
+///////////////durability by type
+
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-brass",
+        "value": "376",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-bismuth",
+        "value": "150",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-nickel",
+        "value": "250",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-molybdochalkos",
+        "value": "400",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-lead",
+        "value": "220",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-tin",
+        "value": "150",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-zinc",
+        "value": "350",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-titanium",
+        "value": "3000",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-chromium",
+        "value": "3200",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-platinum",
+        "value": "3500",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-rhodium",
+        "value": "2800",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-uranium",
+        "value": "2500",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-stainlesssteel",
+        "value": "2000",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+
+///////////////////HEAD GOES BELOW///////////////
+
+/////////////variant groups (if you decide to add stone or whatever else pickaxes, you know how to define their shapes, i'll be watching ya)
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/toolhead/pickaxehead"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/toolhead/pickaxehead"
+    }
+]

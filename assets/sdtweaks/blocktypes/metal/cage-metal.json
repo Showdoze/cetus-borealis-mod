@@ -1,0 +1,43 @@
+{
+	code: "cagemetal",
+	behaviors: [ {name: "HorizontalOrientable"} ],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapebytype: {
+		"*-north": { base: "game:block/wood/cage/closed", rotateY: 90 },
+		"*-east": { base: "game:block/wood/cage/closed", rotateY: 0 },
+		"*-south": { base: "game:block/wood/cage/closed", rotateY: 270 },
+		"*-west": { base: "game:block/wood/cage/closed", rotateY: 180 }
+	},
+	creativeinventory: { "general": ["*-north"], "decorative": ["*-north"] },
+	blockmaterial: "Metal",
+	"textures": {
+		"0": { "base": "game:block/metal/sheet/{material}1"},
+		"1": { "base": "game:block/metal/sheet/{material}2"},
+		"2": { "base": "game:block/metal/plate/{material}"}
+	},
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 0,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	materialDensity: 6000,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

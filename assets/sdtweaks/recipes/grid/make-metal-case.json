@@ -1,0 +1,61 @@
+[
+    {
+        ingredientPattern: "_O_,O_O,_O_",
+        ingredients: {
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-none-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_O_,OYO,_O_",
+        ingredients: {
+            "Y": { type: "item", code: "game:clearquartz", "quantity": 2 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-plain-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_O_,OYO,_O_",
+        ingredients: {
+            "Y": { type: "item", code: "game:smokyquartz", "quantity": 2 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-smoky-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_O_,OYO,_O_",
+        ingredients: {
+            "Y": { type: "item", code: "game:amethyst", "quantity": 2 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-violet-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_O_,OYO,_O_",
+        ingredients: {
+            "Y": { type: "item", code: "game:rosequartz", "quantity": 2 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-pink-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_O_,OYO,_O_",
+        ingredients: {
+            "Y": { type: "item", code: "game:ore-olivine", "quantity": 2 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "casemetal-{metal}-green-east", quantity: 1 }
+    }
+]

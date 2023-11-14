@@ -1,0 +1,32 @@
+{
+	code: "walkwaymetal-solid",
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" }
+	],
+	shape: { base: "game:block/metal/walkway-metal-solid-mesh" },
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Metal",
+	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	replaceable: 300,
+	materialDensity: 4000,
+	resistance: 4,
+	lightAbsorption: 1,
+	textures: {
+		top: { base: "game:block/metal/sheet/{material}1" },
+		bottom: { base: "game:block/metal/sheet/{material}2" },
+		sides: { base: "game:block/metal/ingot/{material}" }
+	},
+	collisionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },
+	selectionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	}
+}

@@ -1,0 +1,45 @@
+[
+    {
+        ingredientPattern: "OOO,OSO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablemetal-{metal}-none", quantity: 5 }
+    },
+    {
+        ingredientPattern: "YYY,OSO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "Y": { type: "block", code: "game:polishedrockslab-whitemarble-down-free" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablemetal-{metal}-whitemarble", quantity: 5 }
+    },
+    {
+        ingredientPattern: "YYY,OSO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "Y": { type: "block", code: "game:polishedrockslab-redmarble-down-free" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablemetal-{metal}-redmarble", quantity: 5 }
+    },
+    {
+        ingredientPattern: "YYY,OSO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "Y": { type: "block", code: "game:polishedrockslab-greenmarble-down-free" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablemetal-{metal}-greenmarble", quantity: 5 }
+    }
+]

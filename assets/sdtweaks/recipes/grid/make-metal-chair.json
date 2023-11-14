@@ -1,0 +1,23 @@
+[
+    {
+        ingredientPattern: "OOO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", name: "metal"}
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "chairmetal-{metal}-none", quantity: 5 }
+    },
+    {
+        ingredientPattern: "_Y_,OOO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+            "O": { type: "item", code: "game:metalplate-*", name: "metal"},
+            "Y": { type: "item", code: "game:cloth-*", name: "cloth"}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "chairmetal-{metal}-{cloth}", quantity: 5 }
+    }
+]

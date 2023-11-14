@@ -1,0 +1,357 @@
+[
+
+//////////variant groups
+
+  {
+    "op": "add",
+    "path": "/variantgroups/0/loadFromProperties",
+    "value": "game:block/metal",
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [],
+    "file": "game:itemtypes/tool/saw"
+  },
+
+///////////attack power by type (i mean cmon, don't you know saws are dangerous and should be kept away from children?)
+
+  {
+    "op": "add",
+    "path": "/attackpowerbytype",
+    "value": {
+      "saw-brass": 1.5,
+      "saw-bismuth": 1.1,
+      "saw-nickel": 1.2,
+      "saw-molybdochalkos": 1.3,
+      "saw-lead": 1.7,
+      "saw-tin": 1.1,
+      "saw-zinc": 1.4,
+      "saw-gold": 1.1,
+      "saw-silver": 1.4,
+      "saw-copper": 1.2,
+      "saw-blackbronze": 1.6,
+      "saw-bismuthbronze": 1.4,
+      "saw-tinbronze": 1.4,
+      "saw-iron": 2.5,
+      "saw-meteoriciron": 2.7,
+      "saw-steel": 4.2,
+      "saw-titanium": 5,
+      "saw-platinum": 5.5,
+      "saw-chromium": 5.2,
+      "saw-rhodium": 5,
+      "saw-uranium": 4.5,
+      "saw-stainlesssteel": 4.2
+    },
+    "file": "game:itemtypes/tool/saw"
+  },
+
+////////////////attack range
+
+  {
+    "op": "add",
+    "path": "/attackrange",
+    "value": 1.8,
+    "file": "game:itemtypes/tool/saw"
+  },
+
+//////////////tool tier by type
+
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-brass",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-bismuth",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-nickel",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-molybdochalkos",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-lead",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-tin",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-zinc",
+    "value": 2,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-titanium",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-chromium",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-platinum",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-rhodium",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-uranium",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-stainlesssteel",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+
+/////////////mining speed by type
+
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-brass",
+    "value": {
+			"wood": 4.5,
+			"leaves": 2.8
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-bismuth",
+    "value": {
+			"wood": 3,
+			"leaves": 2
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-nickel",
+    "value": {
+			"wood": 4,
+			"leaves": 2.2
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-molybdochalkos",
+    "value": {
+			"wood": 4.7,
+			"leaves": 2.8
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-lead",
+    "value": {
+			"wood": 4.6,
+			"leaves": 3
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-tin",
+    "value": {
+			"wood": 2.5,
+			"leaves": 1.2
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-zinc",
+    "value": {
+			"wood": 4,
+			"leaves": 2.5
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-titanium",
+    "value": {
+			"wood": 7,
+			"leaves": 5
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-chromium",
+    "value": {
+			"wood": 7.2,
+			"leaves": 5.2
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-platinum",
+    "value": {
+			"wood": 7.5,
+			"leaves": 5.5
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-rhodium",
+    "value": {
+			"wood": 7.2,
+			"leaves": 5
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-uranium",
+    "value": {
+			"wood": 6.8,
+			"leaves": 4.5
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-stainlesssteel",
+    "value": {
+			"wood": 6,
+			"leaves": 4
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+
+///////////////durability by type
+
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-brass",
+    "value": 300,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-bismuth",
+    "value": 200,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-nickel",
+    "value": 280,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-molybdochalkos",
+    "value": 300,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-lead",
+    "value": 200,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-tin",
+    "value": 100,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-zinc",
+    "value": 250,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-titanium",
+    "value": 3000,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-chromium",
+    "value": 3500,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-platinum",
+    "value": 4000,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-rhodium",
+    "value": 3000,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-uranium",
+    "value": 2800,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-stainlesssteel",
+    "value": 2000,
+    "file": "game:itemtypes/tool/saw"
+  },
+
+/////////////////HEAD GOES BELOW///////////////
+
+//////////////variant groups
+
+  {
+    "op": "add",
+    "path": "/variantgroups/0/loadFromProperties",
+    "value": "game:block/metal",
+    "file": "game:itemtypes/toolhead/sawblade"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [],
+    "file": "game:itemtypes/toolhead/sawblade"
+  }
+]

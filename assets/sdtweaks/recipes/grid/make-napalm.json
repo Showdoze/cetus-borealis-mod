@@ -1,0 +1,11 @@
+{
+    ingredientPattern: "NET",
+    ingredients: {
+        "E": { type: "item", code: "game:resin" },
+        "N": { type: "item", code: "game:quicklime" },
+        "T": { type: "item", code: "game:powderedsulfur" }
+    },
+    width: 3,
+    height: 1,
+    output: { type: "item", code: "napalm", quantity: 1 }
+}

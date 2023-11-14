@@ -1,0 +1,248 @@
+[
+
+//////just a wild thought, but shouldn't merchants trade for temporal gears instead? i mean they seems more valuable as currency
+
+    {
+        "op": "replace",
+        "path": "/maxstacksizeByType",
+        "value": {
+            "gear-rusty": 512,
+            "gear-temporal": 128
+        },
+        "file": "game:itemtypes/resource/gear"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/flaxtwine"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/rope"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/paper"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "128",
+        "file": "game:itemtypes/resource/rot"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/candle"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/resin"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "32",
+        "file": "game:itemtypes/resource/honeycomb"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "128",
+        "file": "game:itemtypes/resource/stick"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "32",
+        "file": "game:itemtypes/resource/sail"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/bamboostakes"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "128",
+        "file": "game:itemtypes/resource/seeds"
+    },
+    {
+        "op": "replace",
+        "path": "/maxStackSize",
+        "value": "64",
+        "file": "game:blocktypes/metal/metalpartsandscraps"
+    },
+    {
+        "op": "replace",
+        "path": "/maxStackSize",
+        "value": "64",
+        "file": "game:blocktypes/metal/partpile"
+    },
+    {
+        "op": "replace",
+        "path": "/maxStackSize",
+        "value": "64",
+        "file": "game:blocktypes/metal/partpile-wall"
+    },
+    {
+        "op": "replace",
+        "path": "/maxStackSize",
+        "value": "32",
+        "file": "game:blocktypes/metal/platepile"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/rot"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/lime"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/salt"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/saltpeter"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/powderedborax"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/powderedsulfur"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/blastingpowder"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/potash"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/bonemeal"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/crushed/crushed"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/metalbit"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/metalbit"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/stone"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/nugget"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/metalscale"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "32",
+        "file": "game:itemtypes/resource/metalplate"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "64",
+        "file": "game:itemtypes/resource/metalchain"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "256",
+        "file": "game:itemtypes/resource/leather"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "16",
+        "file": "game:itemtypes/toolhead/axehead"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "16",
+        "file": "game:itemtypes/toolhead/bladehead"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "16",
+        "file": "game:itemtypes/toolhead/hammerhead"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "16",
+        "file": "game:itemtypes/toolhead/knifeblade"
+    },
+    {
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": "16",
+        "file": "game:itemtypes/toolhead/shovelhead"
+    }
+]

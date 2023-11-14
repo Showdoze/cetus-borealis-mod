@@ -1,0 +1,60 @@
+[
+    {
+        ingredientPattern: "H,S",
+        ingredients: {
+            "H": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+            "S": { type: "item", code: "game:firewood", quantity: 4 }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 }
+    },
+    {
+        ingredientPattern: "H,S",
+        ingredients: {
+            "H": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+            "S": { type: "item", code: "game:firewood", quantity: 3 }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 }
+    },
+    {
+        ingredientPattern: "H,S",
+        ingredients: {
+            "H": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 10 },
+            "S": { type: "item", code: "game:firewood", quantity: 4 }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "game:palisadewall-four-halftop-west", quantity: 1 }
+    },
+    {
+        ingredientPattern: "H,S",
+        ingredients: {
+            "H": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 10 },
+            "S": { type: "item", code: "game:firewood", quantity: 3 }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "game:palisadewall-three-halftop-west", quantity: 1 }
+    },
+    {
+        ingredientPattern: "S",
+        ingredients: {
+            "S": { type: "item", code: "game:firewood", quantity: 4 }
+        },
+        width: 1,
+        height: 1,
+        output: { type: "block", code: "game:palisadewall-four-lower-west", quantity: 1 }
+    },
+    {
+        ingredientPattern: "S",
+        ingredients: {
+            "S": { type: "item", code: "game:firewood", quantity: 3 }
+        },
+        width: 1,
+        height: 1,
+        output: { type: "block", code: "game:palisadewall-three-lower-west", quantity: 1 }
+    }
+]

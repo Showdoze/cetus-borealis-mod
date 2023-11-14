@@ -1,0 +1,86 @@
+[
+
+///////////deal damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/bear.json"
+  },
+
+/////////////flee on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/bear.json"
+  },
+
+/////////////hunt for
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/3/entityCodesByType/*",
+    "value": [ "bass", "salmon", "hare-*", "chicken-*" ],
+    "file": "game:entities/land/bear.json"
+  },
+
+//////////////flee from
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*",
+    "value": [ "drifter-*", "player", "trader", "locust-*", "bell" ],
+    "file": "game:entities/land/bear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*-panda",
+    "value": [ "trader-*", "drifter-*", "bell", "locust-*", "player", "wolf-*"],
+    "file": "game:entities/land/bear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*-sun",
+    "value": [ "trader-*", "drifter-*", "bell", "locust-*", "player", "wolf-*" ],
+    "file": "game:entities/land/bear.json"
+  },
+
+/////////////agressive on damage
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/5/entityCodes",
+    "value": [ "*" ],
+    "file": "game:entities/land/bear.json"
+  },
+
+////////////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/7/stopOnNearbyEntityCodes",
+    "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*"],
+    "file": "game:entities/land/bear.json"
+  },
+
+///////////stop sitting to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/11/stopOnNearbyEntityCodes",
+    "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*"],
+    "file": "game:entities/land/bear.json"
+  },
+
+//////////////stop lying to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/aitasks/12/stopOnNearbyEntityCodes",
+    "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*" ],
+    "file": "game:entities/land/bear.json"
+  }
+]

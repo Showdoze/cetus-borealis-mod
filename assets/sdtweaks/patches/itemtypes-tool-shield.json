@@ -1,0 +1,112 @@
+[
+    
+/*
+    {
+        "op": "remove",
+        "path": "/0/ingredients/B/allowedVariants",
+        "file": "game:recipes/grid/tool/shield"
+    },
+    {
+        "op": "remove",
+        "path": "/0/ingredients/P/allowedVariants",
+        "file": "game:recipes/grid/tool/shield"
+    },
+    {
+        "op": "remove",
+        "path": "/0/ingredients/H/allowedVariants",
+        "file": "game:recipes/grid/tool/shield"
+    },
+*/
+
+/*
+    {
+        "op": "remove",
+        "path": "/0",
+        "file": "game:recipes/grid/tool/shield"
+    },
+
+//////////////variant groups
+
+    {
+        "op": "replace",
+        "path": "/attributes/variantGroups/metal",
+        "value": [ "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "brass", "lead", "tin", "zinc", "chromium", "nickel", "rhodium", "stainlesssteel", "molybdohalkos", "uranium", "copper", "platinum" ],
+        "file": "game:itemtypes/tool/shield"
+    },
+
+//////////////durability
+
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/brass",
+        "value": "20",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/copper",
+        "value": "10",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/lead",
+        "value": "5",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/tin",
+        "value": "1",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/zinc",
+        "value": "7",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/tinbronze",
+        "value": "30",
+        "file": "game:itemtypes/tool/shield"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/durabilityGains/metal/titanium",
+        "value": "176",
+        "file": "game:itemtypes/tool/shield"
+    },
+*/
+/////////////////BOSS GOES BELOW
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/part/boss"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/part/boss"
+    },
+
+////////////////HOOP GOES BELOW
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/part/hoop"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [],
+        "file": "game:itemtypes/part/hoop"
+    }
+
+]

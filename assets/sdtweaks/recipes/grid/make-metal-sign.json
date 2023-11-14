@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "O,Y",
+        ingredients: {
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "Y": { type: "item", code: "game:ingot-*", "name": "metal" }
+        },
+        width: 1,
+        height: 2,
+        output: { type: "block", code: "signmetal-{metal}-ground-north", quantity: 2 }
+    }
+]

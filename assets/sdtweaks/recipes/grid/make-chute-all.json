@@ -1,0 +1,49 @@
+[
+	{
+		ingredientPattern: "I_,_I",
+		ingredients: {
+			"I": { type: "item", code: "game:chutesection-{metal}" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:chute-{metal}-elbow-down-east"  }
+	},
+	{
+		ingredientPattern: "I,I",
+		ingredients: {
+			"I": { type: "item", code: "game:chutesection-{metal}" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:chute-{metal}-straight-ns"  }
+	},
+	{
+		ingredientPattern: "_I_,I_I,_I_",
+		ingredients: {
+			"I": { type: "item", code: "game:chutesection-{metal}" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chute-{metal}-cross-ground"  }
+	},
+	{
+		ingredientPattern: "_I_,I_I",
+		ingredients: {
+			"I": { type: "item", code: "game:chutesection-{metal}" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chute-{metal}-t-ns"  }
+	},
+	{
+		ingredientPattern: "_I_,II_",
+		ingredients: {
+			"I": { type: "item", code: "game:chutesection-{metal}" },
+			"X": { type: "item", code: "game:chutesection-{metal}", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chute-{metal}-3way-down-east"  }
+	}
+	
+]

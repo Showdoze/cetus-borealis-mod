@@ -1,0 +1,11 @@
+{
+  "Type": "content",
+  "modid": "sdtweaks",
+  "Name": "Cetus Borealis Mod",
+  "Version": "4.2.0",
+  "Description": "Massive amount of gameplay tweaks, QOL features and more",
+  "Authors": [ "Showdoze", "swordmanck" ],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true
+}

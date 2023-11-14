@@ -1,0 +1,8 @@
+[
+    {
+        "op": "replace",
+        "path": "/client/animations/19/code",
+        "value": "none",
+        "file": "game:entities/humanoid/player"
+    }
+]

@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:flint"},
+	pattern: [[
+		"__________",
+		"__#__#__#_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"_##_##_##_",
+		"__________"
+	]],
+	name: "Flint Chisel",
+	output: { type: "item", code: "game:chisel-flint", stacksize: 3  }
+}

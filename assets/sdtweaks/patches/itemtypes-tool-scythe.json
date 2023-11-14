@@ -1,0 +1,156 @@
+[
+
+////////////variant groups
+
+  {
+    "op": "add",
+    "path": "/variantgroups/0/loadFromProperties",
+    "value": "game:block/metal",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [],
+    "file": "game:itemtypes/tool/scythe"
+  },
+
+//////////////attack power by type (you really didn't want us to be grim reapers didn't you?)
+
+  {
+    "op": "add",
+    "path": "/attackpowerbytype",
+    "value": {
+      "scythe-brass": 2.0,
+      "scythe-bismuth": 1.2,
+      "scythe-nickel": 1.8,
+      "scythe-molybdochalkos": 2.6,
+      "scythe-lead": 2.5,
+      "scythe-tin": 1.5,
+      "scythe-zinc": 1.8,
+      "scythe-gold": 1.5,
+      "scythe-silver": 2.5,
+      "scythe-copper": 1.9,
+      "scythe-blackbronze": 2.3,
+      "scythe-bismuthbronze": 2.1,
+      "scythe-tinbronze": 2.2,
+      "scythe-iron": 3,
+      "scythe-meteoriciron": 3.5,
+      "scythe-steel": 4.5,
+      "scythe-titanium": 5.5,
+      "scythe-chromium": 5.8,
+      "scythe-platinum": 6.2,
+      "scythe-rhodium": 5.8,
+      "scythe-uranium": 5.2,
+      "scythe-stainlesssteel": 4.5
+    },
+    "file": "game:itemtypes/tool/scythe"
+  },
+
+////////////////////durability by type
+
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-brass",
+    "value": "476",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-bismuth",
+    "value": "150",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-nickel",
+    "value": "300",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-molybdochalkos",
+    "value": "350",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-lead",
+    "value": "280",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-tin",
+    "value": "150",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-zinc",
+    "value": "450",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-titanium",
+    "value": "4000",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-chromium",
+    "value": "4200",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-platinum",
+    "value": "4600",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-rhodium",
+    "value": "4200",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-uranium",
+    "value": "3500",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-stainlesssteel",
+    "value": "2200",
+    "file": "game:itemtypes/tool/scythe"
+  },
+
+//////////////////attack range
+
+  {
+    "op": "add",
+    "path": "/attackrange",
+    "value": 2.8,
+    "file": "game:itemtypes/tool/scythe"
+  },
+
+//////////////////////HEAD GOES BELOW/////////////////
+
+////////////////variant groups
+
+  {
+    "op": "add",
+    "path": "/variantgroups/0/loadFromProperties",
+    "value": "game:block/metal",
+    "file": "game:itemtypes/toolhead/scythehead"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [],
+    "file": "game:itemtypes/toolhead/scythehead"
+  }
+]

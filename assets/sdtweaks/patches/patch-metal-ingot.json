@@ -1,0 +1,179 @@
+[
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType/*-limonite/smeltedStack",
+        "value": { "type": "item", "code": "ingot-iron" },
+        "file": "game:itemtypes/resource/nugget"
+    },
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType/*-hematite/smeltedStack",
+        "value": { "type": "item", "code": "ingot-iron" },
+        "file": "game:itemtypes/resource/nugget"
+    },
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType/*-magnetite/smeltedStack",
+        "value": { "type": "item", "code": "ingot-iron" },
+        "file": "game:itemtypes/resource/nugget"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/ingot-gold",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-gold",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/ingot-copper",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-copper",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/workitem-silver",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-silver",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/ingot-tin",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-tin",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/ingot-lead",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-lead",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/workableTemperatureByType/ingot-bismuth",
+        "value": 0,
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/workitem-bismuth",
+        "value": { "workableTemperature": 0 },
+        "file": "game:itemtypes/resource/workitem"
+    },
+
+///////////////////Nickel
+
+    {
+        "op": "add",
+        "path": "/variants/0",
+        "value": {             
+			"code": "nickel",
+			"meltPoint": 1455,
+			"boilPoint": 2730, 
+			"density": 8908,
+			"specificHeatCapacity": 0.13,
+			"elemental": true,
+			"tier": 2
+		},
+        "file": "game:worldproperties/block/metal"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/ingot-nickel",
+        "value": {
+            "meltingPoint": 1455,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "game:ingot-nickel" }
+        },
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/materialDensityByType/ingot-nickel",
+        "value": "8908",
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/*-nickel",
+        "value": {
+            "meltingPoint": 1455,
+            "meltingDuration": 30,
+            "smeltedRatio": 20,
+            "smeltedStack": { "type": "item", "code": "game:ingot-nickel" }
+        },
+        "file": "game:itemtypes/resource/metalbit"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/nugget-pentlandite",
+        "value": {
+            "meltingPoint": 1455,
+            "meltingDuration": 30,
+            "smeltedRatio": 20,
+            "smeltedStack": { "type": "item", "code": "game:ingot-nickel" }
+        },
+        "file": "game:itemtypes/resource/nugget"
+    },
+
+/////////////////Stainless Steel
+
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/ingot-stainlesssteel",
+        "value": {
+            "meltingPoint": 1502,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "game:ingot-stainlesssteel" }
+        },
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/materialDensityByType/ingot-stainlesssteel",
+        "value": "7820",
+        "file": "game:itemtypes/resource/ingot"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/*-stainlesssteel",
+        "value": {
+            "meltingPoint": 1502,
+            "meltingDuration": 30,
+            "smeltedRatio": 20,
+            "smeltedStack": { "type": "item", "code": "game:ingot-stainlesssteel" }
+        },
+        "file": "game:itemtypes/resource/metalbit"
+    }
+]

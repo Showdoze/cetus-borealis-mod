@@ -1,0 +1,531 @@
+{
+  "code": "torchuranium",
+  "class": "BlockTorch",
+  "behaviors": [ { "name": "CanIgnite" } ],
+  "entityClass": "Torch",
+  "attackRange": 2,
+  "storageFlags": 257,
+  "variantgroups": [
+    {
+      "code": "metal",
+      "loadFromProperties": "game:block/metal"
+    },
+    {
+      "code": "glow",
+      "states": [ "green", "white", "yellow", "orange", "blue" ]
+    },
+    {
+      "code": "orientation",
+      "states": [ "up" ],
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "heldRightTpIdleAnimationbyType": {
+    "*": "holdinglanternrighthand"
+  },
+  "heldLeftTpIdleAnimationbyType": {
+    "*": "holdinglanternlefthand"
+  },
+  "heldTpUseAnimationbyType": {
+    "*": "interactstatic"
+  },
+  "heldRightTpIdleAnimation": "holdinglanternrighthand",
+  "heldLeftTpIdleAnimation": "holdinglanternlefthand",
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "torchuranium-*" ]
+    },
+    "attachmentAreas": {
+      "down": {
+        "x1": 7,
+        "y1": 15,
+        "z1": 7,
+        "x2": 8,
+        "y2": 16,
+        "z2": 8
+      },
+      "up": {
+        "x1": 7,
+        "y1": 15,
+        "z1": 7,
+        "x2": 8,
+        "y2": 16,
+        "z2": 8,
+        "rotateX": 180
+      },
+      "north": {
+        "x1": 6,
+        "y1": 0,
+        "z1": 15,
+        "x2": 10,
+        "y2": 5,
+        "z2": 15,
+        "rotateY": 180
+      },
+      "east": {
+        "x1": 6,
+        "y1": 0,
+        "z1": 15,
+        "x2": 10,
+        "y2": 5,
+        "z2": 15,
+        "rotateY": 270
+      },
+      "south": {
+        "x1": 6,
+        "y1": 0,
+        "z1": 15,
+        "x2": 10,
+        "y2": 5,
+        "z2": 15,
+        "rotateY": 0
+      },
+      "west": {
+        "x1": 6,
+        "y1": 0,
+        "z1": 15,
+        "x2": 10,
+        "y2": 5,
+        "z2": 15,
+        "rotateY": 90
+      }
+    }
+  },
+  "shapebytype": {
+    "*-up": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1"
+    },
+    "*-down": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1",
+      "rotateX": 180
+    },
+    "*-north": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1",
+      "rotateY": 0,
+      "rotateX": -90
+    },
+    "*-east": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1",
+      "rotateY": 0,
+      "rotateZ": -90
+    },
+    "*-south": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1",
+      "rotateY": 180,
+      "rotateX": 90
+    },
+    "*-west": {
+      "base": "game:block/clutter/lightsource/on/lumi-floor1",
+      "rotateY": 0,
+      "rotateZ": 90
+    }
+  },
+  "textures": {
+    "rusty-iron": { "base": "game:block/metal/ingot/{metal}" },
+    "rustyglow": { "base": "game:block/liquid/dye/{glow}" }
+  },
+  "doNotRenderAtLod2": true,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "creativeinventory": {
+    "general": [ "*-up" ],
+    "decorative": [ "*-up" ]
+  },
+  "replaceable": 5001,
+  "resistance": 0,
+  "lightAbsorption": 0,
+  "lightHsvbyType": {
+    "*-green-*": [ 19, 6, 20 ],
+    "*-white-*": [ 0, 0, 18 ],
+    "*-yellow-*": [ 6, 5, 20 ],
+    "*-orange-*": [ 2, 6, 20 ],
+    "*-blue-*": [ 31, 7, 20 ]
+  },
+  "particleProperties": [
+    {
+      "__comment": "Ember cubicles",
+      "hsvaColor": [
+        {
+          "avg": 52,
+          "var": 5
+        },
+        {
+          "avg": 240,
+          "var": 10
+        },
+        {
+          "avg": 200,
+          "var": 50
+        },
+        {
+          "avg": 255,
+          "var": 0
+        }
+      ],
+      "gravityEffect": {
+        "dist": "invexp",
+        "avg": -0.07,
+        "var": 0.4
+      },
+      "posOffsetByType": {
+        "*-up": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.2,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ],
+        "*-north": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": -0.09,
+            "var": 0.1
+          }
+        ],
+        "*-east": [
+          {
+            "avg": 0.09,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ],
+        "*-south": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0.09,
+            "var": 0.1
+          }
+        ],
+        "*-west": [
+          {
+            "avg": -0.09,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ]
+      },
+      "velocity": [
+        {
+          "avg": 0,
+          "var": 0.15
+        },
+        {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        {
+          "avg": 0,
+          "var": 0.15
+        }
+      ],
+      "quantity": { "avg": 0.015 },
+      "size": {
+        "avg": 0.4,
+        "var": 0
+      },
+      "sizeEvolve": {
+        "transform": "quadratic",
+        "factor": -0.7
+      },
+      "lifeLength": { "avg": 1.5 },
+      "vertexFlags": 128,
+      "windAffectednes": 0.2
+    },
+    {
+      "__comment": "Smoke quads",
+      "hsvaColor": [
+        {
+          "avg": 16,
+          "var": 0
+        },
+        {
+          "avg": 55,
+          "var": 0
+        },
+        {
+          "avg": 71,
+          "var": 30
+        },
+        {
+          "avg": 200,
+          "var": 50
+        }
+      ],
+      "opacityEvolve": {
+        "transform": "quadratic",
+        "factor": -16
+      },
+      "gravityEffect": {
+        "avg": 0,
+        "var": 0
+      },
+      "posOffsetByType": {
+        "*-up": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.2,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ],
+        "*-north": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": -0.09,
+            "var": 0.1
+          }
+        ],
+        "*-east": [
+          {
+            "avg": 0.09,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ],
+        "*-south": [
+          {
+            "avg": 0,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0.09,
+            "var": 0.1
+          }
+        ],
+        "*-west": [
+          {
+            "avg": -0.09,
+            "var": 0.1
+          },
+          {
+            "avg": -0.23,
+            "var": 0
+          },
+          {
+            "avg": 0,
+            "var": 0.1
+          }
+        ]
+      },
+      "velocity": [
+        {
+          "avg": 0,
+          "var": 0.025
+        },
+        {
+          "avg": 0.15,
+          "var": 0.1
+        },
+        {
+          "avg": 0,
+          "var": 0.025
+        }
+      ],
+      "quantity": { "avg": 0.05 },
+      "size": {
+        "avg": 0.25,
+        "var": 0.05
+      },
+      "sizeEvolve": {
+        "transform": "linear",
+        "factor": 0.5
+      },
+      "particleModel": "Quad",
+      "windAffectednes": 0.7
+    }
+  ],
+  "collisionbox": null,
+  "selectionboxbytype": {
+    "*-up": {
+      "x1": 0.375,
+      "y1": 0,
+      "z1": 0.375,
+      "x2": 0.625,
+      "y2": 0.8875,
+      "z2": 0.625
+    },
+    "*-down": {
+      "x1": 0.375,
+      "y1": 0,
+      "z1": 0.375,
+      "x2": 0.625,
+      "y2": 0.8875,
+      "z2": 0.625,
+      "rotateX": 180
+    },
+    "*-east": {
+      "x1": 0.4,
+      "y1": 0.1875,
+      "z1": 0.5625,
+      "x2": 0.6125,
+      "y2": 0.9,
+      "z2": 1,
+      "rotateY": 270
+    },
+    "*-south": {
+      "x1": 0.4,
+      "y1": 0.1875,
+      "z1": 0.5625,
+      "x2": 0.6125,
+      "y2": 0.9,
+      "z2": 1,
+      "rotateY": 180
+    },
+    "*-west": {
+      "x1": 0.4,
+      "y1": 0.1875,
+      "z1": 0.5625,
+      "x2": 0.6125,
+      "y2": 0.9,
+      "z2": 1,
+      "rotateY": 90
+    },
+    "*-north": {
+      "x1": 0.4,
+      "y1": 0.1875,
+      "z1": 0.5625,
+      "x2": 0.6125,
+      "y2": 0.9,
+      "z2": 1,
+      "rotateY": 0
+    }
+  },
+  "blockmaterial": "Metal",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 17,
+      "y": 38,
+      "z": -33
+    },
+    "scale": 1.6
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": -47,
+      "y": 30,
+      "z": 15
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.46,
+      "z": 0.5
+    },
+    "scale": 2.02
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.73,
+      "y": 0.05,
+      "z": -0.85
+    },
+    "rotation": {
+      "x": 0,
+      "y": 179,
+      "z": 86
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.6
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": -1,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.44,
+      "y": 0.25,
+      "z": 0.5
+    },
+    "scale": 2.8
+  },
+  "sounds": {
+    "place": "game:block/ingot",
+    "break": "game:block/ingot",
+    "hit": "game:block/ingot"
+  },
+  "heldSounds": {
+    "idle": "items/uraniumtorch/rads",
+    "equip": "game:block/leather",
+    "unequip": "game:block/leather",
+    "attack": "game:creature/locust/hurt"
+  },
+  "materialDensity": 1900
+}

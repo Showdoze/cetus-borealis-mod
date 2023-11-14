@@ -1,0 +1,94 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-legs-chain-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-body-chain-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 110  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-head-chain-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 30  }
+	},
+
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-legs-plate-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 160  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-body-plate-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 170  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-head-plate-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 90  }
+	},
+
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-legs-scale-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 140  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-body-scale-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 230  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:chisel-*", isTool: true  },
+			"T": { type: "item", code: "game:armor-head-scale-*", name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 70  }
+	}
+]

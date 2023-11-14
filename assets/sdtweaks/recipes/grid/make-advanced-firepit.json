@@ -1,0 +1,12 @@
+{
+    ingredientPattern: "_Y_,TST,_O_",
+    ingredients: {
+        "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+        "Y": { type: "item", code: "game:clearquartz" },
+        "S": { type: "block", code: "game:bowl-fired" },
+        "T": { type: "item", code: "game:resin" }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "block", code: "firepitadvanced-{metal}-extinct", quantity: 1 }
+}

@@ -1,0 +1,120 @@
+[
+///////////METAL PLATE
+
+    {
+        "op": "replace",
+        "path": "/1/output",
+        "value":  { "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 },
+        "file": "game:recipes/grid/metalbit"
+    },
+
+//////////////QUICKLIME
+
+    {
+        "op": "add",
+        "path": "/shape",
+        "value": { "base": "game:item/resource/crushed/lime" },
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/attributes",
+        "value": {},
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/shelvable",
+        "value": "true",
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/displaycaseable",
+        "value": "true",
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/onDisplayTransform",
+        "value": {
+			translation: { x: 0.05, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.65
+		},
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform",
+        "value": {},
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform/translation",
+        "value": { x: 3, y: 1, z: -25 },
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform/rotation",
+        "value": { x: 155, y: 12, z: 0 },
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform/origin",
+        "value": { x: 0.4, y: -0.1, z: 0.8 },
+        "file": "game:itemtypes/resource/quicklime"
+    },
+    {
+        "op": "add",
+        "path": "/guiTransform/scale",
+        "value": "2.54",
+        "file": "game:itemtypes/resource/quicklime"
+    },
+
+///////////////BAMBOO STICKS
+
+    {
+        "op": "add",
+        "path": "/class",
+        "value": "ItemFirewood",
+        "file": "game:itemtypes/resource/bamboostakes"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/isFirewood",
+        "value": "true",
+        "file": "game:itemtypes/resource/bamboostakes"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/placeSound",
+        "value": "game:block/planks",
+        "file": "game:itemtypes/resource/bamboostakes"
+    },
+
+    //////////////////////PAN
+    
+    {
+    "op": "add",
+    "path": "/attributes/panningDrops/@sand-(shale|basalt|slate)",
+    "value": [
+        { "type": "item", "code": "game:nugget-magnetite",  "chance": { "avg": 1.5, "var": 0 }  }
+    ],
+    "file": "game:blocktypes/wood/pan"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/panningDrops/@(soil-*|bonysoil)",
+        "value": [
+            { "type": "item", "code": "game:nugget-pentlandite",  "chance": { "avg": 0.5, "var": 0 }  },
+            { "type": "item", "code": "game:nugget-sphalerite",  "chance": { "avg": 0.5, "var": 0 }  },
+            { "type": "item", "code": "game:nugget-limonite",  "chance": { "avg": 1.5, "var": 0 }  },
+            { "type": "item", "code": "game:hammerhead-gold",  "chance": { "avg": 0.01, "var": 0 }  }
+        ],
+        "file": "game:blocktypes/wood/pan"
+    }
+]

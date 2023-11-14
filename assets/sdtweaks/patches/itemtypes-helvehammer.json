@@ -1,0 +1,24 @@
+[
+
+    {
+        "op": "remove",
+        "path": "/ingredients/H/allowedVariants",
+        "file": "game:recipes/grid/helvehammer"
+    },
+
+    {
+        "op": "replace",
+        "path": "/variantgroups/0",
+        "value": { code: "metal", loadFromProperties: "game:block/metal" },
+        "file": "game:itemtypes/part/helvehammer"
+    },
+
+////////////////HEAD GOES BELOW
+
+    {
+        "op": "replace",
+        "path": "/variantgroups/0",
+        "value": { code: "metal", loadFromProperties: "game:block/metal" },
+        "file": "game:itemtypes/part/helvehammerhead"
+    }
+]

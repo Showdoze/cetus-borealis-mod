@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "block", code: "walkwaymetal-solid-*", name: "metal" }    ////////don't tell me that you can't use blocks in crafting recipes
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 40  }
+	}
+]

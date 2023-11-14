@@ -1,0 +1,70 @@
+{
+	code: "bucketmetal",
+	class: "BlockBucket",
+	behaviors: [
+		{name: "UnstableFalling"}, 
+		{ name: "RightClickPickup"}, 
+		{ name: "MilkingContainer" } 
+	],
+	entityClass: "Bucket",
+	attributes: {
+		liquidContainerProps: {
+			capacityLitres: 10,
+			transferSizeLitres: 1,
+			emptyShapeLoc: "shapes/block/wood/bucket/empty",
+			opaqueContentShapeLoc: "shapes/block/wood/bucket/contents",
+			liquidContentShapeLoc: "shapes/block/wood/bucket/liquidcontents",
+			liquidMaxYTranslate: 0.4375
+		}
+	},
+	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" }
+	],
+	shape: { base: "game:block/wood/bucket/empty" },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	blockmaterial: "Metal",
+	textures: {
+		"sides": { base: "game:block/metal/sheet/{material}1" },
+		"inner side": { base: "game:block/metal/ingot/{material}" }
+	},
+	replaceable: 500,
+	resistance: 1.5,
+	maxStackSize: 4,
+	liquidSelectable: 1,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	collisionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	selectionbox: {
+		x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.85, y: -1, z: -0.8 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 0.62
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.75
+	},
+	fpHandTransform: {
+		scale: 1.5
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	}
+}

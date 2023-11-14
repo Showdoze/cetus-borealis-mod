@@ -1,0 +1,20 @@
+[
+
+//////////bell alarm to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/aitasks/0/onNearbyEntityCodes",
+    "value": [ "player", "trader-*", "bear-*", "sheep-bighorn-*", "pig-wild-*", "wolf-*" ],
+    "file": "game:entities/land/bell.json"
+  },
+
+/////////stop idle to
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/aitasks/2/stopOnNearbyEntityCodes",
+    "value": [ "player", "trader-*", "bear-*", "sheep-bighorn-*", "pig-wild-*", "wolf-*" ],
+    "file": "game:entities/land/bell.json"
+  }
+]

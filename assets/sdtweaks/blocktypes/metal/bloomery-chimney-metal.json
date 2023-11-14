@@ -1,0 +1,31 @@
+{
+	code: "bloomerychimneymetal",
+	blockmaterial: "Metal",
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" }
+	],
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	replaceable: 400,
+	resistance: 4.5,
+	maxStackSize: 1,
+	lightAbsorption: 0,
+	shape: { base: "game:block/clay/bloomery/chimney" },
+	textures: {
+		"inside": { base: "game:block/coal/charcoal"},
+		"chimney": { base: "game:block/metal/sheet/{material}1"}
+	},
+	sounds: {
+		"place": "game:block/metaldoor",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	collisionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.625, z2: 0.9375 },
+	selectionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.625, z2: 0.9375 },
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	}
+}

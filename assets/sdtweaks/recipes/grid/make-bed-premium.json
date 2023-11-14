@@ -1,0 +1,92 @@
+[
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-white", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-whiteplaid-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-green", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-greenplaid-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-blue", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-blueplaid-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-red", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-redplaid-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-yellow", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-honeycomb-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-gray", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-pine-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-brown", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-morningstar-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-orange", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-orangeplaid-head-north", quantity: 1 }
+    },
+    {
+        ingredientPattern: "OSO,OSO,OSO",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-plain", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 2}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bedpremium-{wood}-lemon-head-north", quantity: 1 }
+    }
+]

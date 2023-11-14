@@ -1,0 +1,26 @@
+[
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "item", "code": "game:metalchain-{metal}", "quantity": 4 },
+        "file": "game:recipes/smithing/chain"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "item", "code": "game:metalplate-{metal}", "quantity": 2 },
+        "file": "game:recipes/smithing/plate"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "block", "code": "game:cokeovendoor-{metal}-closed-north", "quantity": 2 },
+        "file": "game:recipes/smithing/cokeovendoor"
+    },
+    {
+        "op": "replace",
+        "path": "/output",
+        "value": { "type": "item", "code": "game:metalscale-{metal}", "quantity": 4 },
+        "file": "game:recipes/smithing/scale"
+    }
+]

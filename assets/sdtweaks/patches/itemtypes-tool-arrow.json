@@ -1,0 +1,278 @@
+[
+
+////////////////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "bone", "flint", "crude" ],
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+///////////////shape by type
+
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-bone",
+        "value": { "base": "game:item/tool/arrow-crude" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-brass",
+        "value": { "base": "game:item/tool/arrow-copper" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-lead",
+        "value": { "base": "game:item/tool/arrow-copper" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-tin",
+        "value": { "base": "game:item/tool/arrow-copper" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-zinc",
+        "value": { "base": "game:item/tool/arrow-copper" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType/arrow-titanium",
+        "value": { "base": "game:item/tool/arrow-silver" },
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+///////////////textures by type
+
+    {
+        "op": "add",
+        "path": "/texturesByType/arrow-bone",
+        "value": { "material": { "base": "game:block/bone" } },
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+/////////////damage by type
+
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-bone",
+        "value": "0.6",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-brass",
+        "value": "0.8",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-bismuth",
+        "value": "0.7",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-nickel",
+        "value": "0.8",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-lead",
+        "value": "1.2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-tin",
+        "value": "0.6",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-zinc",
+        "value": "0.7",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-titanium",
+        "value": "2.7",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-chromium",
+        "value": "3",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-platinum",
+        "value": "3.2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-stainlesssteel",
+        "value": "2.8",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-molybdochalkos",
+        "value": "1.4",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-uranium",
+        "value": "3.4",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-rhodium",
+        "value": "2.9",
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+///////////////break chance attribute by type
+
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-bone",
+        "value": "0.3",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-brass",
+        "value": "0.15",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-bismuth",
+        "value": "0.2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-lead",
+        "value": "0.18",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-tin",
+        "value": "0.25",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-zinc",
+        "value": "0.2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-titanium",
+        "value": "0.05",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-chromium",
+        "value": "0.1",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-platinum",
+        "value": "0.02",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-nickel",
+        "value": "0.15",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-molybdochalkos",
+        "value": "0.14",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-uranium",
+        "value": "0.1",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-stainlesssteel",
+        "value": "0.09",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-rhodium",
+        "value": "0.1",
+        "file": "game:itemtypes/tool/arrow"
+    },
+
+//////////////////HEAD GOES BELOW///////////////
+
+//////////variant groups
+
+    {
+        "op": "add",
+        "path": "/variantgroups/0/loadFromProperties",
+        "value": "game:block/metal",
+        "file": "game:itemtypes/toolhead/arrowhead"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states",
+        "value": [ "bone", "flint", "crude" ],
+        "file": "game:itemtypes/toolhead/arrowhead"
+    },
+
+/////////////shape by type
+
+    {
+        "op": "replace",
+        "path": "/shapeByType",
+        "value": { 
+            "@arrowhead-(flint|andesite|granite|basalt|chert|obsidian|peridotite|bone)": { "base": "game:item/tool/arrowhead-stone" },
+            "arrowhead-*": { "base": "game:item/tool/arrowhead-copper" },
+        },
+        "file": "game:itemtypes/toolhead/arrowhead"
+    },
+
+/////////////textures by type
+
+    {
+        "op": "add",
+        "path": "/texturesByType/arrowhead-bone",
+        "value": { "material": { "base": "game:block/bone" } },
+        "file": "game:itemtypes/toolhead/arrowhead"
+    }
+]

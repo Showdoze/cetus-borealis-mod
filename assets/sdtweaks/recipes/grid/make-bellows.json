@@ -1,0 +1,12 @@
+{
+    ingredientPattern: "HS,X_,C_",
+    ingredients: {
+        "H": { type: "item", code: "game:hammer-*", isTool: true },
+        "S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 20 },
+        "X": { type: "item", code: "game:leather-*", name: "leather" },
+        "C": { type: "item", code: "game:plank-*", name: "wood", quantity: 4 }
+    },
+    width: 2,
+    height: 3,
+    output: { type: "block", code: "game:bellows-{wood}-{leather}-north", quantity: 1 }
+}

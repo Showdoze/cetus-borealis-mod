@@ -1,0 +1,12 @@
+[
+    {
+        ingredientPattern: "OFO,FOF,O_O",
+        ingredients: {
+            "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
+            "F": { type: "item", code: "game:burnedbrick-fire" }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "bloomerybasemetal-{metal}-north", quantity: 1 }
+    }
+]
