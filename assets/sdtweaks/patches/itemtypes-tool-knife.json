@@ -1,20 +1,33 @@
 [
-
-/////////////////variant groups
-
+    /////////////////variant groups
     {
         "op": "add",
-        "path": "/variantgroups/0/loadFromProperties",
+        "path": "/variantgroups/1/loadFromProperties",
         "value": "game:block/metal",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "replace",
-        "path": "/variantgroups/0/states",
-        "value": [ "granite", "andesite", "chert", "flint", "basalt", "obsidian", "peridotite", "bone-chert", "bone-granite", "bone-andesite", "bone-basalt", "bone-obsidian", "bone-peridotite", "bone-flint" ],
+        "path": "/variantgroups/1/states",
+        "value": [
+            "granite",
+            "andesite",
+            "chert",
+            "flint",
+            "basalt",
+            "obsidian",
+            "peridotite",
+            "bone-chert",
+            "bone-granite",
+            "bone-andesite",
+            "bone-basalt",
+            "bone-obsidian",
+            "bone-peridotite",
+            "bone-flint"
+        ],
         "file": "game:itemtypes/tool/knife"
     },
-/*
+    /*
     {
         "op": "replace",
         "path": "/variantgroups",
@@ -25,20 +38,24 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-
-////////////////////shape by type (it's kinda ok in the vanilla, but not so compacted)
-
+    ////////////////////shape by type (it's kinda ok in the vanilla, but not so compacted)
     {
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@knife-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": { "base": "game:item/tool/knife-stone" },
-            "@knife-bone-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": { "base": "game:item/tool/knife-stone" },
-            "knife-*": { "base": "game:item/tool/knife-copper" }
+            "@knife-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
+                "base": "game:item/tool/knife/stone"
+            },
+            "@knife-bone-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
+                "base": "game:item/tool/knife/stone"
+            },
+            "knife-*": {
+                "base": "game:item/tool/knife/copper"
+            }
         },
         "file": "game:itemtypes/tool/knife"
     },
-/*
+    /*
     {
         "op": "replace",
         "path": "/shapeByType",
@@ -52,9 +69,8 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-
-///////////////textures by type
-/*
+    ///////////////textures by type
+    /*
     {
         "op": "replace",
         "path": "/texturesByType",
@@ -70,8 +86,7 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-///////////////durability by type
-
+    ///////////////durability by type
     {
         "op": "add",
         "path": "/durabilitybytype/knife-brass",
@@ -150,7 +165,7 @@
         "value": "1800",
         "file": "game:itemtypes/tool/knife"
     },
-/*
+    /*
     {
         "op": "replace",
         "path": "/durabilitybytype",
@@ -184,87 +199,112 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-//////////////////mining speed by type
-
+    //////////////////mining speed by type
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-brass",
-        "value": { "plant": 1.5 },
+        "value": {
+            "plant": 1.5
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-bismuth",
-        "value": { "plant": 1.4 },
+        "value": {
+            "plant": 1.4
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-nickel",
-        "value": { "plant": 1.45 },
+        "value": {
+            "plant": 1.45
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-molybdochalkos",
-        "value": { "plant": 1.55 },
+        "value": {
+            "plant": 1.55
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-lead",
-        "value": { "plant": 1.2 },
+        "value": {
+            "plant": 1.2
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-tin",
-        "value": { "plant": 1.25 },
+        "value": {
+            "plant": 1.25
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-zinc",
-        "value": { "plant": 1.2 },
+        "value": {
+            "plant": 1.2
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-titanium",
-        "value": { "plant": 3 },
+        "value": {
+            "plant": 3
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-chromium",
-        "value": { "plant": 3.4 },
+        "value": {
+            "plant": 3.4
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-platinum",
-        "value": { "plant": 3.5 },
+        "value": {
+            "plant": 3.5
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-rhodium",
-        "value": { "plant": 3.4 },
+        "value": {
+            "plant": 3.4
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-uranium",
-        "value": { "plant": 3.2 },
+        "value": {
+            "plant": 3.2
+        },
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
         "path": "/miningspeedbytype/knife-stainlesssteel",
-        "value": { "plant": 2.5 },
+        "value": {
+            "plant": 2.5
+        },
         "file": "game:itemtypes/tool/knife"
     },
-/*
+    /*
     {
         "op": "replace",
         "path": "/miningspeedbytype",
@@ -297,8 +337,7 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-///////////////attack power by type
-
+    ///////////////attack power by type
     {
         "op": "add",
         "path": "/attackpowerbytype/knife-brass",
@@ -383,7 +422,7 @@
         "value": "2",
         "file": "game:itemtypes/tool/knife"
     },
-/*
+    /*
     {
         "op": "replace",
         "path": "/attackpowerbytype",
@@ -417,10 +456,8 @@
         "file": "game:itemtypes/tool/knife"
     },
 */
-//////////////////////HEAD GOES BELOW///////////////////
-
-/////////////variant groups
-
+    //////////////////////HEAD GOES BELOW///////////////////
+    /////////////variant groups
     {
         "op": "add",
         "path": "/variantgroups/0/loadFromProperties",
@@ -430,18 +467,28 @@
     {
         "op": "replace",
         "path": "/variantgroups/0/states",
-        "value": [ "granite", "andesite", "chert", "flint", "basalt", "obsidian", "peridotite" ],
+        "value": [
+            "granite",
+            "andesite",
+            "chert",
+            "flint",
+            "basalt",
+            "obsidian",
+            "peridotite"
+        ],
         "file": "game:itemtypes/toolhead/knifeblade"
     },
-
-///////////////shape by type (feel like replacing all shape/textureByTypes at this point)
-
+    ///////////////shape by type (feel like replacing all shape/textureByTypes at this point)
     {
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@knifeblade-(chert|flint|granite|andesite|basalt|obsidian|peridotite)": { "base": "game:item/tool/knife-stoneblade" },
-            "knifeblade-*": { "base": "game:item/tool/knife-copper" }
+            "@knifeblade-(chert|flint|granite|andesite|basalt|obsidian|peridotite)": {
+                "base": "game:item/tool/knife/stoneblade"
+            },
+            "knifeblade-*": {
+                "base": "game:item/tool/knife/copper"
+            }
         },
         "file": "game:itemtypes/toolhead/knifeblade"
     }
