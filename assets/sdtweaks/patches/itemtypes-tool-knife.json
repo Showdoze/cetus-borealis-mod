@@ -17,13 +17,13 @@
             "basalt",
             "obsidian",
             "peridotite",
-            "bone-chert",
-            "bone-granite",
-            "bone-andesite",
-            "bone-basalt",
-            "bone-obsidian",
-            "bone-peridotite",
-            "bone-flint"
+            "bonechert",
+            "bonegranite",
+            "boneandesite",
+            "bonebasalt",
+            "boneobsidian",
+            "boneperidotite",
+            "boneflint"
         ],
         "file": "game:itemtypes/tool/knife"
     },
@@ -43,10 +43,10 @@
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@knife-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
+            "@knife-generic-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
                 "base": "game:item/tool/knife/stone"
             },
-            "@knife-bone-(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
+            "@knife-generic-bone*(chert|andesite|granite|obsidian|flint|peridotite|basalt)": {
                 "base": "game:item/tool/knife/stone"
             },
             "knife-*": {
@@ -89,79 +89,79 @@
     ///////////////durability by type
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-brass",
+        "path": "/durabilitybytype/*-brass",
         "value": "376",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-bismuth",
+        "path": "/durabilitybytype/*-bismuth",
         "value": "300",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-nickel",
+        "path": "/durabilitybytype/*-nickel",
         "value": "320",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-molybdochalkos",
+        "path": "/durabilitybytype/*-molybdochalkos",
         "value": "380",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-lead",
+        "path": "/durabilitybytype/*-lead",
         "value": "280",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-tin",
+        "path": "/durabilitybytype/*-tin",
         "value": "150",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-zinc",
+        "path": "/durabilitybytype/*-zinc",
         "value": "320",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-titanium",
+        "path": "/durabilitybytype/*-titanium",
         "value": "3000",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-chromium",
+        "path": "/durabilitybytype/*-chromium",
         "value": "3500",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-platinum",
+        "path": "/durabilitybytype/*-platinum",
         "value": "3600",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-uranium",
+        "path": "/durabilitybytype/*-uranium",
         "value": "2000",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-rhodium",
+        "path": "/durabilitybytype/*-rhodium",
         "value": "2100",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/knife-stainlesssteel",
+        "path": "/durabilitybytype/*-stainlesssteel",
         "value": "1800",
         "file": "game:itemtypes/tool/knife"
     },
@@ -202,7 +202,7 @@
     //////////////////mining speed by type
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-brass",
+        "path": "/miningspeedbytype/*-brass",
         "value": {
             "plant": 1.5
         },
@@ -210,7 +210,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-bismuth",
+        "path": "/miningspeedbytype/*-bismuth",
         "value": {
             "plant": 1.4
         },
@@ -218,7 +218,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-nickel",
+        "path": "/miningspeedbytype/*-nickel",
         "value": {
             "plant": 1.45
         },
@@ -226,7 +226,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-molybdochalkos",
+        "path": "/miningspeedbytype/*-molybdochalkos",
         "value": {
             "plant": 1.55
         },
@@ -234,7 +234,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-lead",
+        "path": "/miningspeedbytype/*-lead",
         "value": {
             "plant": 1.2
         },
@@ -242,7 +242,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-tin",
+        "path": "/miningspeedbytype/*-tin",
         "value": {
             "plant": 1.25
         },
@@ -250,7 +250,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-zinc",
+        "path": "/miningspeedbytype/*-zinc",
         "value": {
             "plant": 1.2
         },
@@ -258,7 +258,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-titanium",
+        "path": "/miningspeedbytype/*-titanium",
         "value": {
             "plant": 3
         },
@@ -266,7 +266,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-chromium",
+        "path": "/miningspeedbytype/*-chromium",
         "value": {
             "plant": 3.4
         },
@@ -274,7 +274,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-platinum",
+        "path": "/miningspeedbytype/*-platinum",
         "value": {
             "plant": 3.5
         },
@@ -282,7 +282,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-rhodium",
+        "path": "/miningspeedbytype/*-rhodium",
         "value": {
             "plant": 3.4
         },
@@ -290,7 +290,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-uranium",
+        "path": "/miningspeedbytype/*-uranium",
         "value": {
             "plant": 3.2
         },
@@ -298,7 +298,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/knife-stainlesssteel",
+        "path": "/miningspeedbytype/*-stainlesssteel",
         "value": {
             "plant": 2.5
         },
@@ -340,85 +340,85 @@
     ///////////////attack power by type
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-brass",
+        "path": "/attackpowerbytype/*-brass",
         "value": "1.76",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-bismuth",
+        "path": "/attackpowerbytype/*-bismuth",
         "value": "1.4",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-nickel",
+        "path": "/attackpowerbytype/*-nickel",
         "value": "1.5",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-molybdochalkos",
+        "path": "/attackpowerbytype/*-molybdochalkos",
         "value": "1.55",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-lead",
+        "path": "/attackpowerbytype/*-lead",
         "value": "1.1",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-tin",
+        "path": "/attackpowerbytype/*-tin",
         "value": "1.2",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-zinc",
+        "path": "/attackpowerbytype/*-zinc",
         "value": "1.1",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-titanium",
+        "path": "/attackpowerbytype/*-titanium",
         "value": "5.2",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-chromium",
+        "path": "/attackpowerbytype/*-chromium",
         "value": "5.6",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-platinum",
+        "path": "/attackpowerbytype/*-platinum",
         "value": "6",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-rhodium",
+        "path": "/attackpowerbytype/*-rhodium",
         "value": "5.6",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-uranium",
+        "path": "/attackpowerbytype/*-uranium",
         "value": "5.5",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/knife-stainlesssteel",
+        "path": "/attackpowerbytype/*-stainlesssteel",
         "value": "4.5",
         "file": "game:itemtypes/tool/knife"
     },
     {
         "op": "replace",
-        "path": "/attackpowerbytype/knife-obsidian",
+        "path": "/attackpowerbytype/*-obsidian",
         "value": "2",
         "file": "game:itemtypes/tool/knife"
     },

@@ -35,22 +35,22 @@
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
+            "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
                 "base": "game:item/tool/spear/stone"
             },
-            "@spear-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
+            "@spear-*-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
                 "base": "game:item/tool/spear/copper"
             },
-            "spear-scrap": {
+            "spear-*-scrap": {
                 "base": "game:item/tool/spear/scrap"
             },
-            "spear-hacking": {
+            "spear-*-hacking": {
                 "base": "game:item/tool/spear/hacking"
             },
-            "spear-ornate-gold": {
+            "spear-*-ornategold": {
                 "base": "game:item/tool/spear/ornategold"
             },
-            "spear-ornate-silver": {
+            "spear-*-ornatesilver": {
                 "base": "game:item/tool/spear/ornatesilver"
             },
             "spear-*": {
@@ -76,28 +76,25 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spear-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+            "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 }
             },
-            "@spear-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
+            "@spear-*-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
                 "material": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
-            "@spear-(scrap|hacking)": {},
-            "spear-ornate-*": {},
-            "spear-flint": {
+            "@spear-*-(scrap|hacking)": {},
+            "spear-generic-ornate*": {},
+            "spear-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 }
             },
-            "spear-*": {
-                "iron4": {
-                    "base": "game:block/metal/ingot/{material}"
-                },
-                "silver": {
+            "spear-generic-*": {
+                "material": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             }
@@ -107,309 +104,309 @@
     ////////////attack power by type
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-gold",
+        "path": "/attackpowerbytype/*-gold",
         "value": "2.5",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-lead",
+        "path": "/attackpowerbytype/*-lead",
         "value": "2.7",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-tin",
+        "path": "/attackpowerbytype/*-tin",
         "value": "1.6",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-zinc",
+        "path": "/attackpowerbytype/*-zinc",
         "value": "2.6",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-brass",
+        "path": "/attackpowerbytype/*-brass",
         "value": "3.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-silver",
+        "path": "/attackpowerbytype/*-silver",
         "value": "3.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-iron",
+        "path": "/attackpowerbytype/*-iron",
         "value": "4.5",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-meteoriciron",
+        "path": "/attackpowerbytype/*-meteoriciron",
         "value": "4.7",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-steel",
+        "path": "/attackpowerbytype/*-steel",
         "value": "5.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-titanium",
+        "path": "/attackpowerbytype/*-titanium",
         "value": "6.1",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-chromium",
+        "path": "/attackpowerbytype/*-chromium",
         "value": "6.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-platinum",
+        "path": "/attackpowerbytype/*-platinum",
         "value": "6.3",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-rhodium",
+        "path": "/attackpowerbytype/*-rhodium",
         "value": "6.1",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-stainlesssteel",
+        "path": "/attackpowerbytype/*-stainlesssteel",
         "value": "5.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-bismuth",
+        "path": "/attackpowerbytype/*-bismuth",
         "value": "1.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-nickel",
+        "path": "/attackpowerbytype/*-nickel",
         "value": "1.3",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/spear-molybdochalkos",
+        "path": "/attackpowerbytype/*-molybdochalkos",
         "value": "4.3",
         "file": "game:itemtypes/tool/spear"
     },
     /////////////throw damage by type
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-brass",
+        "path": "/attributes/damageByType/*-brass",
         "value": "6.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-lead",
+        "path": "/attributes/damageByType/*-lead",
         "value": "7.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-tin",
+        "path": "/attributes/damageByType/*-tin",
         "value": "4.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-zinc",
+        "path": "/attributes/damageByType/*-zinc",
         "value": "6.0",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-gold",
+        "path": "/attributes/damageByType/*-gold",
         "value": "4.5",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-silver",
+        "path": "/attributes/damageByType/*-silver",
         "value": "5.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-iron",
+        "path": "/attributes/damageByType/*-iron",
         "value": "7.5",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-meteoriciron",
+        "path": "/attributes/damageByType/*-meteoriciron",
         "value": "7.7",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-steel",
+        "path": "/attributes/damageByType/*-steel",
         "value": "8.5",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-titanium",
+        "path": "/attributes/damageByType/*-titanium",
         "value": "10",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-chromium",
+        "path": "/attributes/damageByType/*-chromium",
         "value": "10.1",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-platinum",
+        "path": "/attributes/damageByType/*-platinum",
         "value": "10.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-rhodium",
+        "path": "/attributes/damageByType/*-rhodium",
         "value": "10",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-stainlesssteel",
+        "path": "/attributes/damageByType/*-stainlesssteel",
         "value": "8.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-bismuth",
+        "path": "/attributes/damageByType/*-bismuth",
         "value": "4",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-nickel",
+        "path": "/attributes/damageByType/*-nickel",
         "value": "4.2",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/attributes/damageByType/spear-molybdochalkos",
+        "path": "/attributes/damageByType/*-molybdochalkos",
         "value": "4",
         "file": "game:itemtypes/tool/spear"
     },
     ///////////////durability by type
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-brass",
+        "path": "/durabilitybytype/*-brass",
         "value": "476",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-lead",
+        "path": "/durabilitybytype/*-lead",
         "value": "250",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-tin",
+        "path": "/durabilitybytype/*-tin",
         "value": "150",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-zinc",
+        "path": "/durabilitybytype/*-zinc",
         "value": "400",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-gold",
+        "path": "/durabilitybytype/*-gold",
         "value": "250",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-silver",
+        "path": "/durabilitybytype/*-silver",
         "value": "550",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-iron",
+        "path": "/durabilitybytype/*-iron",
         "value": "1240",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-meteoriciron",
+        "path": "/durabilitybytype/*-meteoriciron",
         "value": "1380",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-steel",
+        "path": "/durabilitybytype/*-steel",
         "value": "1600",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-titanium",
+        "path": "/durabilitybytype/*-titanium",
         "value": "2000",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-chromium",
+        "path": "/durabilitybytype/*-chromium",
         "value": "2050",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-platinum",
+        "path": "/durabilitybytype/*-platinum",
         "value": "2100",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-rhodium",
+        "path": "/durabilitybytype/*-rhodium",
         "value": "2000",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-stainlesssteel",
+        "path": "/durabilitybytype/*-stainlesssteel",
         "value": "1250",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-bismuth",
+        "path": "/durabilitybytype/*-bismuth",
         "value": "300",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-nickel",
+        "path": "/durabilitybytype/*-nickel",
         "value": "350",
         "file": "game:itemtypes/tool/spear"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-molybdochalkos",
+        "path": "/durabilitybytype/*-molybdochalkos",
         "value": "476",
         "file": "game:itemtypes/tool/spear"
     },
@@ -432,8 +429,8 @@
             "basalt",
             "obsidian",
             "peridotite",
-            "ornate-gold",
-            "ornate-silver",
+            "ornategold",
+            "ornatesilver",
             "hacking",
             "scrap"
         ],
@@ -444,26 +441,26 @@
         "op": "replace",
         "path": "/client/shapeByType",
         "value": {
-            "@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
-                "base": "game:item/tool/spear-stone", offsetX: -0.8125
+            "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
+                "base": "game:item/tool/spear/stone", offsetX: -0.8125
             },
-            "@spear-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
-                "base": "game:item/tool/spear-copper", offsetX: -0.8125
+            "@spear-*-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
+                "base": "game:item/tool/spear/copper", offsetX: -0.8125
             },
-            "spear-scrap": {
-                "base": "game:item/tool/spear-scrap", offsetX: -0.8125
+            "spear-*-scrap": {
+                "base": "game:item/tool/spear/scrap", offsetX: -0.8125
             },
-            "spear-hacking": {
-                "base": "game:item/tool/spear-hacking", offsetX: -0.8125
+            "spear-*-hacking": {
+                "base": "game:item/tool/spear/hacking", offsetX: -0.8125
             },
-            "spear-ornate-gold": {
-                "base": "game:item/tool/spear-ornate-gold", offsetX: -0.8125
+            "spear-*-ornategold": {
+                "base": "game:item/tool/spear/ornategold", offsetX: -0.8125
             },
-            "spear-ornate-silver": {
-                "base": "game:item/tool/spear-ornate-silver", offsetX: -0.8125
+            "spear-*-ornatesilver": {
+                "base": "game:item/tool/spear/ornatesilver", offsetX: -0.8125
             },
             "spear-*": {
-                "base": "game:item/tool/spear-ornate-silver", offsetX: -0.8125
+                "base": "game:item/tool/spear/ornatesilver", offsetX: -0.8125
             }
         },
         "file": "game:entities/spear"
@@ -473,24 +470,21 @@
         "op": "replace",
         "path": "/client/texturesByType",
         "value": {
-            "@spear-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+            "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 }
             },
-            "@spear-(scrap|hacking)": {},
-            "spear-ornate-*": {},
-            "spear-flint": {
+            "@spear-*-(scrap|hacking)": {},
+            "spear-*-ornate*": {},
+            "spear-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 }
             },
-            "spear-*": {
-                "iron4": {
-                    "base": "game:block/metal/ingot/{material}"
-                },
-                "silver": {
-                    "base": "game:block/metal/ingot/{material}"
+            "spear-generic-*": {
+                "material": {
+                    "base": "game:block/metal/{material}"
                 }
             }
         },
@@ -524,13 +518,13 @@
         "path": "/shapeByType",
         "value": {
             "@spearhead-(chert|granite|basalt|andesite|peridotite|flint|obsidian)": {
-                "base": "game:item/tool/spear-stone"
+                "base": "game:item/tool/spear/stone"
             },
             "@spearhead-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
-                "base": "game:item/tool/spearhead-metal"
+                "base": "game:item/tool/spear/spearhead-metal"
             },
             "spearhead-*": {
-                "base": "game:item/tool/spear-ornate-silver"
+                "base": "game:item/tool/spear/ornatesilver"
             }
         },
         "file": "game:itemtypes/toolhead/spearhead"
