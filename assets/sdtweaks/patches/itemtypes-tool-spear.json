@@ -402,13 +402,13 @@
     ////////////variant groups
     {
         "op": "add",
-        "path": "/variantgroups/0/loadFromProperties",
+        "path": "/variantgroups/1/loadFromProperties",
         "value": "game:block/metal",
         "file": "game:entities/spear"
     },
     {
         "op": "replace",
-        "path": "/variantgroups/0/states",
+        "path": "/variantgroups/1/states",
         "value": [
             "granite",
             "andesite",
