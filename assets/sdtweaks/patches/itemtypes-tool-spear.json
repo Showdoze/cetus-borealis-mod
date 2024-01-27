@@ -54,7 +54,7 @@
                 "base": "game:item/tool/spear/ornatesilver"
             },
             "spear-*": {
-                "base": "game:item/tool/spear/ornatesilver"
+                "base": "game:item/tool/spear/boar"
             }
         },
         "file": "game:itemtypes/tool/spear"
@@ -95,7 +95,7 @@
             },
             "spear-generic-*": {
                 "material": {
-                    "base": "game:block/metal/ingot/{material}"
+                    "blackbronze": "game:block/metal/ingot/{material}"
                 }
             }
         },
@@ -460,7 +460,7 @@
                 "base": "game:item/tool/spear/ornatesilver", offsetX: -0.8125
             },
             "spear-*": {
-                "base": "game:item/tool/spear/ornatesilver", offsetX: -0.8125
+                "base": "game:item/tool/spear/boar", offsetX: -0.8125
             }
         },
         "file": "game:entities/spear"
@@ -484,7 +484,7 @@
             },
             "spear-generic-*": {
                 "material": {
-                    "base": "game:block/metal/{material}"
+                    "blackbronze": "game:block/metal/ingot/{material}"
                 }
             }
         },
@@ -524,7 +524,7 @@
                 "base": "game:item/tool/spear/spearhead-metal"
             },
             "spearhead-*": {
-                "base": "game:item/tool/spear/ornatesilver"
+                "base": "game:item/tool/spear/boar"
             }
         },
         "file": "game:itemtypes/toolhead/spearhead"
@@ -533,7 +533,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spearhead-(chert|granite|basalt|andesite|peridotite|obsidian)": {
+            "@spearhead-*-(chert|granite|basalt|andesite|peridotite|obsidian)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 },
@@ -544,7 +544,7 @@
                     "base": "game:block/transparent"
                 }
             },
-            "spearhead-flint": {
+            "spearhead-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 },
@@ -555,7 +555,7 @@
                     "base": "game:block/transparent"
                 }
             },
-            "@spearhead-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
+            "@spearhead-*-(copper|tinbronze|bismuthbronze|blackbronze|lead|tin|zinc)": {
                 "material": {
                     "base": "game:block/metal/ingot/{material}"
                 },
@@ -567,22 +567,10 @@
                 }
             },
             "spearhead-*": {
-                "iron4": {
+                "blackbronze": {
                     "base": "game:block/metal/ingot/{material}"
                 },
-                "string": {
-                    "base": "game:block/transparent"
-                },
-                "silver": {
-                    "base": "game:block/transparent"
-                },
-                "silver4": {
-                    "base": "game:block/transparent"
-                },
-                "redwood": {
-                    "base": "game:block/transparent"
-                },
-                "chthonic": {
+                "handle": {
                     "base": "game:block/transparent"
                 }
             }
