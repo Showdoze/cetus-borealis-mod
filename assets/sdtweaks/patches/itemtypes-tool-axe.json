@@ -29,80 +29,80 @@
     //////////tool tier by type
     {
         "op": "add",
-        "path": "/tooltierbytype/*-brass",
+        "path": "/tooltierbytype/axe-*-brass",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-bismuth",
+        "path": "/tooltierbytype/axe-*-bismuth",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-nickel",
+        "path": "/tooltierbytype/axe-*-nickel",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-molybdochalkos",
+        "path": "/tooltierbytype/axe-*-molybdochalkos",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-lead",
+        "path": "/tooltierbytype/axe-*-lead",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-tin",
+        "path": "/tooltierbytype/axe-*-tin",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-zinc",
+        "path": "/tooltierbytype/axe-*-zinc",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-titanium",
+        "path": "/tooltierbytype/axe-*-titanium",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-chromium",
+        "path": "/tooltierbytype/axe-*-chromium",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-platinum",
+        "path": "/tooltierbytype/axe-*-platinum",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-rhodium",
+        "path": "/tooltierbytype/axe-*-rhodium",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/tooltierbytype/*-stainlesssteel",
+        "path": "/tooltierbytype/axe-*-stainlesssteel",
         "value": "4",
         "file": "game:itemtypes/tool/axe-metal"
     },
     ///////////////mining speed by type
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-brass",
+        "path": "/miningspeedbytype/axe-*-brass",
         "value": {
             "wood": 5.5,
             "plant": 3.1,
@@ -112,7 +112,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-bismuth",
+        "path": "/miningspeedbytype/axe-*-bismuth",
         "value": {
             "wood": 4.2,
             "plant": 2.1,
@@ -122,7 +122,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-nickel",
+        "path": "/miningspeedbytype/axe-*-nickel",
         "value": {
             "wood": 5,
             "plant": 3,
@@ -132,7 +132,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-molybdochalkos",
+        "path": "/miningspeedbytype/axe-*-molybdochalkos",
         "value": {
             "wood": 4.7,
             "plant": 3.2,
@@ -142,7 +142,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-lead",
+        "path": "/miningspeedbytype/axe-*-lead",
         "value": {
             "wood": 4.5,
             "plant": 3,
@@ -152,7 +152,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-tin",
+        "path": "/miningspeedbytype/axe-*-tin",
         "value": {
             "wood": 3.5,
             "plant": 2,
@@ -162,7 +162,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-zinc",
+        "path": "/miningspeedbytype/axe-*-zinc",
         "value": {
             "wood": 4.5,
             "plant": 2.5,
@@ -172,7 +172,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-titanium",
+        "path": "/miningspeedbytype/axe-*-titanium",
         "value": {
             "wood": 13,
             "plant": 8,
@@ -182,7 +182,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-platinum",
+        "path": "/miningspeedbytype/axe-*-platinum",
         "value": {
             "wood": 14,
             "plant": 8.5,
@@ -192,7 +192,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-chromium",
+        "path": "/miningspeedbytype/axe-*-chromium",
         "value": {
             "wood": 13.5,
             "plant": 8.2,
@@ -202,7 +202,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-rhodium",
+        "path": "/miningspeedbytype/axe-*-rhodium",
         "value": {
             "wood": 13,
             "plant": 7.5,
@@ -212,7 +212,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-uranium",
+        "path": "/miningspeedbytype/axe-*-uranium",
         "value": {
             "wood": 12.5,
             "plant": 8,
@@ -222,7 +222,7 @@
     },
     {
         "op": "add",
-        "path": "/miningspeedbytype/*-stainlesssteel",
+        "path": "/miningspeedbytype/axe-*-stainlesssteel",
         "value": {
             "wood": 11,
             "plant": 7,
@@ -233,152 +233,152 @@
     ///////////////attack power by type
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-brass",
+        "path": "/attackpowerbytype/axe-*-brass",
         "value": "2.2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-bismuth",
+        "path": "/attackpowerbytype/axe-*-bismuth",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-nickel",
+        "path": "/attackpowerbytype/axe-*-nickel",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-molybdochalkos",
+        "path": "/attackpowerbytype/axe-*-molybdochalkos",
         "value": "2.2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-lead",
+        "path": "/attackpowerbytype/axe-*-lead",
         "value": "2.1",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-tin",
+        "path": "/attackpowerbytype/axe-*-tin",
         "value": "1.8",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-zinc",
+        "path": "/attackpowerbytype/axe-*-zinc",
         "value": "2",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-titanium",
+        "path": "/attackpowerbytype/axe-*-titanium",
         "value": "5.5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-chromium",
+        "path": "/attackpowerbytype/axe-*-chromium",
         "value": "5.6",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-platinum",
+        "path": "/attackpowerbytype/axe-*-platinum",
         "value": "5.6",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-rhodium",
+        "path": "/attackpowerbytype/axe-*-rhodium",
         "value": "5.5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-uranium",
+        "path": "/attackpowerbytype/axe-*-uranium",
         "value": "5.4",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/attackpowerbytype/*-stainlesssteel",
+        "path": "/attackpowerbytype/axe-*-stainlesssteel",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
     //////////////durability by type
     {
         "op": "add",
-        "path": "/durabilitybytype/*-brass",
+        "path": "/durabilitybytype/axe-*-brass",
         "value": "300",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-bismuth",
+        "path": "/durabilitybytype/axe-*-bismuth",
         "value": "200",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-nickel",
+        "path": "/durabilitybytype/axe-*-nickel",
         "value": "250",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-molybdochalkos",
+        "path": "/durabilitybytype/axe-*-molybdochalkos",
         "value": "300",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-lead",
+        "path": "/durabilitybytype/axe-*-lead",
         "value": "200",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-tin",
+        "path": "/durabilitybytype/axe-*-tin",
         "value": "200",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-zinc",
+        "path": "/durabilitybytype/axe-*-zinc",
         "value": "280",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-titanium",
+        "path": "/durabilitybytype/axe-*-titanium",
         "value": "3000",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-chromium",
+        "path": "/durabilitybytype/axe-*-chromium",
         "value": "4000",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-platinum",
+        "path": "/durabilitybytype/axe-*-platinum",
         "value": "4200",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-uranium",
+        "path": "/durabilitybytype/axe-*-uranium",
         "value": "3500",
         "file": "game:itemtypes/tool/axe-metal"
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/*-stainlesssteel",
+        "path": "/durabilitybytype/axe-*-stainlesssteel",
         "value": "2800",
         "file": "game:itemtypes/tool/axe-metal"
     },
