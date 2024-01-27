@@ -410,10 +410,10 @@
         "path": "/shapeByType",
         "value": {
             "@axehead-(chert|basalt|andesite|peridotite|obsidian|flint|granite)": {
-                "base": "game:item/tool/axe-stone"
+                "base": "game:item/tool/axe/stone"
             },
             "@axehead-(copper|tinbronze|bismuthbronze|lead|tin|bismuth|zinc)": {
-                "base": "game:item/tool/axe-copper"
+                "base": "game:item/tool/axe/copper"
             },
             "axehead-*": {
                 "base": "game:item/tool/axe/iron"
