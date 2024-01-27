@@ -23,8 +23,8 @@
             "basalt",
             "obsidian",
             "peridotite",
-            "ornate-gold",
-            "ornate-silver",
+            "ornategold",
+            "ornatesilver",
             "hacking",
             "scrap"
         ],
@@ -62,18 +62,6 @@
     /////////////textures by type
     {
         "op": "replace",
-        "path": "/textures/iron4",
-        "value": {},
-        "file": "game:shapes/tool/spear/ornatesilver"
-    },
-    {
-        "op": "replace",
-        "path": "/textures/silver",
-        "value": {},
-        "file": "game:shapes/tool/spear/ornatesilver"
-    },
-    {
-        "op": "replace",
         "path": "/texturesByType",
         "value": {
             "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite)": {
@@ -94,8 +82,8 @@
                 }
             },
             "spear-generic-*": {
-                "material": {
-                    "blackbronze": "game:block/metal/ingot/{material}"
+                "blackbronze": {
+                    "base": "game:block/metal/ingot/{material}"
                 }
             }
         },
@@ -476,15 +464,15 @@
                 }
             },
             "@spear-*-(scrap|hacking)": {},
-            "spear-*-ornate*": {},
+            "spear-generic-ornate*": {},
             "spear-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 }
             },
             "spear-generic-*": {
-                "material": {
-                    "blackbronze": "game:block/metal/ingot/{material}"
+                "blackbronze": {
+                    "base": "game:block/metal/ingot/{material}"
                 }
             }
         },
