@@ -8,6 +8,10 @@
     "block-torchnapalm-*": "Napalm Torch",
     "blockdesc-torchnapalm-*": "Reinforced by resin to provide long lasting burning of primary fuel allowing to use the torch without being afraid of water",
     
+    "block-undying_stone-*": "Gel'ziabar Stone",
+    "blockdesc-undying_stone-*": "The Gel'ziabar Stone is a mystical green stone given to Patrick Galloway by Jeremiah Covenant during the Great War",
+    
+
     "block-torchuranium-copper-*": "Copper Base Uranium Torch",
     "block-torchuranium-brass-*": "Brass Base Uranium Torch",
     "block-torchuranium-tinbronze-*": "Tin Bronze Base Uranium Torch",

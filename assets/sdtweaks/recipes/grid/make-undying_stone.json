@@ -1,0 +1,11 @@
+{
+    ingredientPattern: "D,E,J",
+    ingredients: {
+        "D": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+        "J": { type: "item", code: "game:clearquartz"},
+        "E": { type: "item", code: "game:ItemTemporalGear" }
+    },
+    width: 1,
+    height: 3,
+    output: { type: "block", code: "undying_stone-up", quantity: 1 }
+}
