@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal"},
 	pattern: [[
 	  "_#_########___",
       "_##______##___",
@@ -8,5 +8,5 @@
       "_____########_"
 	]],
 	name: "Hoe",
-	output: { type: "item", code: "hoehead-{metal}", stacksize: 3 }
+	output: { type: "item", code: "game:hoehead-{metal}", stacksize: 3 }
 }

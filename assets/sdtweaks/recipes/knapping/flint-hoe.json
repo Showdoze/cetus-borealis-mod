@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "flint" },
+	ingredient: { type: "item", code: "game:flint" },
 	pattern: [[
 		"___##_####",
 		"__##_#####",
@@ -13,5 +13,5 @@
 		"####_##___"
 	]],
 	name: "Hoe",
-	output: { type: "item", code: "hoehead-flint", stacksize: 2  }
+	output: { type: "item", code: "game:hoehead-flint", stacksize: 2  }
 }
