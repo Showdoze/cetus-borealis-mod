@@ -6,21 +6,11 @@
 	"attackRange": 2,
 	"storageFlags": 257,
 	"variantgroups": [
-		{
-			"code": "orientation",
-			"states": [ "up" ],
-			"loadFromProperties": "abstract/horizontalorientation"
-		}
+		{ "code": "orientation", "states": [ "up" ], "loadFromProperties": "abstract/horizontalorientation" }
 	],
-	"heldRightTpIdleAnimationbyType": {
-		"*": "holdinglanternrighthand"
-	},
-	"heldLeftTpIdleAnimationbyType": {
-		"*": "holdinglanternlefthand"
-	},
-	"heldTpUseAnimationbyType": {
-		"*": "interactstatic"
-	},
+	"heldRightTpIdleAnimationbyType": { "*": "holdinglanternrighthand" },
+	"heldLeftTpIdleAnimationbyType": { "*": "holdinglanternlefthand" },
+	"heldTpUseAnimationbyType": { "*": "interactstatic" },
 	"heldRightTpIdleAnimation": "holdinglanternrighthand",
 	"heldLeftTpIdleAnimation": "holdinglanternlefthand",
 	"attributes": {
@@ -76,22 +66,10 @@
 	},
 	"shapebytype": {
 		"*-up": { "base": "game:block/wood/torch/cloth-lit-ground" },
-		"*-north": {
-			"base": "game:block/wood/torch/cloth-lit-wall",
-			"rotateY": 0
-		},
-		"*-east": {
-			"base": "game:block/wood/torch/cloth-lit-wall",
-			"rotateY": -90
-		},
-		"*-south": {
-			"base": "game:block/wood/torch/cloth-lit-wall",
-			"rotateY": 180
-		},
-		"*-west": {
-			"base": "game:block/wood/torch/cloth-lit-wall",
-			"rotateY": 90
-		}
+		"*-north": {"base": "game:block/wood/torch/cloth-lit-wall","rotateY": 0},
+		"*-east": {"base": "game:block/wood/torch/cloth-lit-wall","rotateY": -90},
+		"*-south": {"base": "game:block/wood/torch/cloth-lit-wall", "rotateY": 180 },
+		"*-west": { "base": "game:block/wood/torch/cloth-lit-wall", "rotateY": 90 }
 	},
 	"textures": {
 		"torch-lit": { "base": "game:block/wood/debarked/aged" }

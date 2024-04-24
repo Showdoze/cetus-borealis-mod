@@ -1,6 +1,6 @@
 {
 	code: "tablelong",
-	behaviors: [ { name: "UnstableFalling" } ],
+	behaviors: [ { name: "UnstableFalling" }, { name: "HorizontalOrientable" } ],
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
 		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] },

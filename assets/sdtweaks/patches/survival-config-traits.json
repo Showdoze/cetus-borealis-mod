@@ -2,57 +2,57 @@
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "remove",
     "path": "/7",
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "replace",
@@ -64,7 +64,7 @@
         "animalSeekingRange": 0.35
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -76,7 +76,7 @@
         "mechanicalsDamage": 0.25
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -88,7 +88,7 @@
         "temporalGearTLRepairCost": -1
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -102,7 +102,7 @@
         "armorWalkSpeedAffectedness": -0.25
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -115,7 +115,7 @@
         "maxhealthExtraPoints": 5
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -125,7 +125,7 @@
       "type": "positive",
       "attributes": {}
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -137,7 +137,7 @@
         "armorDurabilityLoss": -0.1
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -147,7 +147,7 @@
       "type": "positive",
       "attributes": {}
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -159,7 +159,7 @@
         "meleeWeaponsDamage": -0.15
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -172,7 +172,7 @@
         "miningSpeedMul": -0.1
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -185,7 +185,7 @@
         "bowDrawingStrength": -0.25
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -197,7 +197,7 @@
         "meleeWeaponsDamage": -0.15
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -209,7 +209,7 @@
         "hungerrate": 0.3
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   },
   {
     "op": "add",
@@ -221,6 +221,6 @@
         "hungerrate": -0.15
       }
     },
-    "file": "game:config/traits.json"
+    "file": "game:config/traits"
   }
 ]

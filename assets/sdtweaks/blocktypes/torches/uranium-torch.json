@@ -6,29 +6,13 @@
   "attackRange": 2,
   "storageFlags": 257,
   "variantgroups": [
-    {
-      "code": "metal",
-      "loadFromProperties": "game:block/metal"
-    },
-    {
-      "code": "glow",
-      "states": [ "green", "white", "yellow", "orange", "blue" ]
-    },
-    {
-      "code": "orientation",
-      "states": [ "up" ],
-      "loadFromProperties": "abstract/horizontalorientation"
-    }
+    { "code": "metal", "loadFromProperties": "game:block/metal" },
+    { "code": "glow", "states": [ "green", "white", "yellow", "orange", "blue" ] },
+    { "code": "orientation", "states": [ "up" ], "loadFromProperties": "abstract/horizontalorientation" }
   ],
-  "heldRightTpIdleAnimationbyType": {
-    "*": "holdinglanternrighthand"
-  },
-  "heldLeftTpIdleAnimationbyType": {
-    "*": "holdinglanternlefthand"
-  },
-  "heldTpUseAnimationbyType": {
-    "*": "interactstatic"
-  },
+  "heldRightTpIdleAnimationbyType": { "*": "holdinglanternrighthand" },
+  "heldLeftTpIdleAnimationbyType": { "*": "holdinglanternlefthand" },
+  "heldTpUseAnimationbyType": { "*": "interactstatic" },
   "heldRightTpIdleAnimation": "holdinglanternrighthand",
   "heldLeftTpIdleAnimation": "holdinglanternlefthand",
   "attributes": {
@@ -36,105 +20,30 @@
       "groupBy": [ "torchuranium-*" ]
     },
     "attachmentAreas": {
-      "down": {
-        "x1": 7,
-        "y1": 15,
-        "z1": 7,
-        "x2": 8,
-        "y2": 16,
-        "z2": 8
-      },
-      "up": {
-        "x1": 7,
-        "y1": 15,
-        "z1": 7,
-        "x2": 8,
-        "y2": 16,
-        "z2": 8,
-        "rotateX": 180
-      },
-      "north": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 180
-      },
-      "east": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 270
-      },
-      "south": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 0
-      },
-      "west": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 90
-      }
+      "down": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 16, "z2": 8 },
+      "up": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 16, "z2": 8, "rotateX": 180 },
+      "north": { "x1": 6, "y1": 0, "z1": 15, "x2": 10, "y2": 5, "z2": 15, "rotateY": 180 },
+      "east": { "x1": 6, "y1": 0, "z1": 15, "x2": 10, "y2": 5, "z2": 15, "rotateY": 270 },
+      "south": { "x1": 6, "y1": 0, "z1": 15, "x2": 10, "y2": 5, "z2": 15, "rotateY": 0 },
+      "west": { "x1": 6, "y1": 0, "z1": 15, "x2": 10, "y2": 5, "z2": 15, "rotateY": 90 }
     }
   },
   "shapebytype": {
-    "*-up": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1"
-    },
-    "*-down": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1",
-      "rotateX": 180
-    },
-    "*-north": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1",
-      "rotateY": 0,
-      "rotateX": -90
-    },
-    "*-east": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1",
-      "rotateY": 0,
-      "rotateZ": -90
-    },
-    "*-south": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1",
-      "rotateY": 180,
-      "rotateX": 90
-    },
-    "*-west": {
-      "base": "game:block/clutter/lightsource/on/lumi-floor1",
-      "rotateY": 0,
-      "rotateZ": 90
-    }
+    "*-up": { "base": "game:block/clutter/lightsource/on/lumi-floor1" },
+    "*-down": { "base": "game:block/clutter/lightsource/on/lumi-floor1", "rotateX": 180 },
+    "*-north": { "base": "game:block/clutter/lightsource/on/lumi-floor1", "rotateY": 0, "rotateX": -90 },
+    "*-east": { "base": "game:block/clutter/lightsource/on/lumi-floor1", "rotateY": 0, "rotateZ": -90 },
+    "*-south": { "base": "game:block/clutter/lightsource/on/lumi-floor1", "rotateY": 180, "rotateX": 90 },
+    "*-west": { "base": "game:block/clutter/lightsource/on/lumi-floor1", "rotateY": 0, "rotateZ": 90 }
   },
   "textures": {
     "rusty-iron": { "base": "game:block/metal/ingot/{metal}" },
     "rustyglow": { "base": "game:block/liquid/dye/{glow}" }
   },
   "doNotRenderAtLod2": true,
-  "sidesolid": {
-    "all": false
-  },
-  "sideopaque": {
-    "all": false
-  },
-  "creativeinventory": {
-    "general": [ "*-up" ],
-    "decorative": [ "*-up" ]
-  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "creativeinventory": { "general": [ "*-up" ], "decorative": [ "*-up" ] },
   "replaceable": 5001,
   "resistance": 0,
   "lightAbsorption": 0,
@@ -149,22 +58,10 @@
     {
       "__comment": "Ember cubicles",
       "hsvaColor": [
-        {
-          "avg": 52,
-          "var": 5
-        },
-        {
-          "avg": 240,
-          "var": 10
-        },
-        {
-          "avg": 200,
-          "var": 50
-        },
-        {
-          "avg": 255,
-          "var": 0
-        }
+        { "avg": 52, "var": 5 },
+        {"avg": 240,"var": 10},
+        {"avg": 200,"var": 50},
+        {"avg": 255,"var": 0}
       ],
       "gravityEffect": {
         "dist": "invexp",

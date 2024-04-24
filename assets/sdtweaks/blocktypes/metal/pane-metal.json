@@ -1,6 +1,7 @@
 {
 	code: "glasspanemetal",
 	class: "BlockGlassPane",
+	behaviors: [{name: "HorizontalOrientable"}],
 	variantgroups: [
 		{ code: "glass", states: ["plain", "smoky", "violet", "pink", "green"] },
 		{ code: "material", loadFromProperties: "game:block/metal" },

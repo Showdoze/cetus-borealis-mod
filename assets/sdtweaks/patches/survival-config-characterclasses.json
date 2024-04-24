@@ -1,12 +1,12 @@
 [
   {
     "op": "add",
-    "path": "/",
+    "path": "/0",
     "value": {
       "code": "deprived",
       "traits": [ "hardy", "focused", "resourceful", "hearty" ],
       "gear": [ { "type": "item", "code": "game:club-generic-wood" } ]
     },
-    "file": "game:config/characterclasses.json"
+    "file": "game:config/characterclasses"
   }
 ]

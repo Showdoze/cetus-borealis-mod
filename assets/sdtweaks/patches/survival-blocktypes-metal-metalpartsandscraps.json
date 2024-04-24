@@ -21,7 +21,7 @@
           "code": "ingot-blistersteel"
         }
       }
-    },
-    "file": "blocktypes/metal/metalpartsandscraps.json"
+},
+    "file": "game:blocktypes/metal/metalpartsandscraps"
   }
 ]

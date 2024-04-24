@@ -232,7 +232,7 @@
         }
       ]
     },
-    "file": "shapes/block/wood/pitkiln/anvil.json"
+    "file": "game:shapes/block/wood/pitkiln/anvil"
   },
   {
     "op": "add",
@@ -468,6 +468,6 @@
         }
       ]
     },
-    "file": "shapes/block/wood/pitkiln/anvil.json"
+    "file": "game:shapes/block/wood/pitkiln/anvil"
   }
 ]
