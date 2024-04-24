@@ -3,20 +3,26 @@
 	behaviors: [ { name: "UnstableFalling" } ],
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
-		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] }
+		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] },
+        { code: "type", states: ["ns", "ew"] }
 	],
-	attributes: {
+	attributesByType: {
 		"pieFormingSurface": true,
-		handbook: {
-			groupBy: ["tablelong-*"]
+		"*-ns": {
+			handbook: { exclude: true }
+		},
+		"*-ew": {
+			handbook: { groupBy: ["tablelong-*"] }
 		}
 	},
     shapebytype: {
-		"*-none": { base: "game:block/clutter/table-long" },
-        "*": { base: "game:block/clutter/table-long-with-cloth" }
+		"*-none-ew": { base: "game:block/clutter/table-long", rotateY: 0 },
+        "*-ew": { base: "game:block/clutter/table-long-with-cloth", rotateY: 0 },
+        "*-none-ns": { base: "game:block/clutter/table-long", rotateY: 90 },
+        "*-ns": { base: "game:block/clutter/table-long-with-cloth", rotateY: 90 }
 	},
 	heldTpIdleAnimation: "holdunderarm",
-	creativeinventory: { "general": [ "*" ], "decorative": [ "*" ] },
+	creativeinventory: { "general": [ "*-ew" ], "decorative": [ "*-ew" ] },
 	blockmaterial: "Wood",
 	replaceable: 900,
 	resistance: 1,
