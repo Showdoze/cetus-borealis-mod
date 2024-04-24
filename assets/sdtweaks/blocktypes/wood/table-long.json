@@ -1,0 +1,52 @@
+{
+	code: "tablelong",
+	behaviors: [ { name: "UnstableFalling" } ],
+	variantgroups: [
+		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
+		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] }
+	],
+	attributes: {
+		"pieFormingSurface": true,
+		handbook: {
+			groupBy: ["tablelong-*"]
+		}
+	},
+    shapebytype: {
+		"*-none": { base: "game:block/clutter/table-long" },
+        "*": { base: "game:block/clutter/table-long-with-cloth" }
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": [ "*" ], "decorative": [ "*" ] },
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1,
+	lightAbsorption: 1,
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},	
+	"sideopaque": {
+		"up": true,
+		"all": false
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"textures": {
+		"top": { "base": "game:block/cloth/aged/{cloth}/top" },
+        "charred": { "base": "game:block/wood/debarked/{wood}" }
+	},
+	materialDensity: 2000,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

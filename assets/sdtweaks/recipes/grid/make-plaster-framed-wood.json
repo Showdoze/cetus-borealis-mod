@@ -1,10 +1,10 @@
 {
-    ingredientPattern: "C_C,_X_,C_C",
-    ingredients: {
-        "X": { type: "block", code: "plasterblock-*", "name": "material" },
-        "C": { type: "item", code: "game:plank-*", "name": "wood" }
+    "ingredientPattern": "C_C,_X_,C_C",
+    "ingredients": {
+        "X": { "type": "block", "code": "plasterblock-*", "name": "material" },
+        "C": { "type": "item", "code": "game:plank-*", "name": "wood" }
     },
-    width: 3,
-    height: 3,
-    output: { type: "block", code: "plasterframedwood-{material}-{wood}-ud", quantity: 1 }
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "plasterframedwood-{material}-{wood}-ud", "quantity": 1 }
 }

@@ -1,9 +1,10 @@
 {
-    "code": "scaffolding",
+    "code": "woodscaffolding",
+    "variantgroups": [
+		{ "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" }
+	],
     "creativeinventory": {
-        "general": [
-            "*"
-        ]
+        "general": ["*"]
     },
     "shape": {
         "base": "block/wood/scaffolding"
@@ -11,14 +12,10 @@
     "blockmaterial": "Wood",
     "drawtype": "json",
     "textures": {
-        "kapok": {
-            "base": "game:block/wood/debarked/kapok"
-        },
-        "ropeblock": {
-            "base": "block/rope"
-        }
+        "kapok": { "base": "game:block/wood/debarked/{wood}" },
+        "ropeblock": { "base": "block/rope" }
     },
-    "resistance": 0.1,
+    "resistance": 0.5,
     "lightabsorption": 0,
     "climbable": true,
     "sideopaque": {

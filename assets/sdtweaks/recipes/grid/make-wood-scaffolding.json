@@ -1,0 +1,22 @@
+[
+	{
+        "ingredientPattern": "WWW,WFW,WWW",
+        "ingredients": {
+            "F": { "type": "item","code": "game:rope" },
+            "W": { "type": "item", "code": "game:plank-*", "name": "wood" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "woodscaffolding-{wood}", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "WWW,WFW,WWW",
+        "ingredients": {
+            "F": { "type": "item","code": "game:flaxtwine" },
+            "W": { "type": "item", "code": "game:plank-*", "name": "wood" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "woodscaffolding-{wood}", "quantity": 1 }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        ingredientPattern: "_O_,OOO,O_O",
+        ingredients: {
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-{wood}-none", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-red", quantity: 1 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-{wood}-red", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-blue", quantity: 1 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-{wood}-blue", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-purple", quantity: 1 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-{wood}-purple", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-green", quantity: 1 },
+            "O": { type: "item", code: "game:plank-*", "name": "wood", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-{wood}-green", quantity: 1 }
+    }
+]
