@@ -10,7 +10,7 @@
         "resourceful",
         "hearty"
       ],
-      "gear": [ type: "item", code: "clothes-hand-commoner-gloves" ]
+      "gear": [ type: "item", code: "game:club" ]
     },
     "file": "game:config/characterclasses.json"
   }
