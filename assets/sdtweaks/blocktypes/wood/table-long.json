@@ -20,7 +20,6 @@
 		"*-none-south": { base: "game:block/clutter/table-long", rotateY: 270 },
         "*-south": { base: "game:block/clutter/table-long-with-cloth", rotateY: 270 }
 	},
-	drawtype: "json",
 	heldTpIdleAnimation: "holdunderarm",
 	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ] },
 	blockmaterial: "Wood",

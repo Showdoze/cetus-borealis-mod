@@ -6,9 +6,7 @@
 	},
 	attributes: {
 		sleepEfficiency: "0.9",
-		handbook: {
-			groupBy: ["bedpremium-*"]
-		}
+		handbook: { groupBy: ["bedpremium-*"] }
 	},
 	sidesolid: {
 		all: false
