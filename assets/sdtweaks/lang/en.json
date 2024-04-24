@@ -11,7 +11,6 @@
     "block-undying_stone-*": "Gel'ziabar Stone",
     "blockdesc-undying_stone-*": "The Gel'ziabar Stone is a mystical green stone given to Patrick Galloway by Jeremiah Covenant during the Great War",
     
-
     "block-torchuranium-copper-*": "Copper Base Uranium Torch",
     "block-torchuranium-brass-*": "Brass Base Uranium Torch",
     "block-torchuranium-tinbronze-*": "Tin Bronze Base Uranium Torch",
@@ -32,7 +31,7 @@
     
     "block-*-coolerstoragevessel-*": "Cooler Storage Vessel",
     "blockdesc-coolerstoragevessel-*": "Preserves spoilable items for way longer",
-
+    
     "item-chainringmetal-copper": "Copper Chain Ring",
     "item-chainringmetal-brass": "Brass Chain Ring",
     "item-chainringmetal-bismuth": "Bismuth Chain Ring",
@@ -55,9 +54,9 @@
     "item-chainringmetal-stainlesssteel": "Stainless Steel Chain Ring",
     "item-chainringmetal-nickel": "Nickel Chain Ring",
     "item-chainringmetal-molybdochalkos": "Molybdochalkos Chain Ring",
-
+    
     "item-napalm": "Napalm",
-
+    
     "block-laddermetal-copper-*": "Copper Metal Ladder",
     "block-laddermetal-brass-*": "Brass Metal Ladder",
     "block-laddermetal-nickel-*": "Nickel Metal Ladder",
@@ -80,7 +79,7 @@
     "block-laddermetal-rhodium-*": "Rhodium Metal Ladder",
     "block-laddermetal-uranium-*": "Uranium Metal Ladder",
     "block-laddermetal-stainlesssteel-*": "Stainless Steel Metal Ladder",
-
+    
     "block-fencemetal-copper-*": "Copper Heavy Fence",
     "block-fencemetal-brass-*": "Brass Heavy Fence",
     "block-fencemetal-bismuth-*": "Bismuth Heavy Fence",
@@ -103,7 +102,7 @@
     "block-fencemetal-rhodium-*": "Rhodium Heavy Fence",
     "block-fencemetal-uranium-*": "Uranium Heavy Fence",
     "block-fencemetal-stainlesssteel-*": "Stainless Steel Heavy Fence",
-
+    
     "block-barrelmetal-copper": "Copper Metal Barrel",
     "block-barrelmetal-brass": "Brass Metal Barrel",
     "block-barrelmetal-bismuth": "Bismuth Metal Barrel",
@@ -126,7 +125,7 @@
     "block-barrelmetal-rhodium": "Rhodium Metal Barrel",
     "block-barrelmetal-uranium": "Uranium Metal Barrel",
     "block-barrelmetal-stainlesssteel": "Stainless Steel Metal Barrel",
-
+    
     "block-trapdoormetal-copper-*": "Copper Metal Trapdoor",
     "block-trapdoormetal-brass-*": "Brass Metal Trapdoor",
     "block-trapdoormetal-bismuth-*": "Bismuth Metal Trapdoor",
@@ -149,7 +148,7 @@
     "block-trapdoormetal-rhodium-*": "Rhodium Metal Trapdoor",
     "block-trapdoormetal-uranium-*": "Uranium Metal Trapdoor",
     "block-trapdoormetal-stainlesssteel-*": "Stainless Steel Metal Trapdoor",
-
+    
     "block-glasspanemetal-*-copper-*": "Copper Glass Pane",
     "block-glasspanemetal-*-brass-*": "Brass Glass Pane",
     "block-glasspanemetal-*-bismuth-*": "Bismuth Glass Pane",
@@ -172,7 +171,7 @@
     "block-glasspanemetal-*-rhodium-*": "Rhodium Glass Pane",
     "block-glasspanemetal-*-uranium-*": "Uranium Glass Pane",
     "block-glasspanemetal-*-stainlesssteel-*": "Stainless Steel Glass Pane",
-
+    
     "block-casemetal-copper-*": "Copper Metal Case",
     "block-casemetal-brass-*": "Brass Metal Case",
     "block-casemetal-bismuth-*": "Bismuth Metal Case",
@@ -195,7 +194,7 @@
     "block-casemetal-rhodium-*": "Rhodium Metal Case",
     "block-casemetal-uranium-*": "Uranium Metal Case",
     "block-casemetal-stainlesssteel-*": "Stainless Steel Metal Case",
-
+    
     "block-shelfmetal-copper-*": "Copper Metal Shelf",
     "block-shelfmetal-brass-*": "Brass Metal Shelf",
     "block-shelfmetal-bismuth-*": "Bismuth Metal Shelf",
@@ -218,7 +217,7 @@
     "block-shelfmetal-rhodium-*": "Rhodium Metal Shelf",
     "block-shelfmetal-uranium-*": "Uranium Metal Shelf",
     "block-shelfmetal-stainlesssteel-*": "Stainless Steel Metal Shelf",
-
+    
     "block-toolrackmetal-copper-*": "Copper Tool Rack",
     "block-toolrackmetal-brass-*": "Brass Tool Rack",
     "block-toolrackmetal-bismuth-*": "Bismuth Tool Rack",
@@ -241,7 +240,7 @@
     "block-toolrackmetal-rhodium-*": "Rhodium Tool Rack",
     "block-toolrackmetal-uranium-*": "Uranium Tool Rack",
     "block-toolrackmetal-stainlesssteel-*": "Stainless Steel Tool Rack",
-
+    
     "block-moldrackmetal-copper-*": "Copper Mold Rack",
     "block-moldrackmetal-brass-*": "Brass Mold Rack",
     "block-moldrackmetal-bismuth-*": "Bismuth Mold Rack",
@@ -264,7 +263,7 @@
     "block-moldrackmetal-rhodium-*": "Rhodium Mold Rack",
     "block-moldrackmetal-uranium-*": "Uranium Mold Rack",
     "block-moldrackmetal-stainlesssteel-*": "Stainless Steel Mold Rack",
-
+    
     "block-firepitadvanced-copper-*": "Copper Heater",
     "block-firepitadvanced-brass-*": "Brass Heater",
     "block-firepitadvanced-bismuth-*": "Bismuth Heater",
@@ -287,7 +286,7 @@
     "block-firepitadvanced-rhodium-*": "Rhodium Heater",
     "block-firepitadvanced-uranium-*": "Uranium Heater",
     "block-firepitadvanced-stainlesssteel-*": "Stainless Steel Heater",
-
+    
     "block-bucketmetal-copper": "Copper Bucket",
     "block-bucketmetal-brass": "Brass Bucket",
     "block-bucketmetal-bismuth": "Bismuth Bucket",
@@ -310,7 +309,7 @@
     "block-bucketmetal-rhodium": "Rhodium Bucket",
     "block-bucketmetal-uranium": "Uranium Bucket",
     "block-bucketmetal-stainlesssteel": "Stainless Steel Bucket",
-
+    
     "block-chairmetal-copper-*": "Copper Chair",
     "block-chairmetal-brass-*": "Brass Chair",
     "block-chairmetal-bismuth-*": "Bismuth Chair",
@@ -333,7 +332,7 @@
     "block-chairmetal-rhodium-*": "Rhodium Chair",
     "block-chairmetal-uranium-*": "Uranium Chair",
     "block-chairmetal-stainlesssteel-*": "Stainless Steel Chair",
-
+    
     "block-tablemetal-copper-*": "Copper Table",
     "block-tablemetal-brass-*": "Brass Table",
     "block-tablemetal-bismuth-*": "Bismuth Table",
@@ -356,7 +355,7 @@
     "block-tablemetal-rhodium-*": "Rhodium Table",
     "block-tablemetal-uranium-*": "Uranium Table",
     "block-tablemetal-stainlesssteel-*": "Stainless Steel Table",
-
+    
     "block-cagemetal-copper-*": "Copper Cage",
     "block-cagemetal-brass-*": "Brass Cage",
     "block-cagemetal-bismuth-*": "Bismuth Cage",
@@ -379,7 +378,7 @@
     "block-cagemetal-rhodium-*": "Rhodium Cage",
     "block-cagemetal-uranium-*": "Uranium Cage",
     "block-cagemetal-stainlesssteel-*": "Stainless Steel Cage",
-
+    
     "block-signmetal-copper-*": "Copper Sign",
     "block-signmetal-brass-*": "Brass Sign",
     "block-signmetal-bismuth-*": "Bismuth Sign",
@@ -402,7 +401,7 @@
     "block-signmetal-rhodium-*": "Rhodium Sign",
     "block-signmetal-uranium-*": "Uranium Sign",
     "block-signmetal-stainlesssteel-*": "Stainless Steel Sign",
-
+    
     "block-walkwaymetal-solid-copper": "Copper Walkway",
     "block-walkwaymetal-solid-brass": "Brass Walkway",
     "block-walkwaymetal-solid-bismuth": "Bismuth Walkway",
@@ -425,7 +424,7 @@
     "block-walkwaymetal-solid-rhodium": "Rhodium Walkway",
     "block-walkwaymetal-solid-uranium": "Uranium Walkway",
     "block-walkwaymetal-solid-stainlesssteel": "Stainless Steel Walkway",
-
+    
     "block-*-chestmetal-copper-*": "Copper Chest",
     "block-*-chestmetal-brass-*": "Brass Chest",
     "block-*-chestmetal-bismuth-*": "Bismuth Chest",
@@ -448,7 +447,7 @@
     "block-*-chestmetal-rhodium-*": "Rhodium Chest",
     "block-*-chestmetal-uranium-*": "Uranium Chest",
     "block-*-chestmetal-stainlesssteel-*": "Stainless Steel Chest",
-
+    
     "block-*-chestmetallabeled-copper-*": "Copper Labeled Chest",
     "block-*-chestmetallabeled-brass-*": "Brass Labeled Chest",
     "block-*-chestmetallabeled-tinbronze-*": "Tin Bronze Labeled Chest",
@@ -465,7 +464,7 @@
     "block-*-chestmetallabeled-zinc-*": "Zinc Labeled Chest",
     "block-*-chestmetallabeled-platinum-*": "Platinum Labeled Chest",
     "block-*-chestmetallabeled-chromium-*": "Chromium Labeled Chest",
-
+    
     "block-*-trunkmetal-copper-*": "Copper Trunk",
     "block-*-trunkmetal-brass-*": "Brass Trunk",
     "block-*-trunkmetal-tinbronze-*": "Tin Bronze Trunk",
@@ -482,7 +481,7 @@
     "block-*-trunkmetal-zinc-*": "Zinc Trunk",
     "block-*-trunkmetal-platinum-*": "Platinum Trunk",
     "block-*-trunkmetal-chromium-*": "Chromium Trunk",
-
+    
     "block-*-containermetal-copper-*": "Copper Container",
     "block-*-containermetal-brass-*": "Brass Container",
     "block-*-containermetal-tinbronze-*": "Tin Bronze Container",
@@ -499,7 +498,7 @@
     "block-*-containermetal-zinc-*": "Zinc Container",
     "block-*-containermetal-platinum-*": "Platinum Container",
     "block-*-containermetal-chromium-*": "Chromium Container",
-
+    
     "block-*-strongboxmetal-copper-*": "Copper Strong Box",
     "block-*-strongboxmetal-brass-*": "Brass Strong Box",
     "block-*-strongboxmetal-tinbronze-*": "Tin Bronze Strong Box",
@@ -516,7 +515,7 @@
     "block-*-strongboxmetal-zinc-*": "Zinc Strong Box",
     "block-*-strongboxmetal-platinum-*": "Platinum Strong Box",
     "block-*-strongboxmetal-chromium-*": "Chromium Strong Box",
-
+    
     "block-bedpremium-oak-*": "Oak Premium Bed",
     "block-bedpremium-larch-*": "Larch Premium Bed",
     "block-bedpremium-pine-*": "Pine Premium Bed",
@@ -531,7 +530,7 @@
     "block-bedpremium-maple-*": "Maple Premium Bed",
     "block-bedpremium-walnut-*": "Walnut Premium Bed",
     "blockdesc-bedpremium-*": "Sometimes you really deserve a good quality rest. ",
-
+    
     "block-plasterblock-chalk": "Chalk Plain Cement Plaster",
     "block-plasterblock-andesite": "Andesite Plain Cement Plaster",
     "block-plasterblock-granite": "Granite Plain Cement Plaster",
@@ -546,7 +545,7 @@
     "block-plasterblock-bauxite": "Bauxite Plain Cement Plaster",
     "block-plasterblock-phyllite": "Phyllite Plain Cement Plaster",
     "block-plasterblock-peridotite": "Peridotite Plain Cement Plaster",
-
+    
     "block-plasterframedwood-chalk-*": "Chalk Framed Cement Plaster",
     "block-plasterframedwood-andesite-*": "Andesite Framed Cement Plaster",
     "block-plasterframedwood-granite-*": "Granite Framed Cement Plaster",
@@ -561,7 +560,7 @@
     "block-plasterframedwood-bauxite-*": "Bauxite Framed Cement Plaster",
     "block-plasterframedwood-phyllite-*": "Phyllite Framed Cement Plaster",
     "block-plasterframedwood-peridotite-*": "Peridotite Framed Cement Plaster",
-
+    
     "game:skinpart-voicetype-quakeranger1": "Quake Ranger 1",
     "game:skinpart-voicetype-quakeranger2": "Quake Ranger 2",
     "game:skinpart-voicetype-quakeranger3": "Quake Ranger 3",
@@ -584,12 +583,12 @@
     "game:skinpart-voicetype-doomguypain": "Doomguy Pain",
     "game:skinpart-voicetype-8stringguitar": "8 String Guitar",
     "game:skinpart-voicetype-8stringpinch": "8 String Guitar Pinch",
-
+    
     "game:item-handsawblade-steel": "Steel Handsaw Head",
     "game:item-handsaw-steel": "Steel Handsaw",
     "game:item-handsawblade-meteoriciron": "Meteoric Iron Handsaw Head",
     "game:item-handsaw-meteoriciron": "Meteoric Iron Handsaw",
-
+    
     "tonwexp:item-bages-brass": "Mycenaean brass sword",
     "tonwexp:item-bages-gold": "Mycenaean gold sword",
     "tonwexp:item-bages-silver": "Mycenaean silver sword",
@@ -597,7 +596,7 @@
     "tonwexp:item-bages-meteoriciron": "Mycenaean meteoric iron sword",
     "tonwexp:item-bages-steel": "Mycenaean steel sword",
     "tonwexp:item-bages-titanium": "Mycenaean titanium sword",
-
+    
     "game:block-torchholder-copper-*": "Copper Torch Holder",
     "game:block-torchholder-tinbronze-*": "Tin Bronze Torch Holder",
     "game:block-torchholder-bismuthbronze-*": "Bismuth Bronze Torch Holder",
@@ -609,17 +608,16 @@
     "game:block-torchholder-meteoriciron-*": "Metoric Iron Torch Holder",
     "game:block-torchholder-steel-*": "Steel Torch Holder",
     "game:block-torchholder-titanium-*": "Titanium Torch Holder",
-
+    
     "game:item-ingot-nickel": "Nickel Ingot",
-
+    
     "game:block-anvil-gold": "Golden Anvil",
     "game:block-anvil-silver": "Silver Anvil",
     "game:block-anvil-brass": "Brass Anvil",
     "game:block-anvil-titanium": "Titanium Anvil",
-
+    
     "game:block-anvilpart-top-*": "Anvil Top Part",
     "game:block-anvilpart-base-*": "Anvil Base Part",
-
     "game:block-anvilpart-gold-base": "Golden Anvil Base",
     "game:block-anvilpart-gold-top": "Golden Anvil Top",
     "game:block-anvilpart-silver-base": "Silver Anvil Base",
@@ -628,7 +626,7 @@
     "game:block-anvilpart-brass-top": "Brass Anvil Top",
     "game:block-anvilpart-titanium-base": "Titanium Anvil Base",
     "game:block-anvilpart-titanium-top": "Titanium Anvil Top",
-
+    
     "game:block-toolmold-raw-saw": "Saw Mold (raw)",
     "game:block-toolmold-burned-saw": "Saw Mold",
     "game:block-toolmold-raw-scythe": "Scythe Mold (raw)",
@@ -661,9 +659,9 @@
     "game:block-toolmold-burned-poundercap": "Pounder Cap Mold",
     "game:block-toolmold-raw-chainring": "Chain Ring Mold (raw)",
     "game:block-toolmold-burned-chainring": "Chain Ring Mold",
-
+    
     "game:block-chute-*": "Chute section",
-
+    
     "game:block-woodentoggle-oak-*": "Oak Toggle",
     "game:block-woodentoggle-larch-*": "Larch Toggle",
     "game:block-woodentoggle-pine-*": "Pine Toggle",
@@ -677,7 +675,7 @@
     "game:block-woodentoggle-purpleheart-*": "Purpleheart Toggle",
     "game:block-woodentoggle-maple-*": "Maple Toggle",
     "game:block-woodentoggle-walnut-*": "Walnut Toggle",
-
+    
     "game:block-brake-oak-*": "Oak Brake",
     "game:block-brake-larch-*": "Larch Brake",
     "game:block-brake-pine-*": "Pine Brake",
@@ -691,7 +689,7 @@
     "game:block-brake-purpleheart-*": "Purpleheart Brake",
     "game:block-brake-maple-*": "Maple Brake",
     "game:block-brake-walnut-*": "Walnut Brake",
-
+    
     "game:block-clutch-oak-*": "Oak Clutch",
     "game:block-clutch-larch-*": "Larch Clutch",
     "game:block-clutch-pine-*": "Pine Clutch",
@@ -705,7 +703,7 @@
     "game:block-clutch-purpleheart-*": "Purpleheart Clutch",
     "game:block-clutch-maple-*": "Maple Clutch",
     "game:block-clutch-walnut-*": "Walnut Clutch",
-
+    
     "game:block-helvehammerbase-oak-*": "Oak Helve Hammer Base",
     "game:block-helvehammerbase-larch-*": "Larch Helve Hammer Base",
     "game:block-helvehammerbase-pine-*": "Pine Helve Hammer Base",
@@ -719,7 +717,7 @@
     "game:block-helvehammerbase-purpleheart-*": "Purpleheart Helve Hammer Base",
     "game:block-helvehammerbase-maple-*": "Maple Helve Hammer Base",
     "game:block-helvehammerbase-walnut-*": "Walnut Helve Hammer Base",
-
+    
     "game:block-transmission-oak-*": "Oak Transmission",
     "game:block-transmission-larch-*": "Larch Transmission",
     "game:block-transmission-pine-*": "Pine Transmission",
@@ -733,7 +731,7 @@
     "game:block-transmission-purpleheart-*": "Purpleheart Transmission",
     "game:block-transmission-maple-*": "Maple Transmission",
     "game:block-transmission-walnut-*": "Walnut Transmission",
-
+    
     "game:block-largegear3-oak": "Oak Large Gear",
     "game:block-largegear3-larch": "Larch Large Gear",
     "game:block-largegear3-pine": "Pine Large Gear",
@@ -761,7 +759,7 @@
     "game:block-woodenaxle-purpleheart-*": "Purpleheart Axle",
     "game:block-woodenaxle-maple-*": "Maple Axle",
     "game:block-woodenaxle-walnut-*": "Walnut Axle",
-
+    
     "game:block-windmillrotor-oak-*": "Oak Windmill Rotor",
     "game:block-windmillrotor-larch-*": "Larch Windmill Rotor",
     "game:block-windmillrotor-pine-*": "Pine Windmill Rotor",
@@ -775,7 +773,7 @@
     "game:block-windmillrotor-purpleheart-*": "Purpleheart Windmill Rotor",
     "game:block-windmillrotor-maple-*": "Maple Windmill Rotor",
     "game:block-windmillrotor-walnut-*": "Walnut Windmill Rotor",
-
+    
     "game:block-bellows-oak-*": "Oak Bellows",
     "game:block-bellows-larch-*": "Larch Bellows",
     "game:block-bellows-pine-*": "Pine Bellows",
@@ -789,7 +787,7 @@
     "game:block-bellows-purpleheart-*": "Purpleheart Bellows",
     "game:block-bellows-maple-*": "Maple Bellows",
     "game:block-bellows-walnut-*": "Walnut Bellows",
-
+    
     "game:block-fruitpress-oak-*": "Oak Fruit Press",
     "game:block-fruitpress-larch-*": "Larch Fruit Press",
     "game:block-fruitpress-pine-*": "Pine Fruit Press",
@@ -803,7 +801,7 @@
     "game:block-fruitpress-purpleheart-*": "Purpleheart Fruit Press",
     "game:block-fruitpress-maple-*": "Maple Fruit Press",
     "game:block-fruitpress-walnut-*": "Walnut Fruit Press",
-
+    
     "game:block-pulverizerframe-oak-*": "Oak Pulverizer Frame",
     "game:block-pulverizerframe-larch-*": "Larch Pulverizer Frame",
     "game:block-pulverizerframe-pine-*": "Pine Pulverizer Frame",
@@ -817,7 +815,7 @@
     "game:block-pulverizerframe-purpleheart-*": "Purpleheart Pulverizer Frame",
     "game:block-pulverizerframe-maple-*": "Maple Pulverizer Frame",
     "game:block-pulverizerframe-walnut-*": "Walnut Pulverizer Frame",
-
+    
     "game:item-pulverizertoggle-oak": "Oak Pulverizer Toggle",
     "game:item-pulverizertoggle-larch": "Larch Pulverizer Toggle",
     "game:item-pulverizertoggle-pine": "Pine Pulverizer Toggle",
@@ -831,7 +829,7 @@
     "game:item-pulverizertoggle-purpleheart": "Purpleheart Pulverizer Toggle",
     "game:item-pulverizertoggle-maple": "Maple Pulverizer Toggle",
     "game:item-pulverizertoggle-walnut": "Walnut Pulverizer Toggle",
-
+    
     "game:item-pounder-oak": "Oak Pounder",
     "game:item-pounder-larch": "Larch Pounder",
     "game:item-pounder-pine": "Pine Pounder",
@@ -845,7 +843,6 @@
     "game:item-pounder-purpleheart": "Purpleheart Pounder",
     "game:item-pounder-maple": "Maple Pounder",
     "game:item-pounder-walnut": "Walnut Pounder",
-
     "game:item-poundercap-brass": "Brass Pounder Cap",
     "game:item-poundercap-tin": "Tin Pounder Cap",
     "game:item-poundercap-zinc": "Zinc Pounder Cap",
@@ -856,9 +853,9 @@
     "game:item-poundercap-titanium": "Titanium Pounder Cap",
     "game:item-poundercap-platinum": "Platinum Pounder Cap",
     "game:item-poundercap-chromium": "Chromium Pounder Cap",
-
+    
     "game:item-metalplate-nickel": "Nickel Metal Plate",
-
+    
     "game:block-ironfence-copper-*": "Copper Metal Fence",
     "game:block-ironfence-brass-*": "Brass Metal Fence",
     "game:block-ironfence-gold-*": "Gold Metal Fence",
@@ -875,7 +872,7 @@
     "game:block-ironfence-zinc-*": "Zinc Metal Fence",
     "game:block-ironfence-platinum-*": "Platinum Metal Fence",
     "game:block-ironfence-chromium-*": "Chromium Metal Fence",
-
+    
     "game:block-irondoor-copper-*": "Copper Metal Door",
     "game:block-irondoor-brass-*": "Brass Metal Door",
     "game:block-irondoor-gold-*": "Gold Metal Door",
@@ -888,11 +885,12 @@
     "game:block-irondoor-meteoriciron-*": "Meteoric Iron Metal Door",
     "game:block-irondoor-steel-*": "Steel Metal Door",
     "game:block-irondoor-titanium-*": "Titanium Metal Door",
+    "game:block-irondoor-uranium-*": "Uranium Metal Door",
     "game:block-irondoor-tin-*": "Tin Metal Door",
     "game:block-irondoor-zinc-*": "Zinc Metal Door",
     "game:block-irondoor-platinum-*": "Platinum Metal Door",
     "game:block-irondoor-chromium-*": "Chromium Metal Door",
-
+    
     "game:block-cokeovendoor-copper-*": "Copper Coke Oven Door",
     "game:block-cokeovendoor-brass-*": "Brass Coke Oven Door",
     "game:block-cokeovendoor-gold-*": "Gold Coke Oven Door",
@@ -905,11 +903,12 @@
     "game:block-cokeovendoor-meteoriciron-*": "Meteoric Iron Coke Oven Door",
     "game:block-cokeovendoor-steel-*": "Steel Coke Oven Door",
     "game:block-cokeovendoor-titanium-*": "Titanium Coke Oven Door",
+    "game:block-cokeovendoor-uranium-*": "Uranium Coke Oven Door",
     "game:block-cokeovendoor-tin-*": "Tin Coke Oven Door",
     "game:block-cokeovendoor-zinc-*": "Zinc Coke Oven Door",
     "game:block-cokeovendoor-platinum-*": "Platinum Coke Oven Door",
     "game:block-cokeovendoor-chromium-*": "Chromium Coke Oven Door",
-
+    
     "game:block-barrel-oak": "Oak Barrel",
     "game:block-barrel-larch": "Larch Barrel",
     "game:block-barrel-pine": "Pine Barrel",
@@ -923,7 +922,7 @@
     "game:block-barrel-purpleheart": "Purpleheart Barrel",
     "game:block-barrel-maple": "Maple Barrel",
     "game:block-barrel-walnut": "Walnut Barrel",
-
+    
     "game:block-*-chest-oak-*": "Oak Chest",
     "game:block-*-chest-larch-*": "Larch Chest",
     "game:block-*-chest-pine-*": "Pine Chest",
@@ -937,7 +936,7 @@
     "game:block-*-chest-purpleheart-*": "Purpleheart Chest",
     "game:block-*-chest-maple-*": "Maple Chest",
     "game:block-*-chest-walnut-*": "Walnut Chest",
-
+    
     "game:item-armor-head-plate-lead": "Lead plate helmet",
     "game:item-armor-legs-plate-lead": "Lead plate leg armor",
     "game:item-armor-body-plate-lead": "Lead plate body armor",
@@ -977,7 +976,6 @@
     "game:item-armor-head-plate-stainlesssteel": "Stainless Steel plate helmet",
     "game:item-armor-legs-plate-stainlesssteel": "Stainless Steel plate leg armor",
     "game:item-armor-body-plate-stainlesssteel": "Stainless Steel plate body armor",
-
     "game:item-armor-head-chain-lead": "Lead chain helmet",
     "game:item-armor-legs-chain-lead": "Lead chain leg armor",
     "game:item-armor-body-chain-lead": "Lead chain body armor",
@@ -1017,7 +1015,6 @@
     "game:item-armor-head-chain-stainlesssteel": "Stainless Steel chain helmet",
     "game:item-armor-legs-chain-stainlesssteel": "Stainless Steel chain leg armor",
     "game:item-armor-body-chain-stainlesssteel": "Stainless Steel chain body armor",
-
     "game:item-armor-head-scale-lead": "Lead scale helmet",
     "game:item-armor-legs-scale-lead": "Lead scale leg armor",
     "game:item-armor-body-scale-lead": "Lead scale body armor",
@@ -1057,7 +1054,7 @@
     "game:item-armor-head-scale-stainlesssteel": "Stainless Steel scale helmet",
     "game:item-armor-legs-scale-stainlesssteel": "Stainless Steel scale leg armor",
     "game:item-armor-body-scale-stainlesssteel": "Stainless Steel scale body armor",
-
+    
     "game:item-hammerhead-flint": "Flint hammer head",
     "game:item-hammer-flint": "Flint hammer",
     "game:item-hammerhead-granite": "Granite hammer head",
@@ -1086,7 +1083,7 @@
     "game:item-hammer-platinum": "Platinum hammer",
     "game:item-hammerhead-chromium": "Chromium hammer head",
     "game:item-hammer-chromium": "Chromium hammer",
-
+    
     "game:item-helvehammerhead-titanium": "Titanium helve hammer head",
     "game:item-helvehammer-titanium": "Titanium helve hammer",
     "game:item-helvehammerhead-copper": "Copper helve hammer head",
@@ -1103,7 +1100,7 @@
     "game:item-helvehammer-platinum": "Platinum helve hammer",
     "game:item-helvehammerhead-chromium": "Chromium helve hammer head",
     "game:item-helvehammer-chromium": "Chromium helve hammer",
-
+    
     "game:item-scythehead-brass": "Brass Scythe head",
     "game:item-scythe-brass": "Brass Scythe",
     "game:item-scythehead-titanium": "Titanium Scythe head",
@@ -1118,7 +1115,7 @@
     "game:item-scythe-platinum": "Platinum Scythe",
     "game:item-scythehead-chromium": "Chromium Scythe head",
     "game:item-scythe-chromium": "Chromium Scythe",
-
+    
     "game:item-sawblade-brass": "Brass Sawblade",
     "game:item-saw-brass": "Brass Saw",
     "game:item-sawblade-titanium": "Titanium Sawblade",
@@ -1133,7 +1130,7 @@
     "game:item-saw-platinum": "Platinum Saw",
     "game:item-sawblade-chromium": "Chromium Sawblade",
     "game:item-saw-chromium": "Chromium Saw",
-
+    
     "game:item-axehead-brass": "Brass Axe head",
     "game:item-axe-brass": "Brass Axe",
     "game:item-axehead-titanium": "Titanium Axe head",
@@ -1148,7 +1145,7 @@
     "game:item-axe-platinum": "Platinum Axe",
     "game:item-axehead-chromium": "Chromium Axe head",
     "game:item-axe-chromium": "Chromium Axe",
-
+    
     "game:item-pickaxehead-brass": "Brass Pickaxe head",
     "game:item-pickaxe-brass": "Brass Pickaxe",
     "game:item-pickaxehead-titanium": "Titanium Pickaxe head",
@@ -1163,7 +1160,7 @@
     "game:item-pickaxe-platinum": "Platinum Pickaxe",
     "game:item-pickaxehead-chromium": "Chromium Pickaxe head",
     "game:item-pickaxe-chromium": "Chromium Pickaxe",
-
+    
     "game:item-shovelhead-brass": "Brass Shovel head",
     "game:item-shovel-brass": "Brass Shovel",
     "game:item-shovelhead-titanium": "Titanium Shovel head",
@@ -1178,7 +1175,7 @@
     "game:item-shovel-platinum": "Platinum Shovel",
     "game:item-shovelhead-chromium": "Chromium Shovel head",
     "game:item-shovel-chromium": "Chromium Shovel",
-
+    
     "game:item-knifeblade-brass": "Brass Knife blade",
     "game:item-knife-brass": "Brass Knife",
     "game:item-knifeblade-titanium": "Titanium Knife blade",
@@ -1193,7 +1190,7 @@
     "game:item-knife-platinum": "Platinum Knife",
     "game:item-knifeblade-chromium": "Chromium Knife blade",
     "game:item-knife-chromium": "Chromium Knife",
-
+    
     "game:item-arrowhead-bone": "Bone arrowhead",
     "game:item-arrow-bone": "Bone Arrow",
     "game:item-arrowhead-brass": "Brass arrowhead",
@@ -1210,7 +1207,7 @@
     "game:item-arrow-platinum": "Platinum Arrow",
     "game:item-arrowhead-chromium": "Chromium arrowhead",
     "game:item-arrow-chromium": "Chromium Arrow",
-
+    
     "game:item-prospectingpickhead-brass": "Brass prospecting pick head",
     "game:item-prospectingpick-brass": "Brass prospecting pick",
     "game:item-prospectingpickhead-titanium": "Titanium prospecting pick head",
@@ -1240,32 +1237,34 @@
     "game:item-hoe-platinum": "Platinum hoe",
     "game:item-hoehead-chromium": "Chromium hoe head",
     "game:item-hoe-chromium": "Chromium hoe",
-
+    
     "game:item-spearhead-zinc": "Zinc spear head",
-    "game:item-spear-zinc": "Zinc spear",
+    "game:item-spear-generic-zinc": "Zinc spear",
     "game:item-spearhead-tin": "Tin spear head",
-    "game:item-spear-tin": "Tin spear",
+    "game:item-spear-generic-tin": "Tin spear",
     "game:item-spearhead-lead": "Lead spear head",
-    "game:item-spear-lead": "Lead spear",
+    "game:item-spear-generic-lead": "Lead spear",
     "game:item-spearhead-brass": "Brass composite spear head",
-    "game:item-spear-brass": "Brass composite spear",
+    "game:item-spear-generic-brass": "Brass composite spear",
     "game:item-spearhead-gold": "Gold composite head",
-    "game:item-spear-gold": "Gold composite spear",
+    "game:item-spear-generic-gold": "Gold composite spear",
     "game:item-spearhead-silver": "silver composite spear head",
-    "game:item-spear-silver": "Silver composite spear",
+    "game:item-spear-generic-silver": "Silver composite spear",
     "game:item-spearhead-iron": "Iron composite spear head",
-    "game:item-spear-iron": "Iron composite spear",
+    "game:item-spear-generic-iron": "Iron composite spear",
     "game:item-spearhead-meteoriciron": "Meteoric Iron composite spear head",
-    "game:item-spear-meteoriciron": "Meteoric Iron composite spear",
+    "game:item-spear-generic-meteoriciron": "Meteoric Iron composite spear",
     "game:item-spearhead-steel": "Steel composite spear head",
-    "game:item-spear-steel": "Steel composite spear",
+    "game:item-spear-generic-steel": "Steel composite spear",
     "game:item-spearhead-titanium": "Titanium composite spear head",
-    "game:item-spear-titanium": "Titanium composite spear",
+    "game:item-spear-generic-titanium": "Titanium composite spear",
+    "game:item-spearhead-uranium": "Uranium composite spear head",
+    "game:item-spear-generic-uranium": "Uranium composite spear",
     "game:item-spearhead-platinum": "Platinum composite spear head",
-    "game:item-spear-platinum": "Platinum composite spear",
+    "game:item-spear-generic-platinum": "Platinum composite spear",
     "game:item-spearhead-chromium": "Chromium composite spear head",
-    "game:item-spear-chromium": "Chromium composite spear",
-
+    "game:item-spear-generic-chromium": "Chromium composite spear",
+    
     "game:item-bladehead-falx-brass": "Brass falx head",
     "game:item-blade-falx-brass": "Brass falx",
     "game:item-bladehead-falx-titanium": "Titanium falx head",
@@ -1280,7 +1279,7 @@
     "game:item-blade-falx-platinum": "Platinum falx",
     "game:item-bladehead-falx-chromium": "Chromium falx head",
     "game:item-blade-falx-chromium": "Chromium falx",
-
+    
     "game:item-boss-brass": "Brass boss",
     "game:item-boss-copper": "Copper boss",
     "game:item-boss-titanium": "Titanium boss",
@@ -1289,7 +1288,7 @@
     "game:item-boss-tin": "Tin boss",
     "game:item-boss-platinum": "Platinum boss",
     "game:item-boss-chromium": "Chromium boss",
-
+    
     "game:item-hoop-brass": "Brass hoop",
     "game:item-hoop-copper": "Copper hoop",
     "game:item-hoop-titanium": "Titanium hoop",
@@ -1298,7 +1297,7 @@
     "game:item-hoop-tin": "Tin hoop",
     "game:item-hoop-platinum": "Platinum hoop",
     "game:item-hoop-chromium": "Chromium hoop",
-
+    
     "game:item-shears-brass": "Brass shears",
     "game:item-shears-lead": "Lead shears",
     "game:item-shears-nickel": "Nickel shears",
@@ -1312,7 +1311,7 @@
     "game:item-shears-rhodium": "Rhodium shears",
     "game:item-shears-uranium": "Uranium shears",
     "game:item-shears-stainlesssteel": "Stainless Steel shears",
-
+    
     "game:item-chisel-brass": "Brass chisel",
     "game:item-chisel-gold": "Gold chisel",
     "game:item-chisel-silver": "Silver chisel",
@@ -1329,7 +1328,7 @@
     "game:item-chisel-uranium": "Uranium chisel",
     "game:item-chisel-stainlesssteel": "Stainless Steel chisel",
     "game:item-chisel-flint": "Flint chisel",
-
+    
     "game:item-wrench-brass": "Brass Wrench",
     "game:item-wrench-titanium": "Titanium wrench",
     "game:item-wrench-molybdochalkos": "Molybdochalkos wrench",
