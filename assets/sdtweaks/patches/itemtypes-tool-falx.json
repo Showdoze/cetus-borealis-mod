@@ -108,8 +108,10 @@
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "blade-falx-*": { base: "game:item/tool/blade/falx" },
-            "*": { base: "game:item/tool/blade/{metal}" }
+            "blade-falx-*": { base: "game:item/tool/blade/falx/steel" },
+            "blade-forlorn-iron": { base: "game:item/tool/blade/forlorn" },
+            "blade-blackguard-iron": { base: "game:item/tool/blade/blackguard" },
+            "*": { base: "game:item/tool/blade/falx/{metal}" }
         },
         "file": "game:itemtypes/tool/blade"
     },

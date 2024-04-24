@@ -8,7 +8,7 @@
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "glasspanemetal-plain-{metal}-ew", quantity: 1 }
+        output: { type: "block", code: "glasspanemetal-plain-{metal}-east", quantity: 1 }
     },
     {
         ingredientPattern: "SOY",
@@ -19,7 +19,7 @@
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "glasspanemetal-smoky-{metal}-ew", quantity: 1 }
+        output: { type: "block", code: "glasspanemetal-smoky-{metal}-east", quantity: 1 }
     },
     {
         ingredientPattern: "SOY",
@@ -30,7 +30,7 @@
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "glasspanemetal-violet-{metal}-ew", quantity: 1 }
+        output: { type: "block", code: "glasspanemetal-violet-{metal}-east", quantity: 1 }
     },
     {
         ingredientPattern: "SOY",
@@ -41,7 +41,7 @@
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "glasspanemetal-pink-{metal}-ew", quantity: 1 }
+        output: { type: "block", code: "glasspanemetal-pink-{metal}-east", quantity: 1 }
     },
     {
         ingredientPattern: "SOY",
@@ -52,6 +52,6 @@
         },
         width: 3,
         height: 1,
-        output: { type: "block", code: "glasspanemetal-green-{metal}-ew", quantity: 1 }
+        output: { type: "block", code: "glasspanemetal-green-{metal}-east", quantity: 1 }
     },
 ]

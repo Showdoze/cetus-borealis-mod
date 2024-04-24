@@ -4,25 +4,25 @@
 	variantgroups: [
 		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
 		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] },
-        { code: "type", states: ["ns", "ew"] }
+        { code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
-	attributesByType: {
+	attributes: {
 		"pieFormingSurface": true,
-		"*-ns": {
-			handbook: { exclude: true }
-		},
-		"*-ew": {
-			handbook: { groupBy: ["tablelong-*"] }
-		}
+		handbook: { groupBy: ["tablelong-*"] }
 	},
     shapebytype: {
-		"*-none-ew": { base: "game:block/clutter/table-long", rotateY: 0 },
-        "*-ew": { base: "game:block/clutter/table-long-with-cloth", rotateY: 0 },
-        "*-none-ns": { base: "game:block/clutter/table-long", rotateY: 90 },
-        "*-ns": { base: "game:block/clutter/table-long-with-cloth", rotateY: 90 }
+		"*-none-east": { base: "game:block/clutter/table-long", rotateY: 0 },
+        "*-east": { base: "game:block/clutter/table-long-with-cloth", rotateY: 0 },
+		"*-none-north": { base: "game:block/clutter/table-long", rotateY: 90 },
+        "*-north": { base: "game:block/clutter/table-long-with-cloth", rotateY: 90 },
+		"*-none-west": { base: "game:block/clutter/table-long", rotateY: 180 },
+        "*-west": { base: "game:block/clutter/table-long-with-cloth", rotateY: 180 },
+		"*-none-south": { base: "game:block/clutter/table-long", rotateY: 270 },
+        "*-south": { base: "game:block/clutter/table-long-with-cloth", rotateY: 270 }
 	},
+	drawtype: "json",
 	heldTpIdleAnimation: "holdunderarm",
-	creativeinventory: { "general": [ "*-ew" ], "decorative": [ "*-ew" ] },
+	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ] },
 	blockmaterial: "Wood",
 	combustibleProps: {
 		burnTemperature: 800,
