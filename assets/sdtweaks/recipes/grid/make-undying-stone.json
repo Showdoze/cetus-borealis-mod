@@ -3,7 +3,7 @@
     ingredients: {
         "D": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
         "J": { type: "item", code: "game:clearquartz"},
-        "E": { type: "item", code: "game:ItemTemporalGear" }
+        "E": { type: "item", code: "game:gear-temporal" }
     },
     width: 1,
     height: 3,
