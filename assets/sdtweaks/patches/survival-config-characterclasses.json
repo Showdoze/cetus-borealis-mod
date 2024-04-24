@@ -10,7 +10,7 @@
         "resourceful",
         "hearty"
       ],
-      "gear": [ type: "item", code: "game:club" ]
+      "gear": [ type: "item", code: "game:club-generic-wood" ]
     },
     "file": "game:config/characterclasses.json"
   }
