@@ -7,14 +7,6 @@
   "storageFlags": 257,
   "variantgroups": [
     {
-      "code": "metal",
-      "loadFromProperties": "game:block/metal"
-    },
-    {
-      "code": "glow",
-      "states": [ "green", "white", "yellow", "orange", "blue" ]
-    },
-    {
       "code": "orientation",
       "states": [ "up" ],
       "loadFromProperties": "abstract/horizontalorientation"
@@ -206,7 +198,7 @@
       "y": 38,
       "z": -33
     },
-    "scale": 1.6
+    "scale": 2
   },
   "guiTransform": {
     "rotation": {
@@ -237,7 +229,7 @@
       "y": 0,
       "z": 0.5
     },
-    "scale": 0.6
+    "scale": 1
   },
   "groundTransform": {
     "translation": {

@@ -7,5 +7,5 @@
     },
     width: 1,
     height: 3,
-    output: { type: "block", code: "undying_stone-up", quantity: 1 }
+    output: { type: "block", code: "undyingstone-up", quantity: 1 }
 }
