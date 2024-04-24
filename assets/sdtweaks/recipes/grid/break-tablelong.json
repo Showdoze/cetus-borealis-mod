@@ -3,7 +3,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablelong-*-none-ew", name: "wood" }
+			"T": { type: "block", code: "tablelong-*-none-east", name: "wood" }
 		},
 		width: 1,
 		height: 2,
@@ -13,7 +13,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablelong-*-red-ew", name: "wood" }
+			"T": { type: "block", code: "tablelong-*-red-east", name: "wood" }
 		},
 		width: 1,
 		height: 2,
@@ -23,7 +23,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablelong-*-blue-ew", name: "wood" }
+			"T": { type: "block", code: "tablelong-*-blue-east", name: "wood" }
 		},
 		width: 1,
 		height: 2,
@@ -33,7 +33,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablelong-*-green-ew", name: "wood" }
+			"T": { type: "block", code: "tablelong-*-green-east", name: "wood" }
 		},
 		width: 1,
 		height: 2,
@@ -43,7 +43,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablelong-*-purple-ew", name: "wood" }
+			"T": { type: "block", code: "tablelong-*-purple-east", name: "wood" }
 		},
 		width: 1,
 		height: 2,
