@@ -164,6 +164,12 @@
     },
     {
         "op": "add",
+        "path": "/attackpowerbytype/spear-*-uranium",
+        "value": "5.8",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
         "path": "/attackpowerbytype/spear-*-rhodium",
         "value": "6.1",
         "file": "game:itemtypes/tool/spear"
@@ -251,6 +257,12 @@
         "op": "add",
         "path": "/attributes/damageByType/spear-*-titanium",
         "value": "10",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/spear-*-uranium",
+        "value": "8.6",
         "file": "game:itemtypes/tool/spear"
     },
     {
@@ -354,6 +366,12 @@
         "op": "add",
         "path": "/durabilitybytype/spear-*-titanium",
         "value": "2000",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/spear-*-uranium",
+        "value": "2200",
         "file": "game:itemtypes/tool/spear"
     },
     {
