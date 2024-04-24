@@ -11,10 +11,10 @@
 		handbook: { groupBy: ["tablelong-*"] }
 	},
     shapebytype: {
-		"*-none-east": { base: "game:block/clutter/table-long", rotateY: 0 },
-        "*-east": { base: "game:block/clutter/table-long-with-cloth", rotateY: 0 },
 		"*-none-north": { base: "game:block/clutter/table-long", rotateY: 90 },
         "*-north": { base: "game:block/clutter/table-long-with-cloth", rotateY: 90 },
+		"*-none-east": { base: "game:block/clutter/table-long", rotateY: 0 },
+        "*-east": { base: "game:block/clutter/table-long-with-cloth", rotateY: 0 },
 		"*-none-west": { base: "game:block/clutter/table-long", rotateY: 180 },
         "*-west": { base: "game:block/clutter/table-long-with-cloth", rotateY: 180 },
 		"*-none-south": { base: "game:block/clutter/table-long", rotateY: 270 },

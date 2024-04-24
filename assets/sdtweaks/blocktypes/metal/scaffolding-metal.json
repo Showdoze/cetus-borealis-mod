@@ -1,18 +1,10 @@
 {
 	code: "scaffoldingmetal",
 	behaviors: [{ name: "Ladder" } ],
-	variantgroups: [
-		{ code: "material", loadFromProperties: "game:block/metal" }
-	],
+	variantgroups: [ { code: "material", loadFromProperties: "game:block/metal" } ],
 	shape: { base: "game:block/wood/crate/normal-closed", scale: 1.08 },
-	sidesolid: {
-		up: true,
-		all: false
-	},	
-	sideopaque: {
-		up: true,
-		all: false
-	},
+	sidesolid: { up: true, all: false },	
+	sideopaque: { up: true, all: false },
 	blockmaterial: "Metal",
 	creativeinventory: { "general": ["*"], "decorative": ["*"] },
 	replaceable: 300,

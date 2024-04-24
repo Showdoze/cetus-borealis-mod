@@ -1,7 +1,6 @@
 {
 	code: "glasspanemetal",
-	class: "BlockGlassPane",
-	behaviors: [{name: "HorizontalOrientable"}],
+	behaviors: [ { name: "HorizontalOrientable"} ],
 	variantgroups: [
 		{ code: "glass", states: ["plain", "smoky", "violet", "pink", "green"] },
 		{ code: "material", loadFromProperties: "game:block/metal" },
@@ -11,8 +10,8 @@
 		handbook: { groupBy: ["glasspanemetal-*"] }
 	},
 	shapebytype: {
-		"*-north": { base: "game:block/glass/pane", rotateY: 0 },
-		"*-east": { base: "game:block/glass/pane", rotateY: 90 },
+		"*-north": { base: "game:block/glass/pane", rotateY: 90 },
+		"*-east": { base: "game:block/glass/pane", rotateY: 0 },
 		"*-west": { base: "game:block/glass/pane", rotateY: 180 },
 		"*-south": { base: "game:block/glass/pane", rotateY: 270 }
 	},
@@ -35,7 +34,9 @@
 	sounds: {
 		"place": "game:player/buildhigh",
 		"break": "game:block/glass",
-		"hit": "game:block/glass"
+		"hit": "game:block/glass",
+		"ambient": "environment/rainwindow",
+		"ambientBlockCount": 2
 	},
 	collisionselectionboxByType: {
 		"*-north": { x1: 0, y1: 0, z1: 0.425, x2: 1, y2: 1, z2: 0.575 },
