@@ -60,9 +60,7 @@
     "value": {
       "code": "loud",
       "type": "negative",
-      "attributes": {
-        "animalSeekingRange": 0.35
-      }
+      "attributes": { "animalSeekingRange": 0.35 }
     },
     "file": "game:config/traits"
   },
@@ -72,9 +70,7 @@
     "value": {
       "code": "precise",
       "type": "positive",
-      "attributes": {
-        "mechanicalsDamage": 0.25
-      }
+      "attributes": { "mechanicalsDamage": 0.25 }
     },
     "file": "game:config/traits"
   },
@@ -84,9 +80,7 @@
     "value": {
       "code": "technical",
       "type": "positive",
-      "attributes": {
-        "temporalGearTLRepairCost": -1
-      }
+      "attributes": { "temporalGearTLRepairCost": -1 }
     },
     "file": "game:config/traits"
   },

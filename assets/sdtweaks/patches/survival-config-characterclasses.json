@@ -5,7 +5,7 @@
     "value": {
       "code": "deprived",
       "traits": [ "hardy", "focused", "resourceful", "hearty" ],
-      "gear": [ { "type": "item", "code": "game:club-generic-wood" } ]
+      "gear": [ { "type": "item", "code": "club-generic-wood" } ]
     },
     "file": "game:config/characterclasses"
   }
