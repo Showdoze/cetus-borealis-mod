@@ -7,5 +7,5 @@
 	},
 	width: 1,
 	height: 3,
-	output: { type: "item", code: "game:spear-{metal}", quantity: 1  }
+	output: { type: "item", code: "game:spear-generic-{metal}", quantity: 1  }
 }
