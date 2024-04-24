@@ -1,0 +1,37 @@
+{
+    "code": "scaffolding",
+    "creativeinventory": {
+        "general": [
+            "*"
+        ]
+    },
+    "shape": {
+        "base": "block/wood/scaffolding"
+    },
+    "blockmaterial": "Wood",
+    "drawtype": "json",
+    "textures": {
+        "kapok": {
+            "base": "game:block/wood/debarked/kapok"
+        },
+        "ropeblock": {
+            "base": "block/rope"
+        }
+    },
+    "resistance": 0.1,
+    "lightabsorption": 0,
+    "climbable": true,
+    "sideopaque": {
+        "all": false
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "combustibleProps": {
+        "burnTemperature": 800,
+        "burnDuration": 24
+    },
+    "maxStackSize": 64,
+    "materialDensity": 400
+}
