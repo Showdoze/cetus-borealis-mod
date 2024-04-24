@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/5",
+    "value": {
+      "code": "deprived",
+      "traits": [
+        "hardy",
+        "focused",
+        "resourceful",
+        "hearty"
+      ],
+      "gear": [ type: "item", code: "clothes-hand-commoner-gloves" ]
+    },
+    "file": "game:config/characterclasses.json"
+  }
+]
