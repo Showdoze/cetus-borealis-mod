@@ -1,5 +1,5 @@
 {
-  "code": "undying_stone",
+  "code": "undyingstone",
   "class": "BlockTorch",
   "behaviors": [ { "name": "CanIgnite" } ],
   "entityClass": "Torch",
@@ -33,7 +33,7 @@
   "heldLeftTpIdleAnimation": "holdinglanternlefthand",
   "attributes": {
     "handbook": {
-      "groupBy": [ "undying_stone-*" ]
+      "groupBy": [ "undyingstone-*" ]
     },
     "attachmentAreas": {
       "down": {
@@ -265,7 +265,7 @@
   "heldSounds": {
     "equip": "game:block/leather",
     "unequip": "game:block/leather",
-    "attack": "items:undying/GhelFire01"
+    "attack": "sdtweaks:items/undying/GhelFire01"
   },
   "materialDensity": 1900
 }
