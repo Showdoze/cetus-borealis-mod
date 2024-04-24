@@ -24,6 +24,10 @@
 	heldTpIdleAnimation: "holdunderarm",
 	creativeinventory: { "general": [ "*-ew" ], "decorative": [ "*-ew" ] },
 	blockmaterial: "Wood",
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 80
+	},
 	replaceable: 900,
 	resistance: 1,
 	lightAbsorption: 1,
