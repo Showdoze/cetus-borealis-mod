@@ -1,0 +1,226 @@
+[
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7",
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "replace",
+    "path": "/7",
+    "value": {
+      "code": "loud",
+      "type": "negative",
+      "attributes": {
+        "animalSeekingRange": 0.35
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/8",
+    "value": {
+      "code": "precise",
+      "type": "positive",
+      "attributes": {
+        "mechanicalsDamage": 0.25
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/9",
+    "value": {
+      "code": "technical",
+      "type": "positive",
+      "attributes": {
+        "temporalGearTLRepairCost": -1
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/10",
+    "value": {
+      "code": "soldier",
+      "type": "positive",
+      "attributes": {
+        "meleeWeaponsDamage": 0.3,
+        "armorDurabilityLoss": -0.15,
+        "armorWalkSpeedAffectedness": -0.25
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/11",
+    "value": {
+      "code": "hardy",
+      "type": "positive",
+      "attributes": {
+        "miningSpeedMul": 0.1,
+        "maxhealthExtraPoints": 5
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/12",
+    "value": {
+      "code": "clothier",
+      "type": "positive",
+      "attributes": {}
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/13",
+    "value": {
+      "code": "mender",
+      "type": "positive",
+      "attributes": {
+        "armorDurabilityLoss": -0.1
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/14",
+    "value": {
+      "code": "merciless",
+      "type": "positive",
+      "attributes": {}
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/15",
+    "value": {
+      "code": "farsighted",
+      "type": "negative",
+      "attributes": {
+        "meleeWeaponsDamage": -0.15
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/16",
+    "value": {
+      "code": "claustrophobic",
+      "type": "negative",
+      "attributes": {
+        "oreDropRate": -0.15,
+        "miningSpeedMul": -0.1
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/17",
+    "value": {
+      "code": "frail",
+      "type": "negative",
+      "attributes": {
+        "maxhealthExtraPoints": -2.5,
+        "bowDrawingStrength": -0.25
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/18",
+    "value": {
+      "code": "nervous",
+      "type": "negative",
+      "attributes": {
+        "meleeWeaponsDamage": -0.15
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/19",
+    "value": {
+      "code": "ravenous",
+      "type": "negative",
+      "attributes": {
+        "hungerrate": 0.3
+      }
+    },
+    "file": "game:config/traits.json"
+  },
+  {
+    "op": "add",
+    "path": "/20",
+    "value": {
+      "code": "hearty",
+      "type": "positive",
+      "attributes": {
+        "hungerrate": -0.15
+      }
+    },
+    "file": "game:config/traits.json"
+  }
+]

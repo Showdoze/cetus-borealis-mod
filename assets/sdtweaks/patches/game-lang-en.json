@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/characterclass-deprived ",
+    "value": "Deprived",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/characterdesc-deprived",
+    "value": "<font color=\"#99c9f9\"><i>As poor, purposeless and naked as the day they were born. A nice club is all they have.</i></font><br><br>Hominids are great hunters (although quite loud), exceling in all kinds of terrain, and have great adaptability, but lacking communication skills.",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-animalSeekingRange-0.35",
+    "value": "35% animal detection range",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/charattribute-hungerrate-0.15",
+    "value": "+15% hunger rate",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-hearty",
+    "value": "<font color=\"#ff8484\">• Hearty</font>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/trait-loud",
+    "value": "<font color=\"#ff8484\">• Loud</font>",
+    "file": "game:lang/en.json"
+  }
+]
