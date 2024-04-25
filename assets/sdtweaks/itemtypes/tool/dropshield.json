@@ -1,0 +1,131 @@
+{
+	code: "dropshield",
+	class: "ItemWearable", // tyron strikes us with his excellent hardcoding ONCE AGAIN!! lost count on how many tiems the game crashed trying to make this fucking shit working
+	storageFlags: 257,
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 }
+		}
+	}],
+	attributes: {
+		clothescategory: "hand",
+		handbook: {
+			groupBy: ["dropshield-*"]
+		},
+		moldrackable: true,
+		onmoldrackTransform: {
+			translation: { x: 0.74, y: 0.5, z: -0.4 },
+			rotation: { x: -90, y: 82, z: 90 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.01
+		},
+		rackable: true,
+		toolrackTransform: {
+			translation: { x: 0.3, y: -0.62, z: -0.625 },
+			rotation: { x: 91, y: -6, z: -90 },
+			scale: 1.5
+		},
+		shelvable: true,
+		groundStorageTransform: {
+			translation: { x: -0.42, y: -0.45, z: -0.045 },
+			rotation: { x: 21, y: 179, z: -90 },
+			scale: 1
+		},
+		defaultProtLoss: {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2]
+		},
+		protectionModifiersByType: {
+			"dropshield-copper-*": { "flatDamageReduction": 0.5, "relativeProtection": 1.5 },
+			"dropshield-brass-*": { "flatDamageReduction": 0.4, "relativeProtection": 1.4 },
+			"dropshield-bismuth-*": { "flatDamageReduction": 0.2,"relativeProtection": 0.8 },
+			"dropshield-nickel-*": { "flatDamageReduction": 0.5, "relativeProtection": 1.2 },
+			"dropshield-molybdochalkos-*": { "flatDamageReduction": 0.8, "relativeProtection": 1.8 },
+			"dropshield-lead-*": { "flatDamageReduction": 0.7, "relativeProtection": 1.5 },
+			"dropshield-tin-*": { "flatDamageReduction": 0.2, "relativeProtection": 0.4 },
+			"dropshield-zinc-*": { "flatDamageReduction": 0.2, "relativeProtection": 0.3 },
+			"dropshield-titanium-*": { "flatDamageReduction": 2.2, "relativeProtection": 3 },
+			"dropshield-chromium-*": { "flatDamageReduction": 2, "relativeProtection": 2.5 },
+			"dropshield-platinum-*": { "flatDamageReduction": 2.1, "relativeProtection": 2.8 },
+			"dropshield-uranium-*": { "flatDamageReduction": 2, "relativeProtection": 2.5 },
+			"dropshield-rhodium-*": { "flatDamageReduction": 2.1, "relativeProtection": 2.6 },
+			"dropshield-stainlesssteel-*": { "flatDamageReduction": 1.5, "relativeProtection": 1.7 },
+			"dropshield-bismuthbronze-*": { "flatDamageReduction": 1, "relativeProtection": 1.2 },
+			"dropshield-blackbronze-*": { "flatDamageReduction": 1.1, "relativeProtection": 1.4 },
+			"dropshield-iron-*": { "flatDamageReduction": 1.5, "relativeProtection": 1.8 },
+			"dropshield-meteoriciron-*": {"flatDamageReduction": 1.7,"relativeProtection": 2},
+			"dropshield-steel-*": {"flatDamageReduction": 2,"relativeProtection": 2.2},
+			"dropshield-gold-*": {"flatDamageReduction": 0.8,"relativeProtection": 1.2},
+			"dropshield-silver-*": {"flatDamageReduction": 1.2,"relativeProtection": 1.5 }
+		}
+	},
+	variantgroups: [
+		{ code: "metal", "loadFromProperties": "game:block/metal" },
+		{ code: "wood", "states": [ "aged" ], "loadFromProperties": "game:block/wood" }
+	],
+	"creativeinventory": { "general": [ "*" ], "items": [ "*" ], "tools": [ "*" ] },
+	"shape": { "base": "game:block/wood/antlermount-shield" },
+    "textures": {
+		"lead2":{ "base": "game:block/metal/ingot/{metal}" },
+		"wood": { "base": "game:block/wood/debarked/{wood}" }
+	},
+	"durabilitybytype": {
+		"dropshield-copper-*": 800,
+        "dropshield-molybdochalkos-*": 1000,
+        "dropshield-bismuth-*": 200,
+        "dropshield-bismuthbronze-*": 900,
+        "dropshield-blackbronze-*": 1000,
+        "dropshield-brass-*": 850,
+        "dropshield-nickel-*": 1000,
+        "dropshield-lead-*": 900,
+        "dropshield-tin-*": 300,
+        "dropshield-zinc-*": 400,
+        "dropshield-iron-*": 1200,
+        "dropshield-meteoriciron-*": 1300,
+        "dropshield-steel-*": 1500,
+        "dropshield-stainlesssteel-*": 1000,
+        "dropshield-chromium-*": 1400,
+        "dropshield-rhodium-*": 1700,
+        "dropshield-platinum-*": 1700,
+        "dropshield-titanium-*": 2000,
+        "dropshield-uranium-*": 1600,
+        "dropshield-gold-*": 800,
+        "dropshield-silver-*": 1000
+	},
+	/*
+	tpOffHandTransform:{
+		translation: { x: -0.18, y: -0.04, z: -0.1 },
+		rotation: { x: 1, y: 173, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1
+	},
+	*/
+	tpHandTransform: {
+		translation: { x: -0.6, y: -0.2, z: 0 },
+		rotation: { x: 3, y: 180, z: -25 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0 },
+		scale: 5
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 10, y: 149, z: 0 },
+		origin: { x: 0, y: -0.1, z: 0.3 },
+		scale: 5.38
+	},
+	guiTransform: {
+		rotation: { x: 0, y: 25, z: 180 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 1.86
+	}
+}

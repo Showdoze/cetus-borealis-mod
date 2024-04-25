@@ -1,0 +1,132 @@
+[
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-oak", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-larch", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-baldcypress", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-kapok", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-ebony", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-maple", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-acacia", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-pine", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-aged", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-birch", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-purpleheart", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-walnut", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, "Tooldurabilitycost": 2  },
+			"T": { type: "item", code: "game:dropshield-*-redwood", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 60  }
+	}
+]
