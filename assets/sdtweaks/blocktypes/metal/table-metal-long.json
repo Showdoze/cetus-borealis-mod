@@ -1,5 +1,5 @@
 {
-	code: "tablelong-metal",
+	code: "tablelongmetal",
 	behaviors: [ { name: "HorizontalOrientable" } ],
 	variantgroups: [
 		{ code: "metal", loadFromProperties: "block/metal" },
@@ -8,7 +8,7 @@
 	],
 	attributes: {
 		"pieFormingSurface": true,
-		handbook: { groupBy: ["tablelong-metal-*"] }
+		handbook: { groupBy: ["tablelong-*"] }
 	},
     shapebytype: {
 		"*-none-north": { base: "game:block/clutter/table-long", rotateY: 90 },
@@ -34,7 +34,7 @@
 		"up": true,
 		"all": false
 	},
-	sounds: {
+	"sounds": {
 		"place": "game:block/plate",
 		"hit": "game:block/anvil1",
 		"break": "game:block/anvil1",
