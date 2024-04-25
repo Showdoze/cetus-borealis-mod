@@ -320,7 +320,7 @@
     },
 */
 ///////////////////WINDMILL ROTOR
-
+/*
     {
         "op": "add",
         "path": "/variantgroups/0",
@@ -345,7 +345,7 @@
         "value": { "type": "block", "code": "game:windmillrotor-{wood}-north", "quantity": 1 },
         "file": "game:recipes/grid/mechpowerblocks"
     },
-
+*/
 //////////////////LARGE GEAR 3M
 
     {
