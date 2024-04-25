@@ -125,13 +125,13 @@
     {
         "op": "add",
         "path": "/attributes/skinnableParts/3/variants/21",
-        "value": { code: "8stringguitar", sound: "sdtweaks:sounds/voice/8string_low_e" },
+        "value": { code: "8stringguitar", sound: "sdtweaks:sounds/voice/8string_low_e" },        /// Meshuggahcraft 101, make yourself an 8 string
         "file": "game:entities/humanoid/player"
     },
     {
         "op": "add",
         "path": "/attributes/skinnableParts/3/variants/22",
-        "value": { code: "8stringpinch", sound: "sdtweaks:sounds/voice/8string_pinch_e" },
+        "value": { code: "8stringpinch", sound: "sdtweaks:sounds/voice/8string_pinch_e" },     // BC pinch harmonics are still cool ok?
         "file": "game:entities/humanoid/player"
     }
 ]
