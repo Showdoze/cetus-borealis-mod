@@ -11,9 +11,9 @@
 		liquidContainerProps: {
 			capacityLitres: 10,
 			transferSizeLitres: 1,
-			emptyShapeLoc: "shapes/block/wood/bucket/empty",
-			opaqueContentShapeLoc: "shapes/block/wood/bucket/contents",
-			liquidContentShapeLoc: "shapes/block/wood/bucket/liquidcontents",
+			emptyShapeLoc: "game:shapes/block/wood/bucket/empty",
+			opaqueContentShapeLoc: "game:shapes/block/wood/bucket/contents",
+			liquidContentShapeLoc: "game:shapes/block/wood/bucket/liquidcontents",
 			liquidMaxYTranslate: 0.4375
 		}
 	},
@@ -30,8 +30,8 @@
 	},
 	blockmaterial: "Metal",
 	textures: {
-		"sides": { base: "game:block/metal/sheet/{material}1" },
-		"inner side": { base: "game:block/metal/ingot/{material}" }
+		"charred": { base: "game:block/metal/sheet/{material}1" },
+		"aged": { base: "game:block/metal/ingot/{material}" }
 	},
 	replaceable: 500,
 	resistance: 1.5,
