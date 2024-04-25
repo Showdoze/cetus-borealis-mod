@@ -6,9 +6,7 @@
     "creativeinventory": {
         "general": ["*"]
     },
-    "shape": {
-        "base": "block/wood/scaffolding"
-    },
+    "shape": { "base": "game:block/wood/scaffolding" },
     "blockmaterial": "Wood",
     "drawtype": "json",
     "textures": {

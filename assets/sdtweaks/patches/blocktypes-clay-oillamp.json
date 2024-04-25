@@ -31,8 +31,9 @@
             "west": { "x1": 7, "y1": 6, "z1": 15, "x2": 8, "y2": 7, "z2": 15, "rotateY": 90} 
             } 
           }
-          },
-      { "name": "RightClickPickup" } ],
+      },
+      { "name": "RightClickPickup" } 
+    ],
     "file": "game:blocktypes/clay/oillamp"
   },
   {
@@ -44,9 +45,7 @@
   {
     "op": "add",
     "path": "/shapebytype/*-down",
-    "value": {
-      "base": "block/clay/bowl-ceiling-hang"
-    },
+    "value": { "base": "block/clay/bowl-ceiling-hang" },
     "file": "game:blocktypes/clay/oillamp"
   },
   {

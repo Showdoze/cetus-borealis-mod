@@ -17,12 +17,8 @@
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@axe-*-(copper|lead|tin|zinc|tinbronze|bismuthbronze|blackbronze|bismuth)": {
-                "base": "game:item/tool/axe/copper"
-            },
-            "axe-*": {
-                "base": "game:item/tool/axe/iron"
-            }
+            "@axe-*-(copper|lead|tin|zinc|tinbronze|bismuthbronze|blackbronze|bismuth)": { "base": "game:item/tool/axe/copper" },
+            "axe-*": { "base": "game:item/tool/axe/iron" }
         },
         "file": "game:itemtypes/tool/axe-metal"
     },
@@ -393,15 +389,7 @@
     {
         "op": "replace",
         "path": "/variantgroups/0/states",
-        "value": [
-            "chert",
-            "granite",
-            "andesite",
-            "basalt",
-            "obsidian",
-            "peridotite",
-            "flint"
-        ],
+        "value": [ "chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint" ],
         "file": "game:itemtypes/toolhead/axehead"
     },
     /////////shapes by type (tyron, you could've done this in every tool type, but i have to fix it for you, otherwise adding new types is becoming a pain in the ass, same goes for texturesByType)
@@ -409,15 +397,9 @@
         "op": "replace",
         "path": "/shapeByType",
         "value": {
-            "@axehead-(chert|basalt|andesite|peridotite|obsidian|flint|granite)": {
-                "base": "game:item/tool/axe/stone"
-            },
-            "@axehead-(copper|tinbronze|bismuthbronze|lead|tin|bismuth|zinc)": {
-                "base": "game:item/tool/axe/copper"
-            },
-            "axehead-*": {
-                "base": "game:item/tool/axe/iron"
-            }
+            "@axehead-(chert|basalt|andesite|peridotite|obsidian|flint|granite)": { "base": "game:item/tool/axe/stone" },
+            "@axehead-(copper|tinbronze|bismuthbronze|lead|tin|bismuth|zinc)": { "base": "game:item/tool/axe/copper" },
+            "axehead-*": { "base": "game:item/tool/axe/iron" }
         },
         "file": "game:itemtypes/toolhead/axehead"
     }
