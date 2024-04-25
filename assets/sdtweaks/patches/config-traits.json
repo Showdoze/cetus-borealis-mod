@@ -1,10 +1,5 @@
 [
   {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
     "op": "replace",
     "path": "/7",
     "value": {
@@ -16,7 +11,7 @@
   },
   {
     "op": "add",
-    "path": "/8",
+    "path": "/0",
     "value": {
       "code": "precise",
       "type": "positive",
@@ -26,7 +21,7 @@
   },
   {
     "op": "add",
-    "path": "/9",
+    "path": "/0",
     "value": {
       "code": "technical",
       "type": "positive",
@@ -36,7 +31,7 @@
   },
   {
     "op": "add",
-    "path": "/10",
+    "path": "/0",
     "value": {
       "code": "soldier",
       "type": "positive",
@@ -50,7 +45,7 @@
   },
   {
     "op": "add",
-    "path": "/11",
+    "path": "/0",
     "value": {
       "code": "hardy",
       "type": "positive",
@@ -63,7 +58,7 @@
   },
   {
     "op": "add",
-    "path": "/12",
+    "path": "/0",
     "value": {
       "code": "clothier",
       "type": "positive",
@@ -73,7 +68,7 @@
   },
   {
     "op": "add",
-    "path": "/13",
+    "path": "/0",
     "value": {
       "code": "mender",
       "type": "positive",
@@ -85,7 +80,7 @@
   },
   {
     "op": "add",
-    "path": "/14",
+    "path": "/0",
     "value": {
       "code": "merciless",
       "type": "positive",
@@ -95,7 +90,7 @@
   },
   {
     "op": "add",
-    "path": "/15",
+    "path": "/0",
     "value": {
       "code": "farsighted",
       "type": "negative",
@@ -107,7 +102,7 @@
   },
   {
     "op": "add",
-    "path": "/16",
+    "path": "/0",
     "value": {
       "code": "claustrophobic",
       "type": "negative",
@@ -120,7 +115,7 @@
   },
   {
     "op": "add",
-    "path": "/17",
+    "path": "/0",
     "value": {
       "code": "frail",
       "type": "negative",
@@ -133,7 +128,7 @@
   },
   {
     "op": "add",
-    "path": "/18",
+    "path": "/0",
     "value": {
       "code": "nervous",
       "type": "negative",
@@ -145,7 +140,7 @@
   },
   {
     "op": "add",
-    "path": "/19",
+    "path": "/0",
     "value": {
       "code": "ravenous",
       "type": "negative",
@@ -157,7 +152,7 @@
   },
   {
     "op": "add",
-    "path": "/20",
+    "path": "/0",
     "value": {
       "code": "hearty",
       "type": "positive",
@@ -166,10 +161,10 @@
       }
     },
     "file": "game:config/traits"
-  }.
+  },
   {
     "op": "add",
-    "path": "/30",
+    "path": "/0",
     "value": {
       "code": "sneaky",
       "type": "positive",
@@ -183,7 +178,7 @@
   },
   {
     "op": "add",
-    "path": "/30",
+    "path": "/0",
     "value": {
       "code": "warrior",
       "type": "positive",
