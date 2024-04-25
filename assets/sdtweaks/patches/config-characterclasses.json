@@ -35,7 +35,7 @@
       "gear": [ 
         { "type": "item", "code": "tonwexp:item/katanairon" },
         { "type": "item", "code": "bow-long" }
-    ]
+      ]
     },
     "file": "game:config/characterclasses"
   }
