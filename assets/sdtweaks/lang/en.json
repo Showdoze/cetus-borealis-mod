@@ -11,6 +11,13 @@
     "block-undyingstone-*": "Gel'ziabar Stone",
     "blockdesc-undyingstone-*": "The Gel'ziabar Stone is a mystical green stone given to Patrick Galloway by Jeremiah Covenant during the Great War",
     
+    "game:characterclass-deprived": "Deprived",
+    "game:characterdesc-deprived": "<font color=\"#99c9f9\"><i>As poor, purposeless and naked as the day they were born. A nice club is all they have.</i></font><br><br>Hominids are great hunters (although quite loud), exceling in all kinds of terrain, and have great adaptability, but lacking communication skills.",
+    "game:charattribute-animalSeekingRange-0.35": "35% animal detection range",
+    "game:charattribute-hungerrate-0.15": "+15% hunger rate",
+    "game:trait-hearty": "<font color=\"#ff8484\">• Hearty</font>",
+    "game:trait-loud": "<font color=\"#ff8484\">• Loud</font>",
+    
     "block-torchuranium-copper-*": "Copper Base Uranium Torch",
     "block-torchuranium-brass-*": "Brass Base Uranium Torch",
     "block-torchuranium-tinbronze-*": "Tin Bronze Base Uranium Torch",
