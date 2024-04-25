@@ -336,7 +336,7 @@
     {
         "op": "replace",
         "path": "/drops/0",
-        "value": { "type": "block", "code": "game:windmillrotor-*-ns" },
+        "value": { "type": "block", "code": "game:windmillrotor-*-north" },
         "file": "game:blocktypes/mechanics/windmillrotor"
     },
     {
