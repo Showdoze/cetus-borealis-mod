@@ -162,7 +162,35 @@
       "code": "hearty",
       "type": "positive",
       "attributes": {
-        "hungerrate": -0.15
+        "hungerrate": -0.50
+      }
+    },
+    "file": "game:config/traits"
+  }.
+  {
+    "op": "add",
+    "path": "/30",
+    "value": {
+      "code": "sneaky",
+      "type": "positive",
+      "attributes": {
+        "rustyGearDropRate": 0.1,
+        "walkspeed": 0.1,
+        "animalSeekingRange": -0.50
+      }
+    },
+    "file": "game:config/traits"
+  },
+  {
+    "op": "add",
+    "path": "/30",
+    "value": {
+      "code": "warrior",
+      "type": "positive",
+      "attributes": {
+        "meleeWeaponsDamage": 0.5,
+			  "armorDurabilityLoss": -0.30,
+			  "armorWalkSpeedAffectedness": -0.75
       }
     },
     "file": "game:config/traits"

@@ -8,5 +8,35 @@
       "gear": [ { "type": "item", "code": "club-generic-wood" } ]
     },
     "file": "game:config/characterclasses"
+  },
+  {
+    "op": "add",
+    "path": "/0",
+    "value": {
+      "code": "thief",
+      "traits": [ "sneaky", "focused", "hearty" ],
+      "gear": [ 
+        { type: "item", code: "knife-dagger-ruined" },
+        { type: "item", code: "bow-crude" },
+        { type: "item", code: "arrow-crude" },
+        { type: "item", code: "clothes-upperbody-blackguard-shirt" },
+			  { type: "item", code: "clothes-lowerbody-blackguard-leggings" }, 
+        { type: "item", code: "clothes-face-hunter-mask" }
+    ]
+    },
+    "file": "game:config/characterclasses"
+  },
+  {
+    "op": "add",
+    "path": "/0",
+    "value": {
+      "code": "samurai",
+      "traits": [ "warrior", "focused", "hearty" ],
+      "gear": [ 
+        { "type": "item", "code": "tonwexp:item/katanairon" },
+        { "type": "item", "code": "bow-long" }
+    ]
+    },
+    "file": "game:config/characterclasses"
   }
 ]
