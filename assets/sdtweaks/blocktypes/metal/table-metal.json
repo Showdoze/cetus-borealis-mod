@@ -1,15 +1,12 @@
 {
 	code: "tablemetal",
-	behaviors: [ { name: "UnstableFalling" } ],
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" },
 		{ code: "cover", states: [ "none", "whitemarble", "redmarble", "greenmarble" ] }
 	],
 	attributes: {
 		"pieFormingSurface": true,
-		handbook: {
-			groupBy: ["tablemetal-*"]
-		}
+		handbook: { groupBy: ["tablemetal-*"] }
 	},
 	shape: { base: "game:block/wood/table" },
 	heldTpIdleAnimation: "holdunderarm",

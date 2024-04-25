@@ -1,0 +1,51 @@
+[
+    {
+        ingredientPattern: "_O_,OOO,O_O",
+        ingredients: {
+            "O": { type: "item", code: "game:ingot-*", "name": "metal", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-metal-{metal}-none-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-red", quantity: 1 },
+            "O": { type: "item", code: "game:ingot-*", "name": "metal", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-metal-{metal}-red-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-blue", quantity: 1 },
+            "O": { type: "item", code: "game:ingot-*", "name": "metal", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-metal-{metal}-blue-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-purple", quantity: 1 },
+            "O": { type: "item", code: "game:ingot-*", "name": "metal", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-metal-{metal}-purple-east", quantity: 1 }
+    },
+    {
+        ingredientPattern: "_S_,OOO,O_O",
+        ingredients: {
+            "S": { type: "item", code: "game:cloth-green", quantity: 1 },
+            "O": { type: "item", code: "game:ingot-*", "name": "metal", quantity: 1}
+        },
+        width: 3,
+        height: 3,
+        output: { type: "block", code: "tablelong-metal-{metal}-green-east", quantity: 1 }
+    }
+]

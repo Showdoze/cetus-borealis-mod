@@ -1,14 +1,14 @@
 {
-	code: "tablelong",
-	behaviors: [ { name: "UnstableFalling" }, { name: "HorizontalOrientable" } ],
+	code: "tablelong-metal",
+	behaviors: [ { name: "HorizontalOrientable" } ],
 	variantgroups: [
-		{ code: "wood", states: ["aged"], loadFromProperties: "block/wood" },
+		{ code: "metal", loadFromProperties: "block/metal" },
 		{ code: "cloth", states: ["none", "green", "purple", "red", "blue"] },
         { code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	attributes: {
 		"pieFormingSurface": true,
-		handbook: { groupBy: ["tablelong-*"] }
+		handbook: { groupBy: ["tablelong-metal-*"] }
 	},
     shapebytype: {
 		"*-none-north": { base: "game:block/clutter/table-long", rotateY: 90 },
@@ -22,13 +22,9 @@
 	},
 	heldTpIdleAnimation: "holdunderarm",
 	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ] },
-	blockmaterial: "Wood",
-	combustibleProps: {
-		burnTemperature: 800,
-		burnDuration: 80
-	},
+	blockmaterial: "Metal",
 	replaceable: 900,
-	resistance: 1,
+	resistance: 1.5,
 	lightAbsorption: 1,
 	"sidesolid": {
 		"up": true,
@@ -38,15 +34,15 @@
 		"up": true,
 		"all": false
 	},
-	"sounds": {
-		"place": "game:block/planks",
-		"hit": "game:block/planks",
-		"break": "game:block/planks",
-		"walk": "game:walk/wood"
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
 	},
 	"textures": {
 		"top": { "base": "game:block/cloth/aged/{cloth}/top" },
-        "charred": { "base": "game:block/wood/debarked/{wood}" }
+        "charred": { "base": "game:block/metal/ingot/{metal}" }
 	},
 	materialDensity: 2000,
 	tpHandTransform: {

@@ -1,11 +1,8 @@
 {
     "code": "woodscaffolding",
-    "variantgroups": [
-		{ "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" }
-	],
-    "creativeinventory": {
-        "general": ["*"]
-    },
+    "behaviors": [{ "name": "Ladder" } ],
+    "variantgroups": [ { "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" } ],
+    "creativeinventory": { "general": ["*"] },
     "shape": { "base": "game:block/wood/scaffolding" },
     "blockmaterial": "Wood",
     "drawtype": "json",
@@ -16,9 +13,7 @@
     "resistance": 0.5,
     "lightabsorption": 0,
     "climbable": true,
-    "sideopaque": {
-        "all": false
-    },
+    "sideopaque": { "all": false },
     "sounds": {
         "place": "game:block/planks",
         "walk": "game:walk/wood"
