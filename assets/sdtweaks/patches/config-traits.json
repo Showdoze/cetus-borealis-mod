@@ -157,7 +157,7 @@
       "code": "hearty",
       "type": "positive",
       "attributes": {
-        "hungerrate": -0.50
+        "hungerrate": -1
       }
     },
     "file": "game:config/traits"
