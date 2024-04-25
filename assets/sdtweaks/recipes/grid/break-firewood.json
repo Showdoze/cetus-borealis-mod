@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"T": { type: "block", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 2  },
+			"T": { type: "block", code: "game:firewood" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4  }
+	}
+]

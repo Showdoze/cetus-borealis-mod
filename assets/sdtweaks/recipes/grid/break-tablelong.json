@@ -2,7 +2,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "tablelong-*-none-east", name: "wood" }
 		},
 		width: 1,
@@ -12,7 +12,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "tablelong-*-red-east", name: "wood" }
 		},
 		width: 1,
@@ -22,7 +22,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "tablelong-*-blue-east", name: "wood" }
 		},
 		width: 1,
@@ -32,7 +32,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "tablelong-*-green-east", name: "wood" }
 		},
 		width: 1,
@@ -42,7 +42,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "tablelong-*-purple-east", name: "wood" }
 		},
 		width: 1,

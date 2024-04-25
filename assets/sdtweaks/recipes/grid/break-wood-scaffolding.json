@@ -2,7 +2,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
 			"T": { type: "block", code: "woodscaffolding-*", name: "wood" }
 		},
 		width: 1,

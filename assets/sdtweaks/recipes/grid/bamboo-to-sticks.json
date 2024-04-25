@@ -2,7 +2,7 @@
 	{
 		ingredientPattern: "H,T",
 		ingredients: {
-			"H": { type: "item", code: "game:saw-*" , isTool: true, },
+			"H": { type: "item", code: "game:saw-*" , isTool: true },
 			"T": { type: "item", code: "game:bamboostakes" }
 		},
 		width: 1,
