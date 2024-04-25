@@ -6,8 +6,8 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"kapok": "block/wood/debarked/kapok",
-		"ropeblock": "block/rope"
+		"kapok": "game:block/wood/debarked/kapok",
+		"ropeblock": "game:block/rope"
 	},
 	"elements": [
 		{

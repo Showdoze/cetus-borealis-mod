@@ -5,56 +5,6 @@
     "file": "game:config/traits"
   },
   {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
-    "op": "remove",
-    "path": "/7",
-    "file": "game:config/traits"
-  },
-  {
     "op": "replace",
     "path": "/7",
     "value": {

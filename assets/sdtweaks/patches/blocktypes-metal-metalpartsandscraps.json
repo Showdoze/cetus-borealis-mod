@@ -7,21 +7,15 @@
         "meltingPoint": 1154,
         "meltingDuration": 30,
         "smeltedRatio": 2,
-        "smeltedStack": {
-          "type": "item",
-          "code": "ironbloom"
-        }
+        "smeltedStack": { "type": "item", "code": "ironbloom" }
       },
       "*-parts": {
         "meltingPoint": 1154,
         "meltingDuration": 30,
         "smeltedRatio": 4,
-        "smeltedStack": {
-          "type": "item",
-          "code": "ingot-blistersteel"
-        }
-      }
-},
+        "smeltedStack": { "type": "item", "code": "ingot-blistersteel" }
+      } 
+    },
     "file": "game:blocktypes/metal/metalpartsandscraps"
   }
 ]

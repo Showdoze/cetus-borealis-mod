@@ -8,8 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"mat": "block/clay/ceramic",
-		"string": "block/clay/hardened/blue1"
+		"mat": "game:block/clay/ceramic",
+		"string": "game:block/clay/hardened/blue1"
 	},
 	"elements": [
 		{
