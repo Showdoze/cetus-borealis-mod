@@ -4,7 +4,7 @@
         ingredients: {
             "S": { type: "item", code: "game:firewood", quantity: 1 }
         },
-        width: 1,
+        width: 2,
         height: 2,
         output: { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 }
     },
@@ -13,7 +13,7 @@
         ingredients: {
             "S": { type: "item", code: "game:firewood", quantity: 1 }
         },
-        width: 1,
+        width: 3,
         height: 1,
         output: { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 }
     },
@@ -21,7 +21,7 @@
         ingredientPattern: "J,S",
         ingredients: {
             "J": { type: "item", code: "game:knife-*", IsTool: "true" },
-            "S": { type: "item", code: "game:palisadewall-four-top-west", quantity: 1 }
+            "S": { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 }
         },
         width: 1,
         height: 2,
@@ -31,7 +31,7 @@
         ingredientPattern: "J,S",
         ingredients: {
             "J": { type: "item", code: "game:knife-*", IsTool: "true" },
-            "S": { type: "item", code: "game:palisadewall-three-top-west", quantity: 1 }
+            "S": { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 }
         },
         width: 1,
         height: 2,
@@ -41,7 +41,7 @@
         ingredientPattern: "S,J",
         ingredients: {
             "J": { type: "item", code: "game:knife-*", IsTool: "true" },
-            "S": { type: "item", code: "game:palisadewall-four-top-west", quantity: 1 }
+            "S": { type: "block", code: "game:palisadewall-four-top-west", quantity: 1 }
         },
         width: 1,
         height: 2,
@@ -51,7 +51,7 @@
         ingredientPattern: "S,J",
         ingredients: {
             "J": { type: "item", code: "game:knife-*", IsTool: "true" },
-            "S": { type: "item", code: "game:palisadewall-three-top-west", quantity: 1 }
+            "S": { type: "block", code: "game:palisadewall-three-top-west", quantity: 1 }
         },
         width: 1,
         height: 2,
