@@ -4,17 +4,17 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/0/entityCodes",
+    "path": "/server/behaviors/10/taskai/0/entityCodes",
     "value": [ "player", "trader-*", "drifter-*", "bell", "bear-*", "sheep-bighorn-*", "hyena-*", "wolf-*", "locust-*", "fox-*"],
-    "file": "game:entities/land/sheep-bighorn-lamb.json"
+    "file": "game:entities/land/sheep-bighorn-lamb"
   },
 
 /////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/3/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/10/taskai/3/stopOnNearbyEntityCodes",
     "value": [ "player", "trader-*", "drifter-*", "bell", "bear-*", "sheep-bighorn-*", "hyena-*", "wolf-*", "locust-*", "fox-*"],
-    "file": "game:entities/land/sheep-bighorn-lamb.json"
+    "file": "game:entities/land/sheep-bighorn-lamb"
   }
 ]

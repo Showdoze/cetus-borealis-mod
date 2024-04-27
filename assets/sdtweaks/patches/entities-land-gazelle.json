@@ -4,7 +4,7 @@
 
     {
         "op": "replace",
-        "path": "/server/behaviors/9/aitasks/0/entityCodes",
+        "path": "/server/behaviors/9/taskai/0/entityCodes",
         "value": [ "wolf-*", "drfiter-*", "bear-*", "locust-*", "player", "trader-*", "hyena-*", "sheep-bighorn-*", "bell" ],
         "file": "game:entities/land/gazelle"
     },
@@ -13,7 +13,7 @@
 
     {
         "op": "replace",
-        "path": "/server/behaviors/9/aitasks/6/stopOnNearbyEntityCodes",
+        "path": "/server/behaviors/9/taskai/6/stopOnNearbyEntityCodes",
         "value": [ "wolf-*", "drfiter-*", "bear-*", "locust-*", "player", "trader-*", "hyena-*", "sheep-bighorn-*", "bell" ],
         "file": "game:entities/land/gazelle"
     },
@@ -22,7 +22,7 @@
 
     {
         "op": "replace",
-        "path": "/server/behaviors/9/aitasks/7/stopOnNearbyEntityCodes",
+        "path": "/server/behaviors/9/taskai/7/stopOnNearbyEntityCodes",
         "value": [ "wolf-*", "drfiter-*", "bear-*", "locust-*", "player", "trader-*", "hyena-*", "sheep-bighorn-*", "bell" ],
         "file": "game:entities/land/gazelle"
     }

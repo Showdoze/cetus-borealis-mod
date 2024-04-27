@@ -28,92 +28,24 @@
       "groupBy": [ "undyingstone-*" ]
     },
     "attachmentAreas": {
-      "down": {
-        "x1": 7,
-        "y1": 15,
-        "z1": 7,
-        "x2": 8,
-        "y2": 16,
-        "z2": 8
-      },
-      "up": {
-        "x1": 7,
-        "y1": 15,
-        "z1": 7,
-        "x2": 8,
-        "y2": 16,
-        "z2": 8,
-        "rotateX": 180
-      },
-      "north": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 180
-      },
-      "east": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 270
-      },
-      "south": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 0
-      },
-      "west": {
-        "x1": 6,
-        "y1": 0,
-        "z1": 15,
-        "x2": 10,
-        "y2": 5,
-        "z2": 15,
-        "rotateY": 90
-      }
+      "down": {"x1": 7,"y1": 15,"z1": 7,"x2": 8,"y2": 16,"z2": 8},
+      "up": {"x1": 7,"y1": 15,"z1": 7,"x2": 8,"y2": 16,"z2": 8,"rotateX": 180},
+      "north": {"x1": 6,"y1": 0,"z1": 15,"x2": 10,"y2": 5,"z2": 15,"rotateY": 180},
+      "east": { "x1": 6,"y1": 0,"z1": 15,"x2": 10,"y2": 5,"z2": 15,"rotateY": 270 },
+      "south": {"x1": 6,"y1": 0,"z1": 15,"x2": 10,"y2": 5,"z2": 15, "rotateY": 0 },
+      "west": {"x1": 6,"y1": 0,"z1": 15,"x2": 10,"y2": 5,"z2": 15, "rotateY": 90 }
     }
   },
   "shapebytype": {
-    "*-up": {
-      "base": "game:shapes/item/ore/ungraded/alum"
-    },
-    "*-down": {
-      "base": "game:shapes/item/ore/ungraded/alum",
-      "rotateX": 180
-    },
-    "*-north": {
-      "base": "game:shapes/item/ore/ungraded/alum",
-      "rotateY": 0,
-      "rotateX": -90
-    },
-    "*-east": {
-      "base": "game:shapes/item/ore/ungraded/alum",
-      "rotateY": 0,
-      "rotateZ": -90
-    },
-    "*-south": {
-      "base": "game:shapes/item/ore/ungraded/alum",
-      "rotateY": 180,
-      "rotateX": 90
-    },
-    "*-west": {
-      "base": "game:shapes/item/ore/ungraded/alum",
-      "rotateY": 0,
-      "rotateZ": 90
-    }
+    "*-up": {"base": "game:shapes/item/ore/ungraded/alum"},
+    "*-down": {"base": "game:shapes/item/ore/ungraded/alum","rotateX": 180},
+    "*-north": {"base": "game:shapes/item/ore/ungraded/alum","rotateY": 0,"rotateX": -90 },
+    "*-east": { "base": "game:shapes/item/ore/ungraded/alum", "rotateY": 0, "rotateZ": -90 },
+    "*-south": {"base": "game:shapes/item/ore/ungraded/alum", "rotateY": 180, "rotateX": 90 },
+    "*-west": { "base": "game:shapes/item/ore/ungraded/alum", "rotateY": 0, "rotateZ": 90 }
   },
   "textures": {
-    "quartz": { "base": "game:block/liquid/dye/{glow}" }
+    "quartz": { "base": "game:block/liquid/dye/green" }
   },
   "doNotRenderAtLod2": true,
   "sidesolid": {
@@ -132,121 +64,34 @@
   "lightHsv":  [ 19, 6, 20 ],
   "collisionbox": null,
   "selectionboxbytype": {
-    "*-up": {
-      "x1": 0.375,
-      "y1": 0,
-      "z1": 0.375,
-      "x2": 0.625,
-      "y2": 0.8875,
-      "z2": 0.625
-    },
-    "*-down": {
-      "x1": 0.375,
-      "y1": 0,
-      "z1": 0.375,
-      "x2": 0.625,
-      "y2": 0.8875,
-      "z2": 0.625,
-      "rotateX": 180
-    },
-    "*-east": {
-      "x1": 0.4,
-      "y1": 0.1875,
-      "z1": 0.5625,
-      "x2": 0.6125,
-      "y2": 0.9,
-      "z2": 1,
-      "rotateY": 270
-    },
-    "*-south": {
-      "x1": 0.4,
-      "y1": 0.1875,
-      "z1": 0.5625,
-      "x2": 0.6125,
-      "y2": 0.9,
-      "z2": 1,
-      "rotateY": 180
-    },
-    "*-west": {
-      "x1": 0.4,
-      "y1": 0.1875,
-      "z1": 0.5625,
-      "x2": 0.6125,
-      "y2": 0.9,
-      "z2": 1,
-      "rotateY": 90
-    },
-    "*-north": {
-      "x1": 0.4,
-      "y1": 0.1875,
-      "z1": 0.5625,
-      "x2": 0.6125,
-      "y2": 0.9,
-      "z2": 1,
-      "rotateY": 0
-    }
+    "*-up": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 0.8875, "z2": 0.625 },
+    "*-down": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 0.8875, "z2": 0.625, "rotateX": 180 },
+    "*-east": { "x1": 0.4, "y1": 0.1875, "z1": 0.5625, "x2": 0.6125, "y2": 0.9, "z2": 1, "rotateY": 270 },
+    "*-south": { "x1": 0.4, "y1": 0.1875, "z1": 0.5625, "x2": 0.6125, "y2": 0.9, "z2": 1, "rotateY": 180 },
+    "*-west": { "x1": 0.4, "y1": 0.1875, "z1": 0.5625, "x2": 0.6125, "y2": 0.9, "z2": 1, "rotateY": 90 },
+    "*-north": { "x1": 0.4, "y1": 0.1875, "z1": 0.5625, "x2": 0.6125, "y2": 0.9, "z2": 1, "rotateY": 0 }
   },
   "blockmaterial": "Metal",
   "fpHandTransform": {
-    "translation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "rotation": {
-      "x": 17,
-      "y": 38,
-      "z": -33
-    },
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 17, "y": 38, "z": -33 },
     "scale": 2
   },
   "guiTransform": {
-    "rotation": {
-      "x": -47,
-      "y": 30,
-      "z": 15
-    },
-    "origin": {
-      "x": 0.5,
-      "y": 0.46,
-      "z": 0.5
-    },
+    "rotation": {"x": -47,"y": 30,"z": 15 },
+    "origin": {"x": 0.5,"y": 0.46,"z": 0.5},
     "scale": 2.02
   },
   "tpHandTransform": {
-    "translation": {
-      "x": -0.73,
-      "y": 0.05,
-      "z": -0.85
-    },
-    "rotation": {
-      "x": 0,
-      "y": 179,
-      "z": 86
-    },
-    "origin": {
-      "x": 0.5,
-      "y": 0,
-      "z": 0.5
-    },
+    "translation": {"x": 0,"y": 0.2,"z": 0},
+    "rotation": {"x": 0,"y": 0,"z": 0},
+    "origin": {"x": 0.5,"y": 0.5,"z": 0.5},
     "scale": 1
   },
   "groundTransform": {
-    "translation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "rotation": {
-      "x": 0,
-      "y": -1,
-      "z": 90
-    },
-    "origin": {
-      "x": 0.44,
-      "y": 0.25,
-      "z": 0.5
-    },
+    "translation": {"x": 0,"y": 0,"z": 0},
+    "rotation": {"x": 0,"y": -1,"z": 90},
+    "origin": {"x": 0.44,"y": 0.25,"z": 0.5},
     "scale": 2.8
   },
   "sounds": {
@@ -257,7 +102,7 @@
   "heldSounds": {
     "equip": "game:block/leather",
     "unequip": "game:block/leather",
-    "attack": "sdtweaks:items/undying/GhelFire01"
+    "attack": "items/undying/GhelFire01"
   },
   "materialDensity": 1900
 }

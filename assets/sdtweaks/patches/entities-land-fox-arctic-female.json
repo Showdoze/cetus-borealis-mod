@@ -4,53 +4,53 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/0/entityCodes/0",
+    "path": "/server/behaviors/9/taskai/0/entityCodes/0",
     "value": [ "*" ],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   },
 
 ///////////chase on damage
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/1/entityCodes",
+    "path": "/server/behaviors/9/taskai/1/entityCodes",
     "value": [ "chicken-*", "hare-*", "locust-*", "racoon-*"],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   },
 
 ////////flee from
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/2/entityCodes",
+    "path": "/server/behaviors/9/taskai/2/entityCodes",
     "value": ["trader-*", "drifter-*", "locust-*", "wolf-*", "sheep-bighorn-*", "bell", "bear-*"],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   },
 
 ///////////deal damage
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/3/entityCodes",
+    "path": "/server/behaviors/9/taskai/3/entityCodes",
     "value": [ "*" ],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   },
 
 //////////hunt
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/4/entityCodes",
+    "path": "/server/behaviors/9/taskai/4/entityCodes",
     "value": ["chicken-*", "hare-*", "ship-bighorn-lamb"],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   },
 
 /////////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/6/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/9/taskai/6/stopOnNearbyEntityCodes",
     "value": ["drifter", "player", "wolf-*", "sheep-bighorn-*", "bear-*", "locust-*", "bell", "hyena-*"],
-    "file": "game:entities/land/fox-arctic-female.json"
+    "file": "game:entities/land/fox-arctic-female"
   }
 ]

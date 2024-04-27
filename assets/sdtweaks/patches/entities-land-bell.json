@@ -4,17 +4,17 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/5/aitasks/0/onNearbyEntityCodes",
+    "path": "/server/behaviors/5/taskai/0/onNearbyEntityCodes",
     "value": [ "player", "trader-*", "bear-*", "sheep-bighorn-*", "pig-wild-*", "wolf-*" ],
-    "file": "game:entities/land/bell.json"
+    "file": "game:entities/land/bell"
   },
 
 /////////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/5/aitasks/2/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/5/taskai/2/stopOnNearbyEntityCodes",
     "value": [ "player", "trader-*", "bear-*", "sheep-bighorn-*", "pig-wild-*", "wolf-*" ],
-    "file": "game:entities/land/bell.json"
+    "file": "game:entities/land/bell"
   }
 ]

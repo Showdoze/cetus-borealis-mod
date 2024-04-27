@@ -4,17 +4,17 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/0/entityCodes",
+    "path": "/server/behaviors/9/taskai/0/entityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "racoon-*", "hyena-*"],
-    "file": "game:entities/land/hare-male.json"
+    "file": "game:entities/land/hare-male"
   },
 
 ////////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/aitasks/2/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/9/taskai/2/stopOnNearbyEntityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "racoon-*", "hyena-*"],
-    "file": "game:entities/land/hare-male.json"
+    "file": "game:entities/land/hare-male"
   }
 ]

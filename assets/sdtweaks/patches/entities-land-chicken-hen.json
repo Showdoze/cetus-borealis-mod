@@ -4,17 +4,17 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/11/aitasks/0/entityCodes",
+    "path": "/server/behaviors/11/taskai/0/entityCodes",
     "value": [ "drifter-*", "player", "trader-*", "wolf-*", "fox-*", "racoon-*", "hyena-*", "bell", "locust-*", "bear-*"],
-    "file": "game:entities/land/chicken-hen.json"
+    "file": "game:entities/land/chicken-hen"
   },
 
 //////////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/11/aitasks/5/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/11/taskai/5/stopOnNearbyEntityCodes",
     "value": [ "drifter-*", "player", "trader-*", "wolf-*", "fox-*", "racoon-*", "hyena-*", "bell", "locust-*", "bear-*"],
-    "file": "game:entities/land/chicken-hen.json"
+    "file": "game:entities/land/chicken-hen"
   }
 ]

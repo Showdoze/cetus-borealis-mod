@@ -4,53 +4,53 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/0/entityCodes",
+    "path": "/server/behaviors/10/taskai/0/entityCodes",
     "value": ["*"],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   },
 
 //////chase on damage
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/1/entityCodes",
+    "path": "/server/behaviors/10/taskai/1/entityCodes",
     "value": ["hare-*", "chicken-*", "wolf-pup", "hyena-pup"],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   },
 
 /////////////flee from
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/2/entityCodes",
+    "path": "/server/behaviors/10/taskai/2/entityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*"],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   },
 
 /////////deal damage
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/3/entityCodes",
+    "path": "/server/behaviors/10/taskai/3/entityCodes",
     "value": [ "*" ],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   },
 
 //////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/6/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/10/taskai/6/stopOnNearbyEntityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "wolf-*", "sheep-bighorn-*"],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   },
 
 ////////stop sitting to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/11/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/10/taskai/11/stopOnNearbyEntityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "wolf-*", "sheep-bighorn-*"],
-    "file": "game:entities/land/fox-female.json"
+    "file": "game:entities/land/fox-female"
   }
 ]

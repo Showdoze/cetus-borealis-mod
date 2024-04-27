@@ -4,8 +4,8 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/0/entityCodes",
+    "path": "/server/behaviors/10/taskai/0/entityCodes",
     "value": ["drifter-*", "locust-*", "bell", "bear-*", "pig-wild-*"],
-    "file": "game:entities/land/wolf-pup.json"
+    "file": "game:entities/land/wolf-pup"
   }
 ]

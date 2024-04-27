@@ -4,17 +4,17 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/0/entityCodes",
+    "path": "/server/behaviors/10/taskai/0/entityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "hyena-*", "wolf-*", "fox-*", "racoon-*"],
-    "file": "game:entities/land/pig-wild-piglet.json"
+    "file": "game:entities/land/pig-wild-piglet"
   },
 
 ///////stop idle to
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/aitasks/3/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/10/taskai/3/stopOnNearbyEntityCodes",
     "value": ["drifter-*", "trader-*", "player", "locust-*", "bell", "bear-*", "sheep-bighorn-*", "hyena-*", "wolf-*", "fox-*", "racoon-*"],
-    "file": "game:entities/land/pig-wild-piglet.json"
+    "file": "game:entities/land/pig-wild-piglet"
   }
 ]
