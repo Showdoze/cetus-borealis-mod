@@ -4,7 +4,7 @@
   "name": "Cetus Borealis Mod",
   "version": "4.2.0",
   "description": "Massive amount of gameplay tweaks, QOL features and more",
-  "authors": [ "Showdoze", "swordmanck" ],
+  "authors": [ "Showdoze", "swordmanck", "Various contributors" ],
   "side": "Universal",
   "requiredOnClient": true,
   "requiredOnServer": true
