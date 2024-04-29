@@ -1,0 +1,174 @@
+{
+"code": "bages",
+"tool": "sword",
+"class": "ItemSword",
+"creativeinventory": { "general": ["*"], "tools":["*"]},
+"variantgroups": [ { "code": "metal", "loadFromProperties": "game:block/metal"}],
+"behaviors": [{ 
+	"name": "GroundStorable",
+	"properties": {
+	    "layout": "WallHalves",
+	    "wallOffY": 2,
+	    "sprintKey": true,
+	    "selectionBox": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+	    "collisionBox": { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 }
+    }
+}],
+"attributes": {
+	"sharpenable": true,
+    "onGrindstoneTransform": {
+		translation: { x: 0.3, y: 0.42, z: 0.26},
+		rotation: { x: 60, y: 7, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.56
+    },
+    "handbook": {
+	    "groupBy": ["bages-*"]
+	},
+	"toolrackTransform": {
+			"translation": { x: 0.65, y: 0.6, z: 0 },
+			"rotation": { x: 0, y: 0, z: 180 },
+			"origin": { x: 0, y: 0, z: 0 },
+			"scale": 1.05
+	},
+	"groundStorageTransform": {
+			translation: { x: 0.12, y: 0.37, z: 0.52 },
+			rotation: { x: 16, y: 90, z: -90 },
+			origin: { x: 0, y: 0, z: 0 },
+			scale: 0.77
+	}
+},
+"shape": { "base": "game:item/tool/blade/bagesblack" },
+"textures": { "metal": {"base": "game:block/metal/ingot/{metal}" }},
+"maxstacksize": 1,
+
+"heldTpHitAnimation": "swordhit",
+
+"attackRange": 2.2,
+
+"attackpowerByType": {
+"bages-copper": 4.2,
+"bages-tinbronze": 4.4,
+"bages-bismuthbronze": 4.5,
+"bages-blackbronze": 5.2,
+"bages-brass": 4.3,
+"bages-bismuth": 4,
+"bages-nickel": 4.1,
+"bages-molybdochalkos": 4.8,
+"bages-lead": 4.5,
+"bages-tin": 2.3,
+"bages-zinc": 3,
+"bages-gold": 3.2,
+"bages-silver": 4.2,
+"bages-iron": 5,
+"bages-meteoriciron": 5.5,
+"bages-steel": 6.2,
+"bages-titanium": 7,
+"bages-chromium": 6.9,
+"bages-platinum": 7.2,
+"bages-uranium": 6.9,
+"bages-rhodium": 7,
+"bages-stainlesssteel": 5.9
+},
+
+"durabilityByType": {
+"bages-copper": 300,
+"bages-tinbronze": 500,
+"bages-bismuthbronze": 580,
+"bages-blackbronze": 620,
+"bages-brass": 350,
+"bages-bismuth": 280,
+"bages-nickel": 300,
+"bages-molybdochalkos": 360,
+"bages-lead": 200,
+"bages-tin": 200,
+"bages-zinc": 300,
+"bages-gold": 220,
+"bages-silver": 400,
+"bages-iron": 650,
+"bages-meteoriciron": 676,
+"bages-steel": 800,
+"bages-titanium": 1000,
+"bages-chromium": 900,
+"bages-platinum": 1500,
+"bages-uranium": 1100,
+"bages-rhodium": 2000,
+"bages-stainlesssteel": 700
+},
+
+"tooltierByType": {
+"bages-copper": 2,
+"bages-tinbronze": 3,
+"bages-bismuthbronze": 3,
+"bages-blackbronze": 3,
+"bages-brass": 2,
+"bages-bismuth": 2,
+"bages-nickel": 2,
+"bages-molybdochalkos": 3,
+"bages-lead": 2,
+"bages-tin": 1,
+"bages-zinc": 1,
+"bages-gold": 1,
+"bages-silver": 2,
+"bages-iron": 3,
+"bages-meteoriciron": 3,
+"bages-steel": 4,
+"bages-titanium": 5,
+"bages-chromium": 5,
+"bages-platinum": 5,
+"bages-uranium": 5,
+"bages-rhodium": 5,
+"bages-stainlesssteel": 4
+},
+
+"damagedBy": [ "attacking" , "blockbreaking"],
+
+"miningspeedbytype": {
+"bages-copper": { "wood": 2.2, "leaves": 1.5 },
+"bages-tinbronze": { "wood": 2.4, "leaves": 1.7 },
+"bages-bismuthbronze": { "wood": 2.6, "leaves": 2 },
+"bages-blackbronze": { "wood": 2.7, "leaves": 2.1 },
+"bages-brass": { "wood": 2, "leaves": 1.3 },
+"bages-bismuth": { "wood": 1.8, "leaves": 1.3 },
+"bages-nickel": { "wood": 2, "leaves": 1.3 },
+"bages-molybdochalkos": { "wood": 2.5, "leaves": 1.5 },
+"bages-lead": { "wood": 2.2, "leaves": 1.5 },
+"bages-tin": { "wood": 1.2, "leaves": 0.5 },
+"bages-zinc": { "wood": 1.8, "leaves": 1.2 },
+"bages-gold": { "wood": 1.7, "leaves": 1.2 },
+"bages-silver": { "wood": 2, "leaves": 1.5 },
+"bages-iron": { "wood": 3, "leaves": 2 },
+"bages-meteoriciron": { "wood": 3.2, "leaves": 2.2 },
+"bages-steel": { "wood": 4, "leaves": 3 },
+"bages-titanium": { "wood": 5, "leaves": 4 },
+"bages-chromium": { "wood": 4.5, "leaves": 3.5 },
+"bages-platinum": { "wood": 5.2, "leaves": 4 },
+"bages-uranium": { "wood": 4.8, "leaves": 3.8 },
+"bages-rhodium": { "wood": 5.5, "leaves": 4 },
+"bages-stainlesssteel": { "wood": 3.5, "leaves": 2.5 }
+},
+"guiTransform": {
+	translation: { x: 5, y: 2, z: 0 },
+	rotation: { x: -91, y: 43, z: 41 },
+	origin: { x: 0.2, y: 0, z: 0.5 },
+	scale: 1.4
+},
+"fpHandTransform": {
+	translation: { x: 0.95, y: -0.2, z: -0.05 },
+	rotation: { x: -165, y: 166, z: -90 },
+	origin: { x: 0, y: 0, z: 1 },
+	scale: 2.5
+},
+"tpHandTransform": {
+	translation: { x: -0.31, y: 0.55, z: 0.03 },
+	rotation: { x: -90, y: 0, z: -2 },
+	origin: { x: 0, y: 0, z: 0 },
+	scale: 0.54
+},
+"groundTransform": {
+	"translation": { x: 0, y: 0, z: 0 },
+	"rotation": { x: 0, y: -17, z: 0 },
+	"origin": { x: 0, y: 0, z: 0 },
+	"scale": 2.8
+}
+}
