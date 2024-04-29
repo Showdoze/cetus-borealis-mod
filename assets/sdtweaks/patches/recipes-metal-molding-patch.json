@@ -95,6 +95,12 @@
         "value": "chainring",
         "file": "game:blocktypes/clay/mold/toolmold"
     },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/16",
+        "value": "bages",
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
 
 /////////////////////////TOOL MOLD BELOW//////////////////////
 
@@ -305,6 +311,18 @@
             "moldrackable": true,
             "onmoldrackTransform": { "rotation": { z: 90 } },
             "drop": { "type": "item", "code": "sdtweaks:chainringmetal-{metal}", "quantity": 18 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/toolmold-burned-bages",
+        "value": {
+            "requiredUnits": 200,
+            "fillHeight": 2,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "sdtweaks:bages-{metal}", "quantity": 1 }
         },
         "file": "game:blocktypes/clay/mold/toolmold"
     },

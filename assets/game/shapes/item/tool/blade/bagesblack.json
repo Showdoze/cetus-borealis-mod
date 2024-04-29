@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blackbronze": "game:block/metal/ingot/blackbronze"
+		"blackbronze": ""
 	},
 	"elements": [
 		{
