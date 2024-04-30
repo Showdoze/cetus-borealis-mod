@@ -175,5 +175,50 @@
             "smeltedStack": { "type": "item", "code": "game:ingot-stainlesssteel" }
         },
         "file": "game:itemtypes/resource/metalbit"
-    }
+    },
+
+///////// Blister Steel/ Lead and Silver solder
+
+    {
+        "op": "add",
+        "path": "/variants/0",
+        "value": {             
+            "code": "blistersteel",
+            "meltPoint": 1602,
+            "boilPoint": 2730, 
+            "density": 7720,
+            "specificHeatCapacity": 0.13,
+            "elemental": true,
+            "tier": 3
+        },
+        "file": "game:worldproperties/block/metal"
+    },
+    {
+        "op": "add",
+        "path": "/variants/0",
+        "value": {             
+            "code": "leadsolder",
+            "meltPoint": 327,
+            "boilPoint": 500, 
+            "density": 9280,
+            "specificHeatCapacity": 0.13,
+            "elemental": true,
+            "tier": 3
+        },
+        "file": "game:worldproperties/block/metal"
+    },
+    {
+        "op": "add",
+        "path": "/variants/0",
+        "value": {             
+            "code": "silversolder",
+            "meltPoint": 758,
+            "boilPoint": 1030, 
+            "density": 8880,
+            "specificHeatCapacity": 0.13,
+            "elemental": true,
+            "tier": 3
+        },
+        "file": "game:worldproperties/block/metal"
+    },
 ]
