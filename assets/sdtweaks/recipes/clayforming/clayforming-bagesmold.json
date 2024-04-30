@@ -40,5 +40,5 @@
 	"name": "Bages Mold",
 	"output": {
 	"type": "block",
-	"code": "toolmold-raw-bages"  }
+	"code": "game:toolmold-raw-bages"  }
 }

@@ -1,0 +1,42 @@
+[
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "clubhead-flanged-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "club-flanged-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "clubhead-morningstar-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "club-morningstar-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "clubhead-spiked-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "club-spiked-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "clubhead-warhammer-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "club-warhammer-{metal}" }
+    }
+]

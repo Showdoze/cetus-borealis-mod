@@ -1,0 +1,144 @@
+{
+    "code": "battleaxe",
+    "damagedby": ["blockbreaking", "attacking"],
+    "class": "ItemAxe",
+    "tool": "axe",
+    "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"]},
+    "variantgroups": [
+        { "code": "type", "states": ["bearded", "battle", "bardiche"] },
+        { "code": "metal",  "loadFromProperties": "game:block/metal"  }
+    ],
+    "attributes": {
+        "handbook": { "groupBy": ["battleaxe-{type}-*"] },
+        "toolrackTransformByType": {
+            "*-battle-*": { "translation": { "x": -0.3, "y": 0.5, "z": -0.3 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 },
+            "*-bearded-*": { "translation": { "x": -0.3, "y": 0.55, "z": -0.3 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.3 },
+            "*-bardiche-*": { "translation": { "x": -0.25, "y": 0.5, "z": -0.4 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 }
+        },
+        "groundStorageTransformByType": {
+            "*-battle-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.23 }, "rotation": { "x": 34, "y": 0, "z": -90 }, "scale": 0.8 },
+            "*-bearded-*": { "translation": { "x": 0, "y": 0.06, "z": -0.11 }, "rotation": { "x": 26, "y": 88, "z": -94 }, "scale": 0.8 },
+            "*-bardiche-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.03 }, "rotation": { "x": 26, "y": 0, "z": -87 }, "scale": 0.75 }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffYByType": {
+                    "*-bardiche-*": 2,
+                    "*": 1
+                },
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        }
+    ],
+    "shape": { "base": "game:item/tool/axe/{type}" },
+    "textures": {
+        "blackbronze2": { "base": "game:block/metal/ingot/{metal}" },
+        "bismuthbronze": { "base": "game:block/metal/ingot/{metal}" },
+        "blackbronze": { "base": "game:block/metal/ingot/{metal}" },
+        "iron": { "base": "game:block/metal/ingot/{metal}" }
+    },
+    "heldTpHitAnimationByType": {
+        "*-battle-*": "falx",
+        "*-bearded-*": "falx",
+        "*-bardiche-*": "zweiswing"
+    },
+
+    "attackRangebytype": {
+        "*-battle-*": 2,
+        "*-bearded-*": 2.1,
+        "*-bardiche-*": 2.3
+    },
+    "tooltierbytype": {
+        "*-gold": 2,
+        "*-silver": 2,
+        "*-bismuthbronze": 3,
+        "*-tinbronze": 3,
+        "*-blackbronze": 3,
+        "*-iron": 4,
+        "*-meteoriciron": 4,
+        "*-battle-steel": 5,
+        "*-steel": 4
+    },
+    "miningspeedbytype": {
+        "*-silver": { "wood": 4.5, "plant": 3.3, "leaves": 2.6 },
+        "*-gold": { "wood": 4.5, "plant": 3.3, "leaves": 2.6 },
+        "*-bismuthbronze": { "wood": 5.2, "plant": 3, "leaves": 2.1 },
+        "*-tinbronze": { "wood": 5.7, "plant": 3.3, "leaves": 2.5 },
+        "*-blackbronze": { "wood": 6, "plant": 3.5, "leaves": 2.6 },
+        "*-iron": { "wood": 7.8, "plant": 4.5, "leaves": 2.7 },
+        "*-meteoriciron": { "wood": 9, "plant": 5, "leaves": 3.1 },
+        "*-steel": { "wood": 10, "plant": 5.5, "leaves": 3.5 }
+    },
+    "durabilitybytype": {
+        "*-gold": 400,
+        "*-silver": 400,
+        "*-blackbronze": 600,
+        "*-bismuthbronze": 500,
+        "*-tinbronze": 400,
+        "*-iron": 900,
+        "*-meteoriciron": 1200,
+        "*-steel": 1800
+    },
+    "attackpowerbytype": {
+        "*-bismuthbronze": 3,
+        "*-gold": 3.5,
+        "*-silver": 3.5,
+        "*-tinbronze": 3.5,
+        "*-blackbronze": 4,
+        "*-iron": 4.5,
+        "*-meteoriciron": 5,
+        "*-steel": 5.3
+    },
+    "fpHandTransformbytype": {
+        "*-battle-*": {
+        "translation": { "x": -0.3, "y": -0.2, "z": 0.3 },
+        "rotation": { "x": -29, "y": 1, "z": 88 },
+        "origin": { "x": 0.2, "y": 0.5, "z": 0.5 },
+        "scale": 2.5
+        },
+        "*": {
+            "translation": { "x": -0.3, "y": 0, "z": 0.3 },
+            "rotation": { "x": -29, "y": 1, "z": 88 },
+            "origin": { "x": 0.2, "y": 0.5, "z": 0.5 },
+            "scale": 2.5
+        }
+    },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": -63, "y": -123, "z": -180 },
+        "origin": { "x": 0.61, "y": 0, "z": 0.47 },
+        "scale": 1.58
+    },
+    "groundTransform": {
+        "translation": { "x": -0.3, "y": 0.55, "z": -0.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.1, "y": 0, "z": 0 },
+        "scale": 0.8
+    },
+    "tpHandTransformByType": {
+        "*-bardiche-*": {
+            "translation": { "x": -1.25, "y": 0.055, "z": -0.75 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.45, "y": -0.1, "z": 0.47 },
+            "scale": 0.75
+        },
+        "*-battle-*": {
+            "translation": { "x": -1.08, "y": 0.055, "z": -0.78 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.55, "y": 0.05, "z": 0.62 },
+            "scale": 0.8
+        },
+        "*": {
+            "translation": { "x": -1.08, "y": 0.055, "z": -0.78 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.5, "y": 0.05, "z": 0.62 },
+            "scale": 0.8
+        }
+    }
+}

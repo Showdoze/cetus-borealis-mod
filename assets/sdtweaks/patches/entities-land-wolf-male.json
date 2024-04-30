@@ -4,7 +4,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/0/entityCodes",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/wolf-male"
   },
@@ -13,31 +13,31 @@
 
   {
     "op": "add",
-    "path": "/server/behaviors/9/taskai/1/entityCodes/1",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes/1",
     "value": "sheep-bighorn-*",
     "file": "game:entities/land/wolf-male"
   },
   {
     "op": "add",
-    "path": "/server/behaviors/9/taskai/1/entityCodes/2",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes/2",
     "value": "drifter-*",
     "file": "game:entities/land/wolf-male"
   },
   {
     "op": "add",
-    "path": "/server/behaviors/9/taskai/1/entityCodes/3",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes/3",
     "value": "pig-wild-male",
     "file": "game:entities/land/wolf-male"
   },
   {
     "op": "add",
-    "path": "/server/behaviors/9/taskai/1/entityCodes/4",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes/4",
     "value": "locust-*",
     "file": "game:entities/land/wolf-male"
   },
   {
     "op": "add",
-    "path": "/server/behaviors/9/taskai/1/entityCodes/5",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes/5",
     "value": "bear-*",
     "file": "game:entities/land/wolf-male"
   },
@@ -46,13 +46,13 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/10/taskai/2/entityCodes",
+    "path": "/server/behaviors/10/aitasks/2/entityCodes",
     "value": [ "chicken-*", "hare-*", "sheep-bighorn-lamb" ],
     "file": "game:entities/land/wolf-female"
   },
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/3/entityCodes",
+    "path": "/server/behaviors/9/aitasks/3/entityCodes",
     "value": [ "sheep-bighorn-lamb", "gazelle", "chicken-rooster", "chicken-hen", "chicken-baby", "hare-*" ],
     "file": "game:entities/land/wolf-male"
   },
@@ -61,7 +61,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/4/entityCodes/0",
+    "path": "/server/behaviors/9/aitasks/4/entityCodes/0",
     "value": "*",
     "file": "game:entities/land/wolf-male"
   },
@@ -70,7 +70,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/5/stopOnNearbyEntityCodes/0",
+    "path": "/server/behaviors/9/aitasks/5/stopOnNearbyEntityCodes/0",
     "value": "*",
     "file": "game:entities/land/wolf-male"
   }

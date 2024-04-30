@@ -4,7 +4,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/1/entityCodes",
+    "path": "/server/behaviors/9/aitasks/1/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/bear"
   },
@@ -13,7 +13,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/2/entityCodes",
+    "path": "/server/behaviors/9/aitasks/2/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/bear"
   },
@@ -22,7 +22,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/3/entityCodesByType/*",
+    "path": "/server/behaviors/9/aitasks/3/entityCodesByType/*",
     "value": [ "bass", "salmon", "hare-*", "chicken-*" ],
     "file": "game:entities/land/bear"
   },
@@ -31,19 +31,19 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/4/entityCodesByType/*",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*",
     "value": [ "drifter-*", "player", "trader", "locust-*", "bell" ],
     "file": "game:entities/land/bear"
   },
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/4/entityCodesByType/*-panda",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*-panda",
     "value": [ "trader-*", "drifter-*", "bell", "locust-*", "player", "wolf-*"],
     "file": "game:entities/land/bear"
   },
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/4/entityCodesByType/*-sun",
+    "path": "/server/behaviors/9/aitasks/4/entityCodesByType/*-sun",
     "value": [ "trader-*", "drifter-*", "bell", "locust-*", "player", "wolf-*" ],
     "file": "game:entities/land/bear"
   },
@@ -52,7 +52,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/5/entityCodes",
+    "path": "/server/behaviors/9/aitasks/5/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/bear"
   },
@@ -61,7 +61,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/7/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/9/aitasks/7/stopOnNearbyEntityCodes",
     "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*"],
     "file": "game:entities/land/bear"
   },
@@ -70,7 +70,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/11/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/9/aitasks/11/stopOnNearbyEntityCodes",
     "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*"],
     "file": "game:entities/land/bear"
   },
@@ -79,7 +79,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/12/stopOnNearbyEntityCodes",
+    "path": "/server/behaviors/9/aitasks/12/stopOnNearbyEntityCodes",
     "value": ["trader-*", "drifter-*", "bell", "player", "sheep-bighorn-*", "locust-*", "wolf-*" ],
     "file": "game:entities/land/bear"
   }

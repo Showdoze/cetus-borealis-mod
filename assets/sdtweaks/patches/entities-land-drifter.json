@@ -4,7 +4,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/8/taskai/1/entityCodes",
+    "path": "/server/behaviors/8/aitasks/1/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/drifter"
   },
@@ -42,7 +42,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/8/taskai/2",
+    "path": "/server/behaviors/8/aitasks/2",
     "value": {
       "code": "meleeattack",
       "entityCodes": [ "*" ],
@@ -84,13 +84,13 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/8/taskai/3/entityCodes",
+    "path": "/server/behaviors/8/aitasks/3/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/drifter"
   },
   {
     "op": "replace",
-    "path": "/server/behaviors/8/taskai/3/priority",
+    "path": "/server/behaviors/8/aitasks/3/priority",
     "value": "0.1",
     "file": "game:entities/land/drifter"
   },
@@ -99,7 +99,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/8/taskai/4/entityCodes",
+    "path": "/server/behaviors/8/aitasks/4/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/drifter"
   },

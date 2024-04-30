@@ -4,7 +4,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/7/taskai/0/entityCodes",
+    "path": "/server/behaviors/7/aitasks/0/entityCodes",
     "value": [ "*" ],
     "file": "game:entities/land/locust"
   },
@@ -13,7 +13,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/7/taskai/2/entityCodes",
+    "path": "/server/behaviors/7/aitasks/2/entityCodes",
     "value": [ "player", "trader-*", "drifter-*", "bell", "sheep-*", "gazelle", "chicken-*", "hare-*", "bear-*", "wolf-*", "fox-*", "racoon-*", "hyena-*" ],
     "file": "game:entities/land/locust"
   },

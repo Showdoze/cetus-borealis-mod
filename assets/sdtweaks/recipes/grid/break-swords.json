@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "blade-gladius-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "blade-arming-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "blade-claymore-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 40  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "blade-sabre-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+]

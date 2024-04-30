@@ -1,0 +1,32 @@
+[
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "battleaxehead-bearded-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "battleaxe-bearded-{material}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "battleaxehead-battle-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "battleaxe-battle-{material}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "battleaxehead-bardiche-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "battleaxe-bardiche-{material}" }
+    }
+]

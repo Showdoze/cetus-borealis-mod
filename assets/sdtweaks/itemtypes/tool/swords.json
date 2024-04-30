@@ -1,0 +1,207 @@
+{
+    "code": "blade",
+    "class": "ItemSword",
+    "tool": "sword",
+    "damagedby": ["blockbreaking", "attacking"],
+    "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"]},
+    "variantgroups": [
+        { "code": "type", "states": ["gladius", "arming", "claymore", "sabre"] },
+        { "code": "metal", "loadFromProperties": "game:block/metal"}
+    ],
+    "attributes": {
+        "handbook": { "groupBy": ["blade-{type}-*"] },
+        "toolrackTransformByType": {
+            "*-claymore-*": { "translation": { "x": 0.42, "y": 0.4, "z": -0.2 }, "rotation": { "x": -16, "y": 180, "z": 1 }, "scale": 0.87 },
+            "*-sabre-*": { "translation": { "x": 0.16, "y": 0.3, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 1 }, "scale": 0.7 },
+            "*-arming-*": { "translation": { "x": 0.16, "y": 0.4, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 1 }, "scale": 0.8 },
+            "*": { "translation": { "x": 0.16, "y": 0.45, "z": 0 }, "rotation": { "x": 0, "y": 180, "z": 1 }, "scale": 0.9 }
+        },
+        "groundStorageTransformByType": {
+            "*-gladius-*": { "translation": { "x": 0, "y": 0.33, "z": 0.07 }, "rotation": { "x": 24, "y": 90, "z": -87 }, "scale": 0.63 },
+            "*-arming-*": { "translation": { "x": 0, "y": 0.60, "z": 0.08 }, "rotation": { "x": 24, "y": 90, "z": -87 }, "scale": 0.55 },
+            "*-claymore-*": { "translation": { "x": 0, "y": 0.97, "z": 0.09 }, "rotation": { "x": 24, "y": 90, "z": -87 }, "scale": 0.55 },
+            "*-sabre-*": { "translation": { "x": 0.1, "y": 0.63, "z": 0.15 }, "rotation": { "x": 24, "y": 61, "z": -87 }, "scale": 0.52 }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffYByType": {
+                    "*-claymore-*": 2,
+                    "*-arming-*": 2,
+                    "*": 1
+                },
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        }
+    ],
+    "shape": { "base": "game:item/tool/blade/{type}" },
+    "textures": {
+        "blackbronze": { "base": "game:block/metal/ingot/{metal}" }
+    },
+    "heldTpHitAnimationByType": {
+        "*-gladius-*": "spearhit",
+        "*-claymore-*": "zweiswing",
+        "*-arming-*": "spearhit",
+        "*": "falx"
+    },
+    "heldTpIdleAnimationByType": {
+        "*-claymore-*": "crudeOarIdle"
+    },
+    "attackRangeByType": {
+        "*-claymore-*": 2.9,
+        "*-arming-*": 2.6,
+        "*-sabre-*": 2.5,
+        "*": 2.5
+    },
+    "tooltierbytype": {
+        "*-gold": 4,
+        "*-silver": 4,
+        "*-bismuthbronze": 3,
+        "*-tinbronze": 3,
+        "*-blackbronze": 3,
+        "*-iron": 4,
+        "*-meteoriciron": 4,
+        "*-steel": 5
+    },
+    "miningspeedbytype": {
+        "*-bismuthbronze": { "wood": 2.3, "leaves": 2 },
+        "*-tinbronze": { "wood": 2.4, "leaves": 2.2 },
+        "*-gold": { "wood": 3.5, "leaves": 4 },
+        "*-silver": { "wood": 3.5, "leaves": 4 },
+        "*-blackbronze": { "wood": 2.5, "leaves": 2.3 },
+        "*-iron": { "wood": 3, "leaves": 3 },
+        "*-meteoriciron": { "wood": 3.25, "leaves": 3.5 },
+        "*-steel": { "wood": 3.5, "leaves": 4 }
+    },
+    "attackpowerbytype": {
+        "*-arming-iron": 5,
+        "*-arming-meteoriciron": 5.2,
+        "*-arming-steel": 5.4,
+
+        "*-claymore-iron": 6.5,
+        "*-claymore-meteoriciron": 7,
+        "*-claymore-steel": 7.5,
+
+        "*-sabre-iron": 5.4,
+        "*-sabre-meteoriciron": 5.6,
+        "*-sabre-steel": 5.9,
+        
+        "*-gladius-gold": 4.1,
+        "*-gladius-silver": 4.1,
+        "*-gladius-bismuthbronze": 4.2,
+        "*-gladius-tinbronze": 4.3,
+        "*-gladius-blackbronze": 4.6,
+        "*-gladius-iron": 5.1,
+        "*-gladius-meteoriciron": 5.3,
+        "*-gladius-steel": 5.5
+    },
+    "durabilitybytype": {
+        "*-gold": 500,
+        "*-silver": 600,
+        "*-tinbronze": 500,
+        "*-bismuthbronze": 550,
+        "*-blackbronze": 600,
+        "*-iron": 850,
+        "*-meteoriciron": 1100,
+        "*-steel": 2100
+    },
+    "guiTransformByType": {
+        "*-claymore-*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": -87, "y": 119, "z": 30 },
+            "origin": { "x": 1.15, "y": -0.1, "z": 0.57 },
+            "scale": 1.95
+        },
+        "*-sabre-*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": -37, "y": 124, "z": -7 },
+            "origin": { "x": 0.85, "y": -0.1, "z": 0.57 },
+            "scale": 2.06
+        },
+        "*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": -53, "y": 118, "z": 8 },
+            "origin": { "x": 1.15, "y": 0.2, "z": 0.57 },
+            "scale": 1.76
+        }
+    },
+    "fpHandTransformByType": {
+        "*-arming-*": {
+            "translation": { "x": -0.2, "y": -0.3, "z": 0 },
+            "rotation": { "x": -18, "y": 15, "z": 90 },
+            "scale": 1.8
+        },
+        "*-sabre-*": {
+            "translation": { "x": -0.2, "y": -0.3, "z": 0 },
+            "rotation": { "x": -35, "y": -3, "z": 85 },
+            "scale": 1.6
+        },
+        "*-claymore-*": {
+            "translation": { "x": -0.2, "y": -0.4, "z": 0 },
+            "rotation": { "x": -25, "y": 5, "z": 85 },
+            "scale": 2
+        },
+        "*": {
+            "translation": { "x": -0.2, "y": -0.3, "z": 0 },
+            "rotation": { "x": -18, "y": 15, "z": 90 },
+            "scale": 1.9
+        }
+    },
+    "groundTransformByType": {
+        "*-claymore-*": {
+            "translation": { "x": 0, "y": 0.05, "z": 0 },
+            "rotation": { "x": 14, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 2.8
+        },
+        "*-sabre-*": {
+            "translation": { "x": 0, "y": 0.05, "z": 0 },
+            "rotation": { "x": 14, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 2.5
+        },
+        "*-arming-*": {
+            "translation": { "x": 0, "y": 0.05, "z": 0 },
+            "rotation": { "x": 14, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 2.5
+        },
+        "*": {
+            "translation": { "x": 0, "y": 0.04, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 2.5
+        }
+    },
+    "tpHandTransformByType": {
+        "*-claymore-*": {
+            "translation": { "x": -0.67, "y": 0.05, "z": -0.78 },
+            "rotation": { "x": 39, "y": 12, "z": -15 },
+            "origin": { "x": 0.46, "y": -0.11, "z": 0.43 },
+            "scale": 0.57
+        },
+        "*-arming-*": {
+            "translation": { "x": -1.03, "y": 0.055, "z": -0.78 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.43, "y": -0.1, "z": 0.39 },
+            "scale": 0.52
+        },
+        "*-sabre-*": {
+            "translation": { "x": -0.68, "y": 0.055, "z": -0.78 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.315, "y": -0.05, "z": 0.37 },
+            "scale": 0.50
+        },
+        "*": {
+            "translation": { "x": -0.98, "y": 0.055, "z": -0.78 },
+            "rotation": { "x": 85, "y": 0, "z": 2 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 0.63
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": "battleaxehead",
+    "creativeinventory": { "general": ["*"], "items": ["*"]},
+    "variantgroups": [
+        { "code": "type", "states": ["bearded", "battle", "bardiche"] },
+        { "code": "metal", "loadFromProperties": "game:block/metal" }
+    ],
+    "attributes": {
+        "handbook": { "groupBy": ["battleaxehead-{type}-*"] },
+        "groundStorageTransformByType": {
+            "*-battle-*": { "translation": { "x": -0.3, "y": -0.15, "z": 0.17 }, "rotation": { "x": 10, "y": 0, "z": 0 }, "scale": 0.8 },
+            "*-bearded-*": { "translation": { "x": -0.2, "y": -0.15, "z": 0.17 }, "rotation": { "x": 10, "y": 0, "z": 0 }, "scale": 0.8 },
+            "*-bardiche-*": { "translation": { "x": -0.1, "y": -0.15, "z": 0.27 }, "rotation": { "x": 10, "y": 45, "z": 0 }, "scale": 0.75 }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        }
+    ],
+    "shape": { "base": "game:item/tool/axe/{type}" },
+    "textures": {
+        "blackbronze2": { "base": "game:block/metal/ingot/{metal}" },
+        "bismuthbronze": { "base": "game:block/metal/ingot/{metal}" },
+        "iron": { "base": "game:block/metal/ingot/{metal}" },
+        "blackbronze": { "base": "game:block/metal/ingot/{metal}" },
+        "debarked/oak": { "base": "game:block/transparent" },
+        "handle": { "base": "game:block/transparent" }
+    },
+    "heldTpUseAnimation": "interactstatic",
+    "maxstacksize": 4,
+    "fpHandTransform": {
+        "translation": { "x": -0.5, "y": -0.4, "z": 0 },
+        "rotation": { "x": 25, "y": 0, "z": 86 },
+        "scale": 2.5
+    },
+    "guiTransformByType": {
+        "*-bearded-*": {
+            "translation": { "x": 0, "y": 0, "z": 100 },
+            "rotation": { "x": -52, "y": -110, "z": -180 },
+            "origin": { "x": 0.56, "y": 0.31, "z": 0.31 },
+            "scale": 3
+        },
+        "*-battle-*": {
+            "translation": { "x": 0, "y": 0, "z": 100 },
+            "rotation": { "x": -52, "y": -110, "z": -180 },
+            "origin": { "x": 0.56, "y": 0.51, "z": 0.35 },
+            "scale": 3
+        },
+        "*-bardiche-*": {
+            "translation": { "x": 0, "y": 0, "z": 100 },
+            "rotation": { "x": -52, "y": -110, "z": -180 },
+            "origin": { "x": 0.56, "y": 0.41, "z": 0.31 },
+            "scale": 1.9
+        },
+        "*-double-*": {
+            "translation": { "x": 0, "y": 0, "z": 100 },
+            "rotation": { "x": -52, "y": -110, "z": -180 },
+            "origin": { "x": 0.56, "y": 0.41, "z": 0.42 },
+            "scale": 2.5
+        }
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0.3, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.81, "y": 0.45, "z": 0.42 },
+        "scale": 3
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.3, "y": -0.8, "z": -0.13 },
+        "rotation": { "x": 90, "y": -29, "z": 0 },
+        "scale": 0.8
+    }
+}

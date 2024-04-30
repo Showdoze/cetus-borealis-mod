@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "club-flanged-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "club-morningstar-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "club-spiked-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "club-warhammer-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	}
+]

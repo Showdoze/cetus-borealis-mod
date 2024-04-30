@@ -4,7 +4,7 @@
 
   {
     "op": "replace",
-    "path": "/server/behaviors/9/taskai/0/entityCodes",
+    "path": "/server/behaviors/9/aitasks/0/entityCodes",
     "value": [ "player", "trader-*", "drifter-*", "bell", "locust-*", "bear-*", "sheep-bighorn-*", "hyena-*", "wolf-*", "pig-wild-*"],
     "file": "game:entities/land/raccoon-pup"
   }

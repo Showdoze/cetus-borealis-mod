@@ -1,0 +1,42 @@
+[
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "bladehead-gladius-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "blade-gladius-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "bladehead-arming-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "blade-arming-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "bladehead-claymore-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "blade-claymore-{metal}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "bladehead-sabre-*", "name": "metal"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "blade-sabre-{metal}" }
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "_###___",
+                "#####__",
+                "#######",
+                "###_###",
+                "###__##",
+                "_##____",
+                "_##____",
+                "__#____"
+            ]
+        ],
+        "name": "Axe",
+        "output": {
+            "type": "item",
+            "code": "battleaxehead-bearded-{metal}"
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "_#______",
+                "##______",
+                "###_##__",
+                "########",
+                "######__",
+                "###_##__",
+                "_##_____",
+                "__#_____"
+            ]
+        ],
+        "name": "Axe",
+        "output": {
+            "type": "item",
+            "code": "battleaxehead-battle-{metal}"
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "_#____",
+                "##____",
+                "#####_",
+                "###___",
+                "###___",
+                "###___",
+                "_####_",
+                "__##__",
+                "___#__"
+            ]
+        ],
+        "name": "Axe",
+        "output": {
+            "type": "item",
+            "code": "battleaxehead-bardiche-{metal}"
+        }
+    }
+
+]
