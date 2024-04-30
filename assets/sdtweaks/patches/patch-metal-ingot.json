@@ -91,7 +91,7 @@
     },
 
 ///////////////////Nickel
-
+/*
     {
         "op": "add",
         "path": "/variants/0",
@@ -145,7 +145,7 @@
         },
         "file": "game:itemtypes/resource/nugget"
     },
-
+*/
 /////////////////Stainless Steel
 
     {
