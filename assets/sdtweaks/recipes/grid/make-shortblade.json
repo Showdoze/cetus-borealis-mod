@@ -1,0 +1,42 @@
+[
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "shortbladehead-dagger-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "shortblade-dagger-{material}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "shortbladehead-stiletto-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "shortblade-stiletto-{material}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "shortbladehead-khanjar-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "shortblade-khanjar-{material}" }
+    },
+    {
+        "ingredientPattern": "T,S",
+        "ingredients": {
+            "T": { "type": "item", "code": "shortbladehead-baselard-*", "name": "material" },
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "shortblade-baselard-{material}" }
+    }
+]

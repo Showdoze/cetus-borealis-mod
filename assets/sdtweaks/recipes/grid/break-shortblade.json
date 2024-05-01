@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "shortblade-dagger-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "shortblade-stiletto-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "shortblade-khanjar-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "shortblade-baselard-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	}
+]

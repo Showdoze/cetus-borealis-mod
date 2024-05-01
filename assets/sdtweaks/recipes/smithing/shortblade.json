@@ -1,0 +1,77 @@
+[
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "______#____",
+                "##########_",
+                "______#____"
+            ]
+        ],
+        "name": "Knife",
+        "output": {
+            "type": "item",
+            "code": "shortbladehead-dagger-{metal}"
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "______#____",
+                "##########_",
+                "______#____"
+            ]
+        ],
+        "name": "Knife",
+        "output": {
+            "type": "item",
+            "code": "shortbladehead-stiletto-{metal}"
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "############__",
+                "____#####_____"
+            ]
+        ],
+        "name": "Knife",
+        "output": {
+            "type": "item",
+            "code": "shortbladehead-khanjar-{metal}"
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "_____###____",
+                "##########__",
+                "_____###____"
+            ]
+        ],
+        "name": "Knife",
+        "output": {
+            "type": "item",
+            "code": "shortbladehead-baselard-{metal}"
+        }
+    }
+]
