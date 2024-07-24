@@ -1,6 +1,5 @@
 {
     "code": "woodscaffolding",
-    "behaviors": [{ "name": "Ladder" } ],
     "variantgroups": [ { "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" } ],
     "creativeinventory": { "general": ["*"] },
     "shape": { "base": "game:block/wood/scaffolding" },
@@ -8,7 +7,7 @@
     "drawtype": "json",
     "textures": {
         "kapok": { "base": "game:block/wood/debarked/{wood}" },
-        "ropeblock": { "base": "block/rope" }
+        "ropeblock": { "base": "game:block/rope" }
     },
     "resistance": 0.5,
     "lightabsorption": 0,
