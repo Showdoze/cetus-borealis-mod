@@ -1,17 +1,18 @@
 {
     "code": "woodscaffolding",
-    "variantgroups": [ { "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" } ],
+    "variantgroups": [ { "code": "wood", "states": ["aged"], "loadFromProperties": "game:block/wood" } ],
     "creativeinventory": { "general": ["*"] },
-    "shape": { "base": "game:block/wood/scaffolding" },
+    "shape": { "base": "game:block/wood/scaffolding"},
     "blockmaterial": "Wood",
     "drawtype": "json",
     "textures": {
         "kapok": { "base": "game:block/wood/debarked/{wood}" },
-        "ropeblock": { "base": "game:block/rope" }
+        "ropeblock": { "base": "game:item/resource/rope" }
     },
     "resistance": 0.5,
     "lightabsorption": 0,
     "climbable": true,
+    "heldTpIdleAnimation": "holdunderarm",
     "sideopaque": { "all": false },
     "sounds": {
         "place": "game:block/planks",

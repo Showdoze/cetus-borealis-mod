@@ -1,0 +1,12 @@
+[
+	{
+        "ingredientPattern": "WWW,WFW,WWW",
+        "ingredients": {
+            "F": { "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 1 },
+            "W": { "type": "item", "code": "game:ingot-*", "name": "material" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "scaffoldingmetal-{material}-east", "quantity": 4 }
+    }
+]

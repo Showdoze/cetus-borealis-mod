@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"T": { type: "block", code: "scaffoldingmetal-*", name: "material" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{material}", quantity: 200  }
+	}
+]

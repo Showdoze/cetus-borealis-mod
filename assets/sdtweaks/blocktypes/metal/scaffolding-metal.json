@@ -2,11 +2,19 @@
 	"code": "scaffoldingmetal",
 	"attributes": {
 		"handbook": {
-			"groupBy": ["scaffoldingmetal-{material}-*"]
+			"groupBy": ["scaffoldingmetal-{material}-east"]
 		}
 	},
-	"variantgroups": [ { "code": "material", "loadFromProperties": "game:block/metal" } ],
-	"shape": { "base": "game:block/wood/crate/normal-opened", "scale": 1.08 },
+	"variantgroups": [ 
+		{ "code": "material", "loadFromProperties": "game:block/metal" },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"shapebytype": { 
+		"*-north" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 0 },
+		"*-east" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 90 },
+		"*-south" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 180 },
+		"*-west" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 270 }
+	},
 	"climbable": true,
 	"sidesolid": {
 		"all": false
@@ -15,7 +23,8 @@
 		"all": false
 	},
 	"blockmaterial": "Metal",
-	"creativeinventory": { "general": ["scaffoldingmetal-*"], "decorative": ["scaffoldingmetal-*"] },
+	"creativeinventory": { "general": ["scaffoldingmetal-*-east"], "decorative": ["scaffoldingmetal-*-east"] },
+	"heldTpIdleAnimation": "holdunderarm",
 	"replaceable": 300,
 	"materialDensity": 4000,
 	"resistance": 3,
@@ -28,8 +37,6 @@
 	"vertexFlags": {
 		"windData": 1		
 	},
-	"collisionbox": { "x1": 0, "y1": 0.78, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
-	"selectionbox": { "x1": 0, "y1": 0.78, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
 	"sounds": {
 		"place": "game:block/plate",
 		"hit": "game:block/anvil1",
