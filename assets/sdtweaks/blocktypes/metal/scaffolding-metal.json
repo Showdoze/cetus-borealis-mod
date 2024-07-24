@@ -1,5 +1,6 @@
 {
 	"code": "scaffoldingmetal",
+	"behaviors": [ { "name": "HorizontalOrientable" } ],
 	"attributes": {
 		"handbook": {
 			"groupBy": ["scaffoldingmetal-{material}-east"]
