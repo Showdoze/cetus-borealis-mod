@@ -28,5 +28,15 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "battleaxe-double-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
 	}
 ]

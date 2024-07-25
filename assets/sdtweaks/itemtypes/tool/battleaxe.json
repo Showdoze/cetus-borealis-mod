@@ -5,7 +5,7 @@
     "tool": "axe",
     "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"]},
     "variantgroups": [
-        { "code": "type", "states": ["bearded", "battle", "bardiche"] },
+        { "code": "type", "states": ["bearded", "battle", "bardiche", "double"] },
         { "code": "metal",  "loadFromProperties": "game:block/metal"  }
     ],
     "attributes": {
@@ -13,12 +13,14 @@
         "toolrackTransformByType": {
             "*-battle-*": { "translation": { "x": -0.3, "y": 0.5, "z": -0.3 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 },
             "*-bearded-*": { "translation": { "x": -0.3, "y": 0.55, "z": -0.3 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.3 },
-            "*-bardiche-*": { "translation": { "x": -0.25, "y": 0.5, "z": -0.4 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 }
+            "*-bardiche-*": { "translation": { "x": -0.25, "y": 0.5, "z": -0.4 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 },
+            "*-double-*": { "translation": { "x": -0.25, "y": 0.5, "z": -0.4 }, "rotation": { "x": -39, "y": 1, "z": -1 }, "scale": 1.2 }
         },
         "groundStorageTransformByType": {
             "*-battle-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.23 }, "rotation": { "x": 34, "y": 0, "z": -90 }, "scale": 0.8 },
             "*-bearded-*": { "translation": { "x": 0, "y": 0.06, "z": -0.11 }, "rotation": { "x": 26, "y": 88, "z": -94 }, "scale": 0.8 },
-            "*-bardiche-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.03 }, "rotation": { "x": 26, "y": 0, "z": -87 }, "scale": 0.75 }
+            "*-bardiche-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.03 }, "rotation": { "x": 26, "y": 0, "z": -87 }, "scale": 0.75 },
+            "*-double-*": { "translation": { "x": 0.35, "y": -0.1, "z": 0.03 }, "rotation": { "x": 26, "y": 0, "z": -87 }, "scale": 0.75 }
         }
     },
     "behaviors": [
@@ -28,6 +30,7 @@
                 "layout": "WallHalves",
                 "wallOffYByType": {
                     "*-bardiche-*": 2,
+                    "*-double-*": 2,
                     "*": 1
                 },
                 "sprintKey": true,
@@ -46,13 +49,15 @@
     "heldTpHitAnimationByType": {
         "*-battle-*": "falx",
         "*-bearded-*": "falx",
-        "*-bardiche-*": "zweiswing"
+        "*-bardiche-*": "zweiswing",
+        "*-double-*": "zweiswing"
     },
 
     "attackRangebytype": {
         "*-battle-*": 2,
         "*-bearded-*": 2.1,
-        "*-bardiche-*": 2.3
+        "*-bardiche-*": 2.3,
+        "*-double-*": 2
     },
     "tooltierbytype": {
         "*-molybdochalkos": 3,

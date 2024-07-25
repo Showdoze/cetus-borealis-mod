@@ -71,6 +71,30 @@
             "type": "item",
             "code": "battleaxehead-bardiche-{metal}"
         }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal"
+        },
+        "pattern": [
+            [
+                "__#__#__",
+                "_##__##_",
+                "###__###",
+                "########",
+                "########",
+                "###__###",
+                "_##__##_",
+                "__#__#__"
+            ]
+        ],
+        "name": "Axe",
+        "output": {
+            "type": "item",
+            "code": "battleaxehead-double-{metal}"
+        }
     }
 
 ]

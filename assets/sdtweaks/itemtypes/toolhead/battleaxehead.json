@@ -2,7 +2,7 @@
     "code": "battleaxehead",
     "creativeinventory": { "general": ["*"], "items": ["*"]},
     "variantgroups": [
-        { "code": "type", "states": ["bearded", "battle", "bardiche"] },
+        { "code": "type", "states": ["bearded", "battle", "bardiche", "double"] },
         { "code": "metal", "loadFromProperties": "game:block/metal" }
     ],
     "attributes": {
@@ -10,7 +10,8 @@
         "groundStorageTransformByType": {
             "*-battle-*": { "translation": { "x": -0.3, "y": -0.15, "z": 0.17 }, "rotation": { "x": 10, "y": 0, "z": 0 }, "scale": 0.8 },
             "*-bearded-*": { "translation": { "x": -0.2, "y": -0.15, "z": 0.17 }, "rotation": { "x": 10, "y": 0, "z": 0 }, "scale": 0.8 },
-            "*-bardiche-*": { "translation": { "x": -0.1, "y": -0.15, "z": 0.27 }, "rotation": { "x": 10, "y": 45, "z": 0 }, "scale": 0.75 }
+            "*-bardiche-*": { "translation": { "x": -0.1, "y": -0.15, "z": 0.27 }, "rotation": { "x": 10, "y": 45, "z": 0 }, "scale": 0.75 },
+            "*-double-*": { "translation": { "x": -0.1, "y": -0.15, "z": 0.27 }, "rotation": { "x": 10, "y": 45, "z": 0 }, "scale": 0.75 }
         }
     },
     "behaviors": [

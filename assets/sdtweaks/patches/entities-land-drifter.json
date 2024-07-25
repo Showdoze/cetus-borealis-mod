@@ -127,6 +127,16 @@
         "quantity": { "avg": 0.4, "var": 0 }
       },
       {
+        "type": "item",
+        "code": "game:clutter-skull/humanoid",
+        "quantity": { "avg": 0.2, "var": 0 }
+      },
+      {
+        "type": "item",
+        "code": "game:clutter-skull/humanoid-deformed",
+        "quantity": { "avg": 0.4, "var": 0 }
+      },
+      {
         "type": "block",
         "code": "game:locustnest-metalspike-none",
         "quantity": { "avg": 0.4, "var": 0 }
