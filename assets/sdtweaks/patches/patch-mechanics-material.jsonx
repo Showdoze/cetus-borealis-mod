@@ -152,7 +152,7 @@
     },
     {
         "op": "replace",
-        "path": "/9/ingredients/A",
+        "path": "/9/ingredients/P",
         "value": { "type": "block", "code": "log-placed-*-ud", "name": "wood" },
         "file": "game:recipes/grid/mechpowerblocks"
     },

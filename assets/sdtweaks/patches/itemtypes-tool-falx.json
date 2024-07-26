@@ -134,6 +134,12 @@
 
     {
         "op": "add",
+        "path": "/miningspeedbytype",
+        "value": {},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
         "path": "/miningspeedbytype/blade-falx-brass",
         "value": {
 			"wood": 2.3,

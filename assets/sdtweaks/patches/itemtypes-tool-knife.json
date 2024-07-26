@@ -418,7 +418,7 @@
     },
     {
         "op": "replace",
-        "path": "/attackpowerbytype/knife-*-obsidian",
+        "path": "/attackpowerbytype/knife-generic-obsidian",
         "value": "2",
         "file": "game:itemtypes/tool/knife"
     },
