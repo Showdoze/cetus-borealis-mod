@@ -14,15 +14,13 @@
 	maxStackSize: 64,
 	lightAbsorption: 3,
 	shapeByType: {
-		"*-north": { base: "game:block/clay/bloomery/base", rotateY: 0 },
-		"*-east": { base: "game:block/clay/bloomery/base", rotateY: 270 },
-		"*-south": { base: "game:block/clay/bloomery/base", rotateY: 180 },
-		"*-west": { base: "game:block/clay/bloomery/base", rotateY: 90 }
+		"*-north": { base: "game:block/metal/bloomery-metal", rotateY: 90 },
+		"*-east": { base: "game:block/metal/bloomery-metal", rotateY: 270 },
+		"*-south": { base: "game:block/metal/bloomery-metal", rotateY: 180 },
+		"*-west": { base: "game:block/metal/bloomery-metal", rotateY: 0 }
 	},
 	textures: {
-		"inside": { base: "game:block/coal/charcoal"},
-		"base": { base: "game:block/metal/sheet/{material}1"},
-		"base front": { base: "game:block/metal/sheet/{material}2"}
+		"rusty-iron": { base: "game:block/metal/sheet/{material}1"}
 	},
 	sounds: {
 		"place": "game:block/metaldoor",

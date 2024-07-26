@@ -1,19 +1,20 @@
 {
 	code: "plasterframedmetal",
-	behaviors: [{name: "Pillar"}],
 	class: "Block",
 	behaviors: [
-		{ name: "WrenchOrientable", properties: { baseCode: "plasterframedmetal-{material}-{metal}-*" } }
+		{ name: "WrenchOrientable", properties: { baseCode: "plasterframedmetal-{material}-{metal}-*" } },
+		{ name: "HorizontalOrientable"}
 	],
 	variantgroups: [
 		{ "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] },
 		{ "code": "metal", loadFromProperties: "game:block/metal" },
-		{ "code": "rotation", "states": ["ud", "ns", "we"] }
+		{ "code": "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	shapeByType: {
-		"*-ud": { base: "game:block/wood/crate/normal-closed", scale: 1.08 },
-		"*-ns": { base: "game:block/wood/crate/normal-closed", rotateX: 90, scale: 1.08 },
-		"*-we": { base: "game:block/wood/crate/normal-closed", rotateZ: 90, scale: 1.08 }
+		"*-north": { base: "game:block/metal/block-framed", scale: 1.08 },
+		"*-south": { base: "game:block/metal/block-framed", rotateX: 180, scale: 1.08 },
+		"*-west": { base: "game:block/metal/block-framed", rotateZ: 90, scale: 1.08 },
+		"*-east": { base: "game:block/metal/block-framed", rotateZ: 270, scale: 1.08 }
 	},
 	sidesolid: {
 		all: false
@@ -22,7 +23,7 @@
 		all: false
 	},
 	blockmaterial: "Stone",
-	creativeinventory: { "general": ["*-ud"], "construction": ["*-ud"] },
+	creativeinventory: { "general": ["*-north"], "construction": ["*-north"] },
 	replaceable: 700,
 	resistance: 12,
 	lightAbsorption: 99,

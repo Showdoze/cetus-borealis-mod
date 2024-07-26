@@ -17,14 +17,14 @@
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	shapebytype: {
-		"*-north": { base: "game:block/wood/toolrack", rotateY: 180 },
-		"*-east": { base: "game:block/wood/toolrack", rotateY: 90 },
-		"*-south": { base: "game:block/wood/toolrack", rotateY: 0 },
-		"*-west": { base: "game:block/wood/toolrack", rotateY: 270		 }
+		"*-north": { base: "game:block/clutter/coatrack-empty", rotateY: 180 },
+		"*-east": { base: "game:block/clutter/coatrack-empty", rotateY: 90 },
+		"*-south": { base: "game:block/clutter/coatrack-empty", rotateY: 0 },
+		"*-west": { base: "game:block/clutter/coatrack-empty", rotateY: 270		 }
 	},
 	"textures": {
-		"aged": { "base": "game:block/metal/ingot/{material}"},
-		"rusty-iron": { "base": "game:block/coal/coke" }
+		"bismuthbronze": { "base": "game:block/metal/ingot/{material}"},
+		"brass": { "base": "game:block/coal/coke" }
 	},
 	blockmaterial: "Metal",
 	lightAbsorption: 0,

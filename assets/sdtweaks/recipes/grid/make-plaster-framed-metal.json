@@ -6,5 +6,5 @@
     },
     width: 3,
     height: 3,
-    output: { type: "block", code: "plasterframedmetal-{material}-{metal}-ud", quantity: 1 }
+    output: { type: "block", code: "plasterframedmetal-{material}-{metal}-north", quantity: 1 }
 }

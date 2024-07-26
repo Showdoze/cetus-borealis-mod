@@ -3,5 +3,10 @@
         "op": "remove",
         "path": "/attributes/handbook/excludeByType",
         "file": "game:itemtypes/resource/metalplate"
+    },
+    {
+        "op": "remove",
+        "path": "/skipVariants",
+        "file": "game:itemtypes/resource/metalplate"
     }
 ]

@@ -1,6 +1,5 @@
 {
 	code: "plasterblock",
-	class: "Block",
 	variantgroups: [
 		{ "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] }
 	],

@@ -6,5 +6,5 @@
     },
     "width": 3,
     "height": 3,
-    "output": { "type": "block", "code": "plasterframedwood-{material}-{wood}-ud", "quantity": 1 }
+    "output": { "type": "block", "code": "plasterframedwood-{material}-{wood}-north", "quantity": 1 }
 }
