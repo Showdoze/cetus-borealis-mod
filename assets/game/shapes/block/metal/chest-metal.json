@@ -1,14 +1,15 @@
 {
 	"editor": {
-		"allAngles": true,
+		"allAngles": false,
 		"entityTextureMode": false
 	},
-	"textureWidth": 128,
-	"textureHeight": 128,
+	"textureWidth": 16,
+	"textureHeight": 16,
 	"textureSizes": {
 	},
 	"textures": {
-		"chest": "game:block/wood/trunk/chest"
+		"chest": "block/metal/ingot/iron",
+		"legs": "block/metal/ingot/blackbronze"
 	},
 	"elements": [
 		{
@@ -19,32 +20,13 @@
 			"rotationX": -180.0,
 			"rotationY": 0.0,
 			"rotationZ": -180.0,
-			"renderPass": 2,
 			"faces": {
-				"north": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				},
-				"east": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				},
-				"south": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				},
-				"west": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				},
-				"up": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				},
-				"down": {
-					"texture": "#chest",
-					"uv": [ 0.0, 0.0, 0.0, 0.0 ]
-				}
+				"north": {"texture": "#chest","uv": [ 0.0, 0.0, 0.0, 0.0 ]},
+				"east": {"texture": "#chest","uv": [ 0.0, 0.0, 0.0, 0.0 ]},
+				"south": {"texture": "#chest", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"west": { "texture": "#chest", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"up": { "texture": "#chest", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+				"down": { "texture": "#chest", "uv": [ 0.0, 0.0, 0.0, 0.0 ] }
 			},
 			"children": [
 				{
@@ -54,7 +36,6 @@
 					"rotationOrigin": [ 16.0, 6.125, 8.375 ],
 					"rotationX": -180.0,
 					"rotationZ": -180.0,
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -94,7 +75,6 @@
 					"to": [ 16.01, 7.5, 8.875 ],
 					"rotationOrigin": [ 16.0, 6.125, 8.375 ],
 					"rotationY": -90.0,
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -134,7 +114,6 @@
 					"to": [ -6.99, 7.5, 2.875 ],
 					"rotationOrigin": [ -0.5, 7.75, 1.875 ],
 					"rotationY": 90.0,
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -173,7 +152,6 @@
 					"from": [ 0.2667, 3.5, 6.375 ],
 					"to": [ 0.2767, 7.5, 10.375 ],
 					"rotationOrigin": [ 0.0, 6.5, 8.38 ],
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -212,7 +190,6 @@
 					"from": [ 8.0, 6.0, 1.375 ],
 					"to": [ 8.01, 8.5, 2.375 ],
 					"rotationOrigin": [ 0.0, 6.25, -0.125 ],
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -477,7 +454,7 @@
 					"from": [ 0.5, 0.0, 2.375 ],
 					"to": [ 15.5, 1.0, 15.375 ],
 					"rotationOrigin": [ 8.0, -0.5, 8.375 ],
-					"renderPass": 2,
+					
 					"faces": {
 						"north": {
 							"texture": "#legs",
@@ -591,7 +568,7 @@
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
 					"rotationOrigin": [ 7.9833, 18.9854, 6.2463 ],
-					"renderPass": 2,
+					
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -625,7 +602,6 @@
 							"to": [ 8.73, 9.4975, 2.1 ],
 							"rotationOrigin": [ 8.0, 8.9975, 2.0 ],
 							"rotationX": 1.3,
-							"renderPass": 2,
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -969,7 +945,8 @@
 		}
 	],
 
-	"animations": {
+	"animations": [
+	{
 		"name": "LidOpen",
 		"code": "lidopen",
 		"quantityframes": 60,
@@ -1183,4 +1160,5 @@
 			}
 		]
 	}
+    ]
 }

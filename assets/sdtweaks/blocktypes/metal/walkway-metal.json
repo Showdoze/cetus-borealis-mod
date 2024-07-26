@@ -6,10 +6,10 @@
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	shapebytype: {
-        "*-north": { base: "game:block/metal/walkway-metal", rotateY: 0 },
+        "*-north": { base: "game:block/metal/walkway-metal", rotateY: 180 },
         "*-east": { base: "game:block/metal/walkway-metal", rotateY: 90 },
-        "*-west": { base: "game:block/metal/walkway-metal", rotateY: 180 },
-        "*-south": { base: "game:block/metal/walkway-metal", rotateY: 270 }
+        "*-west": { base: "game:block/metal/walkway-metal", rotateY: 270 },
+        "*-south": { base: "game:block/metal/walkway-metal", rotateY: 0 }
 	},
 	sidesolid: {
 		all: false

@@ -1,14 +1,15 @@
 {
 	"editor": {
-		"allAngles": true,
+		"allAngles": false,
 		"entityTextureMode": false
 	},
-	"textureWidth": 128,
-	"textureHeight": 128,
+	"textureWidth": 16,
+	"textureHeight": 16,
 	"textureSizes": {
 	},
 	"textures": {
-		"chest": "game:block/wood/trunk/chest"
+		"chest": "block/metal/ingot/iron",
+		"legs": "block/metal/ingot/blackbronze"
 	},
 	"elements": [
 		{
@@ -48,7 +49,6 @@
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
 					"rotationOrigin": [ -7.2, 7.125, 10.5 ],
-					"renderPass": 2,
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -87,7 +87,7 @@
 							"from": [ 0.0, 0.0, 0.0 ],
 							"to": [ 0.0, 0.0, 0.0 ],
 							"rotationOrigin": [ -7.8, 7.125, 8.5 ],
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -128,7 +128,7 @@
 									"rotationOrigin": [ -11.8, 7.125, 8.5 ],
 									"rotationX": -180.0,
 									"rotationZ": 180.0,
-									"renderPass": 2,
+									
 									"faces": {
 										"north": {
 											"texture": "#chest",
@@ -163,7 +163,7 @@
 							"from": [ 0.0, 0.0, 0.0 ],
 							"to": [ 0.0, 0.0, 0.0 ],
 							"rotationOrigin": [ 23.5, 7.025, 8.5 ],
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -204,7 +204,7 @@
 									"rotationOrigin": [ 23.8, 7.125, 8.5 ],
 									"rotationX": -180.0,
 									"rotationZ": -180.0,
-									"renderPass": 2,
+									
 									"faces": {
 										"north": {
 											"texture": "#chest",
@@ -240,7 +240,7 @@
 							"to": [ -7.19, 8.5, 6.7 ],
 							"rotationOrigin": [ -7.2, 7.125, 6.5 ],
 							"rotationY": 90.0,
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -274,7 +274,7 @@
 							"to": [ 23.51, 8.5, 7.0 ],
 							"rotationOrigin": [ 23.5, 7.25, 6.5 ],
 							"rotationY": 90.0,
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -308,7 +308,7 @@
 							"to": [ 23.51, 8.5, 11.0 ],
 							"rotationOrigin": [ 23.5, 7.125, 10.5 ],
 							"rotationY": -90.0,
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -342,7 +342,7 @@
 							"to": [ -7.19, 8.5, 10.7 ],
 							"rotationOrigin": [ -7.2, 7.125, 10.5 ],
 							"rotationY": 90.0,
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -377,7 +377,7 @@
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
 					"rotationOrigin": [ 0.5, -0.5, 8.0 ],
-					"renderPass": 2,
+					
 					"faces": {
 						"north": {
 							"texture": "#chest",
@@ -410,7 +410,7 @@
 							"from": [ -6.5, 0.0, 2.5 ],
 							"to": [ 22.5, 1.0, 14.5 ],
 							"rotationOrigin": [ 0.5, -0.5, 8.0 ],
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#legs",
@@ -1130,7 +1130,7 @@
 					"name": "lid_accessories",
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 17.3587, 9.375, 15.5668 ],
 					"faces": {
 						"north": {
@@ -1163,7 +1163,7 @@
 							"name": "lid_a_223",
 							"from": [ -0.9913, 8.5, 14.9418 ],
 							"to": [ -0.9913, 11.0, 15.9418 ],
-							"renderPass": 2,
+							
 							"rotationOrigin": [ -0.9913, 9.75, 15.4418 ],
 							"rotationX": -180.0,
 							"rotationZ": -180.0,
@@ -1204,7 +1204,7 @@
 							"name": "lid_a_124",
 							"from": [ 17.0087, 8.5, 14.9418 ],
 							"to": [ 17.0087, 11.0, 15.9418 ],
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 17.0087, 9.75, 15.4418 ],
 							"rotationX": -180.0,
 							"rotationZ": -180.0,
@@ -1246,7 +1246,7 @@
 							"from": [ 7.0087, 9.0, 14.9752 ],
 							"to": [ 9.0087, 11.0, 15.4752 ],
 							"rotationOrigin": [ -7.9913, 9.0, 28.9002 ],
-							"renderPass": 2,
+							
 							"faces": {
 								"north": {
 									"texture": "#chest",
@@ -1286,7 +1286,7 @@
 					"name": "Lid_handles",
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
-					"renderPass": 2,
+					
 					"rotationOrigin": [ -0.9663, 9.6117, 14.8863 ],
 					"faces": {
 						"north": {
@@ -1319,7 +1319,7 @@
 							"name": "left_handle25",
 							"from": [ -0.8163, 6.5117, 15.2113 ],
 							"to": [ -0.8163, 10.5117, 19.2113 ],
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 0.0087, 8.8867, 16.2113 ],
 							"rotationY": -90.0,
 							"faces": {
@@ -1363,7 +1363,7 @@
 							"name": "right_handle28",
 							"from": [ 17.1837, 6.5117, 15.2113 ],
 							"to": [ 17.1837, 10.5117, 19.2113 ],
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 18.0087, 8.8867, 16.2113 ],
 							"rotationY": -90.0,
 							"faces": {
@@ -1409,7 +1409,7 @@
 					"name": "latch",
 					"from": [ 0.0, 0.0, 0.0 ],
 					"to": [ 0.0, 0.0, 0.0 ],
-					"renderPass": 2,
+					
 					"rotationOrigin": [ 7.9253, 9.5, 15.4835 ],
 					"faces": {
 						"north": {
@@ -1442,7 +1442,7 @@
 							"name": "latch26",
 							"from": [ 7.2753, 5.5, 15.5002 ],
 							"to": [ 8.7753, 9.5, 15.5002 ],
-							"renderPass": 2,
+							
 							"rotationOrigin": [ 7.9253, 9.0, 15.5002 ],
 							"faces": {
 								"north": {
@@ -1674,7 +1674,7 @@
 		}
 	],
 
-	"animations": 
+	"animations": [
 	{
 		"name": "lidopen",
 		"code": "lidopen",
@@ -2124,4 +2124,5 @@
 			}
 		]
 	}
+    ]
 }

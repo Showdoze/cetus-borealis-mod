@@ -9,10 +9,9 @@
 	resistance: 4.5,
 	maxStackSize: 1,
 	lightAbsorption: 0,
-	shape: { base: "game:block/clay/bloomery/chimney" },
+	shape: { base: "game:block/machine/jonas/steamengine/newcpistontop" },
 	textures: {
-		"inside": { base: "game:block/coal/charcoal"},
-		"chimney": { base: "game:block/metal/sheet/{material}1"}
+		"rusty-iron": { base: "game:block/metal/sheet/{material}1"}
 	},
 	sounds: {
 		"place": "game:block/metaldoor",
