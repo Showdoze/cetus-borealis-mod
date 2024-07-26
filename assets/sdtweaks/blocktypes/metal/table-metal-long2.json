@@ -37,21 +37,21 @@
 		"walk": "game:walk/stone1"
 	},
 	texturesByType: {
-		"*-whitemarble": {
-			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+		"*-whitemarble-*": {
+			"tinbronze": { base: "game:block/metal/ingot/{metal}" },
 			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
 		},
-		"*-redmarble": {
-			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+		"*-redmarble-*": {
+			"tinbronze": { base: "game:block/metal/ingot/{metal}" },
 			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
 		},
-		"*-greenmarble": {
-			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+		"*-greenmarble-*": {
+			"tinbronze": { base: "game:block/metal/ingot/{metal}" },
 			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
 		},
 		"*": {
-			"tinbronze": { base: "game:block/metal/ingot/{material}" },
-			"copper": { base: "game:block/metal/sheet/{material}1" }
+			"tinbronze": { base: "game:block/metal/ingot/{metal}" },
+			"copper": { base: "game:block/metal/sheet/{metal}1" }
 		}
 	},
 	materialDensity: 2000,
