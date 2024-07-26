@@ -29,7 +29,7 @@
 			"normal": false
 		},
 		shape: {
-			"normal": "game:block/wood/crate/normal-closed"
+			"normal": "game:block/metal/block-framed"
 		},
 		typedOpenSound: {
 			"normal": "game:sounds/block/metaldoor"
@@ -47,12 +47,12 @@
 	],
 	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ]  },
 	heldTpIdleAnimation: "holdunderarm",
-	shapeInventory: { base: "game:block/wood/crate/normal-closed", rotateY: 270 },
+	shapeInventory: { base: "game:block/metal/block-framed", rotateY: 270 },
 	shapeByType: {
-		"*-north": { base: "game:block/wood/crate/normal-closed", rotateY: 0 },
-		"*-east": { base: "game:block/wood/crate/normal-closed", rotateY: 270 },
-		"*-west": { base: "game:block/wood/crate/normal-closed", rotateY: 90 },
-		"*-south": { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+		"*-north": { base: "game:block/metal/block-framed", rotateY: 0 },
+		"*-east": { base: "game:block/metal/block-framed", rotateY: 270 },
+		"*-west": { base: "game:block/metal/block-framed", rotateY: 90 },
+		"*-south": { base: "game:block/metal/block-framed", rotateY: 180 }
 	},
 	textures: {
 		"normal-sides": { base: "game:block/metal/sheet/{material}1" },

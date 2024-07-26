@@ -29,7 +29,7 @@
 			"normal": false
 		},
 		shape: {
-			"normal": "game:block/wood/trunk/normal"
+			"normal": "game:block/metal/trunk-metal"
 		},
 		typedOpenSound: {
 			"normal": "game:sounds/block/cokeovendoor-open"
@@ -51,19 +51,16 @@
 	],
 	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ]  },
 	heldTpIdleAnimation: "holdunderarm",
-	shapeInventory: { base: "game:block/wood/trunk/normal", rotateY: 270 },
+	shapeInventory: { base: "game:block/metal/trunk-metal", rotateY: 270 },
 	shapeByType: {
-		"*-north": { base: "game:block/wood/trunk/normal", rotateY: 0 },
-		"*-east": { base: "game:block/wood/trunk/normal", rotateY: 270 },
-		"*-west": { base: "game:block/wood/trunk/normal", rotateY: 90 },
-		"*-south": { base: "game:block/wood/trunk/normal", rotateY: 180 }
+		"*-north": { base: "game:block/metal/trunk-metal", rotateY: 0 },
+		"*-east": { base: "game:block/metal/trunk-metal", rotateY: 270 },
+		"*-west": { base: "game:block/metal/trunk-metal", rotateY: 90 },
+		"*-south": { base: "game:block/metal/trunk-metal", rotateY: 180 }
 	},
 	textures: {
-		"normal-right-side": { base: "game:block/metal/sheet/{material}1" },
-		"normal-sides2": { base: "game:block/metal/sheet/{material}2" },
-		"normal-lid": { base: "game:block/metal/sheet/{material}3" },
-		"normal-accessories": { base: "game:block/coal/charcoal" },
-		"normal-left-side": { base: "game:block/metal/sheet/{material}1" }
+		"chest": { base: "game:block/metal/sheet/{material}1" },
+		"legs": { base: "game:block/coal/charcoal" }
 	},
 	blockmaterial: "Metal",
 	replaceable: 900,
