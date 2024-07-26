@@ -1,0 +1,67 @@
+{
+	code: "tablelongmetal2",
+	behaviors: [ { name: "HorizontalOrientable" } ],
+	variantgroups: [
+		{ code: "metal", loadFromProperties: "block/metal" },
+		{ code: "cover", states: [ "none", "whitemarble", "redmarble", "greenmarble" ] }
+        { code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	attributes: {
+		"pieFormingSurface": true,
+		handbook: { groupBy: ["tablelong2-*"] }
+	},
+    shapebytype: {
+        "*-north": { base: "game:block/clutter/bed/bed-metal", rotateY: 90 },
+        "*-east": { base: "game:block/clutter/bed/bed-metal", rotateY: 0 },
+        "*-west": { base: "game:block/clutter/bed/bed-metal", rotateY: 180 },
+        "*-south": { base: "game:block/clutter/bed/bed-metal", rotateY: 270 }
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": [ "*-east" ], "decorative": [ "*-east" ] },
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	"sidesolid": {
+		"up": true,
+		"all": false
+	},	
+	"sideopaque": {
+		"up": true,
+		"all": false
+	},
+	"sounds": {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	texturesByType: {
+		"*-whitemarble": {
+			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*-redmarble": {
+			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*-greenmarble": {
+			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+			"copper": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*": {
+			"tinbronze": { base: "game:block/metal/ingot/{material}" },
+			"copper": { base: "game:block/metal/sheet/{material}1" }
+		}
+	},
+	materialDensity: 2000,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

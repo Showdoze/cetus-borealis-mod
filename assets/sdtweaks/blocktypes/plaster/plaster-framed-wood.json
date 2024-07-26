@@ -2,13 +2,13 @@
 	code: "plasterframedwood",
 	class: "Block",
 	behaviors: [
-		{ name: "WrenchOrientable", properties: { baseCode: "plasterframedwood-{material}-{wood}-*" } },
+		{ name: "WrenchOrientable", "properties": { baseCode: "plasterframedwood-{material}-{wood}-*" } },
 		{ name: "HorizontalOrientable"}
 	],
 	variantgroups: [
 		{ "code": "material", "states": [ "chalk", "andesite", "granite", "sandstone", "claystone", "basalt", "bauxite", "chert", "limestone", "peridotite", "phyllite", "shale", "slate", "conglomerate" ] },
-		{ "code": "wood", "states": [ "oak", "pine", "birch", "maple", "larch", "baldcypress", "ebony", "walnut", "acacia", "kapok", "purpleheart", "aged" ] },
-		{ "code": "side", loadFromProperties: "abstract/horizontalorientation" }
+		{ "code": "wood", "states": ["aged"], "loadFromProperties": "block/wood" },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	shapeByType: {
 		"*-north": { base: "game:block/metal/block-framed", scale: 1.08 },

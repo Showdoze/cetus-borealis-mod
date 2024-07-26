@@ -3,7 +3,7 @@
 		ingredientPattern: "H,T",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true  },
-			"T": { type: "block", code: "tablemetal-*", name: "metal" }
+			"T": { type: "block", code: "tablemetallong2-*", name: "metal" }
 		},
 		width: 1,
 		height: 2,

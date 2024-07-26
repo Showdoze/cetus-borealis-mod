@@ -15,9 +15,9 @@
 	lightAbsorption: 3,
 	shapeByType: {
 		"*-north": { base: "game:block/metal/bloomery-metal", rotateY: 90 },
-		"*-east": { base: "game:block/metal/bloomery-metal", rotateY: 270 },
-		"*-south": { base: "game:block/metal/bloomery-metal", rotateY: 180 },
-		"*-west": { base: "game:block/metal/bloomery-metal", rotateY: 0 }
+		"*-east": { base: "game:block/metal/bloomery-metal", rotateY: 0 },
+		"*-south": { base: "game:block/metal/bloomery-metal", rotateY: 270 },
+		"*-west": { base: "game:block/metal/bloomery-metal", rotateY: 180 }
 	},
 	textures: {
 		"rusty-iron": { base: "game:block/metal/sheet/{material}1"}
