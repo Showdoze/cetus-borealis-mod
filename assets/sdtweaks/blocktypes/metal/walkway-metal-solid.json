@@ -1,9 +1,16 @@
 {
 	code: "walkwaymetal-solid",
+	behaviors: [ { name: "HorizontalOrientable" } ],
 	variantgroups: [
-		{ code: "material", loadFromProperties: "game:block/metal" }
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
-	shape: { base: "game:block/metal/walkway-metal-solid-mesh" },
+	shapebytype: {
+        "*-north": { base: "game:block/clutter/washboard1", rotateY: 90 },
+        "*-east": { base: "game:block/clutter/washboard1", rotateY: 0 },
+        "*-west": { base: "game:block/clutter/washboard1", rotateY: 180 },
+        "*-south": { base: "game:block/clutter/washboard1", rotateY: 270 }
+	},
 	sidesolid: {
 		all: false
 	},	
@@ -17,9 +24,7 @@
 	resistance: 4,
 	lightAbsorption: 1,
 	textures: {
-		top: { base: "game:block/metal/sheet/{material}1" },
-		bottom: { base: "game:block/metal/sheet/{material}2" },
-		sides: { base: "game:block/metal/ingot/{material}" }
+		"charred": { base: "game:block/metal/sheet/{material}1" }
 	},
 	collisionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },
 	selectionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },

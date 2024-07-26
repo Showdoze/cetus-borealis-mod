@@ -3,7 +3,7 @@
 	behaviors: [ { name: "HorizontalOrientable" } ],
 	variantgroups: [
 		{ code: "metal", loadFromProperties: "block/metal" },
-		{ code: "cover", states: [ "none", "whitemarble", "redmarble", "greenmarble" ] }
+		{ code: "cover", states: [ "none", "whitemarble", "redmarble", "greenmarble" ] },
         { code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	attributes: {
