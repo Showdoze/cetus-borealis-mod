@@ -1,15 +1,15 @@
 {
-	code: "walkwaymetal-solid",
+	code: "walkwaymetal",
 	behaviors: [ { name: "HorizontalOrientable" } ],
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" },
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	shapebytype: {
-        "*-north": { base: "game:block/clutter/washboard1", rotateY: 90 },
-        "*-east": { base: "game:block/clutter/washboard1", rotateY: 0 },
-        "*-west": { base: "game:block/clutter/washboard1", rotateY: 180 },
-        "*-south": { base: "game:block/clutter/washboard1", rotateY: 270 }
+        "*-north": { base: "game:block/metal/walkway-metal", rotateY: 0 },
+        "*-east": { base: "game:block/metal/walkway-metal", rotateY: 90 },
+        "*-west": { base: "game:block/metal/walkway-metal", rotateY: 180 },
+        "*-south": { base: "game:block/metal/walkway-metal", rotateY: 270 }
 	},
 	sidesolid: {
 		all: false
@@ -18,20 +18,24 @@
 		all: false
 	},
 	blockmaterial: "Metal",
-	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"] },
 	replaceable: 300,
 	materialDensity: 4000,
 	resistance: 4,
 	lightAbsorption: 1,
-	textures: {
+	"textures": {
 		"charred": { base: "game:block/metal/sheet/{material}1" }
 	},
-	collisionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },
-	selectionbox: { x1: 0, y1: 0.76, z1: 0, x2: 1, y2: 1, z2: 1 },
 	sounds: {
 		"place": "game:block/plate",
 		"hit": "game:block/anvil1",
 		"break": "game:block/anvil1",
 		"walk": "game:walk/stone1"
+	},
+	collisionbox: {
+		x1: 0.0, y1: 0, z1: 0.0, x2: 1, y2: 0.3, z2: 1
+	},
+	selectionbox: {
+		x1: 0.0, y1: 0, z1: 0.0, x2: 1, y2: 0.3, z2: 1
 	}
 }

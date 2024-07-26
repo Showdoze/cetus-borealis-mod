@@ -6,5 +6,5 @@
     },
     width: 1,
     height: 2,
-    output: { type: "block", code: "walkwaymetal-solid-{metal}", quantity: 1 }
+    output: { type: "block", code: "walkwaymetal-{metal}-east", quantity: 1 }
 }
