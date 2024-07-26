@@ -56,9 +56,9 @@
 		"*-south": { base: "game:block/metal/chest-metal-labeled", rotateY: 180 }
 	},
 	textures: {
-		"chest": { base: "game:block/metal/sheet/{material}1" },
-		"label": { base: "game:block/cloth/linen/plain" },
-		"legs": { base: "game:block/coal/charcoal" }
+		"normal-chest": { base: "game:block/metal/sheet/{material}1" },
+		"normal-label": { base: "game:block/cloth/linen/plain" },
+		"normal-legs": { base: "game:block/coal/charcoal" }
 	},
 	blockmaterial: "Metal",
 	replaceable: 900,
