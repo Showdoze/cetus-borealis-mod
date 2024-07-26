@@ -1,4 +1,5 @@
-{
+[
+    {
     ingredientPattern: "OSO,OOO,O_O",
     ingredients: {
         "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
@@ -7,4 +8,5 @@
     width: 3,
     height: 3,
     output: { type: "block", code: "laddermetal-{metal}-north", quantity: 12 }
-}
+    }
+]

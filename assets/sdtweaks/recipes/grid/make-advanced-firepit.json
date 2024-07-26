@@ -1,4 +1,5 @@
-{
+[
+    {
     ingredientPattern: "_Y_,TST,_O_",
     ingredients: {
         "O": { type: "item", code: "game:metalplate-*", "name": "metal"},
@@ -9,4 +10,5 @@
     width: 3,
     height: 3,
     output: { type: "block", code: "firepitadvanced-{metal}-extinct", quantity: 1 }
-}
+    }
+]

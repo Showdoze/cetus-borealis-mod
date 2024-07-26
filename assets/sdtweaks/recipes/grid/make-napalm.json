@@ -1,3 +1,4 @@
+[
 {
     ingredientPattern: "NET",
     ingredients: {
@@ -9,3 +10,4 @@
     height: 1,
     output: { type: "item", code: "napalm", quantity: 1 }
 }
+]

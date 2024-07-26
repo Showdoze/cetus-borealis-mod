@@ -1,4 +1,5 @@
-{
+[
+    {
     ingredientPattern: "D,E,J",
     ingredients: {
         "D": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
@@ -8,4 +9,5 @@
     width: 1,
     height: 3,
     output: { type: "block", code: "torchnapalm-up", quantity: 1 }
-}
+    }
+]

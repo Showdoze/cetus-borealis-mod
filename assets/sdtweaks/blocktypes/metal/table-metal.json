@@ -8,7 +8,7 @@
 		"pieFormingSurface": true,
 		handbook: { groupBy: ["tablemetal-*"] }
 	},
-	shape: { base: "game:block/wood/table" },
+	shape: { base: "game:block/metal/table-metal" },
 	heldTpIdleAnimation: "holdunderarm",
 	creativeinventory: { "general": [ "*" ], "decorative": [ "*" ] },
 	blockmaterial: "Metal",

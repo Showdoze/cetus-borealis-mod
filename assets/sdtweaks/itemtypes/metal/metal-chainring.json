@@ -1,7 +1,7 @@
 {
 	code: "chainringmetal",
 	variantgroups: [
-		{ code: "metal", loadFromProperties: "game:block/metal", states: ["blistersteel", "leadsolder", "silversolder"] }
+		{ code: "metal", loadFromProperties: "game:block/metal" }
 	],
 	shape: { base: "game:entity/humanoid/seraph/clothing/arm/bronze-bracelet" },
 	textures: {

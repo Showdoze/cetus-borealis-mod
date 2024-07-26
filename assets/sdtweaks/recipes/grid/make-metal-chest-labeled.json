@@ -1,4 +1,5 @@
-{
+[
+    {
     ingredientPattern: "O,S",
     ingredients: {
         "S": { type: "block", code: "chestmetal-*-east", name: "metal" },
@@ -7,4 +8,5 @@
     width: 1,
     height: 2,
     output: { type: "block", code: "chestmetallabeled-{metal}-east", quantity: 1 }
-}
+    }
+]

@@ -11,10 +11,10 @@
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	"shapebytype": { 
-		"*-north" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 0 },
-		"*-east" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 90 },
-		"*-south" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 180 },
-		"*-west" : { "base": "game:block/wood/crate/normal-opened", "scale": 1.08, "rotateY": 270 }
+		"*-north" : { "base": "game:block/metal/scaffolding-metal", "scale": 1.08, "rotateY": 0 },
+		"*-east" : { "base": "game:block/metal/scaffolding-metal", "scale": 1.08, "rotateY": 90 },
+		"*-south" : { "base": "game:block/metal/scaffolding-metal", "scale": 1.08, "rotateY": 180 },
+		"*-west" : { "base": "game:block/metal/scaffolding-metal", "scale": 1.08, "rotateY": 270 }
 	},
 	"climbable": true,
 	"sidesolid": {
