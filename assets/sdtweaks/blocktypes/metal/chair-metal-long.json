@@ -1,30 +1,29 @@
 {
-	code: "chairmetal",
-	behaviors: [{name: "UnstableFalling"} ],
+	code: "chairmetallong",
+	behaviors: [ 
+		{ name: "UnstableFalling" },
+	    { name: "HorizontalOrientable" } 
+	],
 	attributes: {
 		handbook: {
-			groupBy: ["chairmetal-*"]
+			groupBy: ["chairmetallong-*-east"]
 		}
 	},
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" },
-		{ code: "cloth", states: [ "plain", "blue", "red", "yellow", "purple", "brown", "green", "orange", "black", "gray", "pink", "white", "mordant", "none"] }
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
-	shape: { base: "game:block/clutter/chair-aged" },
-	texturesByType: {
-		"*-none": { 
-			"top": { "base": "game:block/metal/sheet/{material}1"},
-			"bottom": { "base": "game:block/metal/ingot/{material}"},
-			"sides": { "base": "game:block/metal/ingot/{material}"}
-		},
-		"*": {
-			"top": { "base": "game:block/cloth/linen/{cloth}" },
-			"bottom": { "base": "game:block/metal/ingot/{material}"},
-			"sides": { "base": "game:block/metal/ingot/{material}"}
-		}
+	shapebytype: {
+        "*-north": { base: "game:block/clutter/chair-long", rotateY: 90 },
+        "*-east": { base: "game:block/clutter/chair-long", rotateY: 0 },
+        "*-west": { base: "game:block/clutter/chair-long", rotateY: 180 },
+        "*-south": { base: "game:block/clutter/chair-long", rotateY: 270 }
+	},
+	textures: {
+		"charred": { "base": "game:block/metal/ingot/{material}"}
 	},
 	heldTpIdleAnimation: "holdunderarm",
-	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	creativeinventory: { "general": ["*-east"], "decorative": ["*-east"] },
 	blockmaterial: "Metal",
 	replaceable: 900,
 	resistance: 2.5,
