@@ -59,8 +59,11 @@
 		"*-south": { base: "game:block/metal/trunk-metal", rotateY: 180 }
 	},
 	textures: {
-		"normal-sides": { base: "game:block/metal/sheet/{material}1" },
-		"normal-frame-generic": { base: "game:block/metal/sheet/{material}2" }
+		"normal-right-side": { base: "game:block/metal/sheet/{material}1" },
+		"normal-sides2": { base: "game:block/metal/sheet/{material}1" },
+		"normal-lid": { base: "game:block/metal/sheet/{material}2" },
+		"normal-accessories": { base: "game:block/coal/charcoal" },
+		"normal-left-side": { base: "game:block/metal/sheet/{material}1" }
 	},
 	blockmaterial: "Metal",
 	replaceable: 900,
