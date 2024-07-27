@@ -8,7 +8,7 @@
 	},
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" },
-		{ code: "cloth", states: [ "plain", "blue", "red", "yellow", "purple", "brown", "green", "orange", "black", "gray", "pink", "white", "none"] }
+		{ code: "cloth", states: [ "plain", "blue", "red", "yellow", "purple", "brown", "green", "orange", "black", "gray", "pink", "white", "mordant", "none"] }
 	],
 	shape: { base: "game:block/wood/chair-normal" },
 	texturesByType: {
