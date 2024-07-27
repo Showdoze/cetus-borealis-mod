@@ -11,9 +11,9 @@
 		liquidContainerProps: {
 			capacityLitres: 10,
 			transferSizeLitres: 1,
-			emptyShapeLoc: "game:shapes/block/wood/bucket/empty",
-			opaqueContentShapeLoc: "game:shapes/block/wood/bucket/contents",
-			liquidContentShapeLoc: "game:shapes/block/wood/bucket/liquidcontents",
+			emptyShapeLoc: "game:shapes/block/metal/bucket/empty",
+			opaqueContentShapeLoc: "game:shapes/block/metal/bucket/contents",
+			liquidContentShapeLoc: "game:shapes/block/metal/bucket/liquidcontents",
 			liquidMaxYTranslate: 0.4375
 		}
 	},
@@ -21,7 +21,7 @@
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" }
 	],
-	shape: { base: "game:block/wood/bucket/empty" },
+	shape: { base: "game:block/metal/bucket/empty" },
 	sidesolid: {
 		all: false
 	},

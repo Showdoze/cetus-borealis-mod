@@ -2,7 +2,7 @@
 	code: "barrelmetal",
 	class: "BlockBarrel",
 	entityClass: "Barrel",
-	shape: { base: "game:block/wood/barrel/empty" },
+	shape: { base: "game:block/metal/barrel/empty" },
 	variantgroups: [
 		{ code: "material", loadFromProperties: "game:block/metal" }
 	],
