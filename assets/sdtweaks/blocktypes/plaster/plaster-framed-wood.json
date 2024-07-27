@@ -1,6 +1,5 @@
 {
 	code: "plasterframedwood",
-	class: "Block",
 	behaviors: [
 		{ name: "WrenchOrientable", "properties": { baseCode: "plasterframedwood-{material}-{wood}-*" } },
 		{ name: "HorizontalOrientable"}
@@ -29,7 +28,11 @@
 	lightAbsorption: 99,
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	textures: {
-		"sides": { "base": "plaster/{material}*" },
+		"sides": { 
+			"base": "plaster/{material}1",
+			"tiles": [ { "base": "plaster/{material}*" } ],
+			"tilesWidth": 3
+		},
 		"frame-generic": { "base": "game:block/wood/debarked/{wood}" }
 	},
 	sounds: {

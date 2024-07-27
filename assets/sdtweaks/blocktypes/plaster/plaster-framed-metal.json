@@ -1,6 +1,5 @@
 {
 	code: "plasterframedmetal",
-	class: "Block",
 	behaviors: [
 		{ name: "WrenchOrientable", properties: { baseCode: "plasterframedmetal-{material}-{metal}-*" } },
 		{ name: "HorizontalOrientable"}
@@ -29,7 +28,11 @@
 	lightAbsorption: 99,
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	textures: {
-		"sides": { "base": "plaster/{material}*" },
+		"sides": { 
+			"base": "plaster/{material}1",
+			"tiles": [ { "base": "plaster/{material}*" } ],
+			"tilesWidth": 3
+		},
 		"frame-generic": { "base": "game:block/metal/plate/{metal}" }
 	},
 	sounds: {

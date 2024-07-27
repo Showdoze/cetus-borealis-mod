@@ -14,7 +14,11 @@
 	lightAbsorption: 99,
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	textures: { 
-		"all": { "base": "plaster/{material}*" } 
+		"all": { 
+			"base": "plaster/{material}1",
+			"tiles": [ { "base": "plaster/{material}*" } ],
+			"tilesWidth": 3
+		}
 	},
 	sounds: {
 		walk: "game:walk/stone"

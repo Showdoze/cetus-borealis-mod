@@ -7,7 +7,7 @@
         },
         width: 3,
         height: 3,
-        output: { type: "block", code: "tablemetallong2-{metal}-none-east", quantity: 2 }
+        output: { type: "block", code: "tablelongmetal2-{metal}-none-east", quantity: 2 }
     },
     {
         ingredientPattern: "YYY,OSO,O_O",
@@ -18,7 +18,7 @@
         },
         width: 3,
         height: 3,
-        output: { type: "block", code: "tablemetallong2-{metal}-whitemarble-east", quantity: 2 }
+        output: { type: "block", code: "tablelongmetal2-{metal}-whitemarble-east", quantity: 2 }
     },
     {
         ingredientPattern: "YYY,OSO,O_O",
@@ -29,7 +29,7 @@
         },
         width: 3,
         height: 3,
-        output: { type: "block", code: "tablemetallong2-{metal}-redmarble-east", quantity: 2 }
+        output: { type: "block", code: "tablelongmetal2-{metal}-redmarble-east", quantity: 2 }
     },
     {
         ingredientPattern: "YYY,OSO,O_O",
@@ -40,6 +40,6 @@
         },
         width: 3,
         height: 3,
-        output: { type: "block", code: "tablemetallong2-{metal}-greenmarble-east", quantity: 2 }
+        output: { type: "block", code: "tablelongmetal2-{metal}-greenmarble-east", quantity: 2 }
     }
 ]
