@@ -18,5 +18,55 @@
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
-	}
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:spear-ornate-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:spear-boar-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:spear-fork-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:spear-ranseur-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
+	{
+		ingredientPattern: "H,T",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"T": { type: "item", code: "game:spear-voulge-*", name: "metal"  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 20  }
+	},
 ]

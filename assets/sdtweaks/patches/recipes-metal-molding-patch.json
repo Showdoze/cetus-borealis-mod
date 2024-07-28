@@ -241,6 +241,18 @@
     },
     {
         "op": "add",
+        "path": "/attributesByType/toolmold-burned-spear-generic",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { z: 90 } },
+            "drop": { "type": "item", "code": "game:spearhead-generic-{metal}", "quantity": 1 }
+        },
+        "file": "game:blocktypes/clay/mold/toolmold"
+    },
+    {
+        "op": "add",
         "path": "/attributesByType/toolmold-burned-chisel",
         "value": {
             "requiredUnits": 100,

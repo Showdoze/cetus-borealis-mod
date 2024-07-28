@@ -1,0 +1,67 @@
+[
+	{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal" },
+	pattern: [[
+		"___##___",
+		"__####__",
+		"########",
+		"___##___",
+		"########",
+		"___##___"
+	]],
+	name: "Spearhead Boar",
+	output: { type: "item", code: "game:spearhead-boar-{metal}"  }
+    },
+	{
+		ingredient: { type: "item", code: "game:ingot-*", name: "metal" },
+		pattern: [[
+			"___##___",
+			"__####__",
+			"_######_",
+			"_#_##_#_",
+			"_######_",
+			"_#_##_#_"
+		]],
+		name: "Spearhead Ornate",
+		output: { type: "item", code: "game:spearhead-ornate-{metal}"  }
+	},
+	{
+		ingredient: { type: "item", code: "game:ingot-*", name: "metal" },
+		pattern: [[
+			"_#____#_",
+			"##____##",
+			"##____##",
+			"##____##",
+			"_##__##_",
+			"_######_"
+		]],
+		name: "Spearhead Fork",
+		output: { type: "item", code: "game:spearhead-fork-{metal}"  }
+	},
+	{
+		ingredient: { type: "item", code: "game:ingot-*", name: "metal" },
+		pattern: [[
+			"___##___",
+			"_######_",
+			"########",
+			"########",
+			"__####__",
+			"_######_"
+		]],
+		name: "Spearhead Voulge",
+		output: { type: "item", code: "game:spearhead-voulge-{metal}"  }
+	},
+	{
+		ingredient: { type: "item", code: "game:ingot-*", name: "metal" },
+		pattern: [[
+			"##______",
+			"####____",
+			"########",
+			"########",
+			"######__",
+			"#######_"
+		]],
+		name: "Spearhead Ranseur",
+		output: { type: "item", code: "game:spearhead-ranseur-{metal}"  }
+	}
+]

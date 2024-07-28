@@ -1,13 +1,68 @@
 [
 	{
-	ingredientPattern: "T,S,M",
-	ingredients: {
-		"T": { type: "item", code: "game:spearhead-*", name: "metal" },
-		"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
-        "M": { type: "item", code: "game:stick" }
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-generic-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-generic-{material}", quantity: 1  }
 	},
-	width: 1,
-	height: 3,
-	output: { type: "item", code: "game:spear-generic-{metal}", quantity: 1  }
-    }
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-boar-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-boar-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-ornate-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-ornate-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-fork-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-fork-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-ranseur-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-ranseur-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-voulge-*", name: "material" },
+			"S": { type: "item", code: "game:flaxfibers", quantity: 2 },
+			"M": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-voulge-{material}", quantity: 1  }
+	}
 ]
