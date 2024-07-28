@@ -67,9 +67,6 @@
             "spear-ornate-gold": {
                 "base": "game:item/tool/spear/ornategold"
             },
-            "spear-ornate-silver": {
-                "base": "game:item/tool/spear/ornatesilver"
-            },
             "spear-ornate-*": {
                 "base": "game:item/tool/spear/ornatesilver"
             },
@@ -93,12 +90,12 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+            "@spear-*-(chert|granite|andesite|basalt|obsidian|peridotite)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 }
             },
-            "spear-generic-flint": {
+            "spear-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 }
@@ -115,7 +112,7 @@
                 }
             },
             "spear-ornate-*": {
-                "silver4": {
+                "silver": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
@@ -577,7 +574,7 @@
                 }
             },
             "spear-ornate-*": {
-                "silver4": {
+                "silver": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
@@ -651,7 +648,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spearhead-generic-(chert|granite|basalt|andesite|peridotite|flint|obsidian)": {
+            "@spearhead-*-(chert|granite|basalt|andesite|peridotite|flint|obsidian)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 },
@@ -662,7 +659,7 @@
                     "base": "game:block/transparent"
                 }
             },
-            "spearhead-generic-flint": {
+            "spearhead-*-flint": {
                 "material": {
                     "base": "game:block/stone/flint"
                 },
@@ -702,7 +699,7 @@
                 }
             },
             "spearhead-ornate-*": {
-                "silver4": {
+                "silver": {
                     "base": "game:block/metal/ingot/{material}"
                 },
                 "ebony": {
@@ -714,7 +711,7 @@
                 "string": {
                     "base": "game:block/transparent"
                 },
-                "silver": {
+                "silver4": {
                     "base": "game:block/transparent"
                 },
                 "chthonic": {
