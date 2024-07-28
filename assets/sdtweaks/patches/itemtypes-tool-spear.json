@@ -105,7 +105,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
+            "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 }
@@ -693,7 +693,7 @@
         "op": "replace",
         "path": "/texturesByType",
         "value": {
-            "@spearhead-generic-(chert|granite|basalt|andesite|peridotite|flint|obsidian)": {
+            "@spearhead-generic-(chert|granite|basalt|andesite|peridotite|obsidian)": {
                 "material": {
                     "base": "game:block/stone/rock/{material}1"
                 },
