@@ -12,6 +12,21 @@
         "file": "game:itemtypes/tool/spear"
     },
     {
+        "op": "replace",
+        "path": "/skipVariants",
+        "value": [ 
+            "@spear-ornate-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-boar-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-fork-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-ranseur-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-scrap-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-ruined-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-hacking-(andesite|peridotite|granite|chert|basalt|obsidian|flint)"
+        ],
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
         "op": "add",
         "path": "/variantgroups/1/loadFromProperties",
         "value": "game:block/metal",
@@ -112,7 +127,7 @@
                 }
             },
             "spear-ornate-*": {
-                "silver": {
+                "iron4": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
@@ -481,6 +496,21 @@
     },
     {
         "op": "replace",
+        "path": "/skipVariants",
+        "value": [ 
+            "@spear-ornate-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-boar-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-fork-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-ranseur-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-scrap-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-ruined-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spear-hacking-(andesite|peridotite|granite|chert|basalt|obsidian|flint)"
+        ],
+        "file": "game:entities/spear"
+    },
+    {
+        "op": "replace",
         "path": "/variantgroups/0/states",
         "value": [
             "generic",
@@ -574,7 +604,7 @@
                 }
             },
             "spear-ornate-*": {
-                "silver": {
+                "iron4": {
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
@@ -609,6 +639,21 @@
         "value": [
             { code: "type", states: ["generic", "scrap", "boar", "voulge", "fork", "ranseur", "hacking", "ornate"] },
             { code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint" ], "loadFromProperties": "game:block/metal" }
+        ],
+        "file": "game:itemtypes/toolhead/spearhead"
+    },
+    {
+        "op": "add",
+        "path": "/skipVariants",
+        "value": [ 
+            "@spearhead-ornate-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-boar-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-fork-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-ranseur-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-scrap-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-ruined-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
+            "@spearhead-hacking-(andesite|peridotite|granite|chert|basalt|obsidian|flint)"
         ],
         "file": "game:itemtypes/toolhead/spearhead"
     },
@@ -699,13 +744,13 @@
                 }
             },
             "spearhead-ornate-*": {
-                "silver": {
+                "iron4": {
                     "base": "game:block/metal/ingot/{material}"
                 },
                 "ebony": {
                     "base": "game:block/transparent"
                 },
-                "iron4": {
+                "silver": {
                     "base": "game:block/transparent"
                 },
                 "string": {
