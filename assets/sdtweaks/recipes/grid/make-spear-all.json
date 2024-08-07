@@ -64,5 +64,16 @@
 		width: 1,
 		height: 3,
 		output: { type: "item", code: "game:spear-voulge-{material}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,S,M",
+		ingredients: {
+			"T": { type: "item", code: "game:spear-generic-*", name: "material" },
+			"S": { type: "item", code: "game:gear-temporal", quantity: 2 },
+			"M": { type: "block", code: "game:metal-parts" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:spear-hacking-{material}", quantity: 1  }
 	}
 ]

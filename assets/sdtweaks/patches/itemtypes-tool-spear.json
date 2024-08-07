@@ -5,6 +5,12 @@
         "value": {},
         "file": "game:recipes/grid/tool/spear"
     },
+    {
+        "op": "replace",
+        "path": "/ingredients",
+        "value": {},
+        "file": "game:recipes/grid/tool/hackingspear"
+    },
     /////////////////variant groups
     {
         "op": "remove",
@@ -120,7 +126,11 @@
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
-            "@spear-(scrap|hacking)-*": {},
+            "spear-hacking-*": {                
+                "rusty-iron": {
+                    "base": "game:block/metal/ingot/{material}"
+                }
+            },
             "spear-ornate-gold": {
                 "gold1": {
                     "base": "game:block/metal/ingot/{material}"
@@ -481,6 +491,12 @@
         "value": "476",
         "file": "game:itemtypes/tool/spear"
     },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/spear-hacking",
+        "value": "2500",
+        "file": "game:itemtypes/tool/spear"
+    },
     //////////////////THROW ENTITY (tbh i wish that would never exist, how many times you chuck a spear and lose it forever...)
     ////////////variant groups
     {
@@ -597,7 +613,11 @@
                     "base": "game:block/metal/ingot/{material}"
                 }
             },
-            "@spear-(scrap|hacking)-*": {},
+            "spear-hacking-*": {                
+                "rusty-iron": {
+                    "base": "game:block/metal/ingot/{material}"
+                }
+            },
             "spear-ornate-gold": {
                 "gold1": {
                     "base": "game:block/metal/ingot/{material}"
