@@ -665,15 +665,15 @@
     {
         "op": "add",
         "path": "/skipVariants",
-        "value": [ 
+        "value": [
             "@spearhead-ornate-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-boar-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-fork-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-ranseur-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
-            "@spearhead-scrap-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
-            "@spearhead-ruined-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
-            "@spearhead-hacking-(andesite|peridotite|granite|chert|basalt|obsidian|flint)"
+            "spearhead-scrap-*",
+            "spearhead-ruined-*",
+            "spearhead-hacking-*"
         ],
         "file": "game:itemtypes/toolhead/spearhead"
     },
