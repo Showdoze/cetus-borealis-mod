@@ -273,6 +273,13 @@
         "value": "4.3",
         "file": "game:itemtypes/tool/spear"
     },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/spear-hacking-*",
+        "value": "1",
+        "file": "game:itemtypes/tool/spear"
+    },
+
     /////////////throw damage by type
     {
         "op": "add",
@@ -380,6 +387,12 @@
         "op": "add",
         "path": "/attributes/damageByType/spear-*-molybdochalkos",
         "value": "4",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/spear-hacking-*",
+        "value": "0.5",
         "file": "game:itemtypes/tool/spear"
     },
     ///////////////durability by type
@@ -493,7 +506,7 @@
     },
     {
         "op": "add",
-        "path": "/durabilitybytype/spear-hacking",
+        "path": "/durabilitybytype/spear-hacking-*",
         "value": "2500",
         "file": "game:itemtypes/tool/spear"
     },
