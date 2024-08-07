@@ -657,7 +657,7 @@
         "op": "replace",
         "path": "/variantgroups",
         "value": [
-            { code: "type", states: ["generic", "scrap", "boar", "voulge", "fork", "ranseur", "hacking", "ornate"] },
+            { code: "type", states: ["generic", "boar", "voulge", "fork", "ranseur", "ornate"] },
             { code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint" ], "loadFromProperties": "game:block/metal" }
         ],
         "file": "game:itemtypes/toolhead/spearhead"
@@ -670,10 +670,7 @@
             "@spearhead-boar-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-fork-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
             "@spearhead-ranseur-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
-            "@spearhead-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)",
-            "spearhead-scrap-*",
-            "spearhead-ruined-*",
-            "spearhead-hacking-*"
+            "@spearhead-voulge-(andesite|peridotite|granite|chert|basalt|obsidian|flint)"
         ],
         "file": "game:itemtypes/toolhead/spearhead"
     },
