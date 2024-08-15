@@ -29,9 +29,9 @@
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
 	textures: {
 		"sides": { 
-			"base": "plaster/{material}1",
-			"tiles": [ { "base": "plaster/{material}*" } ],
-			"tilesWidth": 3
+			"base": "plaster/{material}/1",
+			"tiles": [ { "base": "plaster/{material}/*" } ],
+			"tilesWidth": 4
 		},
 		"frame-generic": { "base": "game:block/wood/debarked/{wood}" }
 	},
