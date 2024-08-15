@@ -7,6 +7,7 @@
 		canChisel: true
 	},
 	shape: { base: "game:block/basic/cube" },
+	drawtype: "cube",
 	blockmaterial: "Stone",
 	creativeinventory: { "general": ["*"], "construction": ["*"] },
 	replaceable: 500,
@@ -16,7 +17,9 @@
 	textures: { 
 		"all": { 
 			"base": "plaster/{material}/1",
-			"tiles": [ { "base": "plaster/{material}/*" } ],
+			"tiles": [ 
+				{ "base": "plaster/{material}/*" } 
+			],
 			"tilesWidth": 4
 		}
 	},
