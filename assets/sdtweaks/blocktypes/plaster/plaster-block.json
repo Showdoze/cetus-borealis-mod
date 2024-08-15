@@ -6,7 +6,7 @@
 	attributes: {
 		canChisel: true
 	},
-	shape: { base: "game:block/stone/plaster" },
+	shape: { base: "game:block/basic/cube" },
 	blockmaterial: "Stone",
 	creativeinventory: { "general": ["*"], "construction": ["*"] },
 	replaceable: 500,
