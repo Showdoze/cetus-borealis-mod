@@ -3,12 +3,12 @@
         "op": "replace",
         "path": "/attributes/statModifiersByType",
         "value": {},
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "remove",
         "path": "/skipVariants",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 //////////recipe patch
@@ -113,67 +113,67 @@
         "op": "add",
         "path": "/variantgroups/2/states/0",
         "value": "brass",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/1",
         "value": "lead",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/2",
         "value": "tin",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/3",
         "value": "zinc",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/4",
         "value": "molybdochalkos",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/5",
         "value": "stainlesssteel",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/6",
         "value": "platinum",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/7",
         "value": "chromium",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/8",
         "value": "titanium",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/9",
         "value": "nickel",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/variantgroups/2/states/10",
         "value": "bismuth",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 ///////////////durability
@@ -184,67 +184,67 @@
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-lead",
         "value": "600",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-brass",
         "value": "1200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-tin",
         "value": "200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-zinc",
         "value": "300",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-bismuth",
         "value": "500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-molybdochalkos",
         "value": "800",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-nickel",
         "value": "800",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-platinum",
         "value": "10000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-chromium",
         "value": "8000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-titanium",
         "value": "7500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-plate-stainlesssteel",
         "value": "5000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 ////////////chain
@@ -253,67 +253,67 @@
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-lead",
         "value": "200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-brass",
         "value": "700",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-tin",
         "value": "80",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-zinc",
         "value": "150",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-bismuth",
         "value": "200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-molybdochalkos",
         "value": "400",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-titanium",
         "value": "3000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-platinum",
         "value": "5000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-chromium",
         "value": "3500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-nickel",
         "value": "500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-chain-stainlesssteel",
         "value": "2000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 /////////////scale
@@ -322,67 +322,67 @@
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-lead",
         "value": "200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-brass",
         "value": "700",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-tin",
         "value": "80",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-zinc",
         "value": "150",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-bismuth",
         "value": "200",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-molybdochalkos",
         "value": "400",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-titanium",
         "value": "3000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-platinum",
         "value": "5000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-chromium",
         "value": "3500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-nickel",
         "value": "500",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
         "path": "/durabilityByType/armor-*-scale-stainlesssteel",
         "value": "2000",
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 ///////////////protection tier
@@ -398,7 +398,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -409,7 +409,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -420,7 +420,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -431,7 +431,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -442,7 +442,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -453,7 +453,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -464,7 +464,7 @@
             highDamageTierResistant: true,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -475,7 +475,7 @@
             highDamageTierResistant: true,
             protectionTier: 6
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -486,7 +486,7 @@
             highDamageTierResistant: true,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -497,7 +497,7 @@
             highDamageTierResistant: true,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -508,7 +508,7 @@
             highDamageTierResistant: true,
             protectionTier: 4
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 ///////////////chain
@@ -521,7 +521,7 @@
             flatDamageReduction: 1.1,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -531,7 +531,7 @@
             flatDamageReduction: 1.5,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -541,7 +541,7 @@
             flatDamageReduction: 1.0,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -551,7 +551,7 @@
             flatDamageReduction: 1.0,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -561,7 +561,7 @@
             flatDamageReduction: 1.0,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -571,7 +571,7 @@
             flatDamageReduction: 1.2,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -581,7 +581,7 @@
             flatDamageReduction: 1.2,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -591,7 +591,7 @@
             flatDamageReduction: 2.4,
             protectionTier: 6
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -601,7 +601,7 @@
             flatDamageReduction: 2,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -611,7 +611,7 @@
             flatDamageReduction: 1.8,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -621,7 +621,7 @@
             flatDamageReduction: 1.5,
             protectionTier: 4
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 
 ///////////scale
@@ -634,7 +634,7 @@
             flatDamageReduction: 1.1,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -644,7 +644,7 @@
             flatDamageReduction: 1.6,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -654,7 +654,7 @@
             flatDamageReduction: 1.0,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -664,7 +664,7 @@
             flatDamageReduction: 1.0,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -674,7 +674,7 @@
             flatDamageReduction: 1.1,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -684,7 +684,7 @@
             flatDamageReduction: 1.25,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -694,7 +694,7 @@
             flatDamageReduction: 1.25,
             protectionTier: 1
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -704,7 +704,7 @@
             flatDamageReduction: 2.45,
             protectionTier: 6
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -714,7 +714,7 @@
             flatDamageReduction: 2.1,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -724,7 +724,7 @@
             flatDamageReduction: 1.85,
             protectionTier: 5
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
     {
         "op": "add",
@@ -734,6 +734,6 @@
             flatDamageReduction: 1.5,
             protectionTier: 4
         },
-        "file": "game:itemtypes/wearable/armor"
+        "file": "game:itemtypes/wearable/seraph/armor"
     },
 ]
