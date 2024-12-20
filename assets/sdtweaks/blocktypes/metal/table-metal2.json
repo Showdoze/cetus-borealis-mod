@@ -1,0 +1,59 @@
+{
+	code: "tablemetal2",
+	variantgroups: [
+		{ code: "material", loadFromProperties: "game:block/metal" },
+		{ code: "cover", states: [ "none", "whitemarble", "redmarble", "greenmarble" ] }
+	],
+	attributes: {
+		"pieFormingSurface": true,
+		handbook: { groupBy: ["tablemetal2-*"] }
+	},
+	shape: { base: "game:block/clutter/table/metal1"},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": [ "*" ], "decorative": [ "*" ] },
+	blockmaterial: "Metal",
+	replaceable: 900,
+	resistance: 2.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		up: true,
+		all: false
+	},	
+	sideopaque: {
+		up: true,
+		all: false
+	},
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:block/anvil1",
+		"break": "game:block/anvil1",
+		"walk": "game:walk/stone1"
+	},
+	texturesByType: {
+		"*-whitemarble": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" },
+			"mesh1": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*-redmarble": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" },
+			"mesh1": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*-greenmarble": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" },
+			"mesh1": { base: "game:block/stone/polishedrock/{cover}-inside" }
+		},
+		"*": {
+			"blackbronze": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	materialDensity: 4000,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

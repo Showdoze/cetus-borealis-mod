@@ -17,14 +17,14 @@
 		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
 	],
 	shapebytype: {
-		"*-north": { base: "game:block/clutter/coatrack-empty", rotateY: 180 },
-		"*-east": { base: "game:block/clutter/coatrack-empty", rotateY: 90 },
-		"*-south": { base: "game:block/clutter/coatrack-empty", rotateY: 0 },
-		"*-west": { base: "game:block/clutter/coatrack-empty", rotateY: 270		 }
+		"*-north": { base: "game:block/clutter/wallhook-empty-pristine", rotateY: 0 },
+		"*-east": { base: "game:block/clutter/wallhook-empty-pristine", rotateY: 270 },
+		"*-south": { base: "game:block/clutter/wallhook-empty-pristine", rotateY: 180 },
+		"*-west": { base: "game:block/clutter/wallhook-empty-pristine", rotateY: 90		 }
 	},
 	"textures": {
-		"bismuthbronze": { "base": "game:block/metal/ingot/{material}"},
-		"brass": { "base": "game:block/coal/coke" }
+		"rusty-iron": { "base": "game:block/metal/ingot/{material}"},
+		//"brass": { "base": "game:block/coal/coke" }
 	},
 	blockmaterial: "Metal",
 	lightAbsorption: 0,
