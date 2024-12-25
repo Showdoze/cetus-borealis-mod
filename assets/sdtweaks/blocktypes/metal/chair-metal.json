@@ -10,17 +10,15 @@
 		{ code: "material", loadFromProperties: "game:block/metal" },
 		{ code: "cloth", states: [ "plain", "blue", "red", "yellow", "purple", "brown", "green", "orange", "black", "gray", "pink", "white", "mordant", "none"] }
 	],
-	shape: { base: "game:block/clutter/chair-aged" },
+	shape: { base: "game:block/clutter/chair-metal1-pillow" },
 	texturesByType: {
 		"*-none": { 
-			"top": { "base": "game:block/metal/sheet/{material}1"},
-			"bottom": { "base": "game:block/metal/ingot/{material}"},
-			"sides": { "base": "game:block/metal/ingot/{material}"}
+			"cloth-ruined": { "base": "game:block/metal/sheet/{material}1" },
+			"blackbronze": { "base": "game:block/metal/ingot/{material}"}
 		},
 		"*": {
-			"top": { "base": "game:block/cloth/linen/{cloth}" },
-			"bottom": { "base": "game:block/metal/ingot/{material}"},
-			"sides": { "base": "game:block/metal/ingot/{material}"}
+			"cloth-ruined": { "base": "game:block/cloth/linen/{cloth}" },
+			"blackbronze": { "base": "game:block/metal/ingot/{material}"}
 		}
 	},
 	heldTpIdleAnimation: "holdunderarm",
