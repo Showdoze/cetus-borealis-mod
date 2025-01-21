@@ -165,6 +165,24 @@
         "value": "1800",
         "file": "game:itemtypes/tool/knife"
     },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/knife-*-blistersteel",
+        "value": "2000",
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/knife-*-leadsolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/knife-*-silversolder",
+        "value": "1000",
+        "file": "game:itemtypes/tool/knife"
+    },
     /*
     {
         "op": "replace",
@@ -304,6 +322,30 @@
         },
         "file": "game:itemtypes/tool/knife"
     },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/knife-*-blistersteel",
+        "value": {
+            "plant": 2.8
+        },
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/knife-*-leadsolder",
+        "value": {
+            "plant": 1.5
+        },
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/knife-*-silversolder",
+        "value": {
+            "plant": 2
+        },
+        "file": "game:itemtypes/tool/knife"
+    },
     /*
     {
         "op": "replace",
@@ -413,7 +455,25 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/knife-*-stainlesssteel",
+        "value": "4.2",
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/knife-*-blistersteel",
         "value": "4.5",
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/knife-*-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/knife"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/knife-*-silversolder",
+        "value": "3",
         "file": "game:itemtypes/tool/knife"
     },
     {

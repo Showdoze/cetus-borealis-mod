@@ -147,7 +147,25 @@
     {
         "op": "add",
         "path": "/attributes/damageByType/arrow-rhodium",
-        "value": "2.9",
+        "value": "3.2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-blistersteel",
+        "value": "3",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/arrow-silversolder",
+        "value": "2.2",
         "file": "game:itemtypes/tool/arrow"
     },
 
@@ -235,6 +253,24 @@
         "op": "add",
         "path": "/attributes/breakChanceOnImpactByType/arrow-rhodium",
         "value": "0.1",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-blistersteel",
+        "value": "0.05",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-leadsolder",
+        "value": "0.15",
+        "file": "game:itemtypes/tool/arrow"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/breakChanceOnImpactByType/arrow-silversolder",
+        "value": "0.08",
         "file": "game:itemtypes/tool/arrow"
     },
 

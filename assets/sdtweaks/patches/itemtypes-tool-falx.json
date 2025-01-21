@@ -101,6 +101,24 @@
         "value": "4",
         "file": "game:itemtypes/tool/blade"
     },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-blistersteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/blade-falx-silversolder",
+        "value": "3",
+        "file": "game:itemtypes/tool/blade"
+    },
 
 ///////////shape by type
 
@@ -255,6 +273,33 @@
 		},
         "file": "game:itemtypes/tool/blade"
     },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-blistersteel",
+        "value": {
+			"wood": 3.5,
+			"leaves": 4.5
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-leadsolder",
+        "value": {
+			"wood": 2,
+			"leaves": 2
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/blade-falx-silversolder",
+        "value": {
+			"wood": 3,
+			"leaves": 3
+		},
+        "file": "game:itemtypes/tool/blade"
+    },
 
 ////////////////attack power by type
 
@@ -336,6 +381,24 @@
         "value": "5.5",
         "file": "game:itemtypes/tool/blade"
     },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-blistersteel",
+        "value": "5.8",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-leadsolder",
+        "value": "2.2",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/blade-falx-silversolder",
+        "value": "3.4",
+        "file": "game:itemtypes/tool/blade"
+    },
 
 /////////////////durability by type
 
@@ -415,6 +478,24 @@
         "op": "add",
         "path": "/durabilitybytype/blade-falx-stainlesssteel",
         "value": "2000",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-blistersteel",
+        "value": "2500",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-leadsolder",
+        "value": "700",
+        "file": "game:itemtypes/tool/blade"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/blade-falx-silversolder",
+        "value": "1000",
         "file": "game:itemtypes/tool/blade"
     },
 

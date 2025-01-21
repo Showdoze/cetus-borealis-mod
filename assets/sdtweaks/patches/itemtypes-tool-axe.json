@@ -95,7 +95,27 @@
         "value": "4",
         "file": "game:itemtypes/tool/axe-metal"
     },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/axe-*-blistersteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/axe-*-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/axe-*-silversolder",
+        "value": "3",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+
     ///////////////mining speed by type
+
     {
         "op": "add",
         "path": "/miningspeedbytype/axe-*-brass",
@@ -220,13 +240,45 @@
         "op": "add",
         "path": "/miningspeedbytype/axe-*-stainlesssteel",
         "value": {
-            "wood": 11,
+            "wood": 10,
             "plant": 7,
             "leaves": 3.5
         },
         "file": "game:itemtypes/tool/axe-metal"
     },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/axe-*-blistersteel",
+        "value": {
+            "wood": 11,
+            "plant": 7.5,
+            "leaves": 4
+        },
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/axe-*-leadsolder",
+        "value": {
+            "wood": 4,
+            "plant": 2,
+            "leaves": 1.2
+        },
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/axe-*-silversolder",
+        "value": {
+            "wood": 6,
+            "plant": 5,
+            "leaves": 2.5
+        },
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+
     ///////////////attack power by type
+
     {
         "op": "add",
         "path": "/attackpowerbytype/axe-*-brass",
@@ -302,10 +354,30 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/axe-*-stainlesssteel",
+        "value": "4.7",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/axe-*-blistersteel",
         "value": "5",
         "file": "game:itemtypes/tool/axe-metal"
     },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/axe-*-leadsolder",
+        "value": "2.5",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/axe-*-silversolder",
+        "value": "4",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+
     //////////////durability by type
+
     {
         "op": "add",
         "path": "/durabilitybytype/axe-*-brass",
@@ -375,11 +447,31 @@
     {
         "op": "add",
         "path": "/durabilitybytype/axe-*-stainlesssteel",
-        "value": "2800",
+        "value": "2700",
         "file": "game:itemtypes/tool/axe-metal"
     },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/axe-*-blistersteel",
+        "value": "3000",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/axe-*-leadsolder",
+        "value": "800",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/axe-*-silversolder",
+        "value": "1200",
+        "file": "game:itemtypes/tool/axe-metal"
+    },
+
     ///////////////HEAD GOES BELOW/////////////
     /////////variant groups
+
     {
         "op": "add",
         "path": "/variantgroups/0/loadFromProperties",

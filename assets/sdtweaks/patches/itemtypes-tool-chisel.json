@@ -135,6 +135,24 @@
     },
     {
         "op": "add",
+        "path": "/durabilitybytype/chisel-blistersteel",
+        "value": "1900",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-leadsolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/chisel-silversolder",
+        "value": "1000",
+        "file": "game:itemtypes/tool/chisel"
+    },
+    {
+        "op": "add",
         "path": "/durabilitybytype/chisel-flint",
         "value": "150",
         "file": "game:itemtypes/tool/chisel"

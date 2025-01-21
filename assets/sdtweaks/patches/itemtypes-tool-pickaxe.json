@@ -95,6 +95,24 @@
         "value": "4",
         "file": "game:itemtypes/tool/pickaxe"
     },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-blistersteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/pickaxe-silversolder",
+        "value": "3",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
 
 //////////////mining speed by type
 
@@ -246,11 +264,47 @@
         "op": "add",
         "path": "/miningspeedbytype/pickaxe-stainlesssteel",
         "value": {
+            "ceramic": 3,
+            "stone": 8,
+            "ore": 8,
+            "metal": 8,
+            "ice": 3
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-blistersteel",
+        "value": {
             "ceramic": 3.5,
             "stone": 10,
             "ore": 10,
             "metal": 9,
             "ice": 4
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-leadsolder",
+        "value": {
+            "ceramic": 2.2,
+            "stone": 4,
+            "ore": 4,
+            "metal": 1.2,
+            "ice": 1.6
+        },
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/pickaxe-silversolder",
+        "value": {
+            "ceramic": 3,
+            "stone": 6,
+            "ore": 6,
+            "metal": 2.2,
+            "ice": 2.5
         },
         "file": "game:itemtypes/tool/pickaxe"
     },
@@ -332,7 +386,25 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/pickaxe-stainlesssteel",
-        "value": "2.6",
+        "value": "2.5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-blistersteel",
+        "value": "2.8",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-leadsolder",
+        "value": "1.5",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/pickaxe-silversolder",
+        "value": "2",
         "file": "game:itemtypes/tool/pickaxe"
     },
 
@@ -414,6 +486,24 @@
         "op": "add",
         "path": "/durabilitybytype/pickaxe-stainlesssteel",
         "value": "2000",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-blistersteel",
+        "value": "2200",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-leadsolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/pickaxe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/pickaxe-silversolder",
+        "value": "800",
         "file": "game:itemtypes/tool/pickaxe"
     },
 

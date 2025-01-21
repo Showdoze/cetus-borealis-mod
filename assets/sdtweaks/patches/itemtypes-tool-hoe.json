@@ -117,7 +117,25 @@
     {
         "op": "add",
         "path": "/miningspeedbytype/hoe-stainlesssteel",
-        "value": { "soil": 4.5 },
+        "value": { "soil": 4.4 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-blistersteel",
+        "value": { "soil": 4.7 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-leadsolder",
+        "value": { "soil": 2.5 },
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/hoe-silversolder",
+        "value": { "soil": 3.2 },
         "file": "game:itemtypes/tool/hoe"
     },
 
@@ -201,6 +219,24 @@
         "value": "1200",
         "file": "game:itemtypes/tool/hoe"
     },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-blistersteel",
+        "value": "1500",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-leadsolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/hoe-silversolder",
+        "value": "800",
+        "file": "game:itemtypes/tool/hoe"
+    },
 
 //////////////attack power by type
 
@@ -279,7 +315,25 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/hoe-stainlesssteel",
+        "value": "2.5",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-blistersteel",
         "value": "2.8",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-leadsolder",
+        "value": "1.5",
+        "file": "game:itemtypes/tool/hoe"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/hoe-silversolder",
+        "value": "2",
         "file": "game:itemtypes/tool/hoe"
     },
 
