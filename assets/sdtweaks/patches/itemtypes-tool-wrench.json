@@ -14,6 +14,34 @@
         "value": [],
         "file": "game:itemtypes/tool/wrench"
     },
+    {
+        "op": "remove",
+        "path": "/shape",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/shapeByType",
+        "value": {
+            "wrench-*": { base: "item/tool/wrench/{metal}1" },
+            "wrench-bismuth": { base: "item/tool/wrench/bismuthbronze1" },
+            "wrench-nickel": { base: "item/tool/wrench/meteoriciron1" },
+            "wrench-molybdochalkos": { base: "item/tool/wrench/silver1" },
+            "wrench-lead": { base: "item/tool/wrench/gold1" },
+            "wrench-tin": { base: "item/tool/wrench/blackbronze1" },
+            "wrench-zinc": { base: "item/tool/wrench/iron1" },
+            "wrench-titanium": { base: "item/tool/wrench/steel1" },
+            "wrench-platinum": { base: "item/tool/wrench/steel1" },
+            "wrench-chromium": { base: "item/tool/wrench/iron1" },
+            "wrench-rhodium": { base: "item/tool/wrench/gold1" },
+            "wrench-uranium": { base: "item/tool/wrench/blackbronze1" },
+            "wrench-blisterssteel": { base: "item/tool/wrench/iron1" },
+            "wrench-stainlesssteel": { base: "item/tool/wrench/meteoriciron1" },
+            "wrench-silversolder": { base: "item/tool/wrench/iron1" },
+            "wrench-leadsolder": { base: "item/tool/wrench/gold1" }
+        },
+        "file": "game:itemtypes/tool/wrench"
+    },
 
 ///////////////tool tier by type
 
@@ -92,7 +120,25 @@
     {
         "op": "add",
         "path": "/tooltierbytype/wrench-stainlesssteel",
+        "value": "3",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/wrench-blisterssteel",
         "value": "4",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/wrench-silversolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/tooltierbytype/wrench-leadsolder",
+        "value": "2",
         "file": "game:itemtypes/tool/wrench"
     },
 
@@ -173,7 +219,25 @@
     {
         "op": "add",
         "path": "/durabilitybytype/wrench-stainlesssteel",
+        "value": "3000",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/wrench-blistersteel",
         "value": "4000",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/wrench-leadsolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/wrench-silversolder",
+        "value": "1000",
         "file": "game:itemtypes/tool/wrench"
     },
 
@@ -242,18 +306,36 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/wrench-rhodium",
-        "value": "3",
+        "value": "3.5",
         "file": "game:itemtypes/tool/wrench"
     },
     {
         "op": "add",
         "path": "/attackpowerbytype/wrench-uranium",
-        "value": "3",
+        "value": "4",
         "file": "game:itemtypes/tool/wrench"
     },
     {
         "op": "add",
         "path": "/attackpowerbytype/wrench-stainlesssteel",
+        "value": "2",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/wrench-blistersteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/wrench-silversolder",
+        "value": "2.5",
+        "file": "game:itemtypes/tool/wrench"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/wrench-leadsolder",
         "value": "2",
         "file": "game:itemtypes/tool/wrench"
     }
