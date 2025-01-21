@@ -36,13 +36,16 @@
       "scythe-tinbronze": 2.2,
       "scythe-iron": 3,
       "scythe-meteoriciron": 3.5,
-      "scythe-steel": 4.5,
+      "scythe-steel": 5.2,
       "scythe-titanium": 5.5,
       "scythe-chromium": 5.8,
       "scythe-platinum": 6.2,
       "scythe-rhodium": 5.8,
       "scythe-uranium": 5.2,
-      "scythe-stainlesssteel": 4.5
+      "scythe-stainlesssteel": 4,
+      "scythe-blistersteel": 5,
+      "scythe-leadsolder": 3,
+      "scythe-silversolder": 4
     },
     "file": "game:itemtypes/tool/scythe"
   },
@@ -125,6 +128,24 @@
     "op": "add",
     "path": "/durabilitybytype/scythe-stainlesssteel",
     "value": "2200",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-blistersteel",
+    "value": "3000",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-leadsolder",
+    "value": "1500",
+    "file": "game:itemtypes/tool/scythe"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/scythe-silversolder",
+    "value": "2000",
     "file": "game:itemtypes/tool/scythe"
   },
 

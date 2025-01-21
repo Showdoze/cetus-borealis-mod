@@ -185,6 +185,39 @@
         },
         "file": "game:itemtypes/tool/shovel"
     },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/shovel-blistersteel",
+        "value": {
+            "soil": 6.5,
+            "sand": 6.5,
+            "gravel": 6,
+            "snow": 6
+        },
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/shovel-leadsolder",
+        "value": {
+            "soil": 5,
+            "sand": 5,
+            "gravel": 3.5,
+            "snow": 3.5
+        },
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/miningspeedbytype/shovel-silversolder",
+        "value": {
+            "soil": 5.5,
+            "sand": 5.5,
+            "gravel": 4,
+            "snow": 4
+        },
+        "file": "game:itemtypes/tool/shovel"
+    },
 
 /////////////////attack power by type
 
@@ -266,6 +299,24 @@
         "value": "1.8",
         "file": "game:itemtypes/tool/shovel"
     },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shovel-leadsolder",
+        "value": "1.5",
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shovel-silversolder",
+        "value": "2.1",
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shovel-blistersteel",
+        "value": "3.4",
+        "file": "game:itemtypes/tool/shovel"
+    },
 
 ////////////////durabilty by type
 
@@ -345,6 +396,24 @@
         "op": "add",
         "path": "/durabilitybytype/shovel-molybdochalkos",
         "value": "476",
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shovel-leadsolder",
+        "value": "350",
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shovel-silversolder",
+        "value": "500",
+        "file": "game:itemtypes/tool/shovel"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shovel-blistersteel",
+        "value": "2000",
         "file": "game:itemtypes/tool/shovel"
     },
 

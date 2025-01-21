@@ -36,13 +36,16 @@
       "saw-tinbronze": 1.4,
       "saw-iron": 2.5,
       "saw-meteoriciron": 2.7,
-      "saw-steel": 4.2,
-      "saw-titanium": 5,
+      "saw-steel": 5,
+      "saw-titanium": 4.8,
       "saw-platinum": 5.5,
       "saw-chromium": 5.2,
       "saw-rhodium": 5,
       "saw-uranium": 4.5,
-      "saw-stainlesssteel": 4.2
+      "saw-stainlesssteel": 4.2,
+      "saw-blisterssteel": 4.8,
+      "saw-leadsolder": 2,
+      "saw-silversolder": 3.5
     },
     "file": "game:itemtypes/tool/saw"
   },
@@ -134,6 +137,24 @@
     "op": "add",
     "path": "/tooltierbytype/saw-stainlesssteel",
     "value": 5,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-leadsolder",
+    "value": 3,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-silversolder",
+    "value": 4,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/saw-blistersteel",
+    "value": 4,
     "file": "game:itemtypes/tool/saw"
   },
 
@@ -256,6 +277,33 @@
 		},
     "file": "game:itemtypes/tool/saw"
   },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-blistersteel",
+    "value": {
+			"wood": 6.5,
+			"leaves": 4.7
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-leadsolder",
+    "value": {
+			"wood": 3,
+			"leaves": 2
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/saw-silversolder",
+    "value": {
+			"wood": 4,
+			"leaves": 3
+		},
+    "file": "game:itemtypes/tool/saw"
+  },
 
 ///////////////durability by type
 
@@ -335,6 +383,24 @@
     "op": "add",
     "path": "/durabilitybytype/saw-stainlesssteel",
     "value": 2000,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-blistersteel",
+    "value": 2500,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-leadsolder",
+    "value": 500,
+    "file": "game:itemtypes/tool/saw"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/saw-silversolder",
+    "value": 1200,
     "file": "game:itemtypes/tool/saw"
   },
 

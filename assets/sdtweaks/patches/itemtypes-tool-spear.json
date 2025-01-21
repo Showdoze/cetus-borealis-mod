@@ -275,6 +275,24 @@
     },
     {
         "op": "add",
+        "path": "/attackpowerbytype/spear-*-blistersteel",
+        "value": "5",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/spear-*-silversolder",
+        "value": "4.5",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/spear-*-leadsolder",
+        "value": "2",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
         "path": "/attackpowerbytype/spear-hacking-*",
         "value": "1",
         "file": "game:itemtypes/tool/spear"
@@ -391,6 +409,24 @@
     },
     {
         "op": "add",
+        "path": "/attributes/damageByType/spear-*-leadsolder",
+        "value": "7.5",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/spear-*-silversolder",
+        "value": "7.0",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/damageByType/spear-*-blistersteel",
+        "value": "8.4",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
         "path": "/attributes/damageByType/spear-hacking-*",
         "value": "0.5",
         "file": "game:itemtypes/tool/spear"
@@ -502,6 +538,24 @@
         "op": "add",
         "path": "/durabilitybytype/spear-*-molybdochalkos",
         "value": "476",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/spear-*-blistersteel",
+        "value": "1500",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/spear-*-leadsolder",
+        "value": "800",
+        "file": "game:itemtypes/tool/spear"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/spear-*-silversolder",
+        "value": "1200",
         "file": "game:itemtypes/tool/spear"
     },
     {

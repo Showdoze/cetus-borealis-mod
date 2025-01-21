@@ -62,7 +62,7 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/shears-titanium",
-        "value": "3.6",
+        "value": "4.2",
         "file": "game:itemtypes/tool/shears"
     },
     {
@@ -74,25 +74,43 @@
     {
         "op": "add",
         "path": "/attackpowerbytype/shears-chromium",
-        "value": "4",
+        "value": "4.3",
         "file": "game:itemtypes/tool/shears"
     },
     {
         "op": "add",
         "path": "/attackpowerbytype/shears-rhodium",
-        "value": "3.9",
+        "value": "4.9",
         "file": "game:itemtypes/tool/shears"
     },
     {
         "op": "add",
         "path": "/attackpowerbytype/shears-uranium",
-        "value": "3.5",
+        "value": "4.5",
         "file": "game:itemtypes/tool/shears"
     },
     {
         "op": "add",
         "path": "/attackpowerbytype/shears-stainlesssteel",
         "value": "3",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-blisterssteel",
+        "value": "4",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-leadsolder",
+        "value": "1.8",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/attackpowerbytype/shears-silversolder",
+        "value": "2.8",
         "file": "game:itemtypes/tool/shears"
     },
 
@@ -174,6 +192,24 @@
         "op": "add",
         "path": "/durabilitybytype/shears-stainlesssteel",
         "value": "8000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-leadsolder",
+        "value": "1000",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-silversolder",
+        "value": "1500",
+        "file": "game:itemtypes/tool/shears"
+    },
+    {
+        "op": "add",
+        "path": "/durabilitybytype/shears-blistersteel",
+        "value": "10000",
         "file": "game:itemtypes/tool/shears"
     }
 ]
