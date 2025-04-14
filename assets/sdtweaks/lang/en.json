@@ -31,6 +31,8 @@
     "game:trait-sneaky": "<font color=\"#84ff84\">• Sneaky</font>",
     "game:trait-warrior": "<font color=\"#84ff84\">• Warrior</font>",
     
+    "game:nuggetdesc-uranium": "A nugget of uranium containing mostly 238 isotope, but...maybe if you put it into a gas chamber, you might just find some extra funny",
+
     "block-torchuranium-copper-*": "Copper Base Uranium Torch",
     "block-torchuranium-brass-*": "Brass Base Uranium Torch",
     "block-torchuranium-tinbronze-*": "Tin Bronze Base Uranium Torch",
